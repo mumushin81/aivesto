@@ -1,72 +1,64 @@
-import anthropic
 from typing import Dict, List, Tuple
 import json
 from loguru import logger
 import sys
+from datetime import datetime
+from pathlib import Path
 
 sys.path.append('..')
-from config.settings import ANTHROPIC_API_KEY, MIN_RELEVANCE_SCORE
+from config.settings import MIN_RELEVANCE_SCORE
 from database.models import AnalyzedNews, PriceImpact, Importance
 
 class RelevanceAnalyzer:
-    """Claude AI를 사용한 뉴스 관련성 분석"""
+    """Claude Code를 사용한 뉴스 관련성 분석 (프롬프트 생성 방식)"""
 
     def __init__(self):
-        self.client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-        self.model = "claude-3-5-sonnet-20241022"
-        logger.info("Relevance analyzer initialized with Claude")
+        self.prompts_dir = Path("prompts")
+        self.prompts_dir.mkdir(exist_ok=True)
+        logger.info("Relevance analyzer initialized with Claude Code mode")
 
     def analyze_news(self, news_data: Dict) -> Dict:
-        """뉴스 분석 및 점수 계산"""
+        """뉴스 분석 프롬프트 생성 (수동 분석용)"""
         try:
             title = news_data.get('title', '')
             content = news_data.get('content', '')
             existing_symbols = news_data.get('symbols', [])
+            news_id = news_data.get('id', 'unknown')
 
-            # Claude에게 분석 요청
-            analysis_result = self._call_claude(title, content, existing_symbols)
-
-            if not analysis_result:
-                return None
-
-            # 관련성 점수가 임계값 이하면 필터링
-            if analysis_result['relevance_score'] < MIN_RELEVANCE_SCORE:
-                logger.info(f"News filtered out (score: {analysis_result['relevance_score']}): {title[:50]}")
-                return None
-
-            logger.info(f"News analyzed (score: {analysis_result['relevance_score']}): {title[:50]}")
-            return analysis_result
-
-        except Exception as e:
-            logger.error(f"Error analyzing news: {e}")
-            return None
-
-    def _call_claude(self, title: str, content: str, existing_symbols: List[str]) -> Dict:
-        """Claude API 호출"""
-        try:
+            # 프롬프트 생성
             prompt = self._build_analysis_prompt(title, content, existing_symbols)
 
-            message = self.client.messages.create(
-                model=self.model,
-                max_tokens=2000,
-                temperature=0,
-                messages=[
-                    {
-                        "role": "user",
-                        "content": prompt
-                    }
-                ]
-            )
+            # 프롬프트 파일 저장
+            prompt_file = self._save_prompt(news_id, prompt)
+            logger.info(f"📝 분석 프롬프트 생성: {prompt_file}")
+            logger.info(f"   뉴스: {title[:60]}")
+            logger.info(f"   → Claude Code에서 다음을 실행하세요:")
+            logger.info(f"   cat {prompt_file}")
 
-            # 응답 파싱
-            response_text = message.content[0].text
-            result = self._parse_response(response_text)
-
-            return result
+            return None  # 수동 분석이므로 None 반환
 
         except Exception as e:
-            logger.error(f"Claude API error: {e}")
+            logger.error(f"Error generating analysis prompt: {e}")
             return None
+
+    def load_manual_analysis(self, json_response: str) -> Dict:
+        """Claude Code에서 수동으로 분석한 JSON 결과 로드"""
+        try:
+            result = self._parse_response(json_response)
+            return result
+        except Exception as e:
+            logger.error(f"Error loading manual analysis: {e}")
+            return None
+
+    def _save_prompt(self, news_id: str, prompt: str) -> str:
+        """프롬프트를 파일로 저장"""
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"{self.prompts_dir}/analysis_{news_id}_{timestamp}.md"
+
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(prompt)
+
+        return filename
 
     def _build_analysis_prompt(self, title: str, content: str, existing_symbols: List[str]) -> str:
         """Claude에게 보낼 프롬프트 구성"""
@@ -120,7 +112,7 @@ class RelevanceAnalyzer:
 }}"""
 
     def _parse_response(self, response_text: str) -> Dict:
-        """Claude 응답 파싱"""
+        """Claude Code 응답 파싱"""
         try:
             # JSON 추출 시도
             json_start = response_text.find('{')
@@ -133,7 +125,12 @@ class RelevanceAnalyzer:
                 # 유효성 검증
                 required_fields = ['relevance_score', 'affected_symbols', 'price_impact', 'importance']
                 if not all(field in data for field in required_fields):
-                    logger.error("Missing required fields in Claude response")
+                    logger.error("Missing required fields in response")
+                    return None
+
+                # 관련성 점수가 임계값 이하면 필터링
+                if int(data['relevance_score']) < MIN_RELEVANCE_SCORE:
+                    logger.info(f"Filtered out (score: {data['relevance_score']})")
                     return None
 
                 # 타입 변환
@@ -146,6 +143,7 @@ class RelevanceAnalyzer:
                     'key_points': data.get('key_points', [])
                 }
 
+                logger.info(f"✅ Analysis loaded: score {result['relevance_score']}")
                 return result
 
         except json.JSONDecodeError as e:
@@ -156,19 +154,11 @@ class RelevanceAnalyzer:
         return None
 
     def batch_analyze(self, news_list: List[Dict], batch_size: int = 5) -> List[Dict]:
-        """여러 뉴스를 배치로 분석"""
-        results = []
+        """여러 뉴스 분석 프롬프트 생성"""
+        logger.info(f"📝 Generating analysis prompts for {len(news_list)} news items...")
 
-        for i in range(0, len(news_list), batch_size):
-            batch = news_list[i:i+batch_size]
+        for news in news_list:
+            self.analyze_news(news)
 
-            for news in batch:
-                analysis = self.analyze_news(news)
-                if analysis:
-                    results.append({
-                        'news_id': news['id'],
-                        'analysis': analysis
-                    })
-
-        logger.info(f"Batch analysis completed: {len(results)}/{len(news_list)} passed threshold")
-        return results
+        logger.info(f"✅ All prompts generated in prompts/ directory")
+        return []

@@ -1,25 +1,24 @@
-import anthropic
 from typing import List, Dict, Optional
 from datetime import datetime
 from loguru import logger
 import sys
+from pathlib import Path
 
 sys.path.append('..')
-from config.settings import ANTHROPIC_API_KEY
 from database.supabase_client import SupabaseClient
 from database.models import PublishedArticle
 
 class ArticleGenerator:
-    """Claude AI를 사용한 블로그 글 자동 생성"""
+    """Claude Code를 사용한 블로그 글 생성 (프롬프트 방식)"""
 
     def __init__(self, db_client: SupabaseClient):
         self.db = db_client
-        self.client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-        self.model = "claude-3-5-sonnet-20241022"
-        logger.info("Article generator initialized")
+        self.prompts_dir = Path("prompts")
+        self.prompts_dir.mkdir(exist_ok=True)
+        logger.info("Article generator initialized with Claude Code mode")
 
     def generate_article(self, symbol: str, max_news: int = 5) -> Optional[str]:
-        """특정 종목에 대한 블로그 글 생성"""
+        """특정 종목에 대한 블로그 글 작성 프롬프트 생성"""
         try:
             # 해당 종목 관련 미발행 뉴스 가져오기
             news_items = self.db.get_unpublished_news_by_symbol(symbol, limit=max_news)
@@ -28,10 +27,37 @@ class ArticleGenerator:
                 logger.info(f"No unpublished news found for {symbol}")
                 return None
 
-            logger.info(f"Generating article for {symbol} with {len(news_items)} news items")
+            logger.info(f"📝 Generating article prompt for {symbol} with {len(news_items)} news items")
 
-            # Claude에게 글 작성 요청
-            article_data = self._create_article_with_claude(symbol, news_items)
+            # 프롬프트 생성
+            prompt = self._build_article_prompt(symbol, news_items)
+
+            # 프롬프트 파일 저장
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            prompt_file = f"{self.prompts_dir}/article_{symbol}_{timestamp}.md"
+
+            with open(prompt_file, 'w', encoding='utf-8') as f:
+                f.write(prompt)
+
+            logger.info(f"✅ Article prompt saved: {prompt_file}")
+            logger.info(f"   → Claude Code에서 프롬프트를 복사하여 글을 작성하고")
+            logger.info(f"   → 완성된 글을 articles/ 폴더에 저장하세요")
+
+            return None  # 수동 작성이므로 None 반환
+
+        except Exception as e:
+            logger.error(f"Error generating article prompt for {symbol}: {e}")
+
+        return None
+
+    def load_article_from_file(self, article_file: str, news_items: List[Dict]) -> Optional[str]:
+        """Claude Code에서 작성한 글을 데이터베이스에 저장"""
+        try:
+            with open(article_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # 제목과 본문 분리
+            article_data = self._parse_article_response(content)
 
             if not article_data:
                 return None
@@ -48,40 +74,13 @@ class ArticleGenerator:
             article_id = self.db.insert_published_article(published_article)
 
             if article_id:
-                logger.info(f"Article generated and saved: {article_data['title']}")
+                logger.info(f"✅ Article saved: {article_data['title']}")
                 return article_id
 
         except Exception as e:
-            logger.error(f"Error generating article for {symbol}: {e}")
+            logger.error(f"Error loading article: {e}")
 
         return None
-
-    def _create_article_with_claude(self, symbol: str, news_items: List[Dict]) -> Optional[Dict]:
-        """Claude를 사용하여 블로그 글 작성"""
-        try:
-            prompt = self._build_article_prompt(symbol, news_items)
-
-            message = self.client.messages.create(
-                model=self.model,
-                max_tokens=4000,
-                temperature=0.7,
-                messages=[
-                    {
-                        "role": "user",
-                        "content": prompt
-                    }
-                ]
-            )
-
-            response_text = message.content[0].text
-
-            # 제목과 본문 분리
-            article_data = self._parse_article_response(response_text)
-            return article_data
-
-        except Exception as e:
-            logger.error(f"Claude article generation error: {e}")
-            return None
 
     def _build_article_prompt(self, symbol: str, news_items: List[Dict]) -> str:
         """블로그 글 작성 프롬프트"""
