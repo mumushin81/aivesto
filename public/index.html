@@ -371,55 +371,32 @@
     </div>
 
     <script>
-        // API 엔드포인트 설정
-        const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-            ? 'http://localhost:5000/api'
-            : 'https://aivesto-api.railway.app/api';
+        // ✨ 정적 기사 데이터 (GitHub + Vercel 배포용)
+        const articlesData = [
+            {"symbol":"AAPL","title":"Apple Q4 iPhone 판매 기대 이상 달성, 프리미엄 모델 수요 강세 확인","summary":"**상황**: Apple이 2025년 Q4(10월~12월) 분기에서 iPhone 판매량과 수익이 애널리스트 기대치를 초과 달성했습니다. 특히 Pro 모델의 강한 수요가 눈에 띕니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":939},
+            {"symbol":"ADBE","title":"Adobe Creative Suite AI 통합 완료, 디자인 업계 생산성 혁명 기대","summary":"**상황**: Adobe가 Creative Cloud(Photoshop, Premiere Pro, Illustrator 등)의 모든 주요 애플리케이션에 생성형 AI 기능을 완전 통합했습니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":820},
+            {"symbol":"AMZN","title":"AWS AI 서비스 확대, Amazon 클라우드 매출 가속화 신호","summary":"**상황**: Amazon Web Services(AWS)가 AI와 머신러닝 서비스 포트폴리오를 대폭 확대했습니다. 엔터프라이즈 고객들의 AI 도입 가속화에 대응하는 전략입니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":822},
+            {"symbol":"GOOGL","title":"Google AI 검색 기능 강화, 검색 광고 모델 재정의","summary":"**상황**: Google이 검색 결과에 AI 생성 요약 기능을 전 세계 확대 배포했습니다. 사용자는 검색만으로 AI가 만든 맞춤형 답변을 즉시 얻을 수 있게 되었습니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":833},
+            {"symbol":"META","title":"Meta Enterprise AI Assistant 출시, B2B 시장 진출 신호","summary":"**상황**: Meta가 기업용 AI 어시스턴트를 새로 출시했습니다. Facebook, Instagram, WhatsApp 등 자사 플랫폼의 데이터를 활용해 기업 고객을 지원합니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":805},
+            {"symbol":"MSFT","title":"마이크로소프트, Office Suite에 AI 코파일럿 통합으로 생산성 혁신 기대","summary":"**상황**: Microsoft가 Office Suite 전체에 AI 코파일럿 기능을 통합했습니다. Word, Excel, PowerPoint 등에서 즉시 사용 가능합니다.","score":100,"sections_passed":11,"total_sections":11,"completion_rate":"100%","word_count":1417},
+            {"symbol":"NFLX","title":"Netflix 구독자 기대 이상 증가, 광고 사업 성장 신호","summary":"**상황**: Netflix가 2025년 Q4 분기에 예상을 초과하는 구독자 증가를 기록했습니다. 특히 광고 기반 구독의 성장이 두드러집니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":811},
+            {"symbol":"NVDA","title":"NVIDIA Blackwell GPU 혁신, AI 컴퓨팅 시장 재편할 차세대 아키텍처 출시","summary":"**상황**: NVIDIA가 2025년 11월 13일 Blackwell GPU 아키텍처를 공식 발표했습니다. 이는 Hopper 세대 이후 가장 대규모의 성능 업그레이드입니다.","score":100,"sections_passed":11,"total_sections":11,"completion_rate":"100%","word_count":941},
+            {"symbol":"TSLA","title":"Tesla 차세대 Robotaxi 플릿 공개, 자율주행 시장 혁신 신호","summary":"**상황**: Tesla가 2025년 11월 13일 다음 세대 Robotaxi 차량을 공개했습니다. 완전 자율주행 기능을 갖춘 이 플릿은 2026년부터 주요 도시에 배포될 예정입니다.","score":100,"sections_passed":11,"total_sections":11,"completion_rate":"100%","word_count":868},
+            {"symbol":"UBER","title":"Uber 지속적 수익성 달성 및 신흥 시장 확장, 성장 모멘텀 재확인","summary":"**상황**: Uber가 2025년 Q4에서 지속적인 수익성을 달성하며, 동시에 신흥 시장에서의 공격적 확장을 발표했습니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":851}
+        ];
 
-        async function loadDashboard() {
-            try {
-                // 1. 대시보드 요약 로드
-                const summaryRes = await fetch(`${API_BASE}/dashboard`);
-                const summary = await summaryRes.json();
-                updateStats(summary);
+        function loadDashboard() {
+            // 정적 데이터 기반 대시보드 로드
+            updateArticlesStats({
+                total: articlesData.length,
+                average_score: 100,
+                high_quality: articlesData.length,
+                symbols: articlesData.map(a => a.symbol),
+                total_words: articlesData.reduce((sum, a) => sum + a.word_count, 0)
+            });
 
-                // 2. 가격 영향 로드
-                const impactRes = await fetch(`${API_BASE}/price-impact`);
-                const impact = await impactRes.json();
-                updatePriceImpact(impact);
-
-                // 3. 트렌딩 종목 로드
-                const trendingRes = await fetch(`${API_BASE}/trending-symbols?limit=10`);
-                const trendingData = await trendingRes.json();
-                updateTrendingSymbols(trendingData.symbols);
-
-                // 4. 긴급 신호 로드
-                const urgentRes = await fetch(`${API_BASE}/signals/urgent?limit=10`);
-                const urgentData = await urgentRes.json();
-                updateUrgentSignals(urgentData.signals);
-
-                // 5. 높은 우선순위 신호 로드
-                const highPriorityRes = await fetch(`${API_BASE}/signals/high-priority?limit=15`);
-                const highPriorityData = await highPriorityRes.json();
-                updateHighPrioritySignals(highPriorityData.signals);
-
-                // 6. 기사 통계 로드
-                const statsRes = await fetch(`${API_BASE}/articles/stats`);
-                const statsData = await statsRes.json();
-                updateArticlesStats(statsData.stats);
-
-                // 7. 기사 목록 로드
-                const articlesRes = await fetch(`${API_BASE}/articles`);
-                const articlesData = await articlesRes.json();
-                updateArticlesGrid(articlesData.articles);
-
-                // 타임스탄프 업데이트
-                updateTimestamp();
-
-            } catch (error) {
-                console.error('Error loading dashboard:', error);
-                document.getElementById('timestamp').textContent = '⚠️ 데이터 로드 실패';
-            }
+            updateArticlesGrid(articlesData);
+            updateTimestamp();
         }
 
         function updateStats(summary) {
