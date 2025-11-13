@@ -356,12 +356,25 @@
             <div class="loading">로딩 중...</div>
         </div>
 
+        <!-- 생성된 기사 섹션 -->
+        <div class="section-title">📰 생성된 투자 분석 기사</div>
+        <div class="dashboard-grid" id="articlesStats">
+            <div class="loading">로딩 중...</div>
+        </div>
+
+        <div class="signals-grid" id="articlesGrid">
+            <div class="loading">로딩 중...</div>
+        </div>
+
         <!-- 새로고침 버튼 -->
         <button class="refresh-btn" onclick="loadDashboard()">🔄 새로고침</button>
     </div>
 
     <script>
-        const API_BASE = 'http://localhost:5000/api';
+        // API 엔드포인트 자동 감지
+        const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+            ? 'http://localhost:5000/api'
+            : 'https://aivesto-api.example.com/api'; // Vercel 배포 시 실제 API 서버 URL로 변경
 
         async function loadDashboard() {
             try {
@@ -389,6 +402,16 @@
                 const highPriorityRes = await fetch(`${API_BASE}/signals/high-priority?limit=15`);
                 const highPriorityData = await highPriorityRes.json();
                 updateHighPrioritySignals(highPriorityData.signals);
+
+                // 6. 기사 통계 로드
+                const statsRes = await fetch(`${API_BASE}/articles/stats`);
+                const statsData = await statsRes.json();
+                updateArticlesStats(statsData.stats);
+
+                // 7. 기사 목록 로드
+                const articlesRes = await fetch(`${API_BASE}/articles`);
+                const articlesData = await articlesRes.json();
+                updateArticlesGrid(articlesData.articles);
 
                 // 타임스탄프 업데이트
                 updateTimestamp();
@@ -508,6 +531,82 @@
             const now = new Date();
             document.getElementById('timestamp').textContent =
                 `마지막 업데이트: ${now.toLocaleString('ko-KR')}`;
+        }
+
+        function updateArticlesStats(stats) {
+            const container = document.getElementById('articlesStats');
+
+            if (!stats || stats.total === 0) {
+                container.innerHTML = '<p style="padding: 20px; text-align: center; color: white;">생성된 기사가 없습니다</p>';
+                return;
+            }
+
+            let html = `
+                <div class="card">
+                    <h3>📊 총 기사</h3>
+                    <div class="stat-number" style="color: #1e3c72;">${stats.total}</div>
+                    <div class="stat-label">생성된 기사 수</div>
+                </div>
+                <div class="card">
+                    <h3>⭐ 평균 점수</h3>
+                    <div class="stat-number" style="color: #2a5298;">${stats.average_score}</div>
+                    <div class="stat-label">/100</div>
+                </div>
+                <div class="card">
+                    <h3>✅ 고품질</h3>
+                    <div class="stat-number" style="color: #00aa00;">${stats.high_quality}</div>
+                    <div class="stat-label">90점 이상</div>
+                </div>
+                <div class="card">
+                    <h3>📝 총 단어</h3>
+                    <div class="stat-number" style="color: #1e40af;">${(stats.total_words / 1000).toFixed(1)}K</div>
+                    <div class="stat-label">단어 수</div>
+                </div>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        function updateArticlesGrid(articles) {
+            const container = document.getElementById('articlesGrid');
+
+            if (!articles || articles.length === 0) {
+                container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: white; padding: 40px;">생성된 기사가 없습니다</div>';
+                return;
+            }
+
+            let html = '';
+            articles.forEach(article => {
+                const scoreColor = article.score >= 95 ? '#00aa00' : article.score >= 90 ? '#ffbb00' : '#ff8800';
+                const scoreClass = article.score >= 95 ? 'success' : article.score >= 90 ? 'warning' : 'info';
+
+                html += `
+                    <div class="card" style="border-left: 4px solid ${scoreColor};">
+                        <h3>📰 ${article.symbol}</h3>
+                        <div class="signal-box">
+                            <div class="signal-title">${article.title}</div>
+                            <div class="signal-meta" style="margin: 10px 0;">
+                                <span style="font-size: 11px; color: #666;">
+                                    ${article.summary.substring(0, 120)}...
+                                </span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                <div style="font-size: 12px; color: #666;">
+                                    <span>✓ ${article.sections_passed}/${article.total_sections} 섹션</span>
+                                </div>
+                                <span class="signal-score" style="background: ${scoreColor}; color: white;">
+                                    ${article.score}/100
+                                </span>
+                            </div>
+                            <div style="font-size: 11px; color: #999; margin-top: 8px;">
+                                ${article.word_count} 단어 • ${article.completion_rate}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
         }
 
         // 페이지 로드 시 대시보드 로드

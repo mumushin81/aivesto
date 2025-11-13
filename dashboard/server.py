@@ -170,6 +170,41 @@ def create_app():
             "processed": success
         })
 
+    # ==================== 기사 API ====================
+
+    @app.route('/api/articles', methods=['GET'])
+    def get_articles():
+        """모든 기사 조회"""
+        articles = signal_api.get_all_articles()
+        return jsonify({
+            "count": len(articles),
+            "articles": articles
+        })
+
+    @app.route('/api/articles/<symbol>', methods=['GET'])
+    def get_article_by_symbol(symbol):
+        """심볼별 기사 조회"""
+        article = signal_api.get_article_by_symbol(symbol)
+        if article:
+            return jsonify({
+                "status": "found",
+                "article": article
+            })
+        else:
+            return jsonify({
+                "status": "not_found",
+                "symbol": symbol
+            }), 404
+
+    @app.route('/api/articles/stats', methods=['GET'])
+    def get_articles_stats():
+        """기사 통계"""
+        stats = signal_api.get_articles_stats()
+        return jsonify({
+            "stats": stats,
+            "timestamp": datetime.now().isoformat()
+        })
+
     # ==================== 에러 핸들링 ====================
 
     @app.errorhandler(404)
