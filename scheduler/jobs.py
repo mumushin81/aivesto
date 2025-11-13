@@ -54,13 +54,13 @@ class JobScheduler:
         except Exception as e:
             logger.error(f"Analysis job error: {e}")
 
-    def generate_articles_job(self):
+    def generate_articles_job(self, tier: str = "tier_1"):
         """블로그 글 생성 작업"""
         logger.info("=== Starting article generation job ===")
 
         try:
-            article_ids = self.writer.generate_daily_articles(top_n_symbols=5)
-            logger.info(f"=== Article generation completed: {len(article_ids)} articles ===")
+            article_ids = self.writer.generate_daily_articles(tier=tier)
+            logger.info(f"=== Article generation completed: {len(article_ids)} articles (Tier: {tier}) ===")
         except Exception as e:
             logger.error(f"Article generation job error: {e}")
 

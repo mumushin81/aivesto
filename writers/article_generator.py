@@ -203,27 +203,62 @@ CONTENT:
             logger.error(f"Error parsing article response: {e}")
             return None
 
-    def generate_daily_articles(self, top_n_symbols: int = 5) -> List[str]:
-        """일일 인기 종목 기준으로 여러 글 생성"""
+    def generate_daily_articles(self, tier: str = "tier_1", criteria_override: Dict = None) -> List[str]:
+        """
+        분석 기준점에 따라 여러 글 생성 프롬프트
+
+        Args:
+            tier: "tier_1" (높은 중요도 3개+), "tier_2" (뉴스 3개+ AND 점수 75+), "tier_3" (상위 15개)
+            criteria_override: 기준점 사용자 정의 (선택사항)
+        """
         article_ids = []
 
         try:
-            # 최근 트렌딩 종목 가져오기
+            from config.settings import (
+                ARTICLE_TIER_1_SYMBOLS, ARTICLE_TIER_2_SYMBOLS,
+                ARTICLE_TIER_1_MIN_HIGH_IMPORTANCE,
+                ARTICLE_TIER_2_MIN_NEWS, ARTICLE_TIER_2_MIN_SCORE,
+                ARTICLE_TIER_3_TOP_N
+            )
             from analyzers.analysis_pipeline import AnalysisPipeline
+
             pipeline = AnalysisPipeline(self.db)
-            trending_symbols = pipeline.get_trending_symbols()
 
-            # 상위 N개 종목
-            top_symbols = list(trending_symbols.keys())[:top_n_symbols]
+            # 기준점별 종목 선택
+            if tier == "tier_1":
+                logger.info(f"🎯 Generating articles for Tier 1 (High Importance >= {ARTICLE_TIER_1_MIN_HIGH_IMPORTANCE})")
+                target_symbols = ARTICLE_TIER_1_SYMBOLS
+                logger.info(f"   Target symbols ({len(target_symbols)}): {', '.join(target_symbols)}")
 
-            logger.info(f"Generating articles for top {len(top_symbols)} symbols: {top_symbols}")
+            elif tier == "tier_2":
+                logger.info(f"🎯 Generating articles for Tier 2 (News >= {ARTICLE_TIER_2_MIN_NEWS} AND Score >= {ARTICLE_TIER_2_MIN_SCORE})")
+                target_symbols = ARTICLE_TIER_1_SYMBOLS + ARTICLE_TIER_2_SYMBOLS
+                logger.info(f"   Target symbols ({len(target_symbols)}): {', '.join(target_symbols)}")
 
-            for symbol in top_symbols:
-                article_id = self.generate_article(symbol)
-                if article_id:
-                    article_ids.append(article_id)
+            elif tier == "tier_3":
+                logger.info(f"🎯 Generating articles for Tier 3 (Top {ARTICLE_TIER_3_TOP_N} symbols)")
+                trending_symbols = pipeline.get_trending_symbols()
+                target_symbols = list(trending_symbols.keys())[:ARTICLE_TIER_3_TOP_N]
+                logger.info(f"   Target symbols ({len(target_symbols)}): {', '.join(target_symbols)}")
 
-            logger.info(f"Daily article generation completed: {len(article_ids)} articles created")
+            else:
+                raise ValueError(f"Invalid tier: {tier}")
+
+            # 글 생성
+            logger.info(f"\n📝 Starting article generation for {len(target_symbols)} symbols...")
+            for i, symbol in enumerate(target_symbols, 1):
+                try:
+                    result = self.generate_article(symbol)
+                    logger.info(f"   [{i}/{len(target_symbols)}] {symbol}: {'Generated' if result else 'No data'}")
+                    if result:
+                        article_ids.append(result)
+                except Exception as e:
+                    logger.error(f"   [{i}/{len(target_symbols)}] {symbol}: Error - {str(e)[:50]}")
+
+            logger.info(f"\n✅ Article generation completed: {len(article_ids)} articles generated")
+            logger.info(f"   Tier: {tier}")
+            logger.info(f"   Target symbols: {len(target_symbols)}")
+            logger.info(f"   Generated: {len(article_ids)}")
 
         except Exception as e:
             logger.error(f"Error in daily article generation: {e}")

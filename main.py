@@ -34,6 +34,12 @@ def main():
         default='run',
         help='실행 모드 선택'
     )
+    parser.add_argument(
+        '--tier',
+        choices=['tier_1', 'tier_2', 'tier_3'],
+        default='tier_1',
+        help='Article generation tier (default: tier_1)'
+    )
 
     args = parser.parse_args()
 
@@ -62,8 +68,8 @@ def main():
 
         elif args.mode == 'generate':
             # 블로그 글 생성만
-            logger.info("Running article generation only")
-            scheduler.generate_articles_job()
+            logger.info(f"Running article generation only (tier: {args.tier})")
+            scheduler.generate_articles_job(tier=args.tier)
 
     except KeyboardInterrupt:
         logger.info("System stopped by user")
