@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "public": true,
+  "buildCommand": "echo 'Static site deployment'",
+  "outputDirectory": "public",
   "trailingSlash": false,
   "rewrites": [
     {
