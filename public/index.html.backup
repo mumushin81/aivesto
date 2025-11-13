@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>투자 시그널 대시보드 - Investment Signal Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .timestamp {
+            color: #999;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* Signal Level Colors */
+        .level-1 { color: #ff4444; }
+        .level-2 { color: #ff8800; }
+        .level-3 { color: #ffbb00; }
+        .level-4 { color: #00aa00; }
+
+        .card.level-1 {
+            border-left: 4px solid #ff4444;
+        }
+
+        .card.level-2 {
+            border-left: 4px solid #ff8800;
+        }
+
+        .card.level-3 {
+            border-left: 4px solid #ffbb00;
+        }
+
+        .card.level-4 {
+            border-left: 4px solid #00aa00;
+        }
+
+        .signal-box {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 3px solid #1e40af;
+        }
+
+        .signal-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .signal-meta {
+            font-size: 12px;
+            color: #666;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+        }
+
+        .signal-score {
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 3px;
+            background: #e0e7ff;
+            color: #1e40af;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            margin: 30px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+
+        .signals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .trending-list {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .trending-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .trending-item:last-child {
+            border-bottom: none;
+        }
+
+        .trending-symbol {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1e3c72;
+            min-width: 80px;
+        }
+
+        .trending-info {
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+
+        .trending-stats {
+            display: flex;
+            gap: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .trending-badge {
+            background: #e0e7ff;
+            color: #1e40af;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        .price-impact {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .impact-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        .impact-number {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .impact-label {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .up { color: #00aa00; }
+        .down { color: #ff4444; }
+        .neutral { color: #ffbb00; }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: white;
+        }
+
+        .error {
+            background: #ff4444;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            position: relative;
+            height: 300px;
+        }
+
+        .refresh-btn {
+            background: #1e40af;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        .refresh-btn:hover {
+            background: #1e3c72;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .signals-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 20px;
+            }
+
+            .stat-number {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 투자 시그널 대시보드</h1>
+            <p>실시간 뉴스 분석 & 투자 신호 감지 시스템</p>
+            <div class="timestamp" id="timestamp">로딩 중...</div>
+        </header>
+
+        <!-- 신호 요약 통계 -->
+        <div class="dashboard-grid" id="statsGrid">
+            <div class="card">
+                <h3>🔴 긴급 (Level 1)</h3>
+                <div class="stat-number level-1" id="urgentCount">-</div>
+                <div class="stat-label">즉시 실행 필요</div>
+            </div>
+            <div class="card">
+                <h3>🟠 높음 (Level 2)</h3>
+                <div class="stat-number level-2" id="highCount">-</div>
+                <div class="stat-label">고려 필요</div>
+            </div>
+            <div class="card">
+                <h3>🟡 중간 (Level 3)</h3>
+                <div class="stat-number level-3" id="mediumCount">-</div>
+                <div class="stat-label">모니터링</div>
+            </div>
+            <div class="card">
+                <h3>🟢 낮음 (Level 4)</h3>
+                <div class="stat-number level-4" id="lowCount">-</div>
+                <div class="stat-label">참고용</div>
+            </div>
+        </div>
+
+        <!-- 가격 영향 분석 -->
+        <div class="card" style="margin-bottom: 30px;">
+            <h3>💰 가격 영향 분석 (24시간)</h3>
+            <div class="price-impact">
+                <div class="impact-item">
+                    <div class="impact-number up" id="impactUp">-</div>
+                    <div class="impact-label">상승 신호</div>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-number down" id="impactDown">-</div>
+                    <div class="impact-label">하락 신호</div>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-number neutral" id="impactNeutral">-</div>
+                    <div class="impact-label">중립</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 트렌딩 종목 -->
+        <div class="section-title">📈 트렌딩 종목 (신호 기반)</div>
+        <div class="trending-list" id="trendingSymbols">
+            <div class="loading">로딩 중...</div>
+        </div>
+
+        <!-- 긴급 신호 -->
+        <div class="section-title">🔴 긴급 신호 (Level 1)</div>
+        <div class="signals-grid" id="urgentSignals">
+            <div class="loading">로딩 중...</div>
+        </div>
+
+        <!-- 높은 우선순위 신호 -->
+        <div class="section-title">🟠 높은 우선순위 (Level 1-2)</div>
+        <div class="signals-grid" id="highPrioritySignals">
+            <div class="loading">로딩 중...</div>
+        </div>
+
+        <!-- 생성된 기사 섹션 -->
+        <div class="section-title">📰 생성된 투자 분석 기사</div>
+        <div class="dashboard-grid" id="articlesStats">
+            <div class="loading">로딩 중...</div>
+        </div>
+
+        <div class="signals-grid" id="articlesGrid">
+            <div class="loading">로딩 중...</div>
+        </div>
+
+        <!-- 새로고침 버튼 -->
+        <button class="refresh-btn" onclick="loadDashboard()">🔄 새로고침</button>
+    </div>
+
+    <script>
+        // ✨ 정적 기사 데이터 (GitHub + Vercel 배포용)
+        const articlesData = [
+            {"symbol":"AAPL","title":"Apple Q4 iPhone 판매 기대 이상 달성, 프리미엄 모델 수요 강세 확인","summary":"**상황**: Apple이 2025년 Q4(10월~12월) 분기에서 iPhone 판매량과 수익이 애널리스트 기대치를 초과 달성했습니다. 특히 Pro 모델의 강한 수요가 눈에 띕니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":939},
+            {"symbol":"ADBE","title":"Adobe Creative Suite AI 통합 완료, 디자인 업계 생산성 혁명 기대","summary":"**상황**: Adobe가 Creative Cloud(Photoshop, Premiere Pro, Illustrator 등)의 모든 주요 애플리케이션에 생성형 AI 기능을 완전 통합했습니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":820},
+            {"symbol":"AMZN","title":"AWS AI 서비스 확대, Amazon 클라우드 매출 가속화 신호","summary":"**상황**: Amazon Web Services(AWS)가 AI와 머신러닝 서비스 포트폴리오를 대폭 확대했습니다. 엔터프라이즈 고객들의 AI 도입 가속화에 대응하는 전략입니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":822},
+            {"symbol":"GOOGL","title":"Google AI 검색 기능 강화, 검색 광고 모델 재정의","summary":"**상황**: Google이 검색 결과에 AI 생성 요약 기능을 전 세계 확대 배포했습니다. 사용자는 검색만으로 AI가 만든 맞춤형 답변을 즉시 얻을 수 있게 되었습니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":833},
+            {"symbol":"META","title":"Meta Enterprise AI Assistant 출시, B2B 시장 진출 신호","summary":"**상황**: Meta가 기업용 AI 어시스턴트를 새로 출시했습니다. Facebook, Instagram, WhatsApp 등 자사 플랫폼의 데이터를 활용해 기업 고객을 지원합니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":805},
+            {"symbol":"MSFT","title":"마이크로소프트, Office Suite에 AI 코파일럿 통합으로 생산성 혁신 기대","summary":"**상황**: Microsoft가 Office Suite 전체에 AI 코파일럿 기능을 통합했습니다. Word, Excel, PowerPoint 등에서 즉시 사용 가능합니다.","score":100,"sections_passed":11,"total_sections":11,"completion_rate":"100%","word_count":1417},
+            {"symbol":"NFLX","title":"Netflix 구독자 기대 이상 증가, 광고 사업 성장 신호","summary":"**상황**: Netflix가 2025년 Q4 분기에 예상을 초과하는 구독자 증가를 기록했습니다. 특히 광고 기반 구독의 성장이 두드러집니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":811},
+            {"symbol":"NVDA","title":"NVIDIA Blackwell GPU 혁신, AI 컴퓨팅 시장 재편할 차세대 아키텍처 출시","summary":"**상황**: NVIDIA가 2025년 11월 13일 Blackwell GPU 아키텍처를 공식 발표했습니다. 이는 Hopper 세대 이후 가장 대규모의 성능 업그레이드입니다.","score":100,"sections_passed":11,"total_sections":11,"completion_rate":"100%","word_count":941},
+            {"symbol":"TSLA","title":"Tesla 차세대 Robotaxi 플릿 공개, 자율주행 시장 혁신 신호","summary":"**상황**: Tesla가 2025년 11월 13일 다음 세대 Robotaxi 차량을 공개했습니다. 완전 자율주행 기능을 갖춘 이 플릿은 2026년부터 주요 도시에 배포될 예정입니다.","score":100,"sections_passed":11,"total_sections":11,"completion_rate":"100%","word_count":868},
+            {"symbol":"UBER","title":"Uber 지속적 수익성 달성 및 신흥 시장 확장, 성장 모멘텀 재확인","summary":"**상황**: Uber가 2025년 Q4에서 지속적인 수익성을 달성하며, 동시에 신흥 시장에서의 공격적 확장을 발표했습니다.","score":100,"sections_passed":10,"total_sections":11,"completion_rate":"90%","word_count":851}
+        ];
+
+        function loadDashboard() {
+            // 정적 데이터 기반 대시보드 로드
+            updateArticlesStats({
+                total: articlesData.length,
+                average_score: 100,
+                high_quality: articlesData.length,
+                symbols: articlesData.map(a => a.symbol),
+                total_words: articlesData.reduce((sum, a) => sum + a.word_count, 0)
+            });
+
+            updateArticlesGrid(articlesData);
+            updateTimestamp();
+        }
+
+        function updateStats(summary) {
+            document.getElementById('urgentCount').textContent = summary.urgent_count || 0;
+            document.getElementById('highCount').textContent = summary.high_count || 0;
+            document.getElementById('mediumCount').textContent = summary.medium_count || 0;
+            document.getElementById('lowCount').textContent = summary.low_count || 0;
+        }
+
+        function updatePriceImpact(impact) {
+            document.getElementById('impactUp').textContent = impact.impact?.up || 0;
+            document.getElementById('impactDown').textContent = impact.impact?.down || 0;
+            document.getElementById('impactNeutral').textContent = impact.impact?.neutral || 0;
+        }
+
+        function updateTrendingSymbols(symbols) {
+            const container = document.getElementById('trendingSymbols');
+
+            if (!symbols || symbols.length === 0) {
+                container.innerHTML = '<p style="padding: 20px; text-align: center; color: #999;">신호가 없습니다</p>';
+                return;
+            }
+
+            let html = '';
+            symbols.forEach((symbol, index) => {
+                html += `
+                    <div class="trending-item">
+                        <span class="trending-symbol">${index + 1}. ${symbol.symbol}</span>
+                        <div class="trending-info">
+                            <div class="trending-stats">
+                                <span>신호: ${symbol.count}</span>
+                                <span>점수: ${symbol.avg_score.toFixed(1)}</span>
+                                <span>긴급: ${symbol.urgency_count}</span>
+                            </div>
+                        </div>
+                        <span class="trending-badge">${symbol.count} 신호</span>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function updateUrgentSignals(signals) {
+            const container = document.getElementById('urgentSignals');
+
+            if (!signals || signals.length === 0) {
+                container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: white; padding: 40px;">긴급 신호가 없습니다 ✅</div>';
+                return;
+            }
+
+            let html = '';
+            signals.slice(0, 5).forEach(signal => {
+                const title = signal.title || signal.raw_news?.title || 'Unknown';
+                const symbols = signal.affected_symbols || [];
+                const score = signal.relevance_score || 'N/A';
+
+                html += `
+                    <div class="card level-1">
+                        <h3>🔴 긴급 신호</h3>
+                        <div class="signal-box">
+                            <div class="signal-title">${title.substring(0, 70)}</div>
+                            <div class="signal-meta">
+                                <span>${symbols.join(', ')}</span>
+                                <span class="signal-score">${score}/100</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function updateHighPrioritySignals(signals) {
+            const container = document.getElementById('highPrioritySignals');
+
+            if (!signals || signals.length === 0) {
+                container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: white; padding: 40px;">높은 우선순위 신호가 없습니다</div>';
+                return;
+            }
+
+            let html = '';
+            signals.slice(0, 8).forEach(signal => {
+                const title = signal.title || signal.raw_news?.title || 'Unknown';
+                const symbols = signal.affected_symbols || [];
+                const score = signal.relevance_score || 'N/A';
+                const level = signal.signal_level || 4;
+                const levelClass = `level-${level}`;
+
+                html += `
+                    <div class="card ${levelClass}">
+                        <h3>신호 레벨 ${level}</h3>
+                        <div class="signal-box">
+                            <div class="signal-title">${title.substring(0, 70)}</div>
+                            <div class="signal-meta">
+                                <span>${symbols.join(', ')}</span>
+                                <span class="signal-score">${score}/100</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function updateTimestamp() {
+            const now = new Date();
+            document.getElementById('timestamp').textContent =
+                `마지막 업데이트: ${now.toLocaleString('ko-KR')}`;
+        }
+
+        function updateArticlesStats(stats) {
+            const container = document.getElementById('articlesStats');
+
+            if (!stats || stats.total === 0) {
+                container.innerHTML = '<p style="padding: 20px; text-align: center; color: white;">생성된 기사가 없습니다</p>';
+                return;
+            }
+
+            let html = `
+                <div class="card">
+                    <h3>📊 총 기사</h3>
+                    <div class="stat-number" style="color: #1e3c72;">${stats.total}</div>
+                    <div class="stat-label">생성된 기사 수</div>
+                </div>
+                <div class="card">
+                    <h3>⭐ 평균 점수</h3>
+                    <div class="stat-number" style="color: #2a5298;">${stats.average_score}</div>
+                    <div class="stat-label">/100</div>
+                </div>
+                <div class="card">
+                    <h3>✅ 고품질</h3>
+                    <div class="stat-number" style="color: #00aa00;">${stats.high_quality}</div>
+                    <div class="stat-label">90점 이상</div>
+                </div>
+                <div class="card">
+                    <h3>📝 총 단어</h3>
+                    <div class="stat-number" style="color: #1e40af;">${(stats.total_words / 1000).toFixed(1)}K</div>
+                    <div class="stat-label">단어 수</div>
+                </div>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        function updateArticlesGrid(articles) {
+            const container = document.getElementById('articlesGrid');
+
+            if (!articles || articles.length === 0) {
+                container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: white; padding: 40px;">생성된 기사가 없습니다</div>';
+                return;
+            }
+
+            let html = '';
+            articles.forEach(article => {
+                const scoreColor = article.score >= 95 ? '#00aa00' : article.score >= 90 ? '#ffbb00' : '#ff8800';
+                const scoreClass = article.score >= 95 ? 'success' : article.score >= 90 ? 'warning' : 'info';
+
+                html += `
+                    <div class="card" style="border-left: 4px solid ${scoreColor};">
+                        <h3>📰 ${article.symbol}</h3>
+                        <div class="signal-box">
+                            <div class="signal-title">${article.title}</div>
+                            <div class="signal-meta" style="margin: 10px 0;">
+                                <span style="font-size: 11px; color: #666;">
+                                    ${article.summary.substring(0, 120)}...
+                                </span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                <div style="font-size: 12px; color: #666;">
+                                    <span>✓ ${article.sections_passed}/${article.total_sections} 섹션</span>
+                                </div>
+                                <span class="signal-score" style="background: ${scoreColor}; color: white;">
+                                    ${article.score}/100
+                                </span>
+                            </div>
+                            <div style="font-size: 11px; color: #999; margin-top: 8px;">
+                                ${article.word_count} 단어 • ${article.completion_rate}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        // 페이지 로드 시 대시보드 로드
+        window.addEventListener('load', loadDashboard);
+
+        // 30초마다 자동 새로고침
+        setInterval(loadDashboard, 30000);
+    </script>
+</body>
+</html>
