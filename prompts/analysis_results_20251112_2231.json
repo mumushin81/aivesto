@@ -1,0 +1,510 @@
+[
+  {
+    "news_id": "29a29ec3-2944-42ec-a33b-04bef91a0244",
+    "relevance_score": 82,
+    "affected_symbols": ["QQQ", "XLK", "NVDA", "MSFT", "AAPL"],
+    "price_impact": "down",
+    "importance": "high",
+    "reasoning": "테크 섹터의 공매도가 연중 최고치를 기록하며 투자자들의 회의론이 증가. 높은 밸류에이션에 대한 우려가 커지고 있어 단기적 하락 압력 예상.",
+    "key_points": [
+      "테크 섹터 공매도 비중이 연중 최고 수준 도달",
+      "투자자들의 높은 밸류에이션에 대한 회의적 시각 증가",
+      "단기적으로 테크 대형주에 매도 압력 가능성"
+    ]
+  },
+  {
+    "news_id": "f8e05a9f-4561-4de0-8986-63a3122c5ddc",
+    "relevance_score": 71,
+    "affected_symbols": ["AAPL", "IBM", "JPM"],
+    "price_impact": "neutral",
+    "importance": "medium",
+    "reasoning": "애플, IBM, JPMorgan Chase 이사인 Alex Gorsky가 30년 글로벌화 시대의 종료와 지역화 전환을 논의. 이는 장기적인 비즈니스 전략 변화를 시사하지만 즉각적인 주가 영향은 제한적.",
+    "key_points": [
+      "글로벌화에서 지역화로의 전환 추세",
+      "주요 기업들의 장기 전략 재조정 필요",
+      "공급망 재편 및 지역별 투자 증가 예상"
+    ]
+  },
+  {
+    "news_id": "fe37188f-f149-4aa2-af45-3669acf0fbfd",
+    "relevance_score": 88,
+    "affected_symbols": ["AAPL", "MSFT", "META"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "애플의 AI 투자 신중함이 경쟁 우위로 부상. MS와 Meta가 AI에 막대한 비용을 투입하는 동안 애플의 절제된 접근이 재무적 강점으로 평가됨.",
+    "key_points": [
+      "애플의 신중한 AI 투자 전략이 긍정적 평가",
+      "경쟁사 대비 자본 효율성 우수",
+      "장기적으로 수익성 개선 가능성"
+    ]
+  },
+  {
+    "news_id": "b4e4c334-f865-4af8-8e1d-894ccb94733b",
+    "relevance_score": 85,
+    "affected_symbols": ["NVDA", "TSM", "TSLA", "INTC", "AAPL"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "엔비디아 Blackwell 칩 수요가 매우 강력하며 TSMC와의 협력이 성공 요인. 테슬라는 AI 칩 생산을 위해 자체 팹 구축 가능성 언급, 인텔과 협력 가능성도 시사.",
+    "key_points": [
+      "엔비디아 Blackwell 칩 수요 매우 강력",
+      "TSMC와의 긴밀한 협력 관계 강조",
+      "테슬라 자체 AI 칩 팹 구축 고려, 인텔 협력 가능성",
+      "애플 iPhone Air 2026년 출시 연기"
+    ]
+  },
+  {
+    "news_id": "9cbcbb38-6d57-4871-bc2e-dbdba8aa9442",
+    "relevance_score": 78,
+    "affected_symbols": ["TSLA"],
+    "price_impact": "up",
+    "importance": "medium",
+    "reasoning": "테슬라가 향후 10년간 머스크의 성과 목표를 달성할 경우 실적 폭발적 성장 예상. 장기 투자자에게 긍정적 전망 제시.",
+    "key_points": [
+      "머스크의 성과 목표 달성 시 실적 대폭 성장 가능",
+      "10년 장기 투자 관점에서 매력적",
+      "P/E 비율 개선 여지 존재"
+    ]
+  },
+  {
+    "news_id": "69ff2f77-4165-4557-809b-d0c7fc1fd7a5",
+    "relevance_score": 73,
+    "affected_symbols": ["AAPL"],
+    "price_impact": "down",
+    "importance": "medium",
+    "reasoning": "애플이 중국 정부 요구로 동성애자 데이팅 앱 2개를 앱스토어에서 삭제. 중국 시장 의존도와 검열 이슈로 인한 평판 리스크 존재.",
+    "key_points": [
+      "중국 정부 검열 요구에 애플 순응",
+      "중국 시장 의존도에 따른 리스크 부각",
+      "인권 이슈로 인한 평판 리스크 존재"
+    ]
+  },
+  {
+    "news_id": "0af36bcf-50f7-48d6-aabb-d329adadb07d",
+    "relevance_score": 76,
+    "affected_symbols": ["EWU", "VUKE"],
+    "price_impact": "down",
+    "importance": "medium",
+    "reasoning": "영국 투자자들이 10월에 주식 펀드에서 36억 파운드를 인출. 예산 우려와 높은 주가에 대한 두려움으로 영국 시장 약세 신호.",
+    "key_points": [
+      "영국 주식 펀드에서 기록적인 자금 유출",
+      "예산 불확실성과 밸류에이션 우려",
+      "영국 시장 단기 약세 신호"
+    ]
+  },
+  {
+    "news_id": "f84cb912-f671-4ebd-8a14-5a9b23a6d99f",
+    "relevance_score": 82,
+    "affected_symbols": ["SWKS", "QRVO"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "Mizuho가 Skyworks와 Qorvo의 합병 발표 후 등급을 Neutral로 상향. 합병으로 인한 밸류에이션 시너지 기대되나 핸드셋 시장 역풍은 지속.",
+    "key_points": [
+      "Skyworks와 Qorvo 합병 계획 발표",
+      "밸류에이션 시너지 효과 기대",
+      "핸드셋 시장 역풍은 여전히 도전 과제"
+    ]
+  },
+  {
+    "news_id": "6888221c-874d-4d38-ba8b-52117eab9315",
+    "relevance_score": 79,
+    "affected_symbols": ["MSFT", "AMZN", "GOOGL"],
+    "price_impact": "up",
+    "importance": "medium",
+    "reasoning": "미국 클라우드 컴퓨팅 시장이 2024년 2,217억 달러에서 2033년 8,716억 달러로 성장 예상. 클라우드 주요 기업들에 장기 긍정적.",
+    "key_points": [
+      "2033년까지 클라우드 시장 연평균 16.43% 성장 전망",
+      "디지털 전환과 SaaS 수요 증가가 성장 동력",
+      "주요 클라우드 제공업체에 장기적 기회"
+    ]
+  },
+  {
+    "news_id": "e53b245f-4821-4e29-97bc-1de094f2ac31",
+    "relevance_score": 75,
+    "affected_symbols": ["AAPL"],
+    "price_impact": "down",
+    "importance": "medium",
+    "reasoning": "애플이 iPhone Air 차기 모델 출시를 연기. 약한 판매와 제품 전략 재고로 인한 결정. 단기적으로 iPhone 매출 성장 둔화 우려.",
+    "key_points": [
+      "iPhone Air 차기 모델 2026년 출시 연기",
+      "예상보다 약한 수요로 제품 전략 재검토",
+      "iPhone 라인업 매출 성장 둔화 가능성"
+    ]
+  },
+  {
+    "news_id": "5147760f-fd6d-4b33-94c9-b5dc9651729e",
+    "relevance_score": 84,
+    "affected_symbols": ["META"],
+    "price_impact": "down",
+    "importance": "high",
+    "reasoning": "메타의 수석 AI 과학자이자 튜링상 수상자 Yann LeCun이 퇴사 계획. 핵심 AI 인재 유출은 메타의 AI 전략에 부정적 영향 가능.",
+    "key_points": [
+      "메타 수석 AI 과학자 Yann LeCun 퇴사 예정",
+      "핵심 AI 인재 유출로 AI 전략 차질 우려",
+      "경쟁사 대비 AI 경쟁력 약화 가능성"
+    ]
+  },
+  {
+    "news_id": "d1863a41-d87e-4479-ad9d-1363b2c88a57",
+    "relevance_score": 72,
+    "affected_symbols": ["AMZN", "AAPL"],
+    "price_impact": "neutral",
+    "importance": "low",
+    "reasoning": "2010년 베조스가 iPad가 킨들을 대체하지 못할 것이라 자신했던 예측이 맞았다는 회고 기사. 과거 사례로 현재 투자 영향은 미미.",
+    "key_points": [
+      "베조스의 2010년 킨들 관련 예측이 적중",
+      "아마존의 타겟 고객 이해도 우수",
+      "역사적 참고 사항, 현재 투자 영향 제한적"
+    ]
+  },
+  {
+    "news_id": "5adc75a0-4dbd-4437-b987-adff14c78451",
+    "relevance_score": 89,
+    "affected_symbols": ["BRK.B", "BRK.A"],
+    "price_impact": "neutral",
+    "importance": "high",
+    "reasoning": "워렌 버핏이 연말 은퇴하며 Greg Abel에게 CEO 승계. 60년간 이끈 전설적 투자자의 은퇴는 중요 이벤트이나 승계 계획은 이미 알려져 즉각적 영향은 제한적.",
+    "key_points": [
+      "워렌 버핏 연말 버크셔 CEO 은퇴",
+      "Greg Abel이 차기 CEO로 승계",
+      "버핏은 계속 버크셔에 투자 유지 약속"
+    ]
+  },
+  {
+    "news_id": "ceaad193-7b4c-4a6e-99b9-01719cacb411",
+    "relevance_score": 81,
+    "affected_symbols": ["AAPL", "MSFT", "NVDA", "VGT"],
+    "price_impact": "up",
+    "importance": "medium",
+    "reasoning": "애플, 마이크로소프트, 엔비디아가 4조 달러 클럽에 가입. Vanguard Information Technology ETF를 통해 1달러부터 투자 가능하다는 투자 가이드.",
+    "key_points": [
+      "애플, MS, 엔비디아 시가총액 4조 달러 돌파",
+      "메가캡 성장주에 대한 관심 지속",
+      "ETF를 통한 분산 투자 옵션 제시"
+    ]
+  },
+  {
+    "news_id": "bb1bd8c6-33fa-4309-a4e5-f147d0321199",
+    "relevance_score": 77,
+    "affected_symbols": ["MSFT", "GOOGL", "META", "NVDA"],
+    "price_impact": "neutral",
+    "importance": "medium",
+    "reasoning": "AGI(인공일반지능) 달성 시 시장이 어떻게 반응할지에 대한 분석. 현재 AI 병목 현상이 단기적일 수 있으며 기업들의 AI 활용 능력 향상 전망.",
+    "key_points": [
+      "AGI 달성 가능성에 대한 시장 반응 분석",
+      "현재 AI 병목 현상은 단기적일 가능성",
+      "기업들의 AI 활용도 증가 전망"
+    ]
+  },
+  {
+    "news_id": "761ab96d-92b2-4d25-a567-cb039bebf6ec",
+    "relevance_score": 73,
+    "affected_symbols": ["AAPL"],
+    "price_impact": "down",
+    "importance": "medium",
+    "reasoning": "애플이 중국 정부 요청에 따라 동성애자 데이팅 앱을 앱스토어에서 삭제. 중국 검열 순응으로 인한 평판 리스크.",
+    "key_points": [
+      "중국 당국 요청으로 동성애 데이팅 앱 삭제",
+      "중국 시장 의존도에 따른 정치적 리스크",
+      "인권 문제로 서방 시장 평판 악화 가능"
+    ]
+  },
+  {
+    "news_id": "5d37bad1-f3b2-42e2-86ef-381f99018c60",
+    "relevance_score": 73,
+    "affected_symbols": ["AAPL"],
+    "price_impact": "down",
+    "importance": "medium",
+    "reasoning": "애플이 베이징 요청으로 중국 iOS 스토어에서 동성애자 데이팅 앱 삭제. 중국 검열 순응으로 인한 ESG 및 평판 리스크.",
+    "key_points": [
+      "중국 정부 명령으로 앱 삭제",
+      "중국 시장 의존도 리스크 부각",
+      "ESG 투자자들의 우려 가능성"
+    ]
+  },
+  {
+    "news_id": "d56252fd-0baa-4797-80e7-a2035a6b2148",
+    "relevance_score": 76,
+    "affected_symbols": ["BRK.B", "AAPL", "BAC", "AXP", "KO"],
+    "price_impact": "neutral",
+    "importance": "medium",
+    "reasoning": "버핏이 영구 보유할 5개 주식 추천. 버핏의 투자 철학과 포트폴리오 인사이트 제공하나 새로운 정보는 아님.",
+    "key_points": [
+      "워렌 버핏 영구 보유 종목 분석",
+      "버크셔 포트폴리오 핵심 종목들",
+      "장기 가치 투자 관점 참고 자료"
+    ]
+  },
+  {
+    "news_id": "329bb4e8-c90e-44be-b92a-abd68ee36871",
+    "relevance_score": 83,
+    "affected_symbols": ["TSM"],
+    "price_impact": "down",
+    "importance": "high",
+    "reasoning": "TSMC 10월 매출 성장률이 16.9%로 작년 2월 이후 최저. 9월 39.6% 성장에서 급격히 둔화되어 반도체 수요 둔화 우려.",
+    "key_points": [
+      "10월 매출 성장률 16.9%로 급격히 둔화",
+      "작년 2월 이후 최저 성장률",
+      "반도체 업황 둔화 신호로 해석 가능"
+    ]
+  },
+  {
+    "news_id": "94d5d2c0-f074-49aa-bbfb-e5ade20734f6",
+    "relevance_score": 80,
+    "affected_symbols": ["META"],
+    "price_impact": "up",
+    "importance": "medium",
+    "reasoning": "메타 실적 발표 후 주가 하락을 매수 기회로 평가. 핵심 비즈니스 펀더멘털은 여전히 강력하다고 분석.",
+    "key_points": [
+      "실적 발표 후 주가 하락을 매수 기회로 제시",
+      "핵심 비즈니스 펀더멘털 강력 유지",
+      "Mag7 중 가장 매력적인 매수 기회로 평가"
+    ]
+  },
+  {
+    "news_id": "4629c517-ebb1-4474-93f1-a2bbb10cd806",
+    "relevance_score": 85,
+    "affected_symbols": ["MSFT"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "마이크로소프트가 포르투갈에 100억 달러 규모 AI 데이터센터 투자. AI 인프라 확장으로 장기 성장 동력 확보.",
+    "key_points": [
+      "포르투갈에 100억 달러 AI 데이터센터 건설",
+      "AI 인프라 글로벌 확장 전략",
+      "유럽 시장 AI 역량 강화"
+    ]
+  },
+  {
+    "news_id": "879c113c-8544-424e-8f59-b90abdea2b85",
+    "relevance_score": 86,
+    "affected_symbols": ["MSFT", "GOOGL"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "마이크로소프트와 구글이 유럽 AI 인프라에 160억 달러 이상 투자. 포르투갈과 독일에 시설 구축으로 글로벌 AI 경쟁력 강화.",
+    "key_points": [
+      "MS와 구글 유럽에 총 160억 달러 이상 투자",
+      "포르투갈, 독일에 AI 인프라 구축",
+      "글로벌 AI 역량 확장 경쟁 가속화"
+    ]
+  },
+  {
+    "news_id": "0d28bbc6-f319-460f-9b5a-c5419c389cf8",
+    "relevance_score": 78,
+    "affected_symbols": ["NVDA", "MSFT", "GOOGL", "AMZN"],
+    "price_impact": "up",
+    "importance": "medium",
+    "reasoning": "AI 인프라 구축 투자가 미국 GDP 성장을 견인하고 있다는 분석. AI 지출이 경제 전반에 긍정적 영향을 미치는 중.",
+    "key_points": [
+      "AI 인프라 투자가 미국 GDP 성장 동력",
+      "아직 AI 수익화 단계는 아니지만 투자 지출이 경제 견인",
+      "AI 관련 기업들의 지속적인 투자 정당화"
+    ]
+  },
+  {
+    "news_id": "a429ba38-d44a-498a-9b19-5a71570b9543",
+    "relevance_score": 87,
+    "affected_symbols": ["NBIS", "META"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "네덜란드 클라우드 기업 Nebius가 메타와 30억 달러 AI 인프라 계약 체결. 3분기 매출도 급증하며 AI 인프라 수요 강세 확인.",
+    "key_points": [
+      "메타와 30억 달러 AI 인프라 딜 체결",
+      "3분기 매출 급증",
+      "AI 인프라 공급업체 수혜 지속"
+    ]
+  },
+  {
+    "news_id": "9bf3ac22-61c0-4f44-af6c-0274232544c4",
+    "relevance_score": 84,
+    "affected_symbols": ["NVDA"],
+    "price_impact": "down",
+    "importance": "high",
+    "reasoning": "소프트뱅크가 엔비디아 지분 전량 매각. AI 인프라 투자 수익성에 대한 의구심이 커지는 시점에서 부정적 신호로 해석 가능. 그러나 애널리스트들은 여전히 상승 여력 전망.",
+    "key_points": [
+      "소프트뱅크가 엔비디아 지분 전량 매각",
+      "AI 인프라 투자 ROI 의문 제기 시점",
+      "애널리스트들은 여전히 상승 여력 전망"
+    ]
+  },
+  {
+    "news_id": "1ff86c5b-a5ac-4159-9951-fa1a880307e8",
+    "relevance_score": 85,
+    "affected_symbols": ["MSFT"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "마이크로소프트가 포르투갈 작은 해안 마을에 100억 달러 AI 데이터센터 건설. 유럽 AI 전략의 핵심 거점 확보.",
+    "key_points": [
+      "포르투갈 해안 지역에 100억 달러 투자",
+      "유럽 AI 인프라 확장 전략",
+      "지역 경제 활성화 및 전략적 거점 확보"
+    ]
+  },
+  {
+    "news_id": "851a15ad-259f-4802-8a23-342b7d21eb24",
+    "relevance_score": 82,
+    "affected_symbols": ["MSFT"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "Cantor Fitzgerald가 마이크로소프트 실적 후 Overweight 등급과 $639 목표가 유지. 1분기 실적이 대부분 부문에서 기대치 상회.",
+    "key_points": [
+      "1분기 실적 대부분 부문에서 예상 초과",
+      "Overweight 등급 및 $639 목표가 유지",
+      "빌 게이츠 포트폴리오 주요 종목"
+    ]
+  },
+  {
+    "news_id": "fd983663-3f81-430c-aeda-a081bff45955",
+    "relevance_score": 76,
+    "affected_symbols": ["GTLB"],
+    "price_impact": "up",
+    "importance": "medium",
+    "reasoning": "GitLab이 3개월간 18% 급등 후에도 매수할 이유 3가지 제시. AI 네이티브 플랫폼, SaaS 확대, 강력한 기업 채택이 긍정적.",
+    "key_points": [
+      "AI 네이티브 플랫폼으로 경쟁력 우수",
+      "SaaS 비중 확대 및 기업 채택 증가",
+      "3개월 18% 급등에도 추가 상승 여력"
+    ]
+  },
+  {
+    "news_id": "abf43e2a-28db-487a-a481-680b7e1d9e16",
+    "relevance_score": 81,
+    "affected_symbols": ["SPY", "SPX"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "주요 애널리스트들이 AI 모멘텀으로 S&P 500이 2026년까지 7,500에 도달할 것으로 전망. UBS는 시장 변동성에도 강력한 랠리 예측.",
+    "key_points": [
+      "2026년 S&P 500 목표가 7,500",
+      "AI 모멘텀이 주요 상승 동력",
+      "시장 변동성에도 강세 전망 유지"
+    ]
+  },
+  {
+    "news_id": "9833338a-d7e4-4a08-ac8e-e485aca17d2e",
+    "relevance_score": 86,
+    "affected_symbols": ["MSFT", "NVDA"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "마이크로소프트가 포르투갈 AI 데이터 허브에 100억 달러 투자. 엔비디아 및 현지 파트너 참여로 유럽 최대 AI 인프라 투자 중 하나.",
+    "key_points": [
+      "100억 달러 포르투갈 AI 데이터센터 투자",
+      "엔비디아 및 현지 파트너 협력",
+      "유럽 최대 규모 AI 인프라 투자"
+    ]
+  },
+  {
+    "news_id": "fa5e5eb4-14d8-4ff3-8d00-d402dd1cc172",
+    "relevance_score": 83,
+    "affected_symbols": ["NBIS", "META"],
+    "price_impact": "down",
+    "importance": "medium",
+    "reasoning": "Nebius가 메타와 30억 달러 AI 계약 체결했음에도 주가 5% 급락. 계약 규모에 비해 시장 반응이 부정적.",
+    "key_points": [
+      "메타와 30억 달러 AI 인프라 계약",
+      "긍정적 뉴스에도 주가 5% 하락",
+      "시장 기대치 미달 또는 이익 실현 매물"
+    ]
+  },
+  {
+    "news_id": "46287dd0-0684-491e-98f1-87d01b022d20",
+    "relevance_score": 82,
+    "affected_symbols": ["MSFT"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "마이크로소프트 주가 하락을 투자 기회로 판단하고 포지션 확대. 강력한 AI 성장, 견고한 현금 흐름, 탄탄한 펀더멘털을 근거로 제시.",
+    "key_points": [
+      "AI 셰이크아웃 기간 동안 투자 확대",
+      "강력한 AI 성장 및 현금 흐름",
+      "펀더멘털 탄탄하여 장기 투자 매력적"
+    ]
+  },
+  {
+    "news_id": "15213b11-89a9-44a3-b37a-76690c2d9886",
+    "relevance_score": 86,
+    "affected_symbols": ["MSFT", "NVDA"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "마이크로소프트가 포르투갈 AI 인프라 확장에 100억 달러 이상 투자. 엔비디아, Nscale, Start Campus와 협력하여 데이터센터 허브 구축.",
+    "key_points": [
+      "포르투갈에 100억 달러 이상 투자",
+      "엔비디아 및 AI 인프라 기업들과 협력",
+      "유럽 데이터센터 허브 구축"
+    ]
+  },
+  {
+    "news_id": "da800030-2e90-4540-947b-197f37151c83",
+    "relevance_score": 77,
+    "affected_symbols": ["NBIS"],
+    "price_impact": "up",
+    "importance": "medium",
+    "reasoning": "Nebius Group이 좋은 투자처로 평가. Fred Alger Management의 3분기 투자자 서한에서 언급되며 투자 매력도 강조.",
+    "key_points": [
+      "Fred Alger Management 포트폴리오 포함",
+      "3분기 S&P 500 8.12% 상승 배경",
+      "경제 개선 및 기업 실적 양호"
+    ]
+  },
+  {
+    "news_id": "11353b55-4bc4-4627-ab03-bd11ad19da24",
+    "relevance_score": 84,
+    "affected_symbols": ["NBIS", "META"],
+    "price_impact": "down",
+    "importance": "high",
+    "reasoning": "Nebius가 3분기 순손실 확대 보고하였으나 메타와 AI 계약 발표. 실적 악화에도 대형 계약 확보로 상반된 신호.",
+    "key_points": [
+      "3분기 순손실 예상보다 크게 확대",
+      "메타 플랫폼과 AI 인프라 계약 체결",
+      "실적 vs 계약 확보의 상반된 시그널"
+    ]
+  },
+  {
+    "news_id": "4e204b4d-3556-4cdb-a575-3e01b50f829b",
+    "relevance_score": 78,
+    "affected_symbols": ["IMOS"],
+    "price_impact": "up",
+    "importance": "medium",
+    "reasoning": "ChipMOS가 강력한 4분기 실적과 AI 시장 트렌드로 52주 최고가 경신. 반도체 패키징 업체의 AI 수혜 확인.",
+    "key_points": [
+      "4분기 실적 강력하며 52주 최고가 달성",
+      "AI 시장 트렌드 수혜",
+      "반도체 패키징 수요 증가"
+    ]
+  },
+  {
+    "news_id": "7feccf25-4ce5-4867-b423-ef57c02941ff",
+    "relevance_score": 74,
+    "affected_symbols": ["AMAT"],
+    "price_impact": "down",
+    "importance": "medium",
+    "reasoning": "Applied Materials 4분기 전망 분석에서 진입 시점이 아니라고 평가. AI 성장에도 사이클 변화와 밸류에이션 리스크 존재.",
+    "key_points": [
+      "4분기 전망에 신중한 시각",
+      "AI 성장과 사이클 변화 사이 균형",
+      "현재 밸류에이션에서 리스크/보상 비율 불리"
+    ]
+  },
+  {
+    "news_id": "fe8e556a-25de-4db4-856f-89918e6f0e7a",
+    "relevance_score": 81,
+    "affected_symbols": ["MSFT"],
+    "price_impact": "neutral",
+    "importance": "medium",
+    "reasoning": "마이크로소프트 Brad Smith가 AI가 버블이 되지 않으려면 '사려깊고 규율있는' 접근 필요하다고 언급. 투자 신중론 제시.",
+    "key_points": [
+      "AI 버블 방지 위해 신중한 투자 필요",
+      "MS는 기존 투자에 만족",
+      "과도한 AI 지출 경계 메시지"
+    ]
+  },
+  {
+    "news_id": "d3016bd0-5e62-44ad-a5b3-9e7113f4dc20",
+    "relevance_score": 85,
+    "affected_symbols": ["NBIS", "MSFT", "META"],
+    "price_impact": "up",
+    "importance": "high",
+    "reasoning": "Nebius가 3분기 전년 대비 355% 성장하며 AI 인프라 강자로 부상. 마이크로소프트, 메타와 연이어 계약하며 성장세 지속.",
+    "key_points": [
+      "3분기 매출 전년 대비 355% 급증",
+      "MS, 메타와 연속 대형 계약 체결",
+      "AI 인프라 시장에서 강력한 포지셔닝"
+    ]
+  }
+]

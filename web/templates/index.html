@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미국 주식 뉴스 블로그</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .stat {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            border-radius: 10px;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+        }
+
+        .article-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .article-symbol {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .article-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .article-date {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .article-preview {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.6;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 15px;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .read-more:hover {
+            color: #764ba2;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 미국 주식 뉴스 블로그</h1>
+            <p class="subtitle">AI 기반 주식 시장 분석 및 투자 인사이트</p>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">{{ articles|length }}</div>
+                    <div class="stat-label">작성된 기사</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">39</div>
+                    <div class="stat-label">분석된 뉴스</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">$0</div>
+                    <div class="stat-label">비용 (완전 무료)</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="articles-grid">
+            {% for article in articles %}
+            <a href="/article/{{ article.filename }}" class="article-card">
+                {% if article.symbol %}
+                <span class="article-symbol">{{ article.symbol }}</span>
+                {% endif %}
+
+                <h2 class="article-title">{{ article.title }}</h2>
+
+                <div class="article-date">
+                    <span class="emoji">📅</span> {{ article.date }}
+                </div>
+
+                <div class="article-preview">
+                    {{ article.content | striptags | truncate(200) }}
+                </div>
+
+                <span class="read-more">자세히 보기 →</span>
+            </a>
+            {% endfor %}
+        </div>
+
+        <footer>
+            <p>🤖 Claude Code로 생성된 콘텐츠 | 2025-11-12</p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                본 블로그의 모든 콘텐츠는 정보 제공 목적이며, 투자 권유가 아닙니다.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
