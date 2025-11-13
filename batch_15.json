@@ -1,0 +1,501 @@
+{
+  "agent_id": 15,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "a16fb168-5717-405a-a5fa-791d6b0afe63",
+      "source": "Finnhub",
+      "title": "Cathie Wood Dumps $2.4 Million Worth Of Tesla Shares, Doubles Down On These AI Stocks",
+      "url": "https://finnhub.io/api/news?id=e94dc85e708409a86b13369f382029aec33036b6875142e13aeb6c8c43b1daa7",
+      "content": "On Monday, Cathie Wood-led Ark Invest executed significant trades involving Tesla Inc. (NASDAQ:TSLA), Pony AI Inc. (NASDAQ:PONY), Taiwan Semiconductor Manufacturing Co. Ltd. (NYSE:TSM), and Baidu Inc. (NASDAQ:BIDU). These trades highlight Ark’s ...",
+      "published_at": "2025-11-12T20:31:11+00:00",
+      "created_at": "2025-11-13T03:10:22.908075+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ab55e6a5-5c21-4915-b738-6e13cc863597",
+      "source": "Finnhub",
+      "title": "Rivian Surges as CEO RJ Scaringe Lands $4.6 Billion Payday",
+      "url": "https://finnhub.io/api/news?id=6ab6f9f4cf6baa757ac2b42cbe4f8edb278cdc25b36c7a97b66f6518794058ee",
+      "content": "Tesla-style performance deal fires up investors and stock momentum",
+      "published_at": "2025-11-12T20:12:15+00:00",
+      "created_at": "2025-11-13T03:10:23.089805+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4b07555b-43d8-4f72-bb58-42ad43ed98b5",
+      "source": "Finnhub",
+      "title": "The Zacks Analyst Blog Highlights Tesla and QuantumScape",
+      "url": "https://finnhub.io/api/news?id=59dbcb24878eb2985619c7faaf278586cf64187567242f2bbee350bf1b625e8d",
+      "content": "Tesla's EV dominance faces pressure as QuantumScape gains traction with real-world solid-state battery breakthroughs and growing automaker partnerships.",
+      "published_at": "2025-11-12T19:32:00+00:00",
+      "created_at": "2025-11-13T03:10:23.255856+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "25ba6b13-a8cc-4866-9582-d7280b3c53c8",
+      "source": "Finnhub",
+      "title": "Humanoids Rise: Figure's $1 Billion, Musk's $1 Trillion, XPeng's IRON",
+      "url": "https://finnhub.io/api/news?id=46b3ef5114dce45077af222fb0792937a880642e65af848e55860a464494083b",
+      "content": "In this article, we discuss discuss Figureâs $1 billion fundraise, XPENGâs humanoid launch, the humanoid market, and how Elonâs $1 trillion pay package fits into this.",
+      "published_at": "2025-11-12T18:30:00+00:00",
+      "created_at": "2025-11-13T03:10:23.585673+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/640351119/image_640351119.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "7cf76e9a-9d4a-4c8a-a949-55316e2e48b7",
+      "source": "Finnhub",
+      "title": "Tesla's Bot Optimus Is No More Than A Dream",
+      "url": "https://finnhub.io/api/news?id=9b8fd18ab4ba4bdaa732d788d9fdb6c7f6db14d7422354847f73392c40601d7d",
+      "content": "Tesla, Inc. stock is overvalued with unrealistic expectations for robotics. Click to learn why now may be the time to sell TSLA shares.",
+      "published_at": "2025-11-12T18:21:30+00:00",
+      "created_at": "2025-11-13T03:10:23.752743+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1143852084/image_1143852084.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "631ab000-c9a3-4ae0-a40e-45476ef6ec39",
+      "source": "Finnhub",
+      "title": "Uber Stock Is a Buy: But You'll Have to Watch It Closely",
+      "url": "https://finnhub.io/api/news?id=1bbb39b792663917fee1bd06321826e56bc80b06285f0b5adfe72b2a314f4f8c",
+      "content": "Cash generation and accelerating growth look compelling -- yet autonomy threats demand vigilance.",
+      "published_at": "2025-11-12T17:31:00+00:00",
+      "created_at": "2025-11-13T03:10:23.943595+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "aae083fc-77cd-4829-8d61-bb487f9cf2d0",
+      "source": "Finnhub",
+      "title": "Coinbase moves incorporation to Texas from Delaware, following Musk's lead",
+      "url": "https://finnhub.io/api/news?id=818a184754596f33098448e0c920439900d470af0d63c128ec7737af6008f379",
+      "content": "Coinbase's legal chief wrote in a Wall Street Journal op-ed that the crypto platform is moving its state of incorporation to Texas. ",
+      "published_at": "2025-11-12T16:37:56+00:00",
+      "created_at": "2025-11-13T03:10:24.10817+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/107304866-1695335426536-gettyimages-1680877345-MESSARI_MAINNET.jpeg?v=1762899905&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "6ae01876-838a-405b-a9f6-a15e3b1ce4df",
+      "source": "Finnhub",
+      "title": "From $20K To $1M: The Nvidia Trade Jim Cramer Called Back In 2017",
+      "url": "https://finnhub.io/api/news?id=ece8b2853b35932713a900d1739792c6698aad5ba6c6d692e73aef7c93363f60",
+      "content": "CNBC host Jim Cramer has been a longtime supporter of Nvidia (NASDAQ:NVDA), regularly praising Chief Executive Jensen Huang's leadership and urging investors to hold the stock even during volatile periods. CNBC anchor Jon Fortt shared data in a recent program showing that Nvidia shares are up 4,600% since Cramer first recommended it in June 2017. \"Nvidia stock is now up more than 4,600% since then,\" Fortt said. \"So if you had invested a little more than $20,000 that day, you’d have a million dol",
+      "published_at": "2025-11-12T11:01:12+00:00",
+      "created_at": "2025-11-13T03:10:24.443549+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "d218c7d3-2968-4cb8-b8a0-c5c164e4b881",
+      "source": "Finnhub",
+      "title": "Bitwise Investment Chief Says Bitcoin Sideways Movement 'Means Bigger Allocations'",
+      "url": "https://finnhub.io/api/news?id=c0e90d72c355646977aec8c134571fb4c8e268c3593df8e435b19c1e2d431025",
+      "content": "Bitcoin is entering a new phase that justifies larger investment allocations, Bitwise investment chief Matt Hougan says. “Bitcoin’s sideways slog reveals its IPO moment has arrived,” Hougan said on Nov. 4 in a post on the firm's website, adding, “that ...",
+      "published_at": "2025-11-12T10:01:04+00:00",
+      "created_at": "2025-11-13T03:10:24.625015+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "3b27a232-5456-4126-a026-793344e979cf",
+      "source": "Alpha Vantage",
+      "title": "Alexandr Wang's Advice To Kids Sparks Backlash - Question Raised If Mark Zuckerberg Made A 'Big Mistake' Paying $14.3 Billion For Meta's New AI Chief - Microsoft  ( NASDAQ:MSFT ) , Meta Platforms  ( NASDAQ:META ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48824481/alexandr-wangs-advice-to-kids-sparks-backlash-question-raised-if-mark-zuckerberg-made-a-big-mistake-",
+      "content": "Meta Platforms, Inc.'s ( NASDAQ:META ) newly appointed Chief AI Officer, Alexandr Wang, has drawn sharp criticism after his advice to young people about \"vibe coding\" went viral, leaving many questioning Meta CEO Mark Zuckerberg's $14.3 billion investment.",
+      "published_at": "2025-11-13T02:52:47+00:00",
+      "created_at": "2025-11-13T03:10:27.748871+00:00",
+      "symbols": [
+        "MSFT",
+        "META"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.214378"
+          }
+        ],
+        "authors": [
+          "Ananya Gairola"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.094577
+      }
+    },
+    {
+      "id": "d5235bbd-399a-44e0-954e-64f1423a1ff0",
+      "source": "Alpha Vantage",
+      "title": "Nvidia Quashes Talk Of $1 Billion AI Data Center In Mexico After Governor's Announcement Sparks Confusion - NVIDIA  ( NASDAQ:NVDA ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48824476/nvidia-quashes-talk-of-1-billion-ai-data-center-in-mexico-after-governors-announcement-sparks-confus",
+      "content": "On Wednesday, Nvidia Corporation ( NASDAQ:NVDA ) denied reports that it plans to invest $1 billion in northern Mexico after the state's governor announced the tech giant would build a major artificial intelligence data center there.",
+      "published_at": "2025-11-13T02:51:55+00:00",
+      "created_at": "2025-11-13T03:10:27.942857+00:00",
+      "symbols": [
+        "NVDA",
+        "BAC"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.990999"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.714479"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Ananya Gairola"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.206619
+      }
+    },
+    {
+      "id": "c9cad2d8-dcc2-4519-a378-2a72ff508422",
+      "source": "Alpha Vantage",
+      "title": "Rubicon Organics Reports Q3 2025 Financial and Operating Results",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186961/0/en/Rubicon-Organics-Reports-Q3-2025-Financial-and-Operating-Results.html",
+      "content": "VANCOUVER, British Columbia, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Rubicon Organics Inc. ( TSXV: ROMJ ) ( OTCQX: ROMJF ) ( \"Rubicon Organics\", \"Rubicon\" or the \"Company\" ) is Canada's leading premium licensed producer focused on cultivating and selling organic certified, premium and super-premium ...",
+      "published_at": "2025-11-13T02:47:00+00:00",
+      "created_at": "2025-11-13T03:10:28.121935+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.684621"
+          }
+        ],
+        "authors": [
+          "Rubicon Organics"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.224316
+      }
+    },
+    {
+      "id": "d793669e-7726-47c6-a242-633416748e7f",
+      "source": "Alpha Vantage",
+      "title": "Congress Ended The Shutdown - But At The Cost Of Re-Criminalizing These THC Products In A Last-Minute Deal That Could Reshape The Cannabis Industry - Curaleaf Holdings  ( OTC:CURLF ) , Green Thumb Indus  ( OTC:GTBIF ) ",
+      "url": "https://www.benzinga.com/news/legal/25/11/48824237/congress-ended-the-shutdown-but-at-the-cost-of-re-criminalizing-these-thc-products-in-a-last-minute-de",
+      "content": "With Congress passing the funding bill on Wednesday, ending the record-long government shutdown, a controversial provision has made its way into the bill's provisions, one that is sparking alarm across the hemp and cannabis industry.",
+      "published_at": "2025-11-13T02:34:11+00:00",
+      "created_at": "2025-11-13T03:10:28.292095+00:00",
+      "symbols": [
+        "TLRY"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Vishaal Sanjay"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.03341
+      }
+    },
+    {
+      "id": "3dfe5cd6-45e8-4081-b46b-d31b3d91a837",
+      "source": "Alpha Vantage",
+      "title": "Sour crypto mood could fuel an 'unexpected rally' this month: Santiment",
+      "url": "https://cointelegraph.com/news/crypto-fear-sentiment-bitcoin-ethereum-xrp",
+      "content": "Crypto market sentiment remains fearful as the broader market continues to slump, but that could be a good thing, as weak hands sell off, Santiment argued.",
+      "published_at": "2025-11-13T02:31:15+00:00",
+      "created_at": "2025-11-13T03:10:28.46604+00:00",
+      "symbols": [
+        "CRYPTO:BTC",
+        "CRYPTO:ETH"
+      ],
+      "metadata": {
+        "source": "Cointelegraph",
+        "topics": [],
+        "authors": [
+          "Stephen Katte"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.114241
+      }
+    },
+    {
+      "id": "7acf4c81-3051-4137-9d4b-19694f8fc8fe",
+      "source": "Alpha Vantage",
+      "title": "Diversified Royalty Corp. Announces Third Quarter 2025 Results and a 1¢ Dividend Increase on an Annual Basis",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186959/0/en/Diversified-Royalty-Corp-Announces-Third-Quarter-2025-Results-and-a-1-Dividend-Increase-on-an-Annual-Basis.html",
+      "content": "VANCOUVER, British Columbia, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Diversified Royalty Corp. ( TSX: DIV and DIV.DB.A ) ( the \"Corporation\" or \"DIV\" ) is pleased to announce its financial results for three months ended September 30, 2025 ( \"Q3 2025\" ) and nine months ended September 30, 2025.",
+      "published_at": "2025-11-13T02:26:00+00:00",
+      "created_at": "2025-11-13T03:10:28.636709+00:00",
+      "symbols": [
+        "BEVFF"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.95493"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Economy - Macro",
+            "relevance_score": "0.682689"
+          }
+        ],
+        "authors": [
+          "Diversified Royalty Corp."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.222716
+      }
+    },
+    {
+      "id": "1d3088c0-b9c0-43a9-99f0-0c5fc5d31d39",
+      "source": "Alpha Vantage",
+      "title": "Instant Withdrawal Online Casinos: Crown Coins' Ranked The Fastest Payout Methods",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48824199/instant-withdrawal-online-casinos-crown-coins-ranked-the-fastest-payout-methods",
+      "content": "Las Vegas, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Disclaimer: This article is for informational purposes only and does not constitute gambling or financial advice. Always gamble responsibly and ensure compliance with local laws before participating in any online gaming activity.",
+      "published_at": "2025-11-13T02:22:16+00:00",
+      "created_at": "2025-11-13T03:10:28.797342+00:00",
+      "symbols": [
+        "MA",
+        "BNXYF",
+        "PYPL"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.513356
+      }
+    },
+    {
+      "id": "a235cfa8-505a-41a5-9417-6538a1e6ba90",
+      "source": "Alpha Vantage",
+      "title": "Bitcoin, Ethereum, XRP, Dogecoin Range-Bound Even As Longest Government Shutdown Nears End; Analytics Firm 'Bullish' On This Key BTC Metric - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/25/11/48824182/bitcoin-ethereum-xrp-dogecoin-range-bound-even-as-longest-government-shutdown-nears-end-ana",
+      "content": "Leading cryptocurrencies traded flat overnight on Wednesday, while stock futures climbed after the House approved a bill to end the 43-day government shutdown. Bitcoin slipped to an intraday low of $100,836.6, with trading activity staying subdued over the past 24 hours.",
+      "published_at": "2025-11-13T02:19:08+00:00",
+      "created_at": "2025-11-13T03:10:28.958172+00:00",
+      "symbols": [
+        "CRYPTO:BTC",
+        "CRYPTO:DOGE",
+        "CRYPTO:ETH"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.451494"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.858979"
+          }
+        ],
+        "authors": [
+          "Aniket Verma"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.053039
+      }
+    },
+    {
+      "id": "7c77162c-1229-44b7-88f3-9c7ed3b3cecc",
+      "source": "Seeking Alpha",
+      "title": "Alliance Entertainment Holding Corporation (AENT) Q1 2026 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842883-alliance-entertainment-holding-corporation-aent-q1-2026-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:01:39+00:00",
+      "created_at": "2025-11-13T03:10:57.380914+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "AENT",
+          "AENTW",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "51303d66-d10a-4e54-bb91-534062cde92f",
+      "source": "Alpha Vantage",
+      "title": "Tokenization demand is no longer tied to Bitcoin: Galaxy executive",
+      "url": "https://cointelegraph.com/news/institutional-interest-tokenization-separated-from-bitcoin-galaxy-exec",
+      "content": "Galaxy tokenization head Thomas Cowan says interest in tokenization is now \"independent of the price of Bitcoin\" as institutions have started to see the benefits.",
+      "published_at": "2025-11-13T02:18:57+00:00",
+      "created_at": "2025-11-13T03:10:29.119706+00:00",
+      "symbols": [
+        "CRYPTO:BTC"
+      ],
+      "metadata": {
+        "source": "Cointelegraph",
+        "topics": [
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.682689"
+          },
+          {
+            "topic": "Economy - Macro",
+            "relevance_score": "0.158519"
+          }
+        ],
+        "authors": [
+          "Jesse Coghlan"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.265499
+      }
+    },
+    {
+      "id": "ab02485f-4969-411b-9e42-49e8f9105b5c",
+      "source": "Alpha Vantage",
+      "title": "Cathie Wood Dumps $30 Million Worth Of Tesla Stock Amid China Sales Slump, Loads Up Circle And This Hot Chinese AI Stock - Tesla  ( NASDAQ:TSLA ) ",
+      "url": "https://www.benzinga.com/news/25/11/48824168/cathie-wood-dumps-30-million-worth-of-tesla-stock-amid-china-sales-slump-loads-up-circle-and-this-hot-chines",
+      "content": "On Wednesday, Cathie Wood-led Ark Invest executed significant trades involving Circle Internet Group Inc. ( NYSE:CRCL ) , Alibaba Group Holding Ltd. ( NYSE:BABA ) , and Tesla Inc. ( NASDAQ:TSLA ) . These trades reflect Ark's strategic positioning in the market, with notable buys in Circle and ...",
+      "published_at": "2025-11-13T02:14:42+00:00",
+      "created_at": "2025-11-13T03:10:29.284139+00:00",
+      "symbols": [
+        "TWST",
+        "SOFI",
+        "TSLA",
+        "IRDM",
+        "EXAS",
+        "CRCL",
+        "BABA"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.99676"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.495866"
+          },
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Shivdeep Dhaliwal"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.291773
+      }
+    }
+  ]
+}

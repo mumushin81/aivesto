@@ -1,0 +1,266 @@
+{
+  "agent_id": 2,
+  "total_news": 20,
+  "results": [
+    {
+      "news_id": "221c2df1-bb45-40bf-b089-219ad83eb2f2",
+      "relevance_score": 75,
+      "affected_symbols": ["IREN", "MSFT"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Article discusses IREN's partnership with Microsoft and extreme volatility (475% YTD gain followed by 11.2% weekly pullback). The partnership is significant but extreme price movements suggest high speculation risk. Microsoft connection adds credibility but IREN's valuation needs scrutiny.",
+      "key_points": [
+        "IREN up 475.2% YTD but down 11.2% in past week - extreme volatility signal",
+        "Microsoft partnership announced, adding strategic technology credibility",
+        "Growing investor caution evident from recent pullback despite positive news"
+      ]
+    },
+    {
+      "news_id": "05aaaf00-a36e-4691-93c6-34dd1b00890b",
+      "relevance_score": 85,
+      "affected_symbols": ["GOOGL", "NVDA", "META", "MSFT"],
+      "price_impact": "down",
+      "importance": "high",
+      "reasoning": "Critical analysis warning of AI bubble risks due to excessive capex vs returns. This directly impacts major tech companies with large AI investments. Investors should be cautious about overvaluation in AI sector, particularly companies with massive capital expenditures.",
+      "key_points": [
+        "AI investment hype outpacing actual returns - bubble warning signal",
+        "Excessive capex spending could trigger market correction in AI stocks",
+        "Affects all major tech firms heavily investing in AI infrastructure"
+      ]
+    },
+    {
+      "news_id": "9ce7d049-c289-49c6-9bc9-deb4b71b56d9",
+      "relevance_score": 78,
+      "affected_symbols": ["GM", "AMD", "GOOGL"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Multiple significant developments: GM's China supply chain shift (geopolitical risk mitigation), AMD's bullish AI market comments, and Google privacy concerns with Gemini AI. Mixed signals across different sectors requiring individual assessment.",
+      "key_points": [
+        "GM targeting China-free supply chain - significant geopolitical shift",
+        "AMD: AI market growing 'faster than anything we've seen before' - bullish indicator",
+        "Google facing privacy concerns over Gemini AI surveillance allegations"
+      ]
+    },
+    {
+      "news_id": "1c9082e7-037e-4a2e-abcf-d2622d82d18e",
+      "relevance_score": 88,
+      "affected_symbols": ["GOOGL"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Strong buy upgrade with specific $322 price target for Alphabet. Analysis highlights robust Google Cloud growth and successful AI integration. This is actionable investment intelligence with clear upside potential from current levels.",
+      "key_points": [
+        "Alphabet upgraded to Buy with $322 price target",
+        "Google Cloud showing robust growth, becoming major revenue driver",
+        "Successful AI integration across platforms enhancing competitive position"
+      ]
+    },
+    {
+      "news_id": "11196ce1-9b92-4c01-964d-9c305bd20d4b",
+      "relevance_score": 72,
+      "affected_symbols": ["BABA", "GOOGL"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Oakmark fund highlights Alibaba as Q3 contributor due to Chinese AI growth. Indicates institutional confidence in Chinese tech and AI sector expansion. Relevant for investors considering international AI exposure, though indirect connection to GOOGL.",
+      "key_points": [
+        "Alibaba significant contributor to Oakmark Global fund in Q3",
+        "Chinese AI market showing rapid growth momentum",
+        "Institutional investors gaining confidence in Chinese tech recovery"
+      ]
+    },
+    {
+      "news_id": "f7d69229-b0a3-4b95-87b0-2b3720a861d6",
+      "relevance_score": 82,
+      "affected_symbols": ["GOOGL"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Bullish analysis recommending buying on pullbacks. Search and Cloud segments showing double-digit growth. Strong fundamental support for long-term investment thesis in Alphabet with emphasis on sustained revenue growth across key business segments.",
+      "key_points": [
+        "Search and Cloud segments both showing robust double-digit growth",
+        "Analyst recommends viewing every pullback as buying opportunity",
+        "Strong fundamental performance justifies continued high capex spending"
+      ]
+    },
+    {
+      "news_id": "955a390a-3b62-4e82-b63f-98c5b2d799ea",
+      "relevance_score": 45,
+      "affected_symbols": ["TSLA"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Speculative article about potential trillionaires (Elon Musk focus) with societal impact discussion. Low direct investment value - more philosophical than actionable. No specific financial metrics or company performance data provided.",
+      "key_points": [
+        "Elon Musk potentially becoming first trillionaire - speculative timeline",
+        "Discussion focuses on democracy and societal impacts, not investment metrics",
+        "Limited actionable investment intelligence for portfolio decisions"
+      ]
+    },
+    {
+      "news_id": "92a81b35-acaa-49d2-b846-d5061c4ff1aa",
+      "relevance_score": 90,
+      "affected_symbols": ["GOOGL", "NVDA"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Major capital deployment announcement - $6.4B investment in Germany data centers and AI infrastructure. Demonstrates Google's commitment to European AI expansion and competes with Nvidia's Munich computing hub. Significant positive catalyst for Google's cloud growth trajectory.",
+      "key_points": [
+        "Google announcing $6.4B (5.5B EUR) investment in Germany - largest ever",
+        "Focus on data centers and AI infrastructure to compete in European market",
+        "Nvidia also investing 1B EUR in Munich AI computing hub - competitive landscape"
+      ]
+    },
+    {
+      "news_id": "74460741-f77b-4f74-8f4f-f7481d51738c",
+      "relevance_score": 68,
+      "affected_symbols": ["GOOGL", "DIS"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "YouTube TV service disruption affecting 10M subscribers during football games. Potential subscriber churn risk and brand damage for Google. Disney also involved in dispute. Customer satisfaction issues could impact YouTube TV growth trajectory.",
+      "key_points": [
+        "YouTube TV blackout affecting 10 million subscribers during football season",
+        "Service disruptions risk subscriber churn and competitive disadvantage",
+        "Dispute between Disney and Google/YouTube TV over content distribution"
+      ]
+    },
+    {
+      "news_id": "5494c35f-a643-45d0-ac59-05f53a2c5fe6",
+      "relevance_score": 76,
+      "affected_symbols": ["AMD", "NVDA", "GOOGL"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "AMD analyst day focusing on hybrid AI strategy. Article highlights increasing competition in AI chip market between AMD and Nvidia. Positive sentiment on hyperscalers building AI infrastructure. Good for understanding AI infrastructure investment trends.",
+      "key_points": [
+        "AMD hosting analyst day - potential for bullish AI chip announcements",
+        "Hybrid AI approach gaining traction with focus on both cloud and edge computing",
+        "Hyperscalers continuing heavy investment in AI data centers and GPUs"
+      ]
+    },
+    {
+      "news_id": "c5da5d20-f7ec-47b6-b663-342366dd9e7c",
+      "relevance_score": 81,
+      "affected_symbols": ["GOOGL", "NVDA"],
+      "price_impact": "neutral",
+      "importance": "high",
+      "reasoning": "Analysis of Google's Ironwood TPU as potential Nvidia competitor in AI hardware. Critical for understanding competitive dynamics in AI chip market. While Nvidia dominates, Google's custom silicon could reduce dependence and improve margins long-term.",
+      "key_points": [
+        "Google's Ironwood TPU positioning as alternative to Nvidia GPUs for AI workloads",
+        "Competition intensifying in AI hardware market beyond Nvidia monopoly",
+        "Google developing custom silicon to reduce costs and improve AI infrastructure efficiency"
+      ]
+    },
+    {
+      "news_id": "2c40267a-1ee8-4dd9-89ad-ac87a8cef8c8",
+      "relevance_score": 35,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Ripple stating no IPO plans. Low relevance for public market investors as Ripple remains private. No immediate investment opportunity or impact on existing public crypto/blockchain stocks. Informational but not actionable.",
+      "key_points": [
+        "Ripple confirms no plans for public offering despite crypto listing boom",
+        "President Monica Long states no IPO timeline established",
+        "Limited investment implications for public market portfolio strategies"
+      ]
+    },
+    {
+      "news_id": "4722f5e5-b239-45a5-8710-28b2f5a729a1",
+      "relevance_score": 92,
+      "affected_symbols": ["GOOGL"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Duplicate/confirmation of major $6.4B Germany investment announcement. High relevance as it confirms Google's massive European expansion. New data center near Frankfurt demonstrates commitment to cloud infrastructure growth and AI capabilities in key European market.",
+      "key_points": [
+        "Confirmed $6.4B (5.5B EUR) Google investment in Germany over coming years",
+        "New data center in Dietzenbach near Frankfurt - strategic European location",
+        "Major infrastructure expansion in Europe's largest economy strengthens cloud position"
+      ]
+    },
+    {
+      "news_id": "27be07bc-a92b-4c2a-a6e1-a0e3548f5c88",
+      "relevance_score": 87,
+      "affected_symbols": ["NVDA", "META", "GOOGL", "9984.T"],
+      "price_impact": "down",
+      "importance": "high",
+      "reasoning": "SoftBank selling $5.8B Nvidia stake raises concerns about AI investment returns. Article highlights growing debate on whether $1T+ tech spending will produce returns. Major institutional position liquidation is bearish signal for AI sector valuations.",
+      "key_points": [
+        "SoftBank sold $5.8B Nvidia stake to fund other AI projects - potential negative signal",
+        "Growing debate about whether big tech AI spending will produce commensurate returns",
+        "Meta and Alphabet capex expected to exceed $1 trillion - ROI concerns mounting"
+      ]
+    },
+    {
+      "news_id": "043b845d-5475-45c7-bbfd-c90544e05e78",
+      "relevance_score": 79,
+      "affected_symbols": ["META"],
+      "price_impact": "down",
+      "importance": "high",
+      "reasoning": "Meta's chief AI scientist Yann LeCun reportedly leaving to start own company. Significant talent loss for Meta's AI division. Key personnel departures at senior level often signal internal challenges or better external opportunities, potentially negative for Meta's AI competitiveness.",
+      "key_points": [
+        "Yann LeCun, Meta's chief AI scientist, planning to leave for own startup",
+        "Focuses on world models - potentially competing with Meta's AI research",
+        "High-profile AI talent departure could impact Meta's AI development pipeline"
+      ]
+    },
+    {
+      "news_id": "a05dd264-114f-4a0c-af7f-a503e9f10327",
+      "relevance_score": 71,
+      "affected_symbols": ["NOW.V", "GOOGL"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "NowVertical Group gained 5% after earning Google Cloud Generative AI Specialization. Positive for small-cap AI companies partnering with Google. Demonstrates Google Cloud's ecosystem growth, though NowVertical is small Canadian stock with limited US investor relevance.",
+      "key_points": [
+        "NowVertical stock rose 5% on Google Cloud AI specialization announcement",
+        "Google Cloud partner ecosystem expanding with AI certifications",
+        "Small-cap AI company benefiting from Google partnership validation"
+      ]
+    },
+    {
+      "news_id": "367d3d35-a269-4177-a242-75306bc7b133",
+      "relevance_score": 73,
+      "affected_symbols": ["HEXW", "GOOGL"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Hexaware launching insurance solutions on Google Cloud platform. Positive for Google Cloud ecosystem expansion in financial services vertical. Shows Google Cloud gaining traction in regulated industries, though Hexaware is NSE-listed (Indian market) with indirect US investor relevance.",
+      "key_points": [
+        "Hexaware launching two new insurance solutions exclusively for Google Cloud",
+        "Google Cloud expanding in insurance/financial services sector",
+        "Partnership demonstrates cloud-native AI solutions gaining enterprise adoption"
+      ]
+    },
+    {
+      "news_id": "8fb94f08-f4b1-4ced-95f1-f239a9619d3c",
+      "relevance_score": 91,
+      "affected_symbols": ["GOOGL"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Market update confirming Google's $6B Germany investment with German finance ministry response. Third confirmation of this major capital deployment. High relevance as government support indicates regulatory approval and strategic importance of Google's European expansion.",
+      "key_points": [
+        "German finance ministry officially responds to Google's $6B investment",
+        "Government support confirms regulatory approval for expansion plans",
+        "Triple confirmation (multiple sources) validates significance of investment"
+      ]
+    },
+    {
+      "news_id": "ea7d71b6-a30f-4f7d-94fd-cc685057d18f",
+      "relevance_score": 74,
+      "affected_symbols": ["NOW.V", "GOOGL"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Detailed announcement of NowVertical's Google Cloud Generative AI Specialization. Adds more context to earlier news - enterprise clients across North America and EMEA, expanding global AI delivery. Reinforces Google Cloud's partner ecosystem strength.",
+      "key_points": [
+        "NowVertical awarded Google Cloud Generative AI Specialization officially",
+        "Adding enterprise clients across North America and EMEA regions",
+        "Demonstrates Google's partner ecosystem momentum in AI deployment"
+      ]
+    },
+    {
+      "news_id": "41c47fef-8996-4efd-985e-6d71882f714f",
+      "relevance_score": 77,
+      "affected_symbols": ["GOOGL"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Madison Investments' fund letter noting Alphabet surged on strong Q3 results. Third-party fund manager validation of Google's performance. While Madison's fund underperformed (-2.2% vs S&P +8.1%), they highlight Alphabet as positive contributor showing institutional confidence.",
+      "key_points": [
+        "Madison Large Cap Fund commentary highlights Alphabet's strong Q3 surge",
+        "Institutional investor recognizing Google's solid quarterly performance",
+        "Fund underperformed market but Alphabet was positive contributor to returns"
+      ]
+    }
+  ]
+}

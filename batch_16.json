@@ -1,0 +1,660 @@
+{
+  "agent_id": 16,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "6ed5bfc0-7b23-48e1-8b31-6d943f1d910a",
+      "source": "Alpha Vantage",
+      "title": "Anthropic commits US$50 billion to build AI data centres in US",
+      "url": "https://www.scmp.com/tech/tech-war/article/3332569/anthropic-commits-us50-billion-build-ai-data-centres-us",
+      "content": "Anthropic plans to spend US$50 billion to build custom data centres for artificial intelligence work in several US locations, including Texas and New York, the latest expensive pledge for infrastructure to support the AI boom.",
+      "published_at": "2025-11-13T02:13:23+00:00",
+      "created_at": "2025-11-13T03:10:29.44614+00:00",
+      "symbols": [
+        "NVDA",
+        "WULF",
+        "META",
+        "MSFT",
+        "GOOG",
+        "CIFR"
+      ],
+      "metadata": {
+        "source": "South China Morning Post",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.158519"
+          }
+        ],
+        "authors": [
+          "Bloomberg"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.136773
+      }
+    },
+    {
+      "id": "5f45a243-99f4-4008-9247-31761cfd55a6",
+      "source": "Alpha Vantage",
+      "title": "Analysts Andy Cross, Emily Flippen, and Jason Moser on How Tariffs Are Impacting Intuitive Surgical's Profits Right Now",
+      "url": "https://www.fool.com/investing/2025/11/12/heres-how-tariffs-are-impacting-intuitive-surgical/",
+      "content": "Intuitive Surgical's improving tariff outlook demonstrates how smart companies navigate trade uncertainties, offering investors a masterclass in cost management during volatile policy periods.",
+      "published_at": "2025-11-13T02:00:00+00:00",
+      "created_at": "2025-11-13T03:10:29.597931+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.310843"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.451494"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Daily Stock News"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.409889
+      }
+    },
+    {
+      "id": "799d647e-a892-4338-a4b9-e73aef8a3334",
+      "source": "Alpha Vantage",
+      "title": "House Passes Funding Bill To End Record 42-Day Government Shutdown; Mike Johnson: 'My Friends, Let's Get This Done'",
+      "url": "https://www.benzinga.com/news/politics/25/11/48823925/house-passes-funding-bill-to-end-record-42-day-government-shutdown-mike-johnson-my-friends-lets-get",
+      "content": "On Wednesday night, the House of Representatives passed a short-term funding bill to end the longest government shutdown in U.S. history, bringing an end to 42 days of political stalemate.",
+      "published_at": "2025-11-13T01:54:22+00:00",
+      "created_at": "2025-11-13T03:10:29.752863+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Ananya Gairola"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.257155
+      }
+    },
+    {
+      "id": "4fca30be-21b1-4cf4-89e0-58693d14f418",
+      "source": "Alpha Vantage",
+      "title": "ROSEN, TOP RANKED INVESTOR COUNSEL, Encourages Synopsys, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - SNPS - Synopsys  ( NASDAQ:SNPS ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48823911/rosen-top-ranked-investor-counsel-encourages-synopsys-inc-investors-to-secure-counsel-before-impor",
+      "content": "NEW YORK, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers and acquirers of Synopsys, Inc. ( NASDAQ:SNPS ) securities between December 4, 2024 and September 9, 2025, both dates inclusive ( the \"Class Period\" ) , of the important ...",
+      "published_at": "2025-11-13T01:48:00+00:00",
+      "created_at": "2025-11-13T03:10:29.905398+00:00",
+      "symbols": [
+        "SNPS",
+        "META"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.650727"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.120168
+      }
+    },
+    {
+      "id": "ead74b46-aad4-464b-9974-6f2c8a995f64",
+      "source": "Alpha Vantage",
+      "title": "Prospera Announces Financing Update - Prospera Energy  ( OTC:GXRFF ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48823903/prospera-announces-financing-update",
+      "content": "CALGARY, Alberta, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Prospera Energy Inc. ( ( TSX.V: PEI, OTC:GXRFF ) ( \"Prospera\", \"PEI\" or the \"Corporation\" )",
+      "published_at": "2025-11-13T01:45:32+00:00",
+      "created_at": "2025-11-13T03:10:30.074618+00:00",
+      "symbols": [
+        "GXRFF"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.538269"
+          },
+          {
+            "topic": "Economy - Macro",
+            "relevance_score": "0.158519"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.176289
+      }
+    },
+    {
+      "id": "38c3fcbe-654c-4fd4-8d57-147f3a8b72ec",
+      "source": "Alpha Vantage",
+      "title": "Prospera Announces Financing Update",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186954/0/en/Prospera-Announces-Financing-Update.html",
+      "content": "CALGARY, Alberta, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Prospera Energy Inc. ( TSX.V: PEI, OTC: GXRFF ) ( \"Prospera\", \"PEI\" or the \"Corporation\" ...",
+      "published_at": "2025-11-13T01:45:00+00:00",
+      "created_at": "2025-11-13T03:10:30.234237+00:00",
+      "symbols": [
+        "GXRFF"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.495866"
+          },
+          {
+            "topic": "Economy - Macro",
+            "relevance_score": "0.158519"
+          }
+        ],
+        "authors": [
+          "Prospera Energy Inc."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.218097
+      }
+    },
+    {
+      "id": "c22456b6-85d2-4ff7-8b4b-215f11bfbee6",
+      "source": "Alpha Vantage",
+      "title": "A Once-in-a-Decade Opportunity: 1 Magnificent Dividend Stock Down 56% to Buy Right Now",
+      "url": "https://www.fool.com/investing/2025/11/12/a-once-in-a-decade-opportunity-1-magnificent-divid/",
+      "content": "Even Warren Buffett's Berkshire Hathaway hasn't been able to resist buying the stock.",
+      "published_at": "2025-11-13T01:01:00+00:00",
+      "created_at": "2025-11-13T03:10:32.033149+00:00",
+      "symbols": [
+        "BRK-A"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.95493"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999365"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Justin Pope"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.048498
+      }
+    },
+    {
+      "id": "bcc3a69b-0552-4a9c-8a96-d0920ccd53a3",
+      "source": "Alpha Vantage",
+      "title": "CSCO, FLY, PAAS, SERV, CRCL: 5 Trending Stocks Today - Circle Internet Group  ( NYSE:CRCL ) ",
+      "url": "https://www.benzinga.com/markets/equities/25/11/48823810/cisco-firefly-aerospace-pan-american-silver-serve-robotics-and-circle-why-these-5-stocks-are-on-",
+      "content": "The Dow Jones Industrial Average climbed approximately 0.7% on Wednesday, reaching 48,254.82, while the S&P 500 edged up slightly by 0.06% to 6,850.92. Meanwhile, the Nasdaq declined roughly 0.3% to close at 23,406.45. These are the top stocks that gained the attention of retail traders and ...",
+      "published_at": "2025-11-13T01:31:12+00:00",
+      "created_at": "2025-11-13T03:10:30.392463+00:00",
+      "symbols": [
+        "FLY",
+        "PAAS",
+        "CSCO",
+        "SERV",
+        "CRCL"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.82617"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999691"
+          },
+          {
+            "topic": "Energy & Transportation",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Shivdeep Dhaliwal"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.026567
+      }
+    },
+    {
+      "id": "20ddd58c-8991-4df9-bc22-f6cdf6cc4620",
+      "source": "Alpha Vantage",
+      "title": "Why Kopin Stock Slipped Today",
+      "url": "https://www.fool.com/investing/2025/11/12/why-kopin-stock-slipped-today/",
+      "content": "The company is undergoing a change thanks to strategic investments into its business.",
+      "published_at": "2025-11-13T01:29:39+00:00",
+      "created_at": "2025-11-13T03:10:30.547223+00:00",
+      "symbols": [
+        "KOPN"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.839681"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Eric Volkman",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.070938
+      }
+    },
+    {
+      "id": "4dbe358b-eda7-46fe-970a-575cea1ab415",
+      "source": "Alpha Vantage",
+      "title": "3 Healthcare Stocks Topping a 2025 List of Dividend Yields",
+      "url": "https://www.fool.com/investing/2025/11/12/3-healthcare-stocks-topping-a-2025-list-of-dividen/",
+      "content": "Turn health into wealth with these three high-yielding dividend stocks.",
+      "published_at": "2025-11-13T01:27:00+00:00",
+      "created_at": "2025-11-13T03:10:30.724348+00:00",
+      "symbols": [
+        "BMY",
+        "PFE",
+        "NVO",
+        "XRAY",
+        "MTSR"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.998287"
+          },
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999998"
+          }
+        ],
+        "authors": [
+          "Thomas Niel",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.154493
+      }
+    },
+    {
+      "id": "ada37d40-827c-4d8b-ae33-5e99bcb38d5d",
+      "source": "Alpha Vantage",
+      "title": "NYSE-Listed Exodus Posts Solid Third-Quarter Lift as Bitcoin Revenue Climbs",
+      "url": "https://decrypt.co/348410/nyse-listed-exodus-third-quarter-lift-bitcoin-paid-revenue-climbs",
+      "content": "Exodus posted stronger third-quarter results and unveiled a new Latin America payments acquisition as it expands its Bitcoin-driven business.",
+      "published_at": "2025-11-13T01:22:53+00:00",
+      "created_at": "2025-11-13T03:10:30.89894+00:00",
+      "symbols": [
+        "CRYPTO:BTC"
+      ],
+      "metadata": {
+        "source": "Decrypt.co",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.858979"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Sebastian Sinclair"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.237127
+      }
+    },
+    {
+      "id": "51d297ab-5a1e-495a-8764-62134e38b314",
+      "source": "Alpha Vantage",
+      "title": "Funding bill set to reopen US government heads to Trump's desk",
+      "url": "https://cointelegraph.com/news/house-reps-vote-end-government-shutdown",
+      "content": "The House passed a funding bill to end the longest US government shutdown in history, which had previously delayed crypto ETF approvals and key crypto bills.",
+      "published_at": "2025-11-13T01:22:43+00:00",
+      "created_at": "2025-11-13T03:10:31.064305+00:00",
+      "symbols": [
+        "CRYPTO:BTC",
+        "FOX"
+      ],
+      "metadata": {
+        "source": "Cointelegraph",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.451494"
+          }
+        ],
+        "authors": [
+          "Brian Quarmby"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.231533
+      }
+    },
+    {
+      "id": "d08f25f0-b639-4e47-8d4d-5607eed906f8",
+      "source": "Alpha Vantage",
+      "title": "Bitwise's exec says 2026 will be crypto's real bull year, here's why",
+      "url": "https://cointelegraph.com/news/crypto-markets-set-for-2026-rally-bitwise-matt-hougan",
+      "content": "With crypto markets failing to meaningfully rally toward the end of 2025, this only sets up 2026 for more upside, according to Bitwise's Matt Hougan.",
+      "published_at": "2025-11-13T01:10:03+00:00",
+      "created_at": "2025-11-13T03:10:31.229388+00:00",
+      "symbols": [
+        "CRYPTO:BTC",
+        "CRYPTO:ETH"
+      ],
+      "metadata": {
+        "source": "Cointelegraph",
+        "topics": [
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.451494"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.858979"
+          }
+        ],
+        "authors": [
+          "Brayden Lindrea"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.118936
+      }
+    },
+    {
+      "id": "56c35c1e-0791-4955-b1e8-31241010825b",
+      "source": "Alpha Vantage",
+      "title": "Ascot Reports Third Quarter 2025 Results",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186951/0/en/Ascot-Reports-Third-Quarter-2025-Results.html",
+      "content": "VANCOUVER, British Columbia, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Ascot Resources Ltd. ( TSXV: AOT.H. OTCID: AOTVF ) ( \"Ascot\" or the \"Company\" ) announces the Company's unaudited financial results for the three and nine months ended September 30, 2025 ( \"Q3 2025\" ) .",
+      "published_at": "2025-11-13T01:07:00+00:00",
+      "created_at": "2025-11-13T03:10:31.39228+00:00",
+      "symbols": [
+        "MALRF"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.769861"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999701"
+          }
+        ],
+        "authors": [
+          "Ascot Resources Ltd."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.235133
+      }
+    },
+    {
+      "id": "ea671073-1666-4020-b874-fd8363554e7f",
+      "source": "Alpha Vantage",
+      "title": "Domestic Metals Closes Third & Final Tranche of LIFE Offering - Domestic Metals  ( OTC:DMCUF ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48823731/domestic-metals-closes-third-final-tranche-of-life-offering",
+      "content": "VANCOUVER, British Columbia, Nov. 12, 2025 ( GLOBE NEWSWIRE ) --",
+      "published_at": "2025-11-13T01:05:52+00:00",
+      "created_at": "2025-11-13T03:10:31.54729+00:00",
+      "symbols": [
+        "DMCUF",
+        "META"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.538269"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.184647
+      }
+    },
+    {
+      "id": "a3e01774-de83-4c3f-aa25-d9b447dad305",
+      "source": "Alpha Vantage",
+      "title": "Domestic Metals Closes Third & Final Tranche of LIFE Offering",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186950/0/en/Domestic-Metals-Closes-Third-Final-Tranche-of-LIFE-Offering.html",
+      "content": "**NOT FOR DISSEMINATION IN THE UNITED STATES OR FOR DISTRIBUTION TO UNITED STATES NEWS WIRE SERVICES** ...",
+      "published_at": "2025-11-13T01:05:00+00:00",
+      "created_at": "2025-11-13T03:10:31.706251+00:00",
+      "symbols": [
+        "DMCUF"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.360215"
+          }
+        ],
+        "authors": [
+          "Domestic Metals Corp"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.205486
+      }
+    },
+    {
+      "id": "a576a888-c4fd-4f58-946b-094096a6dc81",
+      "source": "Alpha Vantage",
+      "title": "CNBC Daily Open: An AI and 'everything else' market in play in the U.S.",
+      "url": "https://www.cnbc.com/2025/11/13/cnbc-daily-open-an-ai-and-everything-else-market-in-play-in-the-us.html",
+      "content": "What investors would really like is if fork in the markets merges into one. That tends to be the safer path to take.",
+      "published_at": "2025-11-13T01:03:34+00:00",
+      "created_at": "2025-11-13T03:10:31.873834+00:00",
+      "symbols": [
+        "FOREX:USD",
+        "AMD",
+        "NVDA",
+        "GS"
+      ],
+      "metadata": {
+        "source": "CNBC",
+        "topics": [
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Economy - Fiscal",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.955357"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.050517
+      }
+    },
+    {
+      "id": "7d41f4e2-d628-4397-b217-8d7ad634bffe",
+      "source": "Alpha Vantage",
+      "title": "Meta Platforms' AI lay-offs triggered by resource competition: ex-researcher",
+      "url": "https://www.scmp.com/tech/big-tech/article/3332532/meta-platforms-ai-lay-offs-triggered-battle-resources-ex-research-scientist-says",
+      "content": "A former research scientist at Meta Platforms, Tian Yuandong, has shed some light on the US social media giant's restructuring of its artificial intelligence team, while casting doubt on traditional scaling laws used in AI model development.",
+      "published_at": "2025-11-13T01:00:14+00:00",
+      "created_at": "2025-11-13T03:10:32.195658+00:00",
+      "symbols": [
+        "META"
+      ],
+      "metadata": {
+        "source": "South China Morning Post",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Wency Chen"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.187206
+      }
+    },
+    {
+      "id": "2ada1327-6270-4f0b-a683-1ebd85220293",
+      "source": "Alpha Vantage",
+      "title": "Compared to Estimates, Accelerant Holdings  ( ARX )  Q3 Earnings: A Look at Key Metrics",
+      "url": "https://www.zacks.com/stock/news/2790286/compared-to-estimates-accelerant-holdings-arx-q3-earnings-a-look-at-key-metrics",
+      "content": "The headline numbers for Accelerant Holdings (ARX) give insight into how the company performed in the quarter ended September 2025, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.",
+      "published_at": "2025-11-13T01:00:01+00:00",
+      "created_at": "2025-11-13T03:10:32.354152+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.360215"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.211849
+      }
+    },
+    {
+      "id": "4d5085a3-8f50-477b-bf15-fc006c15ab3c",
+      "source": "Alpha Vantage",
+      "title": "Rubicon Organics Announces Appointment of Glen Ibbott as CFO",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186948/0/en/Rubicon-Organics-Announces-Appointment-of-Glen-Ibbott-as-CFO.html",
+      "content": "VANCOUVER, British Columbia, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Rubicon Organics Inc. ( TSXV: ROMJ ) ( OTCQX: ROMJF ) ( \"Rubicon Organics\", \"Rubicon\", or the \"Company\" ) , a licensed producer focused on cultivating and selling organic certified and premium cannabis products, today announced the ...",
+      "published_at": "2025-11-13T01:00:00+00:00",
+      "created_at": "2025-11-13T03:10:32.510394+00:00",
+      "symbols": [
+        "ACB",
+        "PRBZF"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.360215"
+          },
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Rubicon Organics"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.245182
+      }
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "agent_id": 7,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "d1ffdbcb-9404-4031-937e-9e192fcf2c88",
+      "source": "Alpha Vantage",
+      "title": "Nvidia's Upcoming Q3 Earnings Report Draws Intense Interest In Direxion's NVDU, NVDD ETFs - Direxion Daily NVDA Bear 1X Shares  ( NASDAQ:NVDD ) , Direxion Daily NVDA Bull 2X Shares  ( NASDAQ:NVDU ) ",
+      "url": "https://www.benzinga.com/etfs/specialty-etfs/25/11/48801049/nvidias-upcoming-q3-earnings-report-draws-intense-interest-in-direxions-nvdu-nvdd-etfs",
+      "content": "Easily one of the main faces of artificial intelligence, Nvidia Corp ( NASDAQ:NVDA ) is once again stealing the limelight. Next week, the semiconductor juggernaut is set to release its third-quarter earnings report.",
+      "published_at": "2025-11-12T13:24:50+00:00",
+      "created_at": "2025-11-12T14:28:18.34767+00:00",
+      "symbols": [
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.917436"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999696"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "JE Insights"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.126976
+      }
+    },
+    {
+      "id": "3b6aecaa-ecdc-4402-b4df-08d86e0837c2",
+      "source": "Alpha Vantage",
+      "title": "Up by About 2,000% in the Past Year, Is Rigetti Computing Stock a Buy?",
+      "url": "https://www.fool.com/investing/2025/11/12/up-by-about-2000-in-the-past-year-is-rigetti-compu/",
+      "content": "The quantum computing company is still up big in 2025 -- but it's also down by about 44% from its October peak.",
+      "published_at": "2025-11-12T13:24:00+00:00",
+      "created_at": "2025-11-12T14:28:18.729385+00:00",
+      "symbols": [
+        "RGTI",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "IPO",
+            "relevance_score": "0.310843"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.955357"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Will Ebiefung"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.147982
+      }
+    },
+    {
+      "id": "f94fdc36-fa81-4ac2-b588-e4fdfc0934bf",
+      "source": "Alpha Vantage",
+      "title": "OOB Token Debuts on Kraken Following VCIG's US$100 Million Acquisition - VCI Global  ( NASDAQ:VCIG ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801027/oob-token-debuts-on-kraken-following-vcigs-us-100-million-acquisition",
+      "content": "KUALA LUMPUR, Malaysia, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- VCI Global Limited ( NASDAQ:VCIG ) ( \"VCI Global\" or the \"Company\" ) today announced that the OOB Token is set to debut on Kraken at 10 a.m. ET, following VCI Global's US$100 million acquisition of OOB tokens.",
+      "published_at": "2025-11-12T13:23:38+00:00",
+      "created_at": "2025-11-12T14:28:19.098975+00:00",
+      "symbols": [
+        "VCIG"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.360215"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.249114
+      }
+    },
+    {
+      "id": "95a2fc9e-4b2e-4d22-9510-6db37a2b2327",
+      "source": "Alpha Vantage",
+      "title": "OOB Token Debuts on Kraken Following VCIG's US$100 Million Acquisition",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186243/0/en/OOB-Token-Debuts-on-Kraken-Following-VCIG-s-US-100-Million-Acquisition.html",
+      "content": "VCI Global's Treasury Management Framework Positions OOB as a Next-Generation Utility Token Bridging Real-World Payments and Institutional Trust VCI Global's Treasury Management Framework Positions OOB as a Next-Generation Utility Token Bridging Real-World Payments and Institutional Trust ...",
+      "published_at": "2025-11-12T13:23:00+00:00",
+      "created_at": "2025-11-12T14:28:19.468238+00:00",
+      "symbols": [
+        "VCIG"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.158519"
+          }
+        ],
+        "authors": [
+          "VCI Global Limited"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.256028
+      }
+    },
+    {
+      "id": "10b5ce08-c632-4683-8cb8-05911440c40a",
+      "source": "Alpha Vantage",
+      "title": "FDA Clears Magstim Magnetic Stimulation for Chronic Pain Treatment",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801008/fda-clears-magstim-magnetic-stimulation-for-chronic-pain-treatment",
+      "content": "MINNEAPOLIS, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Millions of people living with chronic pain now have a clinically proven, non-invasive, and drug-free treatment option. The U.S.",
+      "published_at": "2025-11-12T13:22:00+00:00",
+      "created_at": "2025-11-12T14:28:19.866012+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.159544
+      }
+    },
+    {
+      "id": "1af31aee-6113-4562-ab6e-e5121ff33a54",
+      "source": "Alpha Vantage",
+      "title": "A REIMAGINED CIRQUE DREAMS HOLIDAZE OPENS THIS WEEKEND, READY TO DAZZLE AUDIENCES NATIONWIDE",
+      "url": "https://www.benzinga.com/pressreleases/25/11/n48801000/a-reimagined-cirque-dreams-holidaze-opens-this-weekend-ready-to-dazzle-audiences-nationwide",
+      "content": "LAS VEGAS, Nov. 12, 2025 /PRNewswire/ - CIRQUE DREAMS HOLIDAZE will captivate audiences across the country as it launches its highly anticipated tour opens next weekend, delivering a brilliantly breathtaking holiday spectacular for the whole family.",
+      "published_at": "2025-11-12T13:21:00+00:00",
+      "created_at": "2025-11-12T14:28:20.251572+00:00",
+      "symbols": [
+        "GOOG",
+        "META"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "PRNewswire"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.505207
+      }
+    },
+    {
+      "id": "58f1df59-dadf-4f45-ac15-7378e6a6f952",
+      "source": "Alpha Vantage",
+      "title": "How To Trade SPY, Top Tech Stocks Using Technical Analysis",
+      "url": "https://www.benzinga.com/Opinion/25/11/48800954/how-to-trade-spy-top-tech-stocks-using-technical-analysis-57",
+      "content": "Tuesday, November 11, 2025, features a light economic calendar but a crowded lineup of Federal Reserve speakers. Markets will be parsing remarks from key policymakers, including John Williams, Christopher Waller, Susan Collins, and Raphael Bostic, for clues about future rate decisions and the ...",
+      "published_at": "2025-11-12T13:19:46+00:00",
+      "created_at": "2025-11-12T14:28:20.613589+00:00",
+      "symbols": [
+        "AAPL",
+        "TSLA",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.451494"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.214378"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "RIPS"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.036617
+      }
+    },
+    {
+      "id": "508caf60-f630-4a74-804a-c49374c43414",
+      "source": "Alpha Vantage",
+      "title": "Aptiv, Phillips 66, Parker-Hannifin And More On CNBC's 'Final Trades' - iShares MSCI Emerging Index Fund  ( ARCA:EEM ) , Aptiv  ( NYSE:APTV ) ",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/25/11/48800890/aptiv-phillips-66-parker-hannifin-and-more-on-cnbcs-final-trades",
+      "content": "On CNBC's \"Halftime Report Final Trades,\" on Tuesday, Joshua Brown, co-founder and CEO of Ritholtz Wealth Management, named Phillips 66 ( NYSE:PSX ) , saying a breakout is in progress.",
+      "published_at": "2025-11-12T13:16:09+00:00",
+      "created_at": "2025-11-12T14:28:20.992222+00:00",
+      "symbols": [
+        "APTV",
+        "PH",
+        "PSX",
+        "VRTS"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.918141"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.947132"
+          },
+          {
+            "topic": "Energy & Transportation",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Avi Kapoor"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.288172
+      }
+    },
+    {
+      "id": "8962d301-5dc7-4a0b-b254-3846f073c88a",
+      "source": "Alpha Vantage",
+      "title": "Nuwellis Reports Third Quarter 2025 Results and Continued Operational Momentum",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186237/26106/en/Nuwellis-Reports-Third-Quarter-2025-Results-and-Continued-Operational-Momentum.html",
+      "content": "Company delivers steady performance and achieves key milestones across critical care, pediatrics, and hospital-based outpatient therapy Company delivers steady performance and achieves key milestones across critical care, pediatrics, and hospital-based outpatient therapy ...",
+      "published_at": "2025-11-12T13:15:00+00:00",
+      "created_at": "2025-11-12T14:28:21.399908+00:00",
+      "symbols": [
+        "ICU",
+        "NUWE"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.995077"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Nuwellis",
+          "Inc."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.176103
+      }
+    },
+    {
+      "id": "2cc951f6-d13a-4106-a4d9-84ef040ca9e7",
+      "source": "Alpha Vantage",
+      "title": "Ocean Power Technologies and Mythos AI Partner to Advance Autonomous Maritime Capabilities",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186235/9069/en/Ocean-Power-Technologies-and-Mythos-AI-Partner-to-Advance-Autonomous-Maritime-Capabilities.html",
+      "content": "MONROE TOWNSHIP, N.J., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Ocean Power Technologies, Inc. ( NYSE American: OPTT ) , a leader in intelligent maritime systems and ocean energy solutions, today announced a partnership with Mythos AI to integrate advanced AI-driven autonomy software across OPT's ...",
+      "published_at": "2025-11-12T13:15:00+00:00",
+      "created_at": "2025-11-12T14:28:21.76841+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.310843"
+          }
+        ],
+        "authors": [
+          "Ocean Power Technologies",
+          "Inc."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.342841
+      }
+    },
+    {
+      "id": "f6bc81b3-5678-4c16-be5b-106996676a44",
+      "source": "Alpha Vantage",
+      "title": "Crypto Markets In Short-Term Reprieve, Risks Remain: QCP",
+      "url": "https://decrypt.co/348295/crypto-markets-in-short-term-reprieve-risks-remain-qcp",
+      "content": "Analysts say crypto's recent rebound is a short-term reprieve, with markets facing volatility from shutdown politics and key inflation data.",
+      "published_at": "2025-11-12T13:10:26+00:00",
+      "created_at": "2025-11-12T14:28:22.145484+00:00",
+      "symbols": [
+        "CRYPTO:BTC"
+      ],
+      "metadata": {
+        "source": "Decrypt.co",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.538269"
+          }
+        ],
+        "authors": [
+          "Akash Girimath"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.073274
+      }
+    },
+    {
+      "id": "dff40eb9-c5bf-4fd8-b937-f4f5a594d846",
+      "source": "Alpha Vantage",
+      "title": "FLEX LNG, Biohaven And Other Big Stocks Moving Lower In Wednesday's Pre-Market Session - Biohaven  ( NYSE:BHVN ) , Dingdong  ( Cayman )   ( NYSE:DDL ) ",
+      "url": "https://www.benzinga.com/trading-ideas/movers/25/11/48800781/flex-lng-biohaven-and-other-big-stocks-moving-lower-in-wednesdays-pre-market-session",
+      "content": "U.S. stock futures were higher this morning, with the Nasdaq futures gaining around 100 points on Wednesday. Shares of FLEX LNG Ltd ( NYSE:FLNG ) fell sharply in pre-market trading following weaker-than-expected quarterly earnings.",
+      "published_at": "2025-11-12T13:10:24+00:00",
+      "created_at": "2025-11-12T14:28:22.509054+00:00",
+      "symbols": [
+        "IOT",
+        "DDL",
+        "SFIX",
+        "DQ",
+        "FLNG",
+        "BHVN",
+        "XPEV",
+        "RZLV"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Energy & Transportation",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.623304"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.838487"
+          }
+        ],
+        "authors": [
+          "Avi Kapoor"
+        ],
+        "sentiment_label": "Somewhat-Bearish",
+        "sentiment_score": -0.198045
+      }
+    },
+    {
+      "id": "537dd20e-b765-469b-ba50-336b932b4033",
+      "source": "Alpha Vantage",
+      "title": "Standard Dental Labs Inc.: Investor Education Series - Part 2 - Standard Dental Labs  ( OTC:TUTH ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48800729/standard-dental-labs-inc-investor-education-series-part-2",
+      "content": "From Workbench to Workflow: Digitizing Craftsmanship at Scale ORLANDO, Fla., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Standard Dental Labs Inc. ( OTCQB:TUTH ) today published Part 2 of its Investor Education Series, focusing on how SDL's operating model turns independent lab craftsmanship into a ...",
+      "published_at": "2025-11-12T13:06:27+00:00",
+      "created_at": "2025-11-12T14:28:22.872486+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.360215"
+          },
+          {
+            "topic": "Mergers & Acquisitions",
+            "relevance_score": "0.108179"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.614606"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.26652
+      }
+    },
+    {
+      "id": "74a8831d-feb7-43f7-a6b7-b0595509566f",
+      "source": "Alpha Vantage",
+      "title": "Standard Dental Labs Inc.: Investor Education Series - Part 2",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186232/0/en/Standard-Dental-Labs-Inc-Investor-Education-Series-Part-2.html",
+      "content": "From Workbench to Workflow: Digitizing Craftsmanship at Scale ...",
+      "published_at": "2025-11-12T13:06:00+00:00",
+      "created_at": "2025-11-12T14:28:23.287314+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.360215"
+          },
+          {
+            "topic": "Mergers & Acquisitions",
+            "relevance_score": "0.108179"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.451494"
+          }
+        ],
+        "authors": [
+          "Standard Dental Labs Inc."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.304623
+      }
+    },
+    {
+      "id": "62a16d40-6533-46ca-ab48-9eab53a5d2b3",
+      "source": "Alpha Vantage",
+      "title": "StorONE Integrates IBM Storage Scale  ( formerly GPFS )  into Its Enterprise Storage Platform",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48800699/storone-integrates-ibm-storage-scale-formerly-gpfs-into-its-enterprise-storage-platform",
+      "content": "New York, NY, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- StorONE, developer of the industry's most efficient storage platform, today announced an integration with IBM Storage Scale ( formerly known as GPFS ) and the company's enterprise storage offerings.",
+      "published_at": "2025-11-12T13:05:00+00:00",
+      "created_at": "2025-11-12T14:28:25.369548+00:00",
+      "symbols": [
+        "DTST"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.453311
+      }
+    },
+    {
+      "id": "dfae13c0-03d2-4083-86c0-f95083cdac96",
+      "source": "Alpha Vantage",
+      "title": "Pet Valu Encourages Devoted Pet Lovers to Feast on Love Over Holidays",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48800694/pet-valu-encourages-devoted-pet-lovers-to-feast-on-love-over-holidays",
+      "content": "MARKHAM, Ontario, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Pet Valu, Canada's leading specialty retailer of pet food and pet-related supplies, is inspiring devoted pet lovers and their pets to feast on love this holiday season.",
+      "published_at": "2025-11-12T13:04:41+00:00",
+      "created_at": "2025-11-12T14:28:25.759774+00:00",
+      "symbols": [
+        "PTVLF"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.538269"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.591696
+      }
+    },
+    {
+      "id": "c45d1551-a6f7-41da-803c-1cb1664f8f18",
+      "source": "Alpha Vantage",
+      "title": "Should SPDR S&P 500 ETF  ( SPY )  Be on Your Investing Radar?",
+      "url": "https://www.zacks.com/stock/news/2789673/should-spdr-sp-500-etf-spy-be-on-your-investing-radar",
+      "content": "Style Box ETF report for SPY ...",
+      "published_at": "2025-11-12T11:20:03+00:00",
+      "created_at": "2025-11-12T14:28:26.630473+00:00",
+      "symbols": [
+        "STT",
+        "AAPL",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.186903
+      }
+    },
+    {
+      "id": "9eaf10fa-2f07-409d-9820-ea4b2c274e0c",
+      "source": "Alpha Vantage",
+      "title": "Is Franklin U.S. Equity Index ETF  ( USPX )  a Strong ETF Right Now?",
+      "url": "https://www.zacks.com/stock/news/2789676/is-franklin-us-equity-index-etf-uspx-a-strong-etf-right-now",
+      "content": "Smart Beta ETF report for ...",
+      "published_at": "2025-11-12T11:20:03+00:00",
+      "created_at": "2025-11-12T14:28:27.05693+00:00",
+      "symbols": [
+        "AAPL",
+        "MORN",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.248279
+      }
+    },
+    {
+      "id": "c07104db-0136-4ea8-bdb4-bd8b00161d9b",
+      "source": "Alpha Vantage",
+      "title": "Should Fidelity Nasdaq Composite Index ETF  ( ONEQ )  Be on Your Investing Radar?",
+      "url": "https://www.zacks.com/stock/news/2789680/should-fidelity-nasdaq-composite-index-etf-oneq-be-on-your-investing-radar",
+      "content": "Style Box ETF report for ...",
+      "published_at": "2025-11-12T11:20:02+00:00",
+      "created_at": "2025-11-12T14:28:27.691518+00:00",
+      "symbols": [
+        "AAPL",
+        "IVZ",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.310843"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.249368
+      }
+    },
+    {
+      "id": "9a56fe7e-9aa4-433e-b854-a90d4f099f49",
+      "source": "Alpha Vantage",
+      "title": "Prediction: This Dividend-Paying Value Stock Will Join Berkshire Hathaway in the $1 Trillion Club Before Walmart",
+      "url": "https://www.fool.com/investing/2025/11/12/buy-dividend-value-stock-jpmorgan-chase-berkshire/",
+      "content": "The $1 trillion club is growing due to record earnings and investor enthusiasm.",
+      "published_at": "2025-11-12T08:05:00+00:00",
+      "created_at": "2025-11-12T14:28:28.089498+00:00",
+      "symbols": [
+        "BRK-A",
+        "AAPL",
+        "WFC",
+        "META",
+        "C",
+        "AVGO",
+        "TSLA",
+        "WMT",
+        "AMZN",
+        "BAC",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999987"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.983783"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.25"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Daniel Foelber"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.268762
+      }
+    }
+  ]
+}

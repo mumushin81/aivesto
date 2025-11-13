@@ -1,0 +1,794 @@
+{
+  "agent_id": 18,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "20c93669-4e3b-4eaa-b627-f7890b68d0b2",
+      "source": "Alpha Vantage",
+      "title": "Nexus Industrial REIT Announces Third Quarter 2025 Financial Results",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186939/0/en/Nexus-Industrial-REIT-Announces-Third-Quarter-2025-Financial-Results.html",
+      "content": "Attractive development properties completed. Strong leasing activity in the quarter Attractive development properties completed. Strong leasing activity in the quarter ...",
+      "published_at": "2025-11-13T00:05:00+00:00",
+      "created_at": "2025-11-13T03:10:35.7413+00:00",
+      "symbols": [
+        "EFRTF"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.857896"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.990999"
+          }
+        ],
+        "authors": [
+          "Nexus Industrial REIT"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.207246
+      }
+    },
+    {
+      "id": "b8401da1-7814-4508-9c0e-17c904523211",
+      "source": "Alpha Vantage",
+      "title": "Top Analyst Reports for Apple, Procter & Gamble and UnitedHealth",
+      "url": "https://www.zacks.com/research-daily/2789692/top-analyst-reports-for-apple-procter-gamble-and-unitedhealth",
+      "content": "Apple, Procter & Gamble, and UnitedHealth headline fresh analyst insights, with growth forecasts, cost challenges, and strategic updates driving investor focus.",
+      "published_at": "2025-11-12T21:15:00+00:00",
+      "created_at": "2025-11-13T03:10:35.905683+00:00",
+      "symbols": [
+        "PG",
+        "AAPL"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.818451"
+          },
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Mark Vickery"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.282391
+      }
+    },
+    {
+      "id": "59b1ba92-3cb5-4fbf-a729-83d30f8699b7",
+      "source": "Alpha Vantage",
+      "title": "15 Stocks To Consider Buying For The Supreme Court Ruling On Trump's Tariffs - Alcoa  ( NYSE:AA ) , Apple  ( NASDAQ:AAPL ) ",
+      "url": "https://www.benzinga.com/news/25/11/48816408/15-stocks-to-consider-buying-for-the-supreme-court-ruling-on-trumps-tariffs",
+      "content": "Right now, the U.S. Supreme Court is staring down a case that could unravel some of the biggest pieces of Trump's economic legacy-specifically, the recent tariffs imposed during his presidency under the International Emergency Economic Powers Act ( IEEPA ) .",
+      "published_at": "2025-11-12T19:55:43+00:00",
+      "created_at": "2025-11-13T03:10:36.063912+00:00",
+      "symbols": [
+        "WMT",
+        "W",
+        "RIVN",
+        "GAP",
+        "F",
+        "META",
+        "HUM",
+        "AAPL",
+        "UNH",
+        "PCAR",
+        "GM",
+        "NVDA",
+        "HII",
+        "TSLA",
+        "AA",
+        "CPRT",
+        "HD",
+        "YETI",
+        "AMIN",
+        "NOC",
+        "LMT",
+        "ALB",
+        "RH",
+        "FLNC",
+        "NKE",
+        "NUE"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.796627"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.310843"
+          }
+        ],
+        "authors": [
+          "Tom Gentile"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.092915
+      }
+    },
+    {
+      "id": "18a5878f-4a9b-4632-a04c-6d5280e4c729",
+      "source": "Alpha Vantage",
+      "title": "Apple And Tesla Supplier STMicro Stock Climbs As CEO Predicts 'Normal' Start To 2026 - STMicroelectronics  ( NYSE:STM ) ",
+      "url": "https://www.benzinga.com/markets/guidance/25/11/48806958/apple-and-tesla-supplier-stmicro-stock-climbs-as-ceo-predicts-normal-start-to-2026",
+      "content": "STMicroelectronics NV ( NYSE:STM ) stock gained after CEO Jean-Marc Chery said the company expects 2026 to begin at normal levels, emphasizing that this year's weaker-than-expected recovery will not result in excess customer inventory.",
+      "published_at": "2025-11-12T15:27:21+00:00",
+      "created_at": "2025-11-13T03:10:36.230208+00:00",
+      "symbols": [
+        "TSLA",
+        "MS",
+        "AAPL",
+        "STM"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.214378"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.161647"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Anusuya Lahiri"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.058789
+      }
+    },
+    {
+      "id": "fffcf882-aa0d-4485-98a2-353ae0fae210",
+      "source": "Alpha Vantage",
+      "title": "Inquiry Into Apple's Competitor Dynamics In Technology Hardware, Storage & Peripherals Industry - Apple  ( NASDAQ:AAPL ) ",
+      "url": "https://www.benzinga.com/insights/news/25/11/48805249/inquiry-into-apples-competitor-dynamics-in-technology-hardware-storage-amp-peripherals-industry",
+      "content": "In today's rapidly changing and highly competitive business world, it is vital for investors and industry enthusiasts to carefully assess companies. In this article, we will perform a comprehensive industry comparison, evaluating Apple ( NASDAQ:AAPL ) against its key competitors in the Technology ...",
+      "published_at": "2025-11-12T15:00:42+00:00",
+      "created_at": "2025-11-13T03:10:36.39168+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.928769"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.54554"
+          }
+        ],
+        "authors": [
+          "Benzinga Insights"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.26688
+      }
+    },
+    {
+      "id": "c5147ddf-2f5e-4ca1-9f37-e1cb5d800b22",
+      "source": "Alpha Vantage",
+      "title": "CEOs Everywhere Are Trying To 'Reimagine And Automate Processes,' Says Goldman Sachs Chief, Predicting A Major Wave Of AI-Driven Productivity - Microsoft  ( NASDAQ:MSFT ) , Goldman Sachs Group  ( NYSE:GS ) ",
+      "url": "https://www.benzinga.com/news/topics/25/11/48822970/ceos-everywhere-are-trying-to-reimagine-and-automate-processes-says-goldman-sachs-chief-predicting-a-",
+      "content": "Business leaders are reshaping how work gets done as artificial intelligence spreads across global industries, Goldman Sachs Group Inc. ( NYSE:GS ) CEO David Solomon said.",
+      "published_at": "2025-11-13T00:01:44+00:00",
+      "created_at": "2025-11-13T03:10:36.961791+00:00",
+      "symbols": [
+        "FOX",
+        "NVDA",
+        "MSFT",
+        "GS"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.684621"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Casey B. Renner"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.291452
+      }
+    },
+    {
+      "id": "c0c42020-e427-427f-b482-bf840a90f374",
+      "source": "Alpha Vantage",
+      "title": "SPY vs IVV: Which S&P 500 ETF Is Better for Investors?",
+      "url": "https://www.fool.com/coverage/etfs/2025/11/12/spy-vs-ivv-which-sp-500-etf-is-better-for-investors/",
+      "content": "Both the iShares Core S&P 500 ETF ( NYSEMKT:IVV ) and the SPDR S&P 500 ETF Trust ( NYSEMKT:SPY ) aim to mirror the performance of the S&P 500 Index, providing exposure to 500 of the largest U.S. companies across all major sectors.",
+      "published_at": "2025-11-12T20:18:08+00:00",
+      "created_at": "2025-11-13T03:10:37.12381+00:00",
+      "symbols": [
+        "NVDA",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999998"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Katie Brockman",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.110472
+      }
+    },
+    {
+      "id": "0ca7d3a5-1177-4169-b78e-239f2183d63e",
+      "source": "Alpha Vantage",
+      "title": "Meet The Startup CEO Turning Carbon Cleanup Into A Major Investment Opportunity",
+      "url": "https://www.benzinga.com/news/topics/25/11/48816579/meet-the-startup-ceo-turning-carbon-cleanup-into-a-major-investment-opportunity",
+      "content": "London-based carbon emissions reduction startup CUR8 made news recently when it received seed funding from a source associated more with fuel-guzzling air travel than sustainability: Airbus Ventures, the venture capital arm of European multinational aerospace giant Airbus.",
+      "published_at": "2025-11-12T20:01:35+00:00",
+      "created_at": "2025-11-13T03:10:37.287794+00:00",
+      "symbols": [
+        "GOOG",
+        "MSFT",
+        "EADSF"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.77141"
+          }
+        ],
+        "authors": [
+          "Omar Sacirbey"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.262489
+      }
+    },
+    {
+      "id": "01eb68f1-cfd6-4c0b-a665-ba91511d0132",
+      "source": "Alpha Vantage",
+      "title": "The Smartest Growth Stock to Buy With $100 Right Now",
+      "url": "https://www.fool.com/investing/2025/11/12/the-smartest-growth-stock-to-buy-with-100-right-no/",
+      "content": "This fast-growing company is available at a very attractive valuation.",
+      "published_at": "2025-11-12T20:00:00+00:00",
+      "created_at": "2025-11-13T03:10:37.445999+00:00",
+      "symbols": [
+        "MRVL",
+        "MSFT",
+        "ASCCF"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.365926"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.996718"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Harsh Chauhan"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.486093
+      }
+    },
+    {
+      "id": "57ea3cb7-f79c-4de2-995a-f017b1828be3",
+      "source": "Alpha Vantage",
+      "title": "Why Perion Network Rallied Today",
+      "url": "https://www.fool.com/investing/2025/11/12/why-perion-network-rallied-today/",
+      "content": "The company returned to growth and has a ton of cash.",
+      "published_at": "2025-11-12T19:56:47+00:00",
+      "created_at": "2025-11-13T03:10:37.600228+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.99676"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.214378"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Billy Duberstein"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.123109
+      }
+    },
+    {
+      "id": "0cdd72da-084a-440c-8c3e-279611f73e06",
+      "source": "Alpha Vantage",
+      "title": "Microsoft Builds Massive AI 'Super Factory' In Atlanta To Power OpenAI And Elon Musk's xAI - Microsoft  ( NASDAQ:MSFT ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48814199/microsoft-builds-massive-ai-super-factory-in-atlanta-to-power-openai-and-elon-musks-xai",
+      "content": "Microsoft Corp ( NASDAQ:MSFT ) is accelerating its data center expansion with the launch of an artificial intelligence \"super factory\" in Atlanta-a massive two-story complex designed to link seamlessly with similar hubs across its Fairwater network to deliver enormous computing power.",
+      "published_at": "2025-11-12T18:39:51+00:00",
+      "created_at": "2025-11-13T03:10:37.782317+00:00",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "BAC"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.796627"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.108179"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Anusuya Lahiri"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.168356
+      }
+    },
+    {
+      "id": "da1954b9-270e-4750-9257-a18dd25e493d",
+      "source": "Alpha Vantage",
+      "title": "What's Going On With Nebius Stock Wednesday? - Nebius Group  ( NASDAQ:NBIS ) ",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/reiteration/25/11/48813637/the-real-reason-this-analyst-still-calls-nebius-his-favorite-neocloud-player",
+      "content": "Nebius Group N.V. ( NASDAQ:NBIS ) is accelerating its global data center expansion, unveiling plans to more than double capacity by 2026 as surging demand for AI compute drives a dramatic step-change in growth. D.A.",
+      "published_at": "2025-11-12T18:20:19+00:00",
+      "created_at": "2025-11-13T03:10:37.960752+00:00",
+      "symbols": [
+        "NVDA",
+        "META",
+        "MSFT",
+        "NBIS",
+        "CRWV"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.214378"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.972756"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Triveni Kothapalli"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.201856
+      }
+    },
+    {
+      "id": "f9c81ffd-bcdd-4874-aae8-8c38ccb2a747",
+      "source": "Seeking Alpha",
+      "title": "Novo Nordisk: Reliable Weigh-Loss Growth Story With More Upside Than Bears Admit",
+      "url": "https://seekingalpha.com/article/4842886-novo-nordisk-stock-q3-significantly-undervalued?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T03:05:45+00:00",
+      "created_at": "2025-11-13T03:10:54.119578+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "LLY",
+          "LLY:CA",
+          "NVO",
+          "NONOF",
+          "NVON:CA",
+          "The J Thesis"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "748fa4e3-6c41-48a3-99cc-9c302dfbbf76",
+      "source": "Alpha Vantage",
+      "title": "Why Panic AI Headlines Don't Match Reality",
+      "url": "https://www.zacks.com/commentary/2790178/why-panic-ai-headlines-dont-match-reality",
+      "content": "Despite attention-grabbing headlines, the underlying fundamentals of the AI boom remain strong. Industry leaders like AMD are reporting accelerating demand, while major investors such as SoftBank are doubling down on AI.",
+      "published_at": "2025-11-12T18:18:00+00:00",
+      "created_at": "2025-11-13T03:10:38.13152+00:00",
+      "symbols": [
+        "AMD",
+        "NVDA",
+        "MSFT",
+        "SFTBF"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.650727"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.77141"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Andrew Rocco"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.114523
+      }
+    },
+    {
+      "id": "c8e618d9-8465-4f3d-a2b5-e4c1371094ff",
+      "source": "Alpha Vantage",
+      "title": "How high are OpenAI's compute costs? Possibly a lot higher than we thought",
+      "url": "https://www.ft.com/content/fce77ba4-6231-4920-9e99-693a6c38e7d5",
+      "content": "Inference inferred, revenue reconstructed, cash burn quantified ...",
+      "published_at": "2025-11-12T17:40:09+00:00",
+      "created_at": "2025-11-13T03:10:38.287291+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Financial Times",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.54554"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Bryce Elder"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.080536
+      }
+    },
+    {
+      "id": "c73c8d23-7650-4f33-9ec6-d1e08c0c28d5",
+      "source": "Alpha Vantage",
+      "title": "Is Michael Burry Going To Be Wrong Again? - NVIDIA  ( NASDAQ:NVDA ) , Palantir Technologies  ( NASDAQ:PLTR ) ",
+      "url": "https://www.benzinga.com/Opinion/25/11/48810339/is-michael-burry-going-to-be-wrong-again",
+      "content": "Michael Burry, best known for calling the 2008 crash, is now targeting mega-cap AI names like Meta, Oracle, Microsoft, Amazon, and Google, arguing they're understating depreciation on rapidly aging compute infrastructure.",
+      "published_at": "2025-11-12T16:49:03+00:00",
+      "created_at": "2025-11-13T03:10:38.441807+00:00",
+      "symbols": [
+        "GOOG",
+        "MSFT",
+        "PLTR",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.360215"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Gav Blaxberg"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.068137
+      }
+    },
+    {
+      "id": "e544135b-4469-4083-ae78-5ecfbbe0566c",
+      "source": "Alpha Vantage",
+      "title": "CoreWeave Slides Post Q3 Earnings: Is It Time to Buy the Stock?",
+      "url": "https://www.zacks.com/stock/news/2790081/coreweave-slides-post-q3-earnings-is-it-time-to-buy-the-stock",
+      "content": "CRWV's shares have tumbled after third-quarter results, as rising capex, high leverage and trimmed guidance raised investor caution despite robust AI-driven growth.",
+      "published_at": "2025-11-12T16:17:00+00:00",
+      "created_at": "2025-11-13T03:10:38.627103+00:00",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "META",
+        "CRWV"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.87644"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.998333"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Vaishali Doshi"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.165826
+      }
+    },
+    {
+      "id": "13ba65b5-cac8-407e-80fc-fb9c7c7906fe",
+      "source": "Alpha Vantage",
+      "title": "What's Going On With IBM Stock Today? - IBM  ( NYSE:IBM ) ",
+      "url": "https://www.benzinga.com/trading-ideas/movers/25/11/48808734/whats-going-on-with-ibm-stock-today-3",
+      "content": "Shares of International Business Machines Corporation ( NASDAQ:IBM ) are rising Wednesday after the company announced several significant technological advancements. IBM stock is at important technical levels. See what is driving the movement here.",
+      "published_at": "2025-11-12T16:05:06+00:00",
+      "created_at": "2025-11-13T03:10:38.800645+00:00",
+      "symbols": [
+        "IBM",
+        "NVDA",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.459462"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Alex Perry"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.197706
+      }
+    },
+    {
+      "id": "0b2d50d0-ed23-4ea4-a33f-80aed55974aa",
+      "source": "Alpha Vantage",
+      "title": "Top Wide-Moat Stocks to Invest in for Long-Term Wealth and Stability",
+      "url": "https://www.zacks.com/stock/news/2790043/top-wide-moat-stocks-to-invest-in-for-long-term-wealth-and-stability",
+      "content": "LRCX, ASML, NVDA and MCO use strong moats to fend off rivals and deliver consistent returns amid market shifts.",
+      "published_at": "2025-11-12T15:23:00+00:00",
+      "created_at": "2025-11-13T03:10:38.96021+00:00",
+      "symbols": [
+        "NVDA",
+        "ASML",
+        "MCO",
+        "MSFT",
+        "AMZN",
+        "LRCX"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.998682"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.614606"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.158519"
+          }
+        ],
+        "authors": [
+          "Anindya Barman"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.343074
+      }
+    },
+    {
+      "id": "8f5cb2ec-c5de-4395-b85b-91eb98712267",
+      "source": "Alpha Vantage",
+      "title": "Evaluating Microsoft Against Peers In Software Industry - Microsoft  ( NASDAQ:MSFT ) ",
+      "url": "https://www.benzinga.com/insights/news/25/11/48805193/evaluating-microsoft-against-peers-in-software-industry",
+      "content": "In today's rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices.",
+      "published_at": "2025-11-12T15:00:23+00:00",
+      "created_at": "2025-11-13T03:10:39.118792+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.875462"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.54554"
+          }
+        ],
+        "authors": [
+          "Benzinga Insights"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.184801
+      }
+    }
+  ]
+}

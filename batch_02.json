@@ -1,0 +1,347 @@
+{
+  "agent_id": 2,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "221c2df1-bb45-40bf-b089-219ad83eb2f2",
+      "source": "Finnhub",
+      "title": "Does the Microsoft Partnership Signal a Fresh Opportunity in IREN After Recent Price Surge?",
+      "url": "https://finnhub.io/api/news?id=48ef41dfaa5c520aa1d6cc9bf8b0abcfca7741cfb491706f1e67b710dddde16b",
+      "content": "If you have been wondering whether IREN is a hidden gem or an overhyped name, you are not alone. Let's dig into what really drives its value. Despite a wild ride this year, including a 475.2% return year-to-date, the past week saw the stock pull back by 11.2%. This could signal shifting optimism or growing caution among investors. Recent headlines highlighting major industry partnerships and IREN's strategic technology rollouts have added extra fuel to the price surge, while also increasing...",
+      "published_at": "2025-11-11T09:11:54+00:00",
+      "created_at": "2025-11-12T14:27:32.448858+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "05aaaf00-a36e-4691-93c6-34dd1b00890b",
+      "source": "Finnhub",
+      "title": "AI Stocks: Excessive Hype And Capex Could Trigger A Correction",
+      "url": "https://finnhub.io/api/news?id=d4ff17f3c8b3bdda28e16bd49f9599de0680363afda2b313a7992452df77168d",
+      "content": "AI investment hype is outpacing returns, sparking bubble fears. Click here to learn why cautious investing in AI stocks is crucial now.",
+      "published_at": "2025-11-12T16:00:43+00:00",
+      "created_at": "2025-11-12T14:27:33.012723+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2213155669/image_2213155669.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "9ce7d049-c289-49c6-9bc9-deb4b71b56d9",
+      "source": "Finnhub",
+      "title": "Wall Street Breakfast Podcast: GM Targets China-Free Supply Chain",
+      "url": "https://finnhub.io/api/news?id=b6f5de64a6c6a2da162f8ee4a4337153ca2587b1fb132eacbef0ebbd9826263e",
+      "content": "General Motors directs suppliers to pull back China supply chains - report. AMD says AI market is 'faster than anything we've seen before.' Google accused of using Gemini AI tool to snoop.",
+      "published_at": "2025-11-12T15:01:51+00:00",
+      "created_at": "2025-11-12T14:27:33.385835+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1156940451/image_1156940451.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "1c9082e7-037e-4a2e-abcf-d2622d82d18e",
+      "source": "Finnhub",
+      "title": "Alphabet: Google Cloud Is A Force To Be Reckoned With (Upgrade)",
+      "url": "https://finnhub.io/api/news?id=ab3fa1ce4a6b5b85fac2d768687f5b21a5d337be3d5b8f8ca07c347820a711da",
+      "content": "Alphabet (GOOG) is upgraded to Buy with a $322 price target, driven by robust Google Cloud growth and AI integration across platforms.",
+      "published_at": "2025-11-12T13:59:51+00:00",
+      "created_at": "2025-11-12T14:27:33.783561+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2165632345/image_2165632345.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "11196ce1-9b92-4c01-964d-9c305bd20d4b",
+      "source": "Finnhub",
+      "title": "Oakmark Global Concentrated Strategy Q3 2025 Top Contributors And Detractors",
+      "url": "https://finnhub.io/api/news?id=863961ccce2f7497ad3748fda0def30c99b1da99e355b40e7f836aa5efe43e55",
+      "content": "Alibaba Group was a contributor during the quarter. The stock price rose significantly following earnings that reflected rapid Chinese AI growth.",
+      "published_at": "2025-11-12T13:43:00+00:00",
+      "created_at": "2025-11-12T14:27:34.142195+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2185337728/image_2185337728.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "f7d69229-b0a3-4b95-87b0-2b3720a861d6",
+      "source": "Finnhub",
+      "title": "Alphabet: Keeps Delivering, So Deserves To Keep Spending",
+      "url": "https://finnhub.io/api/news?id=bc5e4e519072c4b426a29c77f7eac835f977275196ee04114f1210d0c0146705",
+      "content": "Alphabet's Search and Cloud segments show robust double-digit growth. Read why every pullback should be viewed as a buying opportunity for GOOGL stock.",
+      "published_at": "2025-11-12T08:10:45+00:00",
+      "created_at": "2025-11-12T14:27:34.658139+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1430610723/image_1430610723.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "955a390a-3b62-4e82-b63f-98c5b2d799ea",
+      "source": "Finnhub",
+      "title": "What the Rise of Trillionaires Could Mean for the World",
+      "url": "https://finnhub.io/api/news?id=ea1e058886e317a67c03d51cf991528057dabbcf017cd3d6ae550ef386f1a6c5",
+      "content": "Elon Musk could soon become the world's first trillionaire—and he may not be alone. How will democracy and the rule of law be impacted?",
+      "published_at": "2025-11-12T02:11:08+00:00",
+      "created_at": "2025-11-12T14:27:35.23835+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "92a81b35-acaa-49d2-b846-d5061c4ff1aa",
+      "source": "Finnhub",
+      "title": "Google unveils $6.4 bn investment in Germany",
+      "url": "https://finnhub.io/api/news?id=3b7930e9c97f5455df07a65041ff4ee1af1b20723a40b3b1e4b81e5804028006",
+      "content": "Google unveiled its biggest-ever investment in Germany on Tuesday, pledging 5.5 billion euros ($6.4 billion) for a new data centre and other projects, as Europe seeks to catch up in the AI race.The recently unveiled Nvidia project involves a one-billion-euro investment for a computing hub in the southern city of Munich designed to enable European companies, from big industry players to start-ups, better access to AI. \nGermany is quickly building up its data centres -- by 2030, the country's data",
+      "published_at": "2025-11-12T01:25:46+00:00",
+      "created_at": "2025-11-12T14:27:35.609181+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "74460741-f77b-4f74-8f4f-f7481d51738c",
+      "source": "Finnhub",
+      "title": "Disney and Alphabet’s football fight will win them few fans",
+      "url": "https://finnhub.io/api/news?id=4fd45df12c64aee6a29cbb9a43103b71ac3a70bc83789cf8338d0a3d4f529e33",
+      "content": "It’s the American autumn nightmare: the TV goes dark, mid-football game. Something like that recently happened to about 10mn YouTube TV subscribers...",
+      "published_at": "2025-11-12T00:43:30+00:00",
+      "created_at": "2025-11-12T14:27:36.310083+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "5494c35f-a643-45d0-ac59-05f53a2c5fe6",
+      "source": "Finnhub",
+      "title": "What is hybrid AI? Analyst explains what more companies are doing",
+      "url": "https://finnhub.io/api/news?id=0b56e3f95b4236b3948d5a6c164b64f3514b3f8bd2f3328a7755348528cab139",
+      "content": "Advanced Micro Devices (AMD) is hosting its analyst day at the Nasdaq on Tuesday, which could prove to be a pivotal moment as the AI chip race with competitor Nvidia (NVDA) tightens. TECHnalysis Research, LLC president Bob O'Donnell sits down with Market Catalysts host Julie Hyman to explain what hybrid AI (artificial intelligence) and why he is bullish on the dynamic of hyperscalers building out AI infrastructure and investing in physical AI data centers and GPUs. To watch more expert insights and analysis on the latest market action, check out more Market Catalysts.",
+      "published_at": "2025-11-12T00:15:00+00:00",
+      "created_at": "2025-11-12T14:27:36.843374+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "c5da5d20-f7ec-47b6-b663-342366dd9e7c",
+      "source": "Finnhub",
+      "title": "Can Google’s Ironwood TPU Dethrone Nvidia’s AI Empire?",
+      "url": "https://finnhub.io/api/news?id=79caf635048aea2bbc998d24abf1722e8253242a42b4e4c9d12c1139a8635f21",
+      "content": "The artificial intelligence (AI) boom has fueled explosive growth for Nvidia (NASDAQ:NVDA), with its graphics processing units commanding the lion’s share of the market for training and running large language models. This success has lured numerous companies into the fray, from startups to tech giants, all vying for a piece of the lucrative AI hardware ... Can Google’s Ironwood TPU Dethrone Nvidia’s AI Empire?",
+      "published_at": "2025-11-11T23:47:59+00:00",
+      "created_at": "2025-11-12T14:27:37.568042+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2c40267a-1ee8-4dd9-89ad-ac87a8cef8c8",
+      "source": "Finnhub",
+      "title": "Ripple Has 'No Plans' For Public Offering, President Says Despite Crypto Listing Boom",
+      "url": "https://finnhub.io/api/news?id=879fb8057d896f60bf3148984054115a4376b00a3d16f8aef0e4dffdb94eea6a",
+      "content": "Blockchain payments and infrastructure company Ripple has “no plans” of going public, Ripple President Monica Long says. “We do not have an IPO timeline,” Long told Bloomberg at Ripple’s Swell conference in New York on Wednesday. “No plan, no ...",
+      "published_at": "2025-11-11T23:26:42+00:00",
+      "created_at": "2025-11-12T14:27:37.925604+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4722f5e5-b239-45a5-8710-28b2f5a729a1",
+      "source": "Finnhub",
+      "title": "Google says it will invest around $6.4 billion in cloud infrastructure in Germany",
+      "url": "https://finnhub.io/api/news?id=958ce552456806f1cbcf2bed93a9040da11c6246a1548229b8c9516783515084",
+      "content": "BERLIN (Reuters) -Alphabet'​s Google said ‌on Tuesday that it ‌will invest 5.5 billion euros ($6.41 billion) ⁠in ‌Germany in the coming years in ‍a push to expand its infrastructure and data ​centre capacity in ‌Europe's largest economy.  The plans include a new data centre in Dietzenbach, close ⁠to Frankfurt,​ Google ​said, according to information it provided ‍ahead ⁠of a press conference in Berlin.",
+      "published_at": "2025-11-11T23:08:26+00:00",
+      "created_at": "2025-11-12T14:27:38.289187+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "27be07bc-a92b-4c2a-a6e1-a0e3548f5c88",
+      "source": "Finnhub",
+      "title": "SoftBank Sells Nvidia Stake for $5.8 Billion to Fund AI Bets",
+      "url": "https://finnhub.io/api/news?id=c4bca258d8d219f3e4a1525f4bd9952909bf9eed46ba4bef9bd70b31e9b69c85",
+      "content": "Founder Masayoshi Son has been unwinding positions to pay for a plethora of AI projects, from Stargate data centers with OpenAI and Oracle Corp. to robot manufacturing sites in the US.  The Nvidia exit coincides with a growing debate about whether spending by big tech firms like Meta Platforms Inc. and Alphabet Inc. — expected to surpass $1 trillion in coming years — will produce commensurate returns.",
+      "published_at": "2025-11-11T23:02:41+00:00",
+      "created_at": "2025-11-12T14:27:38.657842+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "043b845d-5475-45c7-bbfd-c90544e05e78",
+      "source": "Finnhub",
+      "title": "Meta’s chief AI scientist Yann LeCun reportedly plans to leave to build his own startup",
+      "url": "https://finnhub.io/api/news?id=87cb9bbd102273301b2c93f22b130d5658bd478d71b9f38b719bd9d148a221ba",
+      "content": "Yann LeCun, a chief AI scientist at Meta, is planning to leave the company to build his own startup, which will focus on continuing his work on world models.",
+      "published_at": "2025-11-11T22:58:45+00:00",
+      "created_at": "2025-11-12T14:27:39.016684+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a05dd264-114f-4a0c-af7f-a503e9f10327",
+      "source": "Finnhub",
+      "title": "NowVertical Gains After Earning Google Cloud Generative AI Specialization",
+      "url": "https://finnhub.io/api/news?id=a13cfd88f41e601027f6328a7caa3008df957d958732e9c5834cf66484c5b32b",
+      "content": "NowVertical Group (NOW.V), an artificial intelligence company, rose 5% on Tuesday after it said that",
+      "published_at": "2025-11-11T22:55:28+00:00",
+      "created_at": "2025-11-12T14:27:39.376444+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "367d3d35-a269-4177-a242-75306bc7b133",
+      "source": "Finnhub",
+      "title": "Hexaware Deepens Google Cloud Partnership with the Launch of Advanced Insurance Solutions",
+      "url": "https://finnhub.io/api/news?id=e223e801aebcfebc367aeab3d51d014c8bc2220ad460e929cee6bec9948ca1c4",
+      "content": "Hexaware Technologies (NSE: HEXT), a global provider of IT solutions and services, today announced the launch of two new insurance solutions developed exclusively for Google Cloud. The offerings strengthen Hexaware's collaboration with Google and reflect a shared focus on accelerating digital transformation through automation, AI, and scalable cloud-native architectures for the insurance industry.",
+      "published_at": "2025-11-11T22:16:00+00:00",
+      "created_at": "2025-11-12T14:27:39.758197+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "8fb94f08-f4b1-4ced-95f1-f239a9619d3c",
+      "source": "Finnhub",
+      "title": "Update: Market Chatter: Alphabet's Google to Invest Around $6 Billion in Germany",
+      "url": "https://finnhub.io/api/news?id=949ad840d3bc4d321b46c0bffd99e131eec4873f77c77423ca5da9493855d07d",
+      "content": "(Updates with German finance ministry's response in the fourth paragraph.) Alphabet's (GOOG, GOOG",
+      "published_at": "2025-11-11T22:15:48+00:00",
+      "created_at": "2025-11-12T14:27:40.124647+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ea7d71b6-a30f-4f7d-94fd-cc685057d18f",
+      "source": "Finnhub",
+      "title": "NowVertical Strengthens AI Partnership with Google",
+      "url": "https://finnhub.io/api/news?id=b567c50bcc1ee001cb2ad06efadc89426f3cb16175dc91d3607e2cb69e8168c3",
+      "content": "Awarded Google Cloud Generative AI Specialization, adds enterprise clients across North America and EMEA, and expands global AI delivery momentum.TORONTO, Nov. 11, 2025 (GLOBE NEWSWIRE) -- NowVertical Group Inc. (TSXV: NOW) (“NowVertical” or the “Company”) today announced it has been awarded the Google Cloud Generative AI Specialization, marking the deepening of its global partnership with Google. This achievement recognizes NowVertical’s proven expertise in deploying Generative AI solutions at",
+      "published_at": "2025-11-11T21:00:00+00:00",
+      "created_at": "2025-11-12T14:27:40.510241+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "41c47fef-8996-4efd-985e-6d71882f714f",
+      "source": "Finnhub",
+      "title": "Alphabet (GOOG) Surged on Strong Results",
+      "url": "https://finnhub.io/api/news?id=4d071b8b89a6bde65f59f06fcb87529ddf8e90751d8ab2efafc5f7c7132fce6e",
+      "content": "Madison Investments, an investment advisor, released its “Madison Large Cap Fund” third-quarter 2025 investor letter. A copy of the letter can be downloaded here. The fund decreased 2.2% in the third quarter compared to an 8.1% gain for the S&P 500 Index. The current market focus on short-term profits led the fund to underperform the […]",
+      "published_at": "2025-11-11T20:51:39+00:00",
+      "created_at": "2025-11-12T14:27:40.881998+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    }
+  ]
+}

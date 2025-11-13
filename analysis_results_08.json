@@ -1,0 +1,314 @@
+{
+  "agent_id": 8,
+  "analysis_date": "2025-11-12",
+  "min_relevance_score": 70,
+  "total_news_analyzed": 20,
+  "results": [
+    {
+      "news_id": "ab3419bd-c3dc-4606-98f4-60e049c011bb",
+      "relevance_score": 72,
+      "affected_symbols": ["AAPL", "GOOG"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Apple confirmed removal of top gay dating apps from China App Store at regulator's request, highlighting regulatory compliance risks in China market. This demonstrates continued regulatory pressure and censorship issues affecting major tech platforms operating in China, potentially impacting revenue from Chinese market.",
+      "key_points": [
+        "Apple removed Blued and Finka apps from China App Store per government request",
+        "Reflects deepening censorship and regulatory compliance challenges in China",
+        "Impacts Apple's China operations and demonstrates regulatory vulnerability",
+        "Similar compliance pressures affect Google's Android platform in China"
+      ]
+    },
+    {
+      "news_id": "e54454e9-9fe9-4fcf-b3de-0f2d10c392e1",
+      "relevance_score": 68,
+      "affected_symbols": ["AAPL", "MSFT", "GOOG", "CRWD"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "ClickFix cyber threat affects all major tech platforms but is a general cybersecurity issue rather than company-specific vulnerability. Could increase demand for cybersecurity solutions from companies like CrowdStrike, but doesn't materially impact tech giants' fundamentals. Below relevance threshold.",
+      "key_points": [
+        "New ClickFix scam spreading rapidly through fake emails and websites",
+        "Affects users across major platforms including Apple, Microsoft, and Google",
+        "Potential boost to cybersecurity companies like CrowdStrike",
+        "General industry threat rather than specific company vulnerability"
+      ]
+    },
+    {
+      "news_id": "58f9ed91-2ecd-4d01-b57f-a663c10e6bdd",
+      "relevance_score": 45,
+      "affected_symbols": ["MP"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Article focuses on MP Materials stock performance with only tangential mention of Apple. Discussion centers on rare earth materials and trade conflicts. Limited direct relevance to major US tech stocks. Well below relevance threshold.",
+      "key_points": [
+        "MP Materials stock experienced high volatility over past year",
+        "Performance linked to trade conflicts and rare earth material demand",
+        "Minimal direct impact on Apple or other major tech stocks",
+        "Focus on materials sector rather than technology sector"
+      ]
+    },
+    {
+      "news_id": "7c9373d7-c18c-449a-ac99-e6e270e7fa89",
+      "relevance_score": 75,
+      "affected_symbols": ["AAPL"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Prominent tech influencer MKBHD criticized Apple's $230 iPhone Pocket accessory as overpriced, calling it a test of brand loyalty. Negative publicity from influential tech reviewer could impact consumer sentiment toward Apple's accessory pricing strategy and premium positioning, though unlikely to materially affect core iPhone sales.",
+      "key_points": [
+        "Marques Brownlee (MKBHD) publicly criticized Apple's $230 iPhone Pocket",
+        "Called product a 'litmus test' for blind brand loyalty",
+        "Negative publicity from influential tech YouTuber with millions of followers",
+        "Raises questions about Apple's premium pricing sustainability"
+      ]
+    },
+    {
+      "news_id": "430ccd56-6144-4ec8-9afc-0a4a2f5d2a9c",
+      "relevance_score": 35,
+      "affected_symbols": ["AAPL", "GOOG", "INTC"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Veterans Day statements from political and tech leaders are ceremonial and lack material business impact. No financial implications, strategic announcements, or operational changes mentioned. Below relevance threshold for investment decisions.",
+      "key_points": [
+        "Political and tech leaders made Veterans Day statements",
+        "No material business impact or financial implications",
+        "Purely ceremonial public relations activity",
+        "No actionable investment information"
+      ]
+    },
+    {
+      "news_id": "5e8000c9-1f0e-4ccd-805c-19fbfafd2ba1",
+      "relevance_score": 82,
+      "affected_symbols": ["AAPL", "MSFT"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Highlights Apple and Microsoft as mega tech giants with robust cash generation capabilities. Strong cash flow enables dividends, debt reduction, and growth investments - key fundamental strengths for long-term investors. Positive sentiment toward financial health and capital allocation flexibility.",
+      "key_points": [
+        "Apple and Microsoft identified as cash-generating powerhouses",
+        "Strong free cash flow supports dividends and growth investments",
+        "Financial strength enables debt management and shareholder returns",
+        "Bullish sentiment with 0.367 sentiment score"
+      ]
+    },
+    {
+      "news_id": "211ac389-c133-485b-a08f-4cce44015eeb",
+      "relevance_score": 65,
+      "affected_symbols": ["IBM", "MSFT"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Rocket Software's DevOps tools announcement has indirect relevance to Microsoft and IBM ecosystems but represents minor third-party product launch. Limited direct impact on major tech stocks. Below relevance threshold.",
+      "key_points": [
+        "Rocket Software announced new generation of DevOps tools",
+        "Focuses on developer experience and IT skills gap",
+        "Indirect relevance to Microsoft and IBM platforms",
+        "Minor third-party announcement without material impact"
+      ]
+    },
+    {
+      "news_id": "0af668c1-f23d-4a9c-99ca-500ba970f125",
+      "relevance_score": 55,
+      "affected_symbols": ["QBTS", "MSFT"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Article focuses on D-Wave Quantum (QBTS) with potential 52% upside, with only tangential Microsoft mention. Primarily about small-cap quantum computing stock rather than established tech giants. Below relevance threshold for major market analysis.",
+      "key_points": [
+        "D-Wave Quantum identified as potential AI/quantum computing play",
+        "Article suggests 52% upside potential before 2026",
+        "Focus on small-cap speculative stock",
+        "Limited relevance to major tech stock fundamentals"
+      ]
+    },
+    {
+      "news_id": "03836330-bec0-4047-92f8-d9b81b2acf9b",
+      "relevance_score": 78,
+      "affected_symbols": ["NBIS", "META", "MSFT"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Nebius Q3 revenue surged 355% driven by AI cloud demand and announced $3B Meta partnership. Strong AI infrastructure demand signals positive trends for cloud computing sector, benefiting Microsoft Azure and validating Meta's AI investment strategy. Demonstrates robust enterprise AI spending.",
+      "key_points": [
+        "Nebius revenue jumped 355% year-over-year on AI cloud strength",
+        "Announced significant $3 billion partnership with Meta",
+        "Validates strong enterprise demand for AI infrastructure",
+        "Positive indicator for Microsoft Azure and cloud computing sector"
+      ]
+    },
+    {
+      "news_id": "2c8d0801-45f7-4d80-9c5c-65b5ddcef2a2",
+      "relevance_score": 42,
+      "affected_symbols": ["CRYPTO:ETH", "CRYPTO:BTC"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Article discusses Ethereum cryptocurrency investment potential with only tangential mentions of Microsoft and Visa. Primary focus on crypto markets rather than equities. Limited relevance to stock market analysis. Below threshold.",
+      "key_points": [
+        "Discusses Ethereum's historical gains over five years",
+        "Questions whether cryptocurrency can continue growth trajectory",
+        "Focus on crypto markets rather than equity markets",
+        "Minimal relevance to US stock market fundamentals"
+      ]
+    },
+    {
+      "news_id": "62254367-699a-4acd-a8d7-683178d7f5c9",
+      "relevance_score": 85,
+      "affected_symbols": ["AVGO", "MSFT", "AMZN", "GOOG"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Broadcom unveiled open extensible ecosystem for VMware Cloud Foundation, strengthening its cloud strategy and competitive position. This strategic move enhances Broadcom's value proposition in hybrid cloud infrastructure, potentially gaining market share from Microsoft Azure, AWS, and Google Cloud. Significant for enterprise cloud competition.",
+      "key_points": [
+        "Broadcom announced open ecosystem for VMware Cloud Foundation",
+        "Strengthens competitive position in private/hybrid cloud market",
+        "Directly competes with Microsoft Azure, AWS, and Google Cloud",
+        "Strategic enhancement to Broadcom's cloud infrastructure portfolio"
+      ]
+    },
+    {
+      "news_id": "d9eb27b4-6285-4e83-a8fe-00e2165844f9",
+      "relevance_score": 87,
+      "affected_symbols": ["ORCL", "AMZN", "MSFT", "GOOG"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Oracle surged 44.5% in 2025 driven by explosive cloud momentum, though analyst notes lofty valuation amid fierce competition from Amazon, Microsoft, and Alphabet. Highlights intensifying cloud computing competition and Oracle's successful transformation, while raising valuation concerns. Important for cloud sector analysis.",
+      "key_points": [
+        "Oracle stock up 44.5% in 2025 on strong cloud growth",
+        "Demonstrates successful cloud transformation and market share gains",
+        "Analyst cautions about elevated valuation levels",
+        "Intensifies competitive dynamics with AWS, Azure, and Google Cloud"
+      ]
+    },
+    {
+      "news_id": "240d8610-853c-43e8-b36f-76f569334ce9",
+      "relevance_score": 80,
+      "affected_symbols": ["AMZN", "MSFT", "GOOG", "NVDA"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Article analyzes Amazon's business model and profitability, highlighting strong fundamentals and positioning for AI revolution growth. Positive long-term outlook emphasizes Amazon's diverse revenue streams and AI opportunities, with implications for competitive landscape including Microsoft, Google, and Nvidia partnerships.",
+      "key_points": [
+        "Amazon's profitable business model analyzed comprehensively",
+        "Article emphasizes long-term AI revolution growth potential",
+        "Strong fundamentals across e-commerce and cloud segments",
+        "Bullish outlook for Amazon's position in AI infrastructure"
+      ]
+    },
+    {
+      "news_id": "bedee465-aeb9-43e0-b5ee-20af42f308c7",
+      "relevance_score": 62,
+      "affected_symbols": ["MSFT"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Article recommends large-cap blend mutual funds with Microsoft as holding. General investment advice piece without specific Microsoft news or analysis. Limited actionable information for individual stock decisions. Below relevance threshold.",
+      "key_points": [
+        "Recommends three Zacks #1 rated large-cap blend mutual funds",
+        "Microsoft mentioned as portfolio holding",
+        "General investment vehicle discussion rather than stock-specific analysis",
+        "No material news about Microsoft fundamentals"
+      ]
+    },
+    {
+      "news_id": "e77ed39c-778c-47c3-9684-896f67d5b5f6",
+      "relevance_score": 76,
+      "affected_symbols": ["TTE", "GOOG", "MSFT"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "TotalEnergies signed 15-year renewable energy PPA with Google to power Ohio data centers with 1.5 TWh of solar electricity. Demonstrates Google's commitment to renewable energy for data center operations, supporting AI and cloud infrastructure sustainability. Positive for Google's ESG profile and operational planning.",
+      "key_points": [
+        "Google secured 15-year renewable energy agreement with TotalEnergies",
+        "1.5 TWh of certified renewable electricity for Ohio data centers",
+        "Supports Google's sustainable AI and cloud infrastructure strategy",
+        "Strengthens ESG profile and long-term operational stability"
+      ]
+    },
+    {
+      "news_id": "bcc83d27-e749-40dd-9920-1152e201ba80",
+      "relevance_score": 58,
+      "affected_symbols": ["RGTI", "IONQ", "QBTS", "MSFT"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Investment analysis of Rigetti Computing quantum stock with Microsoft mentioned tangentially. Focus on small-cap speculative quantum computing company rather than established tech giants. High-risk investment discussion with limited relevance to major market movers. Below threshold.",
+      "key_points": [
+        "Analysis of Rigetti Computing as high-risk quantum play",
+        "Five key considerations for potential investors presented",
+        "Focus on small-cap speculative technology stock",
+        "Minimal direct relevance to major tech stock fundamentals"
+      ]
+    },
+    {
+      "news_id": "f3900ea6-aed9-49ea-b01f-48e1af48c75c",
+      "relevance_score": 70,
+      "affected_symbols": ["CSCO", "AMD", "MSFT"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Market futures rose ahead of House vote to end government shutdown, with focus on specific tech stocks including Cisco, AMD, and Microsoft. Positive market sentiment and resolution of shutdown uncertainty supportive for tech sector. Broader market news with sector implications.",
+      "key_points": [
+        "US stock futures rose with tech stocks in focus",
+        "House vote expected to end record-long government shutdown",
+        "Cisco, AMD, and Microsoft specifically highlighted",
+        "Positive market sentiment reduces political uncertainty"
+      ]
+    },
+    {
+      "news_id": "7dd177ce-bf5c-4e7d-9d60-2de484ab1b97",
+      "relevance_score": 65,
+      "affected_symbols": ["MSFT", "NVDA"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "ETF investment guide recommending simple long-term holdings including exposure to Microsoft and Nvidia. General investment advice without specific company analysis or news. Educational content rather than actionable market intelligence. Below relevance threshold.",
+      "key_points": [
+        "Recommends three simple ETFs for long-term investing",
+        "Microsoft and Nvidia mentioned as ETF holdings",
+        "General investment education rather than specific analysis",
+        "No material company-specific information"
+      ]
+    },
+    {
+      "news_id": "805c1305-2593-4f32-ac97-58c8c323d19c",
+      "relevance_score": 68,
+      "affected_symbols": ["MSFT", "NVDA", "AVGO", "META", "TSLA"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Vanguard ETF recommendations covering major tech holdings including Microsoft, Nvidia, Broadcom, Meta, and Tesla. Investment vehicle analysis rather than individual stock news, but highlights institutional perspective on quality tech names. General portfolio construction advice. Below threshold.",
+      "key_points": [
+        "Recommends two Vanguard ETFs, advises avoiding one",
+        "Major tech stocks including Microsoft, Nvidia, and Meta held in ETFs",
+        "Focus on low-cost diversified portfolio construction",
+        "Institutional perspective on quality large-cap technology stocks"
+      ]
+    },
+    {
+      "news_id": "3a3fb2ba-aca5-4209-b246-45d4d8f39510",
+      "relevance_score": 73,
+      "affected_symbols": ["AAPL"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Article discusses stalling AI trade momentum among key market themes, with Apple specifically mentioned. Suggests potential headwinds for AI-related tech stocks after strong rally. Important market sentiment indicator for technology sector, particularly AI-focused companies.",
+      "key_points": [
+        "AI trade showing signs of stalling momentum",
+        "Apple mentioned in context of broader market themes",
+        "Potential headwinds for AI-focused technology stocks",
+        "Important sentiment shift after extended AI rally"
+      ]
+    }
+  ],
+  "summary": {
+    "high_relevance_count": 9,
+    "above_threshold_count": 11,
+    "below_threshold_count": 9,
+    "avg_relevance_score": 67.3,
+    "bullish_news": 8,
+    "bearish_news": 3,
+    "neutral_news": 9,
+    "most_affected_symbols": {
+      "MSFT": 14,
+      "AAPL": 8,
+      "GOOG": 7,
+      "NVDA": 4,
+      "AMZN": 4,
+      "META": 3,
+      "AVGO": 3
+    },
+    "key_themes": [
+      "Strong cloud computing growth and competition (Oracle, Microsoft, Amazon, Google)",
+      "AI infrastructure demand validation (Nebius, Amazon, Microsoft)",
+      "Apple regulatory challenges in China",
+      "Broadcom strengthening cloud position with VMware",
+      "Concerns about AI trade momentum stalling",
+      "Tech giants' strong cash generation capabilities"
+    ]
+  }
+}

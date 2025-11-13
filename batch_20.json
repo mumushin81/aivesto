@@ -1,0 +1,377 @@
+{
+  "agent_id": 20,
+  "total_agents": 20,
+  "news_count": 18,
+  "news": [
+    {
+      "id": "5a8a3456-e40c-44b1-a006-21669000ebe4",
+      "source": "Seeking Alpha",
+      "title": "Sabre: Bookings Takeoff Is On Shaky Grounds",
+      "url": "https://seekingalpha.com/article/4842856-sabre-bookings-takeoff-is-on-shaky-grounds?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:29:00+00:00",
+      "created_at": "2025-11-13T03:10:55.928611+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "SABR",
+          "Caffital Research"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "31991714-2a74-46f2-b6bd-1ed734778df0",
+      "source": "Seeking Alpha",
+      "title": "Diamond Hill Large Cap Concentrated Fund Q3 2025 Commentary",
+      "url": "https://seekingalpha.com/article/4842894-diamond-hill-large-cap-concentrated-fund-q3-2025-commentary?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:25:00+00:00",
+      "created_at": "2025-11-13T03:10:56.097284+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "DHFAX",
+          "DHLX",
+          "DHFIX",
+          "DHFYX",
+          "Diamond Hill Capital Management",
+          "Fund Letters"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "54b05af0-d503-482f-9db2-4513136e3a83",
+      "source": "Seeking Alpha",
+      "title": "Duos Technologies Group, Inc. (DUOT) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842896-duos-technologies-group-inc-duot-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:21:32+00:00",
+      "created_at": "2025-11-13T03:10:56.25458+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "DUOT",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "e84f6099-87fc-4b24-99c5-a30b80263e3b",
+      "source": "Seeking Alpha",
+      "title": "BITO: The High Distribution Won't Save You From A Crypto Winter",
+      "url": "https://seekingalpha.com/article/4842851-bito-the-high-distribution-wont-save-you-from-a-crypto-winter?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:14:00+00:00",
+      "created_at": "2025-11-13T03:10:56.419546+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "BCCC",
+          "YBTC",
+          "BAGY",
+          "IBIT",
+          "BITO",
+          "Binary Tree Analytics"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "49dfcee7-3654-46ae-a82c-84303b83e88d",
+      "source": "Seeking Alpha",
+      "title": "Immuneering Corporation (IMRX) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842890-immuneering-corporation-imrx-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:11:33+00:00",
+      "created_at": "2025-11-13T03:10:56.58361+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "IMRX",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "e6180082-0261-439e-a905-416116c25acd",
+      "source": "Seeking Alpha",
+      "title": "eGain Corporation (EGAN) Q1 2026 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842888-egain-corporation-egan-q1-2026-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:11:31+00:00",
+      "created_at": "2025-11-13T03:10:56.742037+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "EGAN",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "0639f976-4618-4708-a66c-4bce2890e613",
+      "source": "Seeking Alpha",
+      "title": "What's Driving Platinum And Palladium Prices?",
+      "url": "https://seekingalpha.com/article/4842877-what-is-driving-platinum-palladium-prices?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:05:00+00:00",
+      "created_at": "2025-11-13T03:10:56.897129+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "DBP",
+          "JJP",
+          "GLTR",
+          "PALL",
+          "PPLT",
+          "PLTM",
+          "XPTUSD:CUR",
+          "XPDUSD:CUR",
+          "SPPP",
+          "SPPP:CA",
+          "CME Group"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "83844e37-ffcd-40f3-ab1a-68920ee836fa",
+      "source": "Seeking Alpha",
+      "title": "FPA Crescent Fund: 5 Stocks That Impacted Q3 2025 Performance",
+      "url": "https://seekingalpha.com/article/4842879-fpa-crescent-fund-5-stocks-that-impacted-q3-2025-performance?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:05:00+00:00",
+      "created_at": "2025-11-13T03:10:57.059333+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "GOOGL",
+          "C",
+          "KDP",
+          "IFF",
+          "KMX",
+          "CITI:CA",
+          "GOOG",
+          "GOOG:CA",
+          "ZGOO:CA",
+          "FPA Funds",
+          "Fund Letter Stock Ideas"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "59a44f73-0da1-442d-a5e8-d3948efcc952",
+      "source": "Seeking Alpha",
+      "title": "Linamar Corporation (LNR:CA) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842810-linamar-corporation-lnr-ca-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:01:37+00:00",
+      "created_at": "2025-11-13T03:10:57.566327+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "LNR:CA",
+          "LIMAF",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "6776d278-68c2-4b86-9b4f-c0ad5f0cd23e",
+      "source": "Seeking Alpha",
+      "title": "Dyadic International, Inc. (DYAI) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842882-dyadic-international-inc-dyai-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:01:36+00:00",
+      "created_at": "2025-11-13T03:10:57.744634+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "DYAI",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "4a297bd9-4ee5-43c0-8e8b-8575e30d6155",
+      "source": "Seeking Alpha",
+      "title": "Ascendis Pharma A/S (ASND) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842789-ascendis-pharma-a-s-asnd-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:01:34+00:00",
+      "created_at": "2025-11-13T03:10:57.911396+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "ASND",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "177a0d77-209f-457d-beff-eefa23452d0b",
+      "source": "Seeking Alpha",
+      "title": "Wrap Technologies, Inc. (WRAP) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842778-wrap-technologies-inc-wrap-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:01:33+00:00",
+      "created_at": "2025-11-13T03:10:58.071013+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "WRAP",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "fcde59c4-3ab1-4545-a256-05c58084cdbb",
+      "source": "Seeking Alpha",
+      "title": "Thinkific Labs Inc. (THNC:CA) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842881-thinkific-labs-inc-thnc-ca-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:01:32+00:00",
+      "created_at": "2025-11-13T03:10:58.2542+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "THNC:CA",
+          "THNCF",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "2011ec3f-d8f8-4583-b342-ec8e6d879b1c",
+      "source": "Seeking Alpha",
+      "title": "PHC Holdings Corporation 2026 Q2 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4842880-phc-holdings-corporation-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:00:55+00:00",
+      "created_at": "2025-11-13T03:10:58.408234+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "PHCCF",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "408e01d7-7072-47f3-aa96-52c189d7355c",
+      "source": "Seeking Alpha",
+      "title": "Fold Holdings: A Capital Allocation Pickle Is Emerging",
+      "url": "https://seekingalpha.com/article/4842846-fold-holdings-a-capital-allocation-pickle-is-emerging?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T01:59:00+00:00",
+      "created_at": "2025-11-13T03:10:58.577806+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "BTC-USD",
+          "FLD",
+          "Mike Fay"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "3d5288ee-4446-49ca-923c-df8c1bbe879e",
+      "source": "Seeking Alpha",
+      "title": "AVITA Medical, Inc. (RCEL) Discusses Advanced Wound Care Solutions and Data-Driven Approaches in Clinical Healing Transcript",
+      "url": "https://seekingalpha.com/article/4842831-avita-medical-inc-rcel-discusses-advanced-wound-care-solutions-and-data-driven-approaches-in?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T01:51:34+00:00",
+      "created_at": "2025-11-13T03:10:58.730449+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "RCEL",
+          "AVHHL",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "04571cfc-c39b-4450-9e63-58353eb480f8",
+      "source": "Seeking Alpha",
+      "title": "Silvaco Group, Inc. (SVCO) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842876-silvaco-group-inc-svco-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T01:51:32+00:00",
+      "created_at": "2025-11-13T03:10:58.894731+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "SVCO",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "55f1bd5e-03b6-4d9c-ba81-9c3f939d382f",
+      "source": "Finnhub",
+      "title": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q3 2025 Update",
+      "url": "https://finnhub.io/api/news?id=e40ec65ff111700464629f15fa3b413b2a2a5176dbc6bda627c5aa446e6bd8ee",
+      "content": "Discover ARK Invest's Q3 2025 portfolio trends, top holdings, new stakes, and strategy insights on disruptive innovation.",
+      "published_at": "2025-11-13T06:02:40+00:00",
+      "created_at": "2025-11-13T03:13:28.289983+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/186805810/image_186805810.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    }
+  ]
+}

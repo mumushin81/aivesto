@@ -1,0 +1,347 @@
+{
+  "agent_id": 14,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "b02d1e53-81f6-48c0-89b2-5c8553307f1b",
+      "source": "Finnhub",
+      "title": "Amazon Business Unveils Next Generation AI Solutions to Help Organizations and Small Businesses Save Time and Money",
+      "url": "https://finnhub.io/api/news?id=025555675eb73b3ca696dcfaed8dad985d2be32befe2da00b0daf0a3ece99ee1",
+      "content": "SEATTLE, November 12, 2025--Today, at Amazon Business’ Reshape conference, Amazon (NASDAQ: AMZN) announced a number of new AI-powered solutions including the Amazon Business Assistant to help organizations discover savings, automate routine tasks, and make spending easier and more efficient. These innovations, all powered by Amazon Bedrock, AWS’s fully managed service for building and scaling generative artificial intelligence (AI) applications, represent the next step in Amazon Business’ smart",
+      "published_at": "2025-11-12T21:00:00+00:00",
+      "created_at": "2025-11-13T03:10:18.331762+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "68b559e2-34fb-40ca-b070-c361a3678649",
+      "source": "Finnhub",
+      "title": "How Does Amazon Make Money?",
+      "url": "https://finnhub.io/api/news?id=d4741efcac63c5b5418f242ee5be4a350ab8deed0a940810273cca9c439d20f9",
+      "content": "Amazon's incredibly profitable business may just be starting its long-term growth story amid the AI revolution.",
+      "published_at": "2025-11-12T19:17:00+00:00",
+      "created_at": "2025-11-13T03:10:18.84031+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "1d033fcc-f6a9-43b1-a5ee-93b18426030b",
+      "source": "Finnhub",
+      "title": "It’s Not Just Affordability, Americans Are Anxious Over Jobs Too",
+      "url": "https://finnhub.io/api/news?id=9f32d07f1f6604c081f0b2be74a70d04df6a8bb0f9864a144f4034f452f54efb",
+      "content": "A 62% majority in the Oct. 23-25 poll said the cost of their everyday items had climbed over the last month and nearly half of those people said the increases have been difficult to afford.  President Donald Trump and his aides have responded by putting a positive spin on the economic indicators and deflecting blame elsewhere — tactics President Joe Biden also used, to little avail — along with assuring things will get better.",
+      "published_at": "2025-11-12T19:00:00+00:00",
+      "created_at": "2025-11-13T03:10:19.180591+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "85ed5cd6-0010-4203-a09b-d525c8b50bd6",
+      "source": "Finnhub",
+      "title": "Too Good To Go launches grocery bags with Whole Foods as food costs climb",
+      "url": "https://finnhub.io/api/news?id=f6863e11b2d79e7bf39d2239bca585dcc3ea213102db20c716ab19366ada95a9",
+      "content": "Too Good To Go is launching discounted surprise bags for groceries with Whole Foods amid rising prices and inflation.",
+      "published_at": "2025-11-12T17:00:01+00:00",
+      "created_at": "2025-11-13T03:10:19.441293+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/108203219-1758715416706-gettyimages-2236615501-McGregor250923NYCsights10.jpeg?v=1758715472&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "08ec0faf-50b1-4000-b33c-60856a65da55",
+      "source": "Finnhub",
+      "title": "Amazon Web Services becomes the Official Cloud Provider of the DP World Tour",
+      "url": "https://finnhub.io/api/news?id=69d090d14dee6bc1c4a78d8909fd345b5a3ccb4b60c78d426dcfaef83f39359c",
+      "content": "SURREY, England, November 12, 2025--The DP World Tour and Amazon Web Services (AWS) today announced a strategic partnership that will see the world's most comprehensive and broadly adopted cloud become the Official Cloud Provider of golf’s global Tour.",
+      "published_at": "2025-11-12T17:00:00+00:00",
+      "created_at": "2025-11-13T03:10:19.602655+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "32afc8dc-c8bf-4b6c-ad03-1e57e8e9b385",
+      "source": "Finnhub",
+      "title": "Amazon Earnings Show Why the Stock Is a Buy",
+      "url": "https://finnhub.io/api/news?id=f4276b037d219336240df0befb55f98136dfe7c2bfa4704f95ff792eb19d9f00",
+      "content": "The e-commerce and cloud-computing giant's broad-based business momentum offers a clear bull case for the stock.",
+      "published_at": "2025-11-12T16:56:00+00:00",
+      "created_at": "2025-11-13T03:10:19.762078+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "cb0b35cb-875b-46ea-89f4-abe72955ba4c",
+      "source": "Finnhub",
+      "title": "Can L'Oréal's (ENXTPA:OR) Dr.G Launch Reveal a Shift in Its Global Expansion Playbook?",
+      "url": "https://finnhub.io/api/news?id=1ced8f75dd285c29312692401a1c8154ce0e0b2701ec03a29ed2d8c5f9c4d660",
+      "content": "Dr.G has officially launched in the United States, exclusively through Amazon, marking the brand’s debut under the L'Oréal Group and highlighting the convergence of dermatologist-led K-beauty with mainstream accessibility. This move underscores L'Oréal's commitment to leveraging global clinical expertise and digital-first distribution to reach diverse consumer segments in new markets. We'll examine how the U.S. launch of Dr.G illustrates L'Oréal's ongoing adaptation to consumer trends and...",
+      "published_at": "2025-11-12T10:12:49+00:00",
+      "created_at": "2025-11-13T03:10:20.311109+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "0671bc22-08be-4d22-9644-f83f583c34df",
+      "source": "Finnhub",
+      "title": "What Tesla Stock Would Look Like in 10 Years If Musk Hits Pay Targets",
+      "url": "https://finnhub.io/api/news?id=d6edb26de7cdbdc3312cd64041086f09dfb0a6ea95c16126356f29cb70ba8934",
+      "content": "If the CEO hits his performance goals and the company’s earnings explode over the coming 10 years, what will the stock’s price-to-earnings ratio be?",
+      "published_at": "2025-11-13T00:37:00+00:00",
+      "created_at": "2025-11-13T03:10:20.465696+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "171b8480-73b1-4623-af96-e0188698b7e5",
+      "source": "Finnhub",
+      "title": "TSLA: Tesla Sales Plunge 23% Globally After U.S. Tax Credit Ends",
+      "url": "https://finnhub.io/api/news?id=0049d0a4805e59b0b3734432077378d4922a8fa69ba01bd87ff025ef31af24fe",
+      "content": "Tesla Faces Tough Q4 as Global EV Sales Stumble",
+      "published_at": "2025-11-13T00:22:35+00:00",
+      "created_at": "2025-11-13T03:10:20.623817+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a10384d6-59a5-447d-8375-35636c83778a",
+      "source": "Finnhub",
+      "title": "Tesla Faces Key Turning Points as Morgan Stanley Flags Six-to-12-Month Catalysts",
+      "url": "https://finnhub.io/api/news?id=6d123e2b5c823c5d9bea4ed01532e385d967720a3b93c1f0f583982e3c834fe2",
+      "content": "Analyst Adam Jonas points to xAI investment, Full Self-Driving rollout, and chip ambitions as drivers of the next phase.",
+      "published_at": "2025-11-13T00:13:50+00:00",
+      "created_at": "2025-11-13T03:10:20.778174+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "9d9e4b02-0db0-4e8a-9450-37c22295bbae",
+      "source": "Finnhub",
+      "title": "Robert Kiyosaki Says He's Never Been Fired Because He's 'An Entrepreneur, Not An Employee'",
+      "url": "https://finnhub.io/api/news?id=7b26a5ce51f172a2ed509c4d7cde7ef5b7ef8b932233113e36e90bb7d9f2b46b",
+      "content": "“Rich Dad Poor Dad” author Robert Kiyosaki is doubling down on his message that being an entrepreneur is the safest path in today's unstable economy. Layoffs Surge In a recent post on X, Kiyosaki reacted to news that executive outplacement firm Challenger, Gray & Christmas expects 153,000 American workers to be laid off. “Breaks my heart,” he wrote. “Few events in anyone's life are more painful than being fired.” But Kiyosaki then contrasted that pain with his own path. “I've never been fired be",
+      "published_at": "2025-11-12T23:16:10+00:00",
+      "created_at": "2025-11-13T03:10:21.017688+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ed8dce1e-699f-468b-8723-951bb8bb16ac",
+      "source": "Finnhub",
+      "title": "These Stocks Are Moving the Most Today: AMD, Oklo, Nvidia, On Holding, Bill Holdings, and More",
+      "url": "https://finnhub.io/api/news?id=d7e4b6abca580b17f00dbefbf94b385e5ea1b5f848ef589750d61e8879d1d8a4",
+      "content": "Chip stocks AMD and Nvidia rise amid signs of strong AI demand, while sneaker brand On raises its full-year guidance.",
+      "published_at": "2025-11-12T20:26:00+00:00",
+      "created_at": "2025-11-13T03:10:21.173332+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "fed7a867-1f0a-40ae-ac25-2df2a1b11588",
+      "source": "Finnhub",
+      "title": "Coinbase to Leave Delaware, Reincorporate in Texas",
+      "url": "https://finnhub.io/api/news?id=6ee7f944b21445b38aa42729b29202d6d9b584d11dcd0df556c777004f290365",
+      "content": "Coinbase plans to leave Delaware and reincorporate in Texas after a group of shareholders with a majority of voting power voted to approve the move.",
+      "published_at": "2025-11-12T23:01:00+00:00",
+      "created_at": "2025-11-13T03:10:21.403814+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "29185f7f-cf41-44b6-9e87-3990f56a0a06",
+      "source": "Finnhub",
+      "title": "Tesla Stock Is Stable Despite Awful EV Sales. Why Wall Street Isn’t Worried Yet.",
+      "url": "https://finnhub.io/api/news?id=b98de3f9c171d9ab2d4a26241d166ce91c6b8804da1a5b6962d8c3531c01a18f",
+      "content": "Investors knew the fourth quarter would be tough for electric vehicle makers like  Tesla  They might not have known how tough—or how Tesla stock would react.  In October, Tesla sales fell 23% year over year in four markets, North America, Europe, China, and South Korea, according to industry data tracked by  Wells Fargo  analyst Colin Langan.",
+      "published_at": "2025-11-12T22:53:00+00:00",
+      "created_at": "2025-11-13T03:10:21.560516+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ade5925e-f93b-4afb-903b-59c0ae2d606d",
+      "source": "Finnhub",
+      "title": "Elon Musk Says 'It's Time' To Put Dogecoin On The Moon But It Is Not DOGE That Surges",
+      "url": "https://finnhub.io/api/news?id=ddb3be070563c4f33ee25457d05983aa3dd4e3ddcc356116059e5e3f3b37e943",
+      "content": "Tesla (NASDAQ:TSLA) CEO Elon Musk has sent the price of a Solana memecoin surging with an X post rekindling a 2021 Dogecoin promise. “It’s time,” Musk said on Nov. 3 on X, referring to a 2021 promise “to put a literal Dogecoin on the literal moon” with a SpaceX mission aptly named DOGE-1. While the post in previous years would have sent DOGE soaring, the memecoin failed to react. Instead, it fell by as much as 10%, from about $0.19 to $0.16, amid a broad market crash. Don't Miss: Missed Nvidia a",
+      "published_at": "2025-11-12T22:16:08+00:00",
+      "created_at": "2025-11-13T03:10:21.787476+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "0ea4bfa6-b456-4ef2-9caa-1f8bd5e5c6bd",
+      "source": "Finnhub",
+      "title": "Crypto exchange Coinbase set to reincorporate in Texas",
+      "url": "https://finnhub.io/api/news?id=2e8ec03d9c188b5ce437a84957be1929c292a686f45af17f54c676eb9c6c3f4d",
+      "content": "(Reuters) -Cryptocurrency exchange Coinbase (COIN) is reincorporating in ​the new business hub of ‌Texas and will leave Delaware, the ‌company said in a filing with the U.S. securities regulator on Wednesday.",
+      "published_at": "2025-11-12T21:53:19+00:00",
+      "created_at": "2025-11-13T03:10:21.996069+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4c59e997-04c2-4319-aa45-43c95a22a52b",
+      "source": "Finnhub",
+      "title": "Warren Buffett Says 'Very Wealthy CEOs Hate When Others Get Even Richer' — Was It a Dig at Elon Musk As He Could Become World's 1st Trillionaire?",
+      "url": "https://finnhub.io/api/news?id=e07d0dbaf21daf0f8e35497e1a5c5d1098e2a6ad11914491501cca9adbe7cc3b",
+      "content": "Warren Buffett doesn't name names. He rarely needs to. In his latest Thanksgiving letter, the Berkshire Hathaway chair let his thoughts roam from the usual business wisdom to something a bit more biting. Hidden between reflections on succession, responsibility, and compensation, one line caught readers off guard: \"Envy and greed walk hand in hand.\" What triggered the buzz wasn't just the phrasing—it was the context. Don't Miss: Missed Nvidia and Tesla? RAD Intel Could Be the Next AI Powerhouse —",
+      "published_at": "2025-11-12T21:48:18+00:00",
+      "created_at": "2025-11-13T03:10:22.224687+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "bcef0bdf-1e46-45cc-9a62-b78b6f9b1082",
+      "source": "Finnhub",
+      "title": "What will matter to Tesla stock price over the next 6 to 12 months?",
+      "url": "https://finnhub.io/api/news?id=872ab94be1bbb9624b01fb0bcdc06e6f8ca0af5bb4da20489d0dbd1da0ccac75",
+      "content": "Investing.com -- Tesla’s latest annual general meeting gave investors more than just the approval of Elon Musk’s $1 trillion compensation package to think about, according to Morgan Stanley.",
+      "published_at": "2025-11-12T21:28:13+00:00",
+      "created_at": "2025-11-13T03:10:22.39529+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "8c76335a-91bc-4489-9d07-a2bbf22fc9cb",
+      "source": "Finnhub",
+      "title": "Tesla’s October Sales Were Awful. The Stock Is Rising.",
+      "url": "https://finnhub.io/api/news?id=a5826b5da730c29baadca5f251ac8caed83b1aae4caa024e3bfcc2b1ba2fb213",
+      "content": "Investors knew the fourth quarter would be tough for electric vehicle makers like  Tesla  They might not have known how tough—or how Tesla stock would react.  In October, Tesla sales fell 23% year over year in four markets, North America, Europe, China, and South Korea, according to industry data tracked by  Wells Fargo  analyst Colin Langan.",
+      "published_at": "2025-11-12T21:15:00+00:00",
+      "created_at": "2025-11-13T03:10:22.561221+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "9034de40-b34c-4c2e-af8b-006a7dd23d62",
+      "source": "Finnhub",
+      "title": "Latest News In Electric Vehicles - Aptera Motors Advances Toward Scalable Solar Vehicle Production",
+      "url": "https://finnhub.io/api/news?id=f7e63a10175432d47fc9125871ec93b67e93b0677e81456f37f4e60d40f6e4cd",
+      "content": "Aptera Motors Corp., a solar mobility company focused on ultra-efficient transportation, has commenced construction of its validation vehicle assembly line at its Southern California facility. This development marks a shift from prototype builds to a systematic assembly process, with engineers and technicians refining the systems to aid Aptera’s progression toward scalable manufacturing. The assembly line setup, which includes precision assembly fixtures for consistent production, is crucial...",
+      "published_at": "2025-11-12T20:37:29+00:00",
+      "created_at": "2025-11-13T03:10:22.731941+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    }
+  ]
+}

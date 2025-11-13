@@ -1,0 +1,349 @@
+{
+  "agent_id": 13,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "1da74a64-b0df-423e-b793-9c46daddfcc1",
+      "source": "Finnhub",
+      "title": "SOFR Academy Appoints R. Martin \"Marty\" Chávez as Senior Advisor",
+      "url": "https://finnhub.io/api/news?id=bd91f9a157e32e5e08d959d9784d9870092e366ec196b770b862b537cc458d9c",
+      "content": "NEW YORK, November 12, 2025--SOFR Academy, Inc., a leading financial engineering firm, today announced the appointment of R. Martin \"Marty\" Chávez as Senior Advisor.",
+      "published_at": "2025-11-12T20:00:00+00:00",
+      "created_at": "2025-11-13T03:10:13.387366+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "020bc4e5-539c-481f-8796-78c9fc295f95",
+      "source": "Finnhub",
+      "title": "The Best Stocks to Buy With $1,000 Right Now",
+      "url": "https://finnhub.io/api/news?id=d2919efc963d96dd7c00140af0d3924ec4031fe18766841fadced134d83c9959",
+      "content": "There are several companies making a ton of money from AI infrastructure build-outs.",
+      "published_at": "2025-11-12T20:00:00+00:00",
+      "created_at": "2025-11-13T03:10:13.558798+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "66da32ec-5f31-41a4-b141-fba1443e4b78",
+      "source": "Finnhub",
+      "title": "Anthropic Poised to Beat OpenAI to Profitability",
+      "url": "https://finnhub.io/api/news?id=42b8e25d04bc57f5678387150f0f4849a8115bf0b4025cf0bd3a464a6866a7db",
+      "content": "Leaner strategy and strong enterprise demand fuel growth",
+      "published_at": "2025-11-12T19:14:19+00:00",
+      "created_at": "2025-11-13T03:10:13.895739+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "d97ba8ab-e8d0-4280-bc0c-6b8607ef99ac",
+      "source": "Finnhub",
+      "title": "Waymo begins offering freeway robotaxi rides in San Francisco, LA and Phoenix",
+      "url": "https://finnhub.io/api/news?id=36427d01b5b1ca8f2227aae24582add0d5f786a172b896ba482fa632918ad5df",
+      "content": "The Google sister company has been testing robotaxi freeway rides with employees for more than a year.",
+      "published_at": "2025-11-12T19:00:01+00:00",
+      "created_at": "2025-11-13T03:10:14.072338+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/107370337-17073249282022-12-13t080547z_1219029184_rc2v4y9c46bi_rtrmadp_0_waymo-san-francisco.jpeg?v=1707324947&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ab9b5288-2aa7-4284-9081-8a8ce280c7a7",
+      "source": "Finnhub",
+      "title": "Watch: Waymo launches paid robotaxi rides on freeways",
+      "url": "https://finnhub.io/api/news?id=d0736d04585f4af15844dd02431310dc308683ee65a949c9b1f5747aaddf0d4a",
+      "content": "Waymo robotaxis will now take passengers on freeways in three major U.S. cities, marking a major milestone for the driverless, ride-hailing company. The Alphabet-owned company said it'll begin offering those types of trips in the San Francisco, Phoenix and the Los Angeles markets. Waymo also announced an expansion to San Jose, California, where its robotaxis can now pick up and drop off at the SJC airport. The company has been testing robotaxi freeway rides with employees for more than a year.",
+      "published_at": "2025-11-12T18:59:01+00:00",
+      "created_at": "2025-11-13T03:10:14.250449+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/108108730-1740691402545-IMG_5161.jpg?v=1740691662&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "36fba7de-20ac-4723-87c9-889050a42d4c",
+      "source": "Finnhub",
+      "title": "Google to advance German data centre infrastructure with $6.3bn investment",
+      "url": "https://finnhub.io/api/news?id=4eaa98a09978bd73fced45cbb57acb6e031cd8e0c5f16d8fd2610d1164a52c39",
+      "content": "The plan involves building a new data centre in Dietzenbach and continuing to invest in the Hanau campus.",
+      "published_at": "2025-11-12T18:40:24+00:00",
+      "created_at": "2025-11-13T03:10:14.420653+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ac3d558f-db89-41c5-907d-5324fb5a51bf",
+      "source": "Finnhub",
+      "title": "Hexaware rolls out AI-powered insurance solutions for Google Cloud",
+      "url": "https://finnhub.io/api/news?id=5cb0f5f97c0bb5e5a398317399893792918e7de2ed979904818a470191c1d3db",
+      "content": "This collaboration is geared towards enhancing digital transformation in the insurance industry by employing AI, automation and adaptable cloud-native frameworks.",
+      "published_at": "2025-11-12T18:30:10+00:00",
+      "created_at": "2025-11-13T03:10:14.592992+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "24b7f08b-26c8-4c1d-bc00-449ad0403230",
+      "source": "Finnhub",
+      "title": "Google bets €5.5 billion on Germany’s AI future",
+      "url": "https://finnhub.io/api/news?id=a39d3a07e5e6cec6189a2b9a51070d079b008138d919e7170e94a697d462f91a",
+      "content": "The tech giant is making its biggest European investment yet and ensuring it dominates AI-related technologies in the continent's biggest economy.View on euronews",
+      "published_at": "2025-11-12T18:22:39+00:00",
+      "created_at": "2025-11-13T03:10:14.789626+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "1f458c27-f316-4363-8de9-a02f71b8bb46",
+      "source": "Finnhub",
+      "title": "TotalEnergies agrees renewable power deal with Google for Ohio data centres",
+      "url": "https://finnhub.io/api/news?id=bdd21e281085abb1954989679d489f01801dda20ecd7d4b07ceee23d69e11974",
+      "content": "The solar facility, which is nearing completion, is connected to the PJM ⁠grid, the ‌largest in the United States, and will help power Google’s data centre ‍operations in the state, it said.  \"This agreement illustrates TotalEnergies’s ability to meet the growing energy ​demands of major tech companies by leveraging its ‌integrated portfolio of renewable and flexible assets,\" said Stéphane Michel, President of Gas, Renewables and Power at TotalEnergies.",
+      "published_at": "2025-11-12T15:43:10+00:00",
+      "created_at": "2025-11-13T03:10:15.314522+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2e82532c-ba0c-4878-afec-7b630a9088a1",
+      "source": "Finnhub",
+      "title": "SoftBank shares slide as Nvidia stake sale highlights AI funding needs",
+      "url": "https://finnhub.io/api/news?id=b4317032466482ce6940231179f640dfbcaa994c395ce72c60ef8847132a958a",
+      "content": "TOKYO (Reuters) -SoftBank's shares slid as much as 10% on Wednesday after the $5.8 billion sale of its stake in Nvidia highlighted the growing funding demands it faces to bankroll its \"all-in\" bet on ChatGPT ​creator OpenAI and other investments.  The conglomerate needs to fund a $22.5 billion follow-on investment in OpenAI, is acquiring chipmaker Ampere in ‌a $6.5 billion deal and has agreed to buy the robotics business of Swiss group ABB for $5.4 billion.  Analyst Mary Pollock at CreditSights estimates SoftBank has committed to at least $41 billion ‌in recent spending on investments and purchases.",
+      "published_at": "2025-11-12T15:07:04+00:00",
+      "created_at": "2025-11-13T03:10:15.468344+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "397b6243-663a-4e59-b888-200f3a900da7",
+      "source": "Finnhub",
+      "title": "Google sues cybercriminal group behind E-ZPass, USPS text phishing scams",
+      "url": "https://finnhub.io/api/news?id=72ea4d94e342e90c99ef7029cdd1b590f0fb6a21ca59c39845b95004df06860a",
+      "content": "Google filed a lawsuit against a cybercriminal group largely based in China that is behind a massive text message phishing operation, or \"smishing.\"",
+      "published_at": "2025-11-12T13:00:02+00:00",
+      "created_at": "2025-11-13T03:10:15.936589+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/108224703-1762951406147-gettyimages-1372131378-smishing_021601.jpeg?v=1762951417&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4231a7ff-2870-4c6f-990e-7d7063768bd8",
+      "source": "Finnhub",
+      "title": "Top Midday Stories: AMD Shares Rise on Analyst Day Guidance; Anthropic to Invest $50 Billion in US Computing Infrastructure",
+      "url": "https://finnhub.io/api/news?id=8dc458363ba598ad14fd672dbe7cc756431ee369a28b9d4553a71840c18578fb",
+      "content": "The Dow Jones Industrial Average was up, while the S&P 500 and Nasdaq Composite were down in late-mo",
+      "published_at": "2025-11-13T00:44:55+00:00",
+      "created_at": "2025-11-13T03:10:16.167248+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "476f3af3-be3d-472a-b21f-8aeac29be6c8",
+      "source": "Seeking Alpha",
+      "title": "LION E-Mobility AG 2025 Q3 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4842885-lion-e-mobility-ag-2025-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:04:57+00:00",
+      "created_at": "2025-11-13T03:10:57.22386+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "LMIAF",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "e3f008f8-ef7a-4aa3-8e5f-da7fbd37a3dd",
+      "source": "Finnhub",
+      "title": "Dow on Pace to Clear 48,000 Closing Milestone",
+      "url": "https://finnhub.io/api/news?id=68db3adb6b8c48ebf1a680c16cafce7c437cf2a20ddc0513fb0598d3906a9f04",
+      "content": "The Dow is surging through the 48,000 threshold.  The blue-chip index was up 344 points, or 0.7%, on Wednesday.  It continued to beat the S&P 500 and Nasdaq Composite this week; the S&P was down 0.1%, while the Nasdaq was down 0.6%.",
+      "published_at": "2025-11-13T00:21:46+00:00",
+      "created_at": "2025-11-13T03:10:16.40387+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "526c6aac-777a-4d0b-887b-cd622cf3e8ec",
+      "source": "Finnhub",
+      "title": "AMD Stock Surges as Wall Street Weighs Its Odds Against Nvidia",
+      "url": "https://finnhub.io/api/news?id=9bec079425e2d68fa1c8fc739c1cd8fe8a221c76b08f6d6bc317ed92b808389b",
+      "content": "The company still needs a few big deals to move toward its ambition of a double-digit share of the AI data-center market.",
+      "published_at": "2025-11-12T23:33:00+00:00",
+      "created_at": "2025-11-13T03:10:16.661175+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "f1855d16-bd01-44e4-9195-ec6659040cea",
+      "source": "Finnhub",
+      "title": "What Is One of the Best Artificial Intelligence Stocks to Own for the Next 5 Years?",
+      "url": "https://finnhub.io/api/news?id=f457c50ab49bcb05fd43cb8c65e5067369aa1ffc0deaac3c923f72cd6af8589a",
+      "content": "AI is still a massive opportunity.",
+      "published_at": "2025-11-12T23:28:00+00:00",
+      "created_at": "2025-11-13T03:10:16.828157+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "e3cd32bb-c222-4134-8e88-70442b8d8791",
+      "source": "Finnhub",
+      "title": "Amazon: Don't Let The Forward P/E Fool You - The Stock Is Still Cheap",
+      "url": "https://finnhub.io/api/news?id=78f5de73b59f6176c858577b42a80b706d54eafd5a04308db258b308254130d3",
+      "content": "Amazon stock is rated a Strong Buy with 21% upside, driven by AI growth, strong financials, and a dominant market position. Click here to read more on AMZN.",
+      "published_at": "2025-11-12T23:15:35+00:00",
+      "created_at": "2025-11-13T03:10:16.978102+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2233395669/image_2233395669.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "aa0541f1-261b-4fab-a511-a1026d52e227",
+      "source": "Finnhub",
+      "title": "Foxglove Raises $40 Million Series B to Power the Future of Physical AI",
+      "url": "https://finnhub.io/api/news?id=625522cb7285154b1dc7af059540fdcd6efe2426cb67489e4ecfe3240ccfba6f",
+      "content": "SAN FRANCISCO, November 12, 2025--Foxglove raises $40M Series B to expand its Physical AI data platform, powering the next generation of robotics and autonomous systems.",
+      "published_at": "2025-11-12T23:00:00+00:00",
+      "created_at": "2025-11-13T03:10:17.292334+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "21a8eed7-48a8-4724-a647-150cdeffc154",
+      "source": "Finnhub",
+      "title": "Stock Market Today: Dow Jones Index Rises As Nvidia, AMD Rally (Live Coverage)",
+      "url": "https://finnhub.io/api/news?id=c483f82c00e5f8508d8bd19bd404692d840c257bb2153919589a4eb055892965",
+      "content": "Stock Market Today: The Dow Jones index rose Wednesday ahead of the market open. And Nvidia stock and AMD rallied premarket trading.",
+      "published_at": "2025-11-12T22:26:34+00:00",
+      "created_at": "2025-11-13T03:10:17.604093+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "88f08ae3-499b-448c-b590-3804456a7f70",
+      "source": "Finnhub",
+      "title": "Patrick Ryan’s Buckeye Tops Amazon’s Best Books of 2025 List",
+      "url": "https://finnhub.io/api/news?id=27b9cd4c3f0b6bf4b6c7e9308c170032a5f9954314605aa877db3bfd24fa59aa",
+      "content": "SEATTLE, November 12, 2025--Amazon (NASDAQ: AMZN) today unveiled its Best Books of 2025 list. Patrick Ryan’s Buckeye claims the No. 1 spot, chosen by the Amazon Editors for its captivating multigenerational storytelling. The top five also include Virginia Evans’ The Correspondent, Nina Willner’s The Boys in the Light, Ocean Vuong’s The Emperor of Gladness, and Charlotte McConaghy’s Wild Dark Shore.",
+      "published_at": "2025-11-12T22:15:00+00:00",
+      "created_at": "2025-11-13T03:10:17.762982+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    }
+  ]
+}

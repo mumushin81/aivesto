@@ -1,0 +1,626 @@
+{
+  "agent_id": 6,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "fa000eb4-09bf-4223-bfc5-df8128ab06d3",
+      "source": "Alpha Vantage",
+      "title": "Moleculin Announces Grant Funded Research Evaluating Annamycin for the Treatment of Pancreatic Cancer at UNC-Chapel Hill",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186289/0/en/Moleculin-Announces-Grant-Funded-Research-Evaluating-Annamycin-for-the-Treatment-of-Pancreatic-Cancer-at-UNC-Chapel-Hill.html",
+      "content": "Preclinical research to be conducted at the University of North Carolina at Chapel Hill ( UNC ...",
+      "published_at": "2025-11-12T13:37:00+00:00",
+      "created_at": "2025-11-12T14:28:11.550368+00:00",
+      "symbols": [
+        "FTRK",
+        "MBRX",
+        "META"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.576289"
+          }
+        ],
+        "authors": [
+          "Inc.",
+          "Moleculin Biotech"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.171994
+      }
+    },
+    {
+      "id": "5c499ddc-c08a-486d-8cc2-d14585e68e6f",
+      "source": "Alpha Vantage",
+      "title": "SoftBank Swaps Nvidia For OpenAI - Is The Hardware Play Done? - NVIDIA  ( NASDAQ:NVDA ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48801508/softbank-swaps-nvidia-for-openai-is-the-hardware-play-done",
+      "content": "SoftBank ( OTCPK:SFTBY ) just made one of the boldest trades in the AI era - selling $5.8 billion worth of Nvidia Corp ( NASDAQ:NVDA ) shares to fund a $22.5 billion commitment to OpenAI. On paper, it looks like Masayoshi Son is ditching the shovel-maker in the middle of a gold rush.",
+      "published_at": "2025-11-12T13:36:19+00:00",
+      "created_at": "2025-11-12T14:28:11.917092+00:00",
+      "symbols": [
+        "PLTR",
+        "SFTBF",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Surbhi Jain"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.15367
+      }
+    },
+    {
+      "id": "11675bac-09dc-4bb5-b52e-d4c8782f4d60",
+      "source": "Alpha Vantage",
+      "title": "Figure brings $YLDS to Solana, unlocking real RWA utility for DeFi - Figure Technology  ( NASDAQ:FIGR ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801232/figure-brings-ylds-to-solana-unlocking-real-rwa-utility-for-defi",
+      "content": "NEW YORK, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Figure Technology Solutions, Inc. ( NASDAQ:FIGR ) today announced that its subsidiary, Figure Certificate Company ( FCC ) , intends to begin minting $YLDS, a registered public debt security, natively on Solana. $YLDS is a security-version of ...",
+      "published_at": "2025-11-12T13:31:42+00:00",
+      "created_at": "2025-11-12T14:28:12.272193+00:00",
+      "symbols": [
+        "FIGR"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "IPO",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.972193"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999976"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.252509
+      }
+    },
+    {
+      "id": "ac0c1d56-c591-4b0d-963a-80bc727562c4",
+      "source": "Alpha Vantage",
+      "title": "Canada Kicks Off Projects Under G7 Critical Minerals Production Alliance - This Company With Deals Already In Place Is A Front-Runner - Nouveau Monde Graphite  ( NYSE:NMG ) ",
+      "url": "https://www.benzinga.com/partner/news/25/11/48801230/canada-kicks-off-projects-under-g7-critical-minerals-production-alliance-this-company-with-deals-alr",
+      "content": "The G7's pivot from \"resilience\" to a full-fledged Critical Minerals Alliance made headlines last week. No longer is it enough to rely on the near-total control of China, and a pressing need has been to form alliances to diversify and secure the supply chain.",
+      "published_at": "2025-11-12T13:31:29+00:00",
+      "created_at": "2025-11-12T14:28:12.654031+00:00",
+      "symbols": [
+        "NMG",
+        "PCRFF"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Energy & Transportation",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.918141"
+          }
+        ],
+        "authors": [
+          "Meg Flippin"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.314596
+      }
+    },
+    {
+      "id": "4f073d91-6284-415d-8cb1-48222dcdd4cf",
+      "source": "Alpha Vantage",
+      "title": "Morning Minute: SoFi Bank Launches Spot Crypto Trading",
+      "url": "https://decrypt.co/348294/morning-minute-sofi-bank-launches-spot-crypto-trading",
+      "content": "It's a major first for banks and fintechs as access to crypto trading becomes easier and easier.",
+      "published_at": "2025-11-12T13:31:02+00:00",
+      "created_at": "2025-11-12T14:28:13.078166+00:00",
+      "symbols": [
+        "CRYPTO:UNI",
+        "LPTX",
+        "CRYPTO:BTC",
+        "CRYPTO:ETH"
+      ],
+      "metadata": {
+        "source": "Decrypt.co",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.769861"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.99393"
+          }
+        ],
+        "authors": [
+          "Tyler Warner"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.179096
+      }
+    },
+    {
+      "id": "c40d18a2-3b66-4eaa-b773-b395d5e799c1",
+      "source": "Alpha Vantage",
+      "title": "NRx Pharmaceuticals, Inc.  ( NASDAQ:NRXP )  to Report Third Quarter 2025 Financial Results on November 17, 2025",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186285/0/en/NRx-Pharmaceuticals-Inc-NASDAQ-NRXP-to-Report-Third-Quarter-2025-Financial-Results-on-November-17-2025.html",
+      "content": "WILMINGTON, Del., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- NRx Pharmaceuticals, Inc. ( Nasdaq: NRXP ) ( \"NRx Pharmaceuticals\", the \"Company\" ) , a clinical-stage biopharmaceutical company, today announced that it will release its third quarter 2025 financial results before the market opens on Monday, ...",
+      "published_at": "2025-11-12T13:31:00+00:00",
+      "created_at": "2025-11-12T14:28:13.462065+00:00",
+      "symbols": [
+        "FTRK",
+        "NRXP",
+        "WMGTF"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.451494"
+          }
+        ],
+        "authors": [
+          "NRx Pharmaceuticals Inc"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.112275
+      }
+    },
+    {
+      "id": "29de89ad-48d4-4f59-ab2e-e6cb08a7e267",
+      "source": "Alpha Vantage",
+      "title": "Figure brings $YLDS to Solana, unlocking real RWA utility for DeFi",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186286/0/en/Figure-brings-YLDS-to-Solana-unlocking-real-RWA-utility-for-DeFi.html",
+      "content": "Figure intends to begin minting $YLDS, a registered public debt security, natively on Solana.",
+      "published_at": "2025-11-12T13:31:00+00:00",
+      "created_at": "2025-11-12T14:28:13.828478+00:00",
+      "symbols": [
+        "FIGR"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "IPO",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.9545"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999976"
+          }
+        ],
+        "authors": [
+          "Inc.",
+          "FT Intermediate"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.253334
+      }
+    },
+    {
+      "id": "447a3b05-5fea-4f23-b379-a4ffe166334a",
+      "source": "Alpha Vantage",
+      "title": "Transform Your Screen Protector Into a Personalized Statement with the All-New Screen Skinz Customizer",
+      "url": "https://www.benzinga.com/pressreleases/25/11/n48800706/transform-your-screen-protector-into-a-personalized-statement-with-the-all-new-screen-skinz-custom",
+      "content": "World's First On-Demand Personalization Platform Allows Shoppers to Instantly Create Custom Disappearing-Design Screen Protectors",
+      "published_at": "2025-11-12T13:05:00+00:00",
+      "created_at": "2025-11-12T14:28:24.990631+00:00",
+      "symbols": [
+        "SSNLF"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "PRNewswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.295161
+      }
+    },
+    {
+      "id": "22fe5b2e-a6b9-405e-898a-834caeefe138",
+      "source": "Alpha Vantage",
+      "title": "Microirrigation Systems Market on the Rise: Smarter Farming, Bigger Growth | Asia Pacific Leads the Charge in Microirrigation Adoption",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801174/microirrigation-systems-market-on-the-rise-smarter-farming-bigger-growth-asia-pacific-leads-the-ch",
+      "content": "Delray Beach, FL , Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- According to a research report published by MarketsandMarkets, The global microirrigation systems market is on a high-growth trajectory. Valued at USD 10.4 billion in 2022, it's projected to reach USD 17.8 billion by 2028, growing at a CAGR ...",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:14.192174+00:00",
+      "symbols": [
+        "TTC"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.342933
+      }
+    },
+    {
+      "id": "8a2b609e-d857-4daa-9433-4bc8dc9d2a81",
+      "source": "Alpha Vantage",
+      "title": "Peer To Peer Network Installs New AI Product Suite on Company Site for Live Testing",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186247/0/en/Peer-To-Peer-Network-Installs-New-AI-Product-Suite-on-Company-Site-for-Live-Testing.html",
+      "content": "CAMBRIDGE, Mass., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Peer To Peer Network, Inc. ( OTC: PTOP ) is pleased to announce that its new AI division, Intelligence Labs, has successfully integrated several components of its new AI product stack to the company's corporate website, www.PTOPnetwork.com.",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:14.587097+00:00",
+      "symbols": [
+        "GOOG"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.576289"
+          }
+        ],
+        "authors": [
+          "Peer to Peer Network"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.287292
+      }
+    },
+    {
+      "id": "9b8f8518-50c9-4ba4-bfac-3b6681488625",
+      "source": "Alpha Vantage",
+      "title": "InterDigital to Present at Three Upcoming Investor Conferences",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186245/24691/en/InterDigital-to-Present-at-Three-Upcoming-Investor-Conferences.html",
+      "content": "WILMINGTON, Del., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- InterDigital, Inc. ( Nasdaq: IDCC ) , a mobile, video and AI technology research and development company, today announced that the company will be presenting at three upcoming investor conferences: ...",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:14.953582+00:00",
+      "symbols": [
+        "IDCC",
+        "WMGTF"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Inc.",
+          "InterDigital"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.140299
+      }
+    },
+    {
+      "id": "66663ce8-8563-4002-9188-3cacbd3df899",
+      "source": "Alpha Vantage",
+      "title": "DeFi Development Corp. Announces Proposed Preferred Stock Offering - DeFi Development  ( NASDAQ:DFDV ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801163/defi-development-corp-announces-proposed-preferred-stock-offering",
+      "content": "BOCA RATON, FL, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- DeFi Development Corp. ( NASDAQ:DFDV ) ( the \"Company\" or \"DeFi Dev Corp.\" ) , the first US public company with a treasury strategy built to accumulate and compound Solana ( \"SOL\" ) , today announced that, subject to market and other ...",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:15.323344+00:00",
+      "symbols": [
+        "SNEX",
+        "DFDV"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "IPO",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.207228
+      }
+    },
+    {
+      "id": "73b2a9de-0606-4a5a-be4d-899f9beba325",
+      "source": "Alpha Vantage",
+      "title": "Peer To Peer Network Installs New AI Product Suite on Company Site for Live Testing - Peer to Peer Network  ( OTC:PTOP ) , Peer to Peer Network  ( OTC:PTOPD ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801173/peer-to-peer-network-installs-new-ai-product-suite-on-company-site-for-live-testing",
+      "content": "CAMBRIDGE, Mass., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Peer To Peer Network, Inc. ( OTC:PTOP ) is pleased to announce that its new AI division, Intelligence Labs, has successfully integrated several components of its new AI product stack to the company's corporate website, www.PTOPnetwork.com.",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:15.725973+00:00",
+      "symbols": [
+        "GOOG"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.360215"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.291389
+      }
+    },
+    {
+      "id": "787a6866-f1b9-48b9-9ca4-d77ee9354dab",
+      "source": "Alpha Vantage",
+      "title": "Saratoga Investment Corp. Announces Special Dividend of $0.25 Per Share Fulfilling Its Fiscal 2025 Distribution Requirements - Saratoga Investment  ( NYSE:SAR ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801164/saratoga-investment-corp-announces-special-dividend-of-0-25-per-share-fulfilling-its-fiscal-2025-d",
+      "content": "NEW YORK, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Saratoga Investment Corp. ( NYSE:SAR ) ( \"Saratoga Investment\" or \"the Company\" ) , a business development company, today announced that its Board of Directors has declared a special cash distribution of $0.25 per share.",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:16.107929+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.310843"
+          },
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.451494"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.18547
+      }
+    },
+    {
+      "id": "168847bb-2f69-4c0b-898d-0c35413e43d7",
+      "source": "Alpha Vantage",
+      "title": "Amaze Completes Acquisition of The Food Channel With Plans to Revamp Platform Experience for Culinary Creators",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186246/0/en/Amaze-Completes-Acquisition-of-The-Food-Channel-With-Plans-to-Revamp-Platform-Experience-for-Culinary-Creators.html",
+      "content": "The stock-based purchase strengthens Amaze's position in the growing food and beverage creator economy The stock-based purchase strengthens Amaze's position in the growing food and beverage creator economy ...",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:16.466981+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.451494"
+          }
+        ],
+        "authors": [
+          "Amaze Holdings",
+          "Inc"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.272378
+      }
+    },
+    {
+      "id": "33019366-fc2c-4436-8a1e-b26ff113bb75",
+      "source": "Alpha Vantage",
+      "title": "Saratoga Investment Corp. Announces Special Dividend of $0.25 Per Share Fulfilling Its Fiscal 2025 Distribution Requirements",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186249/0/en/Saratoga-Investment-Corp-Announces-Special-Dividend-of-0-25-Per-Share-Fulfilling-Its-Fiscal-2025-Distribution-Requirements.html",
+      "content": "Total Dividend Declarations in the Fiscal 2026 Third Quarter Amount to $1.00 Per Share ...",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:16.830092+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.310843"
+          },
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.451494"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Saratoga Investment Corp"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.19731
+      }
+    },
+    {
+      "id": "6798d0a9-049d-494d-b176-747c3ab722cd",
+      "source": "Finnhub",
+      "title": "Disney losing $4 million daily in its YouTube TV fight",
+      "url": "https://finnhub.io/api/news?id=d61c193bbf0ca37b7f6c20f1441e767d9e3cd6cea5549d555104036f02a0decc",
+      "content": "Disney’s most profitable networks have gone dark on YouTube TV, a $4 million-a-day standoff that lands days before the ABC parent's Thursday earnings",
+      "published_at": "2025-11-13T00:33:21+00:00",
+      "created_at": "2025-11-13T03:10:10.428547+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "cf1a6155-8275-4172-ac03-879ccbf63b84",
+      "source": "Alpha Vantage",
+      "title": "Intelligent Bio Solutions Reports Fiscal 2026 First Quarter Financial Results and Operational Highlights, Delivering Record Revenue Growth",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186248/0/en/Intelligent-Bio-Solutions-Reports-Fiscal-2026-First-Quarter-Financial-Results-and-Operational-Highlights-Delivering-Record-Revenue-Growth.html",
+      "content": "Record quarterly revenue of $1.11 million, an increase of 32% sequentially and 28% year-over-year, driven by consumable cartridge sales and customer base expansion ...",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:17.211235+00:00",
+      "symbols": [
+        "INBS"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999975"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.857896"
+          }
+        ],
+        "authors": [
+          "Inc.",
+          "Intelligent Bio Solutions"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.337866
+      }
+    },
+    {
+      "id": "8b452d87-33e8-45ba-9b34-42b19d9442fe",
+      "source": "Alpha Vantage",
+      "title": "Great News: Arm's AI Growth Story Is Just Getting Started",
+      "url": "https://www.fool.com/investing/2025/11/12/great-news-arms-ai-growth-story-is-just-getting-st/",
+      "content": "Arm Holdings could be the AI stock of the decade -- here's why its chip design business might soon match Nvidia's explosive growth.",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:17.569293+00:00",
+      "symbols": [
+        "ARM"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.214378"
+          }
+        ],
+        "authors": [
+          "Rick Orford",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.068792
+      }
+    },
+    {
+      "id": "97da4fc7-92b8-4ab7-a9d2-3823338965b8",
+      "source": "Alpha Vantage",
+      "title": "IO Biotech Announces Participation in Upcoming Investor Conferences",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186252/0/en/IO-Biotech-Announces-Participation-in-Upcoming-Investor-Conferences.html",
+      "content": "NEW YORK, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- IO Biotech ( Nasdaq: IOBT ) , a clinical-stage biopharmaceutical company developing novel, immune-modulatory, off-the-shelf therapeutic cancer vaccines, today announced that members of its senior management team will participate in the following ...",
+      "published_at": "2025-11-12T13:30:00+00:00",
+      "created_at": "2025-11-12T14:28:17.977567+00:00",
+      "symbols": [
+        "IOBT"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.310843"
+          }
+        ],
+        "authors": [
+          "IO Biotech"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.101878
+      }
+    }
+  ]
+}

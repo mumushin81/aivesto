@@ -1,0 +1,304 @@
+{
+  "agent_id": 6,
+  "batch_file": "batch_06.json",
+  "total_news_analyzed": 20,
+  "min_relevance_score": 70,
+  "analysis_timestamp": "2025-11-13T00:00:00+00:00",
+  "results": [
+    {
+      "news_id": "fa000eb4-09bf-4223-bfc5-df8128ab06d3",
+      "relevance_score": 45,
+      "affected_symbols": ["MBRX"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Grant-funded preclinical research announcement. While positive for Moleculin Biotech (MBRX), this is early-stage research with no immediate revenue impact. The mentioned symbols FTRK and META are incorrectly tagged - META has no connection to this biotech research.",
+      "key_points": [
+        "Preclinical stage research - years away from potential commercialization",
+        "Grant-funded research reduces company's direct financial burden",
+        "Pancreatic cancer is a significant unmet medical need, but success is uncertain"
+      ]
+    },
+    {
+      "news_id": "5c499ddc-c08a-486d-8cc2-d14585e68e6f",
+      "relevance_score": 92,
+      "affected_symbols": ["NVDA", "SFTBF"],
+      "price_impact": "down",
+      "importance": "high",
+      "reasoning": "SoftBank selling $5.8B worth of NVIDIA shares is a significant market event that could create short-term selling pressure on NVDA. The $22.5B commitment to OpenAI represents a major strategic shift from hardware to AI software investment, signaling potential sector rotation.",
+      "key_points": [
+        "Large institutional selling ($5.8B) could create short-term downward pressure on NVDA",
+        "Strategic shift from AI hardware to AI software suggests changing investment thesis",
+        "SoftBank's move may influence other institutional investors' AI allocation strategies"
+      ]
+    },
+    {
+      "news_id": "11675bac-09dc-4bb5-b52e-d4c8782f4d60",
+      "relevance_score": 78,
+      "affected_symbols": ["FIGR"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Figure's launch of $YLDS on Solana blockchain represents innovation in real-world asset (RWA) tokenization on a major blockchain platform. This expands FIGR's product offering and positions the company in the growing RWA-DeFi intersection, which could attract investor interest.",
+      "key_points": [
+        "First mover in bringing registered public debt securities to Solana blockchain",
+        "Expands addressable market by tapping into DeFi liquidity",
+        "Positive for blockchain/crypto integration narrative in traditional finance"
+      ]
+    },
+    {
+      "news_id": "ac0c1d56-c591-4b0d-963a-80bc727562c4",
+      "relevance_score": 75,
+      "affected_symbols": ["NMG", "PCRFF"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "G7 Critical Minerals Production Alliance announcement provides strong tailwind for critical minerals companies. The geopolitical focus on diversifying supply chains away from China creates structural demand drivers for North American graphite producers like NMG.",
+      "key_points": [
+        "G7 alliance signals long-term government support for critical minerals supply chain",
+        "Reduces China dependency concerns, benefiting Western suppliers",
+        "Strategic importance of graphite for EV batteries and energy transition"
+      ]
+    },
+    {
+      "news_id": "4f073d91-6284-415d-8cb1-48222dcdd4cf",
+      "relevance_score": 72,
+      "affected_symbols": ["SOFI"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "SoFi Bank launching spot crypto trading is a significant milestone for mainstream crypto adoption. This represents the first traditional bank/fintech to offer direct crypto trading, potentially opening crypto access to millions of retail investors and generating new revenue streams.",
+      "key_points": [
+        "Major milestone for crypto adoption through traditional banking channels",
+        "New revenue stream from crypto trading fees and spreads",
+        "Competitive advantage as first mover among major fintechs with banking charter"
+      ]
+    },
+    {
+      "news_id": "c40d18a2-3b66-4eaa-b773-b395d5e799c1",
+      "relevance_score": 35,
+      "affected_symbols": ["NRXP"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "This is a routine earnings announcement date notification with no financial content or guidance. The neutral sentiment and low financial markets relevance score indicate minimal market impact expected.",
+      "key_points": [
+        "Standard earnings date announcement - no new information provided",
+        "Clinical-stage biotech with limited revenue expectations",
+        "No guidance or preliminary results disclosed"
+      ]
+    },
+    {
+      "news_id": "29de89ad-48d4-4f59-ab2e-e6cb08a7e267",
+      "relevance_score": 78,
+      "affected_symbols": ["FIGR"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Duplicate of news ID 11675bac-09dc-4bb5-b52e-d4c8782f4d60. Same content about Figure bringing $YLDS to Solana. Represents continued positive momentum for FIGR's blockchain/RWA strategy.",
+      "key_points": [
+        "Confirms Figure's strategic move into blockchain-based debt securities",
+        "Solana native minting provides technical and cost advantages",
+        "Unlocks DeFi liquidity for traditional financial instruments"
+      ]
+    },
+    {
+      "news_id": "447a3b05-5fea-4f23-b379-a4ffe166334a",
+      "relevance_score": 15,
+      "affected_symbols": ["SSNLF"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Consumer product launch for screen protector customization platform. Very low financial markets relevance (10.8%). This is a B2C product announcement with minimal investor significance for a small-cap company.",
+      "key_points": [
+        "Consumer product launch with limited market impact",
+        "No financial metrics or revenue projections provided",
+        "Small addressable market for customized screen protectors"
+      ]
+    },
+    {
+      "news_id": "22fe5b2e-a6b9-405e-898a-834caeefe138",
+      "relevance_score": 55,
+      "affected_symbols": ["TTC"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Industry report on microirrigation systems market growth. While the market is projected to grow at 9.3% CAGR to $17.8B by 2028, this is broad industry data rather than company-specific news. TTC (Toro Company) is a player in this space but no company-specific catalysts mentioned.",
+      "key_points": [
+        "Market research report indicating 9.3% CAGR growth through 2028",
+        "Asia Pacific leading adoption due to water scarcity concerns",
+        "Thematic positive for irrigation equipment manufacturers but no specific catalysts"
+      ]
+    },
+    {
+      "news_id": "8a2b609e-d857-4daa-9433-4bc8dc9d2a81",
+      "relevance_score": 25,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Peer To Peer Network (OTC:PTOP) installing AI products on their website for testing. The news incorrectly tags GOOG - there's no Google involvement. Small OTC company with limited investor interest. Product testing announcement without revenue or partnership details.",
+      "key_points": [
+        "OTC-traded micro-cap with limited liquidity and investor base",
+        "Product testing phase - no commercial deployment or revenue announced",
+        "No major partnership or customer wins disclosed"
+      ]
+    },
+    {
+      "news_id": "9b8f8518-50c9-4ba4-bfac-3b6681488625",
+      "relevance_score": 30,
+      "affected_symbols": ["IDCC"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Routine announcement that InterDigital will present at three investor conferences. This is standard IR activity with no new business information, product announcements, or financial guidance. Neutral sentiment reflects administrative nature.",
+      "key_points": [
+        "Standard investor relations activity - conference presentations",
+        "No new business developments or financial information disclosed",
+        "Opportunity for management to communicate with investors but no material news"
+      ]
+    },
+    {
+      "news_id": "66663ce8-8563-4002-9188-3cacbd3df899",
+      "relevance_score": 68,
+      "affected_symbols": ["DFDV"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "DeFi Development Corp announcing proposed preferred stock offering. This is a capital raise event which typically dilutes existing shareholders. However, the company's Solana treasury strategy and positioning as first US public company with SOL accumulation strategy may interest crypto-focused investors.",
+      "key_points": [
+        "Preferred stock offering signals capital needs - potential dilution for common shareholders",
+        "Unique positioning as first US public company with Solana treasury strategy",
+        "Proceeds likely to be used for SOL accumulation per company strategy"
+      ]
+    },
+    {
+      "news_id": "73b2a9de-0606-4a5a-be4d-899f9beba325",
+      "relevance_score": 25,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Duplicate of news ID 8a2b609e-d857-4daa-9433-4bc8dc9d2a81. Same Peer To Peer Network AI product testing announcement. Incorrectly tags GOOG with no actual connection. OTC micro-cap with minimal investor relevance.",
+      "key_points": [
+        "Duplicate announcement - no new information",
+        "OTC trading limits institutional investor participation",
+        "Testing phase without commercial validation or revenue"
+      ]
+    },
+    {
+      "news_id": "787a6866-f1b9-48b9-9ca4-d77ee9354dab",
+      "relevance_score": 82,
+      "affected_symbols": ["SAR"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Saratoga Investment Corp announcing special dividend of $0.25 per share. Business development companies (BDCs) are required to distribute income, and this special dividend demonstrates strong earnings. Total Q3 dividend of $1.00/share is significant for income investors.",
+      "key_points": [
+        "Special dividend of $0.25 adds to regular distribution - total $1.00/share in Q3",
+        "Fulfills fiscal 2025 distribution requirements, indicating solid earnings performance",
+        "Attractive for income-focused investors, especially in current rate environment"
+      ]
+    },
+    {
+      "news_id": "168847bb-2f69-4c0b-898d-0c35413e43d7",
+      "relevance_score": 45,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Amaze completing acquisition of The Food Channel. No symbols tagged, suggesting private company. Stock-based purchase strengthens position in creator economy but lacks financial details like deal size, revenue impact, or strategic metrics to assess materiality.",
+      "key_points": [
+        "Acquisition expands presence in food/beverage creator economy vertical",
+        "Stock-based transaction - no cash outlay but potential dilution",
+        "Lacks financial metrics to assess deal materiality and ROI"
+      ]
+    },
+    {
+      "news_id": "33019366-fc2c-4436-8a1e-b26ff113bb75",
+      "relevance_score": 82,
+      "affected_symbols": ["SAR"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Duplicate of news ID 787a6866-f1b9-48b9-9ca4-d77ee9354dab. Same Saratoga Investment special dividend announcement. Strong signal of BDC's earning power and commitment to shareholder returns through distributions.",
+      "key_points": [
+        "Confirms special dividend declaration of $0.25/share",
+        "Total fiscal Q3 distributions reach $1.00/share",
+        "Positive signal for BDC's portfolio performance and net investment income"
+      ]
+    },
+    {
+      "news_id": "6798d0a9-049d-494d-b176-747c3ab722cd",
+      "relevance_score": 88,
+      "affected_symbols": ["DIS", "GOOGL"],
+      "price_impact": "down",
+      "importance": "high",
+      "reasoning": "Disney losing $4M daily in YouTube TV standoff is significant financial news ahead of Thursday earnings. This distribution dispute affects Disney's most profitable networks and creates subscriber churn risk for both Disney and YouTube TV. Timing before earnings adds uncertainty.",
+      "key_points": [
+        "$4M daily revenue loss creates meaningful Q4 earnings headwind",
+        "Distribution disputes risk long-term subscriber relationships and cord-cutting acceleration",
+        "Timing immediately before earnings report amplifies investor uncertainty"
+      ]
+    },
+    {
+      "news_id": "cf1a6155-8275-4172-ac03-879ccbf63b84",
+      "relevance_score": 76,
+      "affected_symbols": ["INBS"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Intelligent Bio Solutions reporting record Q1 revenue of $1.11M, up 32% sequentially and 28% YoY. Strong growth driven by consumable cartridge sales (high-margin recurring revenue) and customer base expansion. Positive momentum for small-cap biotech.",
+      "key_points": [
+        "Record revenue growth: 32% QoQ and 28% YoY demonstrates strong momentum",
+        "Consumable cartridge sales drive recurring revenue stream - positive business model",
+        "Customer base expansion indicates market adoption of technology platform"
+      ]
+    },
+    {
+      "news_id": "8b452d87-33e8-45ba-9b34-42b19d9442fe",
+      "relevance_score": 85,
+      "affected_symbols": ["ARM", "NVDA"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Bullish analysis on Arm Holdings' AI growth story from Motley Fool. Article positions ARM as 'AI stock of the decade' with potential to match NVIDIA's growth. ARM's chip architecture dominates mobile and is expanding into data center AI inference, representing significant TAM expansion.",
+      "key_points": [
+        "ARM positioned to benefit from AI inference at edge and data center",
+        "Licensing model provides scalable, capital-light revenue growth",
+        "Expansion beyond mobile into AI servers and automotive AI applications"
+      ]
+    },
+    {
+      "news_id": "97da4fc7-92b8-4ab7-a9d2-3823338965b8",
+      "relevance_score": 32,
+      "affected_symbols": ["IOBT"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "IO Biotech announcing participation in upcoming investor conferences. Standard IR activity for clinical-stage biotech. Neutral sentiment (-0.10) suggests market indifference to routine conference participation announcements.",
+      "key_points": [
+        "Routine investor relations activity - conference presentations",
+        "Clinical-stage company with no near-term revenue catalysts",
+        "Opportunity for management visibility but no material business update"
+      ]
+    }
+  ],
+  "summary": {
+    "high_relevance_news": 12,
+    "news_above_threshold": 12,
+    "average_relevance_score": 59.5,
+    "price_impact_distribution": {
+      "up": 8,
+      "down": 2,
+      "neutral": 10
+    },
+    "importance_distribution": {
+      "high": 3,
+      "medium": 8,
+      "low": 9
+    },
+    "top_impactful_news": [
+      {
+        "news_id": "5c499ddc-c08a-486d-8cc2-d14585e68e6f",
+        "title": "SoftBank Swaps Nvidia For OpenAI",
+        "relevance_score": 92,
+        "affected_symbols": ["NVDA", "SFTBF"]
+      },
+      {
+        "news_id": "6798d0a9-049d-494d-b176-747c3ab722cd",
+        "title": "Disney losing $4 million daily in YouTube TV fight",
+        "relevance_score": 88,
+        "affected_symbols": ["DIS", "GOOGL"]
+      },
+      {
+        "news_id": "8b452d87-33e8-45ba-9b34-42b19d9442fe",
+        "title": "Arm's AI Growth Story Is Just Getting Started",
+        "relevance_score": 85,
+        "affected_symbols": ["ARM", "NVDA"]
+      }
+    ]
+  }
+}

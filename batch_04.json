@@ -1,0 +1,347 @@
+{
+  "agent_id": 4,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "2c8aea14-d7b6-4b9c-a2aa-cce6c7032499",
+      "source": "Finnhub",
+      "title": "Dow Jones Futures: Amazon, Broadcom, Nvidia, Palantir, Tesla Are Big Winners; CoreWeave Tumbles On Earnings",
+      "url": "https://finnhub.io/api/news?id=a7509d8deeb0ddff6f00810502e43f9c8b6dc6014015f46b99c54e4f571ebe09",
+      "content": "Dow Jones Futures: Amazon, Broadcom, Nvidia, Palantir and Tesla were big winners Monday. CoreWeave slid on earnings late.",
+      "published_at": "2025-11-11T09:18:16+00:00",
+      "created_at": "2025-11-12T14:27:52.226442+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "79b46b64-0cb5-40dd-b8cc-225284b1be8e",
+      "source": "Finnhub",
+      "title": "Baron Technology Fund Q3 2025 Top Contributors And Detractors",
+      "url": "https://finnhub.io/api/news?id=23ed55211d9527fd87fa0f74c9afa2026bad2ec2ad20ebd38f8eac34175b98eb",
+      "content": "We remain confident in AIâs potential to transform the global economy and in NVIDIAâs pivotal role as the leading enabler of that transformation.",
+      "published_at": "2025-11-12T13:00:00+00:00",
+      "created_at": "2025-11-12T14:27:52.581559+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2221411629/image_2221411629.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "769e55dc-9540-43c7-a54c-a58598f17291",
+      "source": "Finnhub",
+      "title": "Crypto Is 'Boring' Now – Here's Why That's Actually A Good Thing",
+      "url": "https://finnhub.io/api/news?id=a05523df98ea9278abc3a12227f05e792b6af5eab21964c8d15da936579f3dd6",
+      "content": "The digital asset landscape has undergone a seismic transformation that few saw coming. The volatility that once defined cryptocurrency markets has given way to something unexpected: predictability. Digital Asset Landscape Transformation Industry ...",
+      "published_at": "2025-11-12T03:01:05+00:00",
+      "created_at": "2025-11-12T14:27:52.944522+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "dbd7730b-d69d-4deb-a62a-3b38f2a6fae3",
+      "source": "Finnhub",
+      "title": "Tesla: what must happen for the $1 trillion payout",
+      "url": "https://finnhub.io/api/news?id=82bbbe83b1ac9e7ce3d3a6a774d857322fca10d561074da7d591697c14492c4a",
+      "content": "Tesla shareholders just reset the scoreboard. Investors linked Elon Musk's remuneration to a ladder of market-cap and operational targets that are both transparent and ambitious when they approved his new pay plan. The bar begins at a steady $2 trillion and goes up to $8.5 trillion, with vesting ...",
+      "published_at": "2025-11-12T02:07:00+00:00",
+      "created_at": "2025-11-12T14:27:53.504774+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "f0d8c0ba-4c5f-4ed3-ac49-e47203e43f8c",
+      "source": "Finnhub",
+      "title": "Bitcoin To $1M, Jesus Christ's Second Coming: Crypto Speculators Bet On What Will Happen Before GTA VI",
+      "url": "https://finnhub.io/api/news?id=5e6f3dc3d6a884dd6dc126e252b9b1dba7cac8a8b4a323764658406151f5c46f",
+      "content": "The last installment in the “Grand Theft Auto” Series came in 2013. Barack Obama was the U.S. president and the words “selfie” and “twerk” were just added to the dictionary. By the time the next installment arrives, Bitcoin could be trading at $1 ...",
+      "published_at": "2025-11-12T02:01:06+00:00",
+      "created_at": "2025-11-12T14:27:53.900676+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "96957c1c-22ec-40dd-ac6c-e709543ab677",
+      "source": "Finnhub",
+      "title": "Cathie Wood Sells More Tesla, Pivots to AI Boom",
+      "url": "https://finnhub.io/api/news?id=8ec363e08fd308477c230ca42c2449c0295a67cec1a6722ad1b6e7e68ce894a7",
+      "content": "ARK snaps up Pony AI, TSM, and Baidu as chip demand surges",
+      "published_at": "2025-11-12T00:21:43+00:00",
+      "created_at": "2025-11-12T14:27:54.451744+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a1ca051a-72ce-4a11-8607-d1568043d04c",
+      "source": "Finnhub",
+      "title": "5 Things That Have Made Tesla Stock Jump Over the Years",
+      "url": "https://finnhub.io/api/news?id=67127b96e32a7beac090a907b34f5482dbc3a9467751afe51a9585da03a20087",
+      "content": "Recently, Elon Musk bought shares of his own company, Tesla. While much has been made of Musk selling billions worth of Tesla shares in recent years, his recent TSLA stock purchase shows that Musk...",
+      "published_at": "2025-11-12T00:18:09+00:00",
+      "created_at": "2025-11-12T14:27:54.804104+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2931cc3f-2eaf-420f-9685-48be163fbd3d",
+      "source": "Finnhub",
+      "title": "Tesla Stock Is Slipping Today as Investors Eye Chinese Sales Numbers",
+      "url": "https://finnhub.io/api/news?id=90dcd5e0ed242db1088f8b29e4deec495b634aaa7b38b0e0e3586cdec8584a40",
+      "content": "News services overnight reported declining Tesla sales and market value in China, though also an increase in shipments from China to other markets.",
+      "published_at": "2025-11-11T23:43:13+00:00",
+      "created_at": "2025-11-12T14:27:55.329567+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "093ea11d-665c-44cb-91e2-469430fce9d8",
+      "source": "Finnhub",
+      "title": "How the Wealth of the 5 Richest People in 2000 Compares With the 5 Richest in 2025",
+      "url": "https://finnhub.io/api/news?id=d0cf3e6d9cf8c42fc59a2d8e03d53686cc1b755580e10837f9a99cbe0e60acd1",
+      "content": "How much has really changed since 2000? Discover how the richest people’s fortunes surged 729% in 25 years -- and why Elon Musk now towers over them all.",
+      "published_at": "2025-11-11T23:40:08+00:00",
+      "created_at": "2025-11-12T14:27:55.686616+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "0f7f271e-6c56-4e52-a1ae-48020dc73f72",
+      "source": "Finnhub",
+      "title": "These Stocks Are Moving the Most Today: CoreWeave, Nvidia, Tesla, Nebius, Rigetti, BigBear.ai, Rocket Lab, and More",
+      "url": "https://finnhub.io/api/news?id=2e7d15812426b7d311a2bee0b3b2d467490c9cbc2017b4c231d1c126589dae25",
+      "content": "BigBear.ai surges after striking a deal to acquire a generative AI platform, while Nebius falls after missing analysts’ estimates.",
+      "published_at": "2025-11-11T23:32:00+00:00",
+      "created_at": "2025-11-12T14:27:56.037377+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ccbc4562-035d-4b40-9420-802e78fe060f",
+      "source": "Finnhub",
+      "title": "Tesla just bet $1 trillion on Elon Musk’s next decade",
+      "url": "https://finnhub.io/api/news?id=b70b24d0f6703ee66247ce0d1696f7bb87a464e0f86337d1059a067c62b7a29c",
+      "content": "After approving Elon Musk's pay package, the company that built the EV era is betting it can build the next one — with robots, data, and belief",
+      "published_at": "2025-11-11T23:22:12+00:00",
+      "created_at": "2025-11-12T14:27:56.399016+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4b482991-76b7-421c-a95c-5d3a9a3579e3",
+      "source": "Finnhub",
+      "title": "Tesla China Sales Hit 3-Year Low",
+      "url": "https://finnhub.io/api/news?id=15eea56e5028beb3ca40329b4fdcf0d1fa99c9ce8ec1072b0aa355ccbb4c88af",
+      "content": "Tesla sales in China have fallen to their lowest in three years. Yet, poor sales there and in other global markets have not hurt Tesla stock.",
+      "published_at": "2025-11-11T23:15:31+00:00",
+      "created_at": "2025-11-12T14:27:56.769017+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "52ece448-05cc-4691-b640-0c9ab6ea429d",
+      "source": "Finnhub",
+      "title": "EV Face-Off: Tesla's Scale vs. QuantumScape's Battery Vision",
+      "url": "https://finnhub.io/api/news?id=8e3c140f47b762ec2b7317019f1e7c47b076cd45f6eca4d3ea2854f25b44f49d",
+      "content": "While TSLA's scale offers stability, QS' technology could be the spark that powers the industry's next leap forward.",
+      "published_at": "2025-11-11T22:57:00+00:00",
+      "created_at": "2025-11-12T14:27:57.128353+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "8fc8698c-b6ce-4343-a69c-888fd32b5e29",
+      "source": "Finnhub",
+      "title": "Tesla: Still A Strong Buy (On Pullbacks)",
+      "url": "https://finnhub.io/api/news?id=b0f70c0629f1ea1889a0fb2eca300ac0eb787636ea1d63ae4907615fa2647a57",
+      "content": "",
+      "published_at": "2025-11-11T22:52:18+00:00",
+      "created_at": "2025-11-12T14:27:57.505725+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "0885c17d-3f38-4080-8088-3aa987d3fb80",
+      "source": "Finnhub",
+      "title": "Elon Musk's $1 Trillion Pay Package Won't Save A Fading Giant",
+      "url": "https://finnhub.io/api/news?id=70893754d24c04dd61de252a60c24d61d5fbdeaa46cf164fb238e655b4aa9e2d",
+      "content": "Tesla, Inc.âs $1T pay plan approval highlights risk. Click to see why operational woes, falling margins, and weak growth make TSLA stock a Strong Sell.",
+      "published_at": "2025-11-11T22:18:07+00:00",
+      "created_at": "2025-11-12T14:27:58.053307+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2217854935/image_2217854935.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4977227f-2dc7-4fea-be43-a5eb00a72824",
+      "source": "Finnhub",
+      "title": "XPeng's Iron Vs. Tesla's Optimus: The Battle For The Future Of Robotics",
+      "url": "https://finnhub.io/api/news?id=1255aa83e44ec0713a4084c3d3d949c7cd9697471eb72dfb634219ea8b98891f",
+      "content": "XPeng Inc. unveils IRON, a breakthrough humanoid robot surpassing Tesla, Inc.'s efforts. Discover why XPEV is a top robotics investment in competition with TSLA.",
+      "published_at": "2025-11-11T20:30:51+00:00",
+      "created_at": "2025-11-12T14:27:58.429157+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2219142986/image_2219142986.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ef0bfd7f-9538-41ee-b308-fcbb530d38b2",
+      "source": "Finnhub",
+      "title": "Intense competition drags Tesla’s China sales to lowest point in three years",
+      "url": "https://finnhub.io/api/news?id=514117b7c5f0d75e97399423c24468f40c4ae553f894cfc1564f1d7a0e619652",
+      "content": "Offsetting some of the local weakness, exports of vehicles built in China rose to a two-year high of 35,491 units in October.",
+      "published_at": "2025-11-11T20:10:06+00:00",
+      "created_at": "2025-11-12T14:27:58.780678+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "dc2968b0-8ea8-4ef0-b2fc-103ac95b323a",
+      "source": "Finnhub",
+      "title": "TSLA: Tesla Stock Soars After Chair Predicts Historic AI-Driven Expansion",
+      "url": "https://finnhub.io/api/news?id=c18533bcc13e14c36027f35ae0071180b7e5775c0bf6c6d6e59be41c696e1a10",
+      "content": "Tesla Eyes Record Growth: Chair Says Firm Nears 'Largest Value-Creation Moment Ever'",
+      "published_at": "2025-11-11T20:09:31+00:00",
+      "created_at": "2025-11-12T14:27:59.157875+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "f54ab509-713b-4d4f-9302-1b4cd176373e",
+      "source": "Finnhub",
+      "title": "Social Buzz: Wallstreetbets Stocks Mostly Lower Premarket Tuesday; Rocket Lab to Advance, CoreWeave to Decline",
+      "url": "https://finnhub.io/api/news?id=e5da4cc942e1f8e921b601b85dbff57c309d3b2e5de238c6bbc122a6ecfd3af9",
+      "content": "The most-talked-about stocks in the Reddit subforum Wallstreetbets were mostly lower hours before Tu",
+      "published_at": "2025-11-11T19:44:27+00:00",
+      "created_at": "2025-11-12T14:27:59.52484+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "b9bd33ff-9fe6-4d4c-a053-f48ffc9d929c",
+      "source": "Finnhub",
+      "title": "Latest News In Energy Transition - Brazil Expands Renewable Capacity With New Solar and Hybrid Plants",
+      "url": "https://finnhub.io/api/news?id=23e2ef307670ccac2daf5fe992a9a1b25ba00b97f148f1c9243c22a3120e8f9d",
+      "content": "Statkraft, Europe's leading renewable energy producer, has marked a significant development in the energy transition by inaugurating new solar and hybrid plants in Brazil during the COP30 climate summit in Belém. These projects, including the Morro do Cruzeiro Solar and Santa Eugênia Solar, add a combined 340 MWp of clean energy to Brazil's system, supporting the global drive to triple renewable energy capacity. The projects are expected to generate 3,400 GWh annually and save 111,000 tons of...",
+      "published_at": "2025-11-11T19:37:26+00:00",
+      "created_at": "2025-11-12T14:27:59.879876+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    }
+  ]
+}

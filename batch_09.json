@@ -1,0 +1,487 @@
+{
+  "agent_id": 9,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "4cc10a4d-8fb1-4459-bdf2-1cbe07e5eaef",
+      "source": "Alpha Vantage",
+      "title": "Billionaire Philippe Laffont Sells Super Micro Stock and Buys an AI Stock That Could Soar 100%",
+      "url": "https://www.fool.com/investing/2025/11/12/laffont-sells-super-micro-buys-ai-stock-soar-100/",
+      "content": "Hedge fund manager Philippe Laffont is betting big on CoreWeave, a data center operator that has a key partnership with Nvidia.",
+      "published_at": "2025-11-12T09:10:00+00:00",
+      "created_at": "2025-11-12T14:28:36.561405+00:00",
+      "symbols": [
+        "SMCI",
+        "META",
+        "CRWV",
+        "AMD",
+        "DELL",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.77141"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Trevor Jennewine"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.287929
+      }
+    },
+    {
+      "id": "391cb5eb-21c8-400a-9a59-5c482df9d411",
+      "source": "Alpha Vantage",
+      "title": "Amazon Earnings Show Why the Stock Is a Buy",
+      "url": "https://www.fool.com/investing/2025/11/12/amazon-earnings-show-why-the-stock-is-a-buy/",
+      "content": "The e-commerce and cloud-computing giant's broad-based business momentum offers a clear bull case for the stock.",
+      "published_at": "2025-11-12T08:56:00+00:00",
+      "created_at": "2025-11-12T14:28:36.934001+00:00",
+      "symbols": [
+        "AMZN",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.928769"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Daniel Sparks"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.259162
+      }
+    },
+    {
+      "id": "38fc07a6-cf52-47e3-9143-bdf51a1acfcb",
+      "source": "Alpha Vantage",
+      "title": "AI shopping at scale: how Visa is driving the future of agentic commerce",
+      "url": "https://www.scmp.com/native/business/topics/shaping-future-ai-commerce/article/3332225/ai-shopping-scale-how-visa-driving-future-agentic-commerce",
+      "content": "Since ChatGPT launched in 2022, it has grown to the point where an astonishing 700 million users were sending 18 billion messages a week as of July 2025, according to parent company OpenAI. The sheer speed and growth in the use of generative artificial intelligence (AI) systems in e-commerce has ...",
+      "published_at": "2025-11-12T08:51:07+00:00",
+      "created_at": "2025-11-12T14:28:37.315057+00:00",
+      "symbols": [
+        "TCTZF",
+        "APG",
+        "SSNLF",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "South China Morning Post",
+        "topics": [
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Morning Studio editors"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.321525
+      }
+    },
+    {
+      "id": "c0cba86c-fc57-4da5-a4d6-df487d1600e8",
+      "source": "Alpha Vantage",
+      "title": "Cathie Wood's Ark Invest Says Elon Musk's Starship 'Critical' To Solving AI's Power Bottleneck With Orbital Data Centers - Alphabet  ( NASDAQ:GOOG ) , Alphabet  ( NASDAQ:GOOGL ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48796122/cathie-woods-ark-invest-says-elon-musks-starship-critical-to-solving-ais-power-bottleneck-with-orbit",
+      "content": "Cathie Wood's ARK Invest is highlighting orbital AI data centers as a necessary solution to the artificial intelligence ( AI ) industry's immense energy demands, identifying Elon Musk-led SpaceX's Starship as the \"critical\" technology to make it viable.",
+      "published_at": "2025-11-12T08:38:11+00:00",
+      "created_at": "2025-11-12T14:28:37.693912+00:00",
+      "symbols": [
+        "GOOG",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Rishabh Mishra"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.097271
+      }
+    },
+    {
+      "id": "c06ff3ce-2082-4577-8657-af3e0e0b7731",
+      "source": "Alpha Vantage",
+      "title": "Mark Zuckerberg's Patience 'Ran Out': Hyperbolic CTO Says Yann LeCun's Meta Exit Was Inevitable After $15 Billion Alexandr Wang Deal - Alphabet  ( NASDAQ:GOOG ) , Meta Platforms  ( NASDAQ:META ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48794345/mark-zuckerbergs-patience-ran-out-hyperbolic-cto-says-yann-lecuns-meta-exit-was-inevitable-after-15-",
+      "content": "On Tuesday, Hyperbolic co-founder and CTO Yuchen Jin alleged that Yann LeCun's reported decision to leave Meta Platforms Inc. ( NASDAQ:META ) was inevitable, suggesting that CEO Mark Zuckerberg's bet on Alexandr Wang and a shift in AI leadership left little room for the company's longtime chief ...",
+      "published_at": "2025-11-12T04:07:02+00:00",
+      "created_at": "2025-11-12T14:28:38.412007+00:00",
+      "symbols": [
+        "SMWB",
+        "GOOG",
+        "MSFT",
+        "META"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.161647"
+          }
+        ],
+        "authors": [
+          "Ananya Gairola"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.019195
+      }
+    },
+    {
+      "id": "5013de9c-1166-415b-ac53-1bbe0db4e37d",
+      "source": "Alpha Vantage",
+      "title": "IVV Boasts S&P 500 Stability, While IWM Offers Small-Cap Growth Potential. Which Is Right for You?",
+      "url": "https://www.fool.com/coverage/etfs/2025/11/11/ivv-offers-s-and-p-500-stability-while-iwm-has-small-cap-growth-potential-which-is-right-for-you/",
+      "content": "Both the iShares Russell 2000 ETF ( NYSEMKT:IWM ) and the iShares Core S&P 500 ETF ( NYSEMKT:IVV ) track major U.S. equity indexes, but they differ primarily in their market focus. IWM is designed primarily for small-cap investors, whereas IVV offers broader coverage of large-cap stocks.",
+      "published_at": "2025-11-11T23:45:39+00:00",
+      "created_at": "2025-11-12T14:28:38.98756+00:00",
+      "symbols": [
+        "FN",
+        "CRDO",
+        "BE",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999999"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Katie Brockman",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.1685
+      }
+    },
+    {
+      "id": "a1bd4bb5-6ff7-41da-9606-23117f0770cb",
+      "source": "Alpha Vantage",
+      "title": "Intrusion  ( INTZ )  Q3 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/11/11/intrusion-intz-q3-2025-earnings-call-transcript/",
+      "content": "Image source: The Motley Fool.Tuesday, Nov. 11, 2025 at 5 p.m. ETNeed a quote from a Motley Fool analyst? Email pr@fool.comContinue reading ...",
+      "published_at": "2025-11-11T22:51:22+00:00",
+      "created_at": "2025-11-12T14:28:39.457214+00:00",
+      "symbols": [
+        "FOREX:USD",
+        "MSFT",
+        "INTZ"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999701"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Motley Fool Transcribing"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.333111
+      }
+    },
+    {
+      "id": "f4060f0a-34cf-4cbb-a554-582105e5bff9",
+      "source": "Finnhub",
+      "title": "RiverPark Long/Short Opportunity Fund: Q3 2025 Top And Bottom Performers",
+      "url": "https://finnhub.io/api/news?id=aa78a8d7e3b1613507c6cf8d099ad2a2b1d1821287466d39b0c43564a95f0a7c",
+      "content": "RiverPark highlights Alphabet, Apple, and Nvidia as top Q3 performers, while ISRG, NFLX, and NOW faced headwinds. See what drove gains and setbacks.",
+      "published_at": "2025-11-13T04:00:00+00:00",
+      "created_at": "2025-11-13T03:09:58.482088+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/995778412/image_995778412.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "61d2c9c4-435a-42f4-9d48-a45ec1b97711",
+      "source": "Finnhub",
+      "title": "AAPL: Apple Supplier Foxconn Sees AI Surge Driving 2026 Growth",
+      "url": "https://finnhub.io/api/news?id=049640d054abea9e1e3cc6b214d8b4bb0638284c04a09a3b79fee3b868329be1",
+      "content": "Foxconn Prepares Major OpenAI Announcement at Tech Day",
+      "published_at": "2025-11-13T00:11:33+00:00",
+      "created_at": "2025-11-13T03:09:58.738446+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "196309f5-c4b2-490b-85c4-d2900b2cca9d",
+      "source": "Finnhub",
+      "title": "Developer fee cuts not passed on to EU users, Apple says",
+      "url": "https://finnhub.io/api/news?id=d413052a4ab473edc76e9b8310780e3d01230cebd2003c8655fc43ddc68c4a4f",
+      "content": "BRUSSELS (Reuters) -Lower developer fees implemented by Apple to comply with European Union tech regulations have not reduced ​prices for users, the iPhone maker said on Wednesday, renewing its criticism of ‌Europe's efforts to rein in its market power.  Last year, in response to the bloc's Digital Markets Act, ‌Apple allowed software developers to distribute their apps to users in the EU outside its App Store and opt out of its in-app payment system, which charges commissions of up to 30%.  The U.S. tech giant, ⁠however, said a study it ‌commissioned from Analysis Group showed that app developers have not passed on the cost savings to users.",
+      "published_at": "2025-11-13T00:07:11+00:00",
+      "created_at": "2025-11-13T03:09:58.956574+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2d312e8b-ec5f-485d-bee8-ecaa19ea6b6b",
+      "source": "Finnhub",
+      "title": "Nvidia Stock Stutters After SoftBank Stake Sale. How Foxconn Is Boosting AI Hopes.",
+      "url": "https://finnhub.io/api/news?id=e8467398744ac4441a15b32b8da4c753c5068b79c4709040078dc3efde9282c1",
+      "content": "Nvidia  stock was wavering Wednesday as Foxconn Technology Group said there was strong demand for artificial-intelligence hardware.  Nvidia shares were broadly flat at $193.24 in early.  The stock fell 3% on Tuesday after Japan’s  SoftBank Group  disclosed that it had sold a $5.83 billion stake in the chip maker.",
+      "published_at": "2025-11-12T23:22:00+00:00",
+      "created_at": "2025-11-13T03:09:59.147678+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "0dc03ab4-58f9-4091-9b0b-b4198de68370",
+      "source": "Finnhub",
+      "title": "This Pandemic Darling Is Down 40% This Year. Now the Stock Is Rising Sharply.",
+      "url": "https://finnhub.io/api/news?id=3df788fcfe767f3c445675f3c9d0da75af8ba400a6e31784f276b28c8ea3c394",
+      "content": "A report the company is exploring a sale comes as it faces pressure from activist investor Starboard Value.",
+      "published_at": "2025-11-12T23:06:00+00:00",
+      "created_at": "2025-11-13T03:09:59.345831+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "7736ee89-fc3c-4d36-8771-43d257b3343d",
+      "source": "Finnhub",
+      "title": "Nasdaq Loses Early Gains",
+      "url": "https://finnhub.io/api/news?id=3638db684edb083293c24d34de12f71ca134aa095cb979c3b12164dd7e1b37cd",
+      "content": "The Nasdaq Composite’s early gain didn’t last long. The tech-heavy index was down 0.3% after opening higher. The S&P 500 was up just 0.1%. The Dow was up 400 points, or 0.8%. Riskier stocks were still rebounding, but some of the S&P and Nasdaq’s heaviest hitters were mixed.",
+      "published_at": "2025-11-12T23:01:59+00:00",
+      "created_at": "2025-11-13T03:09:59.574542+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2346209d-4e32-4196-a0cd-8cc6fb6502f2",
+      "source": "Finnhub",
+      "title": "Whoop Is Considering Going Public in the Next Two Years, CEO Says",
+      "url": "https://finnhub.io/api/news?id=c52bd26f81e6249433c8306acf14bd99edf8bb34cae7dacf1e03ca87cb5e5d3b",
+      "content": "Founder and Chief Executive Officer Will Ahmed said the business is well-positioned for an IPO now that it’s broadened its portfolio to include proprietary technology, hardware, software, analytics and other items, such as accessories and apparel.  While Ahmed has previously said Whoop is likely to go public, he hadn’t shared when that might happen.",
+      "published_at": "2025-11-12T22:48:24+00:00",
+      "created_at": "2025-11-13T03:09:59.740966+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "95c93e37-5a53-4ef3-a0d1-75635e3864a6",
+      "source": "Finnhub",
+      "title": "Rare pink diamond expected to fetch $20m at auction",
+      "url": "https://finnhub.io/api/news?id=14e781e7496ef58f281db709283dc1fd658d0c83789fe7676977527d772112a1",
+      "content": "A rare pink diamond is set to be auctioned on Wednesday and is expected to sell for around $20m.",
+      "published_at": "2025-11-12T22:41:14+00:00",
+      "created_at": "2025-11-13T03:09:59.932364+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "3e73efb6-4190-4859-b9cf-42d418b0d20c",
+      "source": "Finnhub",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq diverge as Big Tech wobbles ahead of House shutdown vote",
+      "url": "https://finnhub.io/api/news?id=5ac1e354046ae67801df8a12a0c9586a9da27f72dc8aca009ddc32880dfd8396",
+      "content": "Investors awaited a key House vote that could end the longest government shutdown in US history.",
+      "published_at": "2025-11-12T22:35:10+00:00",
+      "created_at": "2025-11-13T03:10:00.145177+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "f4cefc89-3689-4d98-b926-aa8eb8cb8a20",
+      "source": "Finnhub",
+      "title": "Apple: Too Little, Too Late?",
+      "url": "https://finnhub.io/api/news?id=7d333688178855fa1b57d17a8b99df585a3aca4a2a00711b5b690ea122e13432",
+      "content": "Apple remains a strong consumer brand but faces stagnating growth and a lack of innovation, making it a sell at current valuations. Find out why AAPL is a Sell.",
+      "published_at": "2025-11-12T22:24:40+00:00",
+      "created_at": "2025-11-13T03:10:00.377768+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2004774697/image_2004774697.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "74bca7ea-1dda-414e-9bab-f19a550f202a",
+      "source": "Finnhub",
+      "title": "If You'd Invested $500 in Nvidia Stock 1 Year Ago, Here's How Much You'd Have Today",
+      "url": "https://finnhub.io/api/news?id=07a47aa9451cfa9474ed8203f048e2ca8a3d9689e8a289ab510ccf32bf6ac84a",
+      "content": "Nvidia has continued to beat the market, even after adding trillions to its market cap.",
+      "published_at": "2025-11-12T22:20:00+00:00",
+      "created_at": "2025-11-13T03:10:00.57209+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4f58f4e9-7357-4260-b159-405be8040a8a",
+      "source": "Finnhub",
+      "title": "Warren Buffett Stepping Down With 31% of Berkshire in Cash: His 3 Ultra Safest Stocks",
+      "url": "https://finnhub.io/api/news?id=ba759bd23f322190666c48ce31ea99d7699fbd0dbd664c1864bab17d0b49fd98",
+      "content": "These three longtime Warren Buffett favorite stock picks are likely to stay in the Berkshire Hathaway portfolio long after he steps down.",
+      "published_at": "2025-11-12T21:49:29+00:00",
+      "created_at": "2025-11-13T03:10:00.766878+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2ab78dea-c9d1-4379-a570-7245c6086121",
+      "source": "Finnhub",
+      "title": "10 High Quality ETFs & Stocks To Buy In The Next Market Downturn And Hold Until 2030",
+      "url": "https://finnhub.io/api/news?id=76b42e36e743e58ebcb32e24328c02d01398875d1a87ece4f4584b582d89ee87",
+      "content": "",
+      "published_at": "2025-11-12T21:48:58+00:00",
+      "created_at": "2025-11-13T03:10:00.975638+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    }
+  ]
+}

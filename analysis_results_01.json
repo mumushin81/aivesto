@@ -1,0 +1,266 @@
+{
+  "agent_id": 1,
+  "total_news": 20,
+  "results": [
+    {
+      "news_id": "db1f6a53-f77f-4e37-979a-baa378f6497f",
+      "relevance_score": 45,
+      "affected_symbols": ["AAPL"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Generic magazine publication featuring Apple among other companies. No material business impact, earnings data, or strategic announcements. Purely informational content without actionable investment insights.",
+      "key_points": [
+        "Magazine publication featuring multiple companies including Apple",
+        "No specific financial or strategic information disclosed",
+        "Insufficient relevance for investment decisions (below 70 threshold)"
+      ]
+    },
+    {
+      "news_id": "53fa8619-85c6-4e90-bb33-13e2ec1a5b8c",
+      "relevance_score": 15,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "News about Strifor broker's internal rewards program. No connection to Apple or US stock market. Misclassified symbol association. Zero investment relevance for US equity investors.",
+      "key_points": [
+        "Unrelated to Apple or US equities - broker rewards program in Mauritius",
+        "No material impact on any publicly traded US companies",
+        "Completely irrelevant for investment analysis"
+      ]
+    },
+    {
+      "news_id": "1512273e-77b5-4c0a-a072-fde377da83ff",
+      "relevance_score": 55,
+      "affected_symbols": ["AAPL"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "UK unemployment rising to 5% indicates weakening UK economy. Could moderately impact Apple's UK sales and European operations. However, UK represents limited portion of Apple's global revenue (~5-7% of total). Broader macro concern but not Apple-specific.",
+      "key_points": [
+        "UK unemployment up from 4.8% to 5% signals economic weakness",
+        "Potential headwind for Apple UK sales and consumer spending",
+        "Limited direct impact - UK is small portion of Apple's revenue"
+      ]
+    },
+    {
+      "news_id": "c9d495d9-9a6d-427e-9677-d66fbe8cba00",
+      "relevance_score": 35,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Asset management conference in Shanghai with no specific announcements or outcomes. No connection to Apple. Generic industry event without actionable information for investors. Misclassified symbol.",
+      "key_points": [
+        "Industry conference with no material announcements",
+        "No relevance to Apple or specific US equities",
+        "Lacks actionable investment insights"
+      ]
+    },
+    {
+      "news_id": "40dafd31-7eaf-460a-aaa3-2b4c528a3e5a",
+      "relevance_score": 20,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "General retirement planning advice article. No connection to Apple or specific investment opportunities. Personal finance content without stock-specific insights. Misclassified symbol association.",
+      "key_points": [
+        "Generic personal finance advice about retirement planning",
+        "No connection to Apple or any specific securities",
+        "Not relevant for equity investment analysis"
+      ]
+    },
+    {
+      "news_id": "4ae7d613-7247-4ce6-8bd3-0e4a27067c00",
+      "relevance_score": 20,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Consumer savings tips for single people. No investment relevance. No connection to Apple. Personal finance lifestyle article without any equity market implications.",
+      "key_points": [
+        "Personal finance lifestyle content about saving money",
+        "Zero relevance to stock market or investment decisions",
+        "Misclassified as Apple-related news"
+      ]
+    },
+    {
+      "news_id": "d61e3dc6-6220-4015-9f3a-0537ffca6df4",
+      "relevance_score": 65,
+      "affected_symbols": ["AAPL"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "UK retail sales weakest since May, consumers delaying purchases for Black Friday. Negative signal for Apple's October iPhone and product sales in UK. However, delayed spending may shift to November/December rather than disappear. Mixed short-term signal.",
+      "key_points": [
+        "UK retail sales growth weakest since May - consumers waiting for Black Friday deals",
+        "Short-term headwind for Apple product sales timing in UK market",
+        "Sales may be delayed rather than lost - potential Q4 recovery"
+      ]
+    },
+    {
+      "news_id": "5f2686dc-3819-4f59-abbc-052f1192e0cd",
+      "relevance_score": 92,
+      "affected_symbols": ["GOOGL", "AMZN", "MSFT", "NVDA"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Anthropic (Google-backed AI company) announcing massive $50B data center investment in US (NY and TX). Major bullish signal for AI infrastructure build-out. Direct positive impact for Google as major investor. Secondary benefits for cloud providers, chip makers (Nvidia), and data center infrastructure companies. Validates continued aggressive AI capex spending.",
+      "key_points": [
+        "$50B US data center investment by Google-backed Anthropic - massive AI infrastructure commitment",
+        "Strong bullish signal for Google (major Anthropic investor), Nvidia (GPU supplier), and cloud infrastructure",
+        "Confirms sustained AI investment cycle and capex momentum through 2025+"
+      ]
+    },
+    {
+      "news_id": "e84d3528-d36b-4651-9d8a-8e40350c382c",
+      "relevance_score": 75,
+      "affected_symbols": ["MSFT", "CRWD", "PANW", "ZS"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Spin.AI expanding SaaS security platform to 25+ business applications. Growing SaaS security market validates demand for Microsoft 365, Google Workspace, and enterprise SaaS security solutions. Positive for Microsoft as dominant SaaS provider needing security solutions. Also positive for dedicated cybersecurity vendors (CrowdStrike, Palo Alto Networks, Zscaler).",
+      "key_points": [
+        "SaaS security platform expansion to 25+ apps shows growing enterprise security complexity",
+        "Validates Microsoft's SaaS dominance driving security solution demand",
+        "Bullish signal for cybersecurity sector addressing SaaS security posture management"
+      ]
+    },
+    {
+      "news_id": "b078c395-db1a-4507-8f5e-2ebb122f4eff",
+      "relevance_score": 78,
+      "affected_symbols": ["TSLA"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Positive analyst commentary suggesting Tesla is 'less risky than you think' and could be life-changing investment. Bullish sentiment piece likely from financial media. While not hard news, positive analyst narrative can influence retail investor sentiment and momentum. Tesla remains volatile but article suggests long-term opportunity.",
+      "key_points": [
+        "Bullish analyst perspective on Tesla as long-term wealth-building opportunity",
+        "Suggests Tesla risk profile is better than commonly perceived",
+        "Positive sentiment driver for retail investor interest in TSLA"
+      ]
+    },
+    {
+      "news_id": "84723ed9-7b7a-454d-a784-f6b01b9b5874",
+      "relevance_score": 88,
+      "affected_symbols": ["MSFT", "NVDA", "AMD", "INTC"],
+      "price_impact": "neutral",
+      "importance": "high",
+      "reasoning": "Steve Cohen's Point72 Turion Fund achieving exceptional 30% gains in 2025 betting on AI hardware winners AND losers. Sophisticated hedge fund playing both sides of AI hardware trade suggests market bifurcation. Indicates some AI stocks overvalued while others undervalued. Important signal that AI trade becoming more selective - not all AI stocks rising together.",
+      "key_points": [
+        "Elite hedge fund (Point72) scoring 30% gains with long/short AI hardware strategy",
+        "Signals AI trade maturing - winners/losers diverging rather than sector-wide rally",
+        "Suggests selective approach needed: some AI stocks overvalued, others have upside"
+      ]
+    },
+    {
+      "news_id": "aab402b1-51da-46c9-a05e-079be16ca945",
+      "relevance_score": 82,
+      "affected_symbols": ["MSFT", "GOOGL", "AMZN", "NVDA"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Analyst identifying top tech stock for next 5 years - likely Microsoft given MSFT symbol and 'computing brand' reference. Article positioning company to 'profit off next industrial revolution' (AI transformation). Strong long-term bullish thesis. Reinforces Microsoft's positioning as core AI infrastructure play through Azure cloud and OpenAI partnership.",
+      "key_points": [
+        "Analyst highlighting Microsoft as premier 5-year tech hold for AI revolution exposure",
+        "Emphasizes long-term structural opportunity in enterprise AI transformation",
+        "Reinforces MSFT as core portfolio holding for AI mega-trend"
+      ]
+    },
+    {
+      "news_id": "a34be073-8d23-4ded-bb09-3c032f60d2a5",
+      "relevance_score": 90,
+      "affected_symbols": ["MSFT"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Microsoft President Brad Smith stating AI won't become bubble if companies stay 'thoughtful and disciplined' with investments. Direct executive commentary defending Microsoft's massive AI capex. Smith saying 'we feel good about investments we've made' is strong bullish signal from leadership. Addresses investor concerns about AI spending ROI. High credibility source affirming AI investment thesis.",
+      "key_points": [
+        "Microsoft President Brad Smith directly defending AI capex as prudent and disciplined",
+        "Leadership expressing confidence in AI investment returns - 'we feel good about investments'",
+        "Addresses key investor concern: AI bubble risk and capex sustainability"
+      ]
+    },
+    {
+      "news_id": "4b5e4549-3a40-426d-9780-91e1f402bb48",
+      "relevance_score": 72,
+      "affected_symbols": ["RGTI"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Rigetti Computing downgraded to Sell due to overheated valuation and high risk profile. Quantum computing stock getting negative analyst rating. Warning signal for speculative quantum/AI infrastructure plays. While specific to RGTI, indicates broader caution on highly valued emerging tech with weak fundamentals. Contrast to established tech leaders.",
+      "key_points": [
+        "Analyst downgrade to Sell on Rigetti Computing citing valuation and risk concerns",
+        "Warning signal for speculative quantum computing and emerging tech stocks",
+        "Suggests flight to quality: favor established profitable tech over speculative high-growth names"
+      ]
+    },
+    {
+      "news_id": "d3e84ca1-815b-4b42-b139-42def26eeab9",
+      "relevance_score": 76,
+      "affected_symbols": ["NBIS", "MSFT", "GOOGL"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Nebius (neocloud provider) delivering strong Q3 earnings with major tech partnerships and disciplined strategy. Positioned as competitor to CoreWeave in AI infrastructure. Positive signal for AI cloud infrastructure demand. Benefits hyperscalers (Microsoft, Google) as Nebius partners with them. Growing neocloud sector validates massive AI compute demand.",
+      "key_points": [
+        "Nebius strong Q3 results confirm robust AI cloud infrastructure demand",
+        "Major tech partnerships indicate hyperscaler ecosystem expansion",
+        "Validates AI compute market growth supporting MSFT, GOOGL cloud services"
+      ]
+    },
+    {
+      "news_id": "98961d2f-a08c-47b3-a1ff-cfa68a26cb1c",
+      "relevance_score": 87,
+      "affected_symbols": ["MRVL", "AMZN", "MSFT"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Marvell Technology benefiting from Amazon and Microsoft tailwinds. Amazon revealing >50% of key AWS cloud service using custom AI chips (likely Marvell-designed). Major bullish catalyst for MRVL as custom AI chip provider to hyperscalers. Validates custom silicon trend and Marvell's competitive position. Positive for Amazon/Microsoft AI infrastructure buildout.",
+      "key_points": [
+        "Amazon AWS revealing majority of key cloud service on custom AI chips - major Marvell growth driver",
+        "Custom silicon monetization accelerating for Marvell with Amazon and Microsoft",
+        "Strong bullish signal for MRVL as hyperscaler AI chip design partner"
+      ]
+    },
+    {
+      "news_id": "2755c6d6-7f8e-4a2d-88bb-bc2b126181c4",
+      "relevance_score": 93,
+      "affected_symbols": ["MSFT"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Strong analyst endorsement of Microsoft post-Q1 FY26 earnings with 'Strong Buy' rating. Article title 'Why You'll Regret Selling Now' is extremely bullish. Highlights robust Q1 results and AI growth momentum. Following actual earnings release makes this high-credibility analysis. Strong signal for investors to hold or accumulate MSFT position.",
+      "key_points": [
+        "Analyst issuing Strong Buy rating on Microsoft post-Q1 FY26 earnings beat",
+        "Emphasizes robust AI revenue growth and compelling valuation opportunity",
+        "High-conviction bullish call suggesting near-term upside and long-term strength"
+      ]
+    },
+    {
+      "news_id": "6dda4ede-2378-4fe2-92db-5eb734487ad9",
+      "relevance_score": 81,
+      "affected_symbols": ["PARA", "NVDA", "BRK.B"],
+      "price_impact": "neutral",
+      "importance": "high",
+      "reasoning": "Multi-topic morning briefing covering: Paramount cost cuts, SoftBank selling Nvidia stake, Warren Buffett news. SoftBank exiting Nvidia position is notable bearish signal - sophisticated investor taking profits after massive run. Could indicate near-term NVDA top. Paramount cost cuts are neutral restructuring. Buffett news likely positive but non-specific. Mixed signals overall.",
+      "key_points": [
+        "SoftBank selling Nvidia stake - significant profit-taking by sophisticated investor",
+        "Potential warning signal for Nvidia near-term momentum after extended rally",
+        "Paramount cost-cutting and Buffett news provide mixed sector signals"
+      ]
+    },
+    {
+      "news_id": "902608f1-1a30-4d16-97f3-9d8c276211c8",
+      "relevance_score": 89,
+      "affected_symbols": ["MSFT", "GOOGL", "AMZN", "META", "DASH", "DUOL"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Critical market dynamic: Wall Street rewarding hyperscalers (Microsoft, Google, Amazon, Meta) for AI spending but punishing smaller companies (DoorDash, Duolingo) for same investments. Clear signal that AI capex only valued for companies with scale and infrastructure to monetize it. Flight to quality in AI investment theme. Buy hyperscalers, avoid smaller AI spenders.",
+      "key_points": [
+        "Market bifurcation: rewarding hyperscaler AI spending, punishing smaller companies",
+        "Clear signal to favor large-cap AI infrastructure leaders (MSFT, GOOGL, AMZN, META)",
+        "AI investment thesis only credible for companies with scale and monetization path"
+      ]
+    },
+    {
+      "news_id": "80e081da-4cf8-4b6f-a646-5fd6875028e9",
+      "relevance_score": 85,
+      "affected_symbols": ["MSFT", "NVDA", "GOOGL", "AMZN"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Investors piling back into AI stocks on Monday after brief decline. Analyst quote: 'AI-related stocks should drive equity markets' shows continued Wall Street conviction in AI theme. Recent pullback was buying opportunity, not trend change. Reinforces AI as primary market driver and secular growth theme. Buy-the-dip signal confirmed.",
+      "key_points": [
+        "Strong buying in AI stocks following brief pullback - dip was buying opportunity",
+        "Analyst conviction remains high: 'AI stocks should drive equity markets'",
+        "Confirms AI as dominant secular theme and primary market leadership driver"
+      ]
+    }
+  ]
+}

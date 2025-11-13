@@ -1,0 +1,347 @@
+{
+  "agent_id": 10,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "68bef2c2-2ff6-4852-a517-6c8ae00708d4",
+      "source": "Finnhub",
+      "title": "Foxconn, On Running, Circle: Market Movers",
+      "url": "https://finnhub.io/api/news?id=2d70b19f9e2fb08ae7250b376e5049ba60ed570b8e5d94aee89f8386bae94020",
+      "content": "The world's largest contract electronics manufacturer is no longer \"just\" the iPhone (AAPL) maker: Foxconn's (FITGF, 2354.TW, 0FJ.SG, 0FJ.F, FXCOF) profits topped estimates as it expands into making AI servers for the likes of Nvidia (NVDA) and Amazon (AMZN). Ramzan Karmali breaks down the latest earnings from the Taiwanese conglomerate and other companies including On Holding (ONON) and Circle (CRCL). For more live coverage of the markets, watch the full episode of Market Sunrise and visit Yahoo Finance.",
+      "published_at": "2025-11-12T21:43:24+00:00",
+      "created_at": "2025-11-13T03:10:01.174856+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a22501a0-5920-46d2-8a06-664bf7513b4f",
+      "source": "Finnhub",
+      "title": "Prediction: This Dividend-Paying Value Stock Will Join Berkshire Hathaway in the $1 Trillion Club Before Walmart",
+      "url": "https://finnhub.io/api/news?id=d919804423962c5ae8cd0475aa6ee107188b1a5a36915ea9c65b1c7ecbd46a11",
+      "content": "The $1 trillion club is growing due to record earnings and investor enthusiasm.",
+      "published_at": "2025-11-12T16:05:00+00:00",
+      "created_at": "2025-11-13T03:10:03.696047+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ef29c246-540f-4b8e-8e66-72554831bed4",
+      "source": "Finnhub",
+      "title": "Quiq Advances Contact Center Quality Management with New Agentic AI Analyst",
+      "url": "https://finnhub.io/api/news?id=be8d271e9c493f29b66ab08991c510d0d39ac6d8e8abf6304a1418dbd2043c3b",
+      "content": "Quiq, the leader in enterprise-grade agentic AI for CX innovation, today announced agentic AI powered Quality Management. Aptly named Conversation Analyst, this powerful agentic AI solution analyzes every AI and human agent conversation across voice, web chat, SMS, and other asynchronous messaging platforms, like Apple Messages for Business and WhatsApp. With Conversation Analyst, organizations can establish custom prompts and metrics that provide a nuanced understanding of experiences throughou",
+      "published_at": "2025-11-12T21:30:00+00:00",
+      "created_at": "2025-11-13T03:10:01.340618+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "e5426ef1-0cbe-4ba1-b406-8698801e8b8e",
+      "source": "Finnhub",
+      "title": "Rezolve Ai’s Acceleration Toward $500 Million ARR Exit Rate for 2026 Attracts Industry Titans from Apple, Google, Microsoft, SAP and Tata Digital",
+      "url": "https://finnhub.io/api/news?id=9fcde5c4747f4c16defd989c564cf8bbbe7448b631a5312d3d0007c72f5e9415",
+      "content": "Top global executives are joining Rezolve Ai to lead the trillion-dollar Agentic Commerce transformationNEW YORK , Nov. 12, 2025 (GLOBE NEWSWIRE) -- Rezolve Ai (NASDAQ: RZLV), the AI-commerce company redefining digital engagement through its proprietary brainpowa LLM, has become a destination for some of the most accomplished leaders in global technology. Executives from Apple, Google, Microsoft, SAP, Tata Digital and other world-leading firms have joined the company, which we believe is a power",
+      "published_at": "2025-11-12T21:00:00+00:00",
+      "created_at": "2025-11-13T03:10:01.538587+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "7361e428-5a11-4b26-8213-ade64a991e4e",
+      "source": "Finnhub",
+      "title": "Why Nvidia Stock Is Getting a Boost From Foxconn Earnings",
+      "url": "https://finnhub.io/api/news?id=311c6cf2355875e7fa1a9363fa15559888e4764e218f858ba9489de512397bf5",
+      "content": "Nvidia  stock was rising Wednesday as Foxconn Technology Group said there was strong demand for artificial-intelligence hardware.  Nvidia shares were up 1.4% at $195.95 in premarket trading.  The stock fell 3% on Tuesday after Japan’s  SoftBank Group  disclosed that it had sold a $5.83 billion stake in the chip maker.",
+      "published_at": "2025-11-12T20:50:00+00:00",
+      "created_at": "2025-11-13T03:10:01.698307+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "062e5968-8475-4d2c-9ebe-ab07af7ddaf5",
+      "source": "Finnhub",
+      "title": "Nvidia Supplier Foxconn Posts 17% Profit Jump on AI Server Demand",
+      "url": "https://finnhub.io/api/news?id=398237b9a02e939b6a065dfc411a1c337041c4c152a6ec8205fd609c4b173be1",
+      "content": "AI boom boosts Foxconn's server business as Nvidia partnership drives growth.",
+      "published_at": "2025-11-12T20:10:19+00:00",
+      "created_at": "2025-11-13T03:10:01.8694+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a3f886ab-1dd0-497c-a80c-63b880c5ee85",
+      "source": "Finnhub",
+      "title": "Foxconn's profits rise on AI server demand, teases OpenAI announcement",
+      "url": "https://finnhub.io/api/news?id=3d82cbaf584a6a1a53d946f51e3503d73b8b1fbfa00a978ad26afd58032b713c",
+      "content": "STORY: Foxconn posted a forecast-beating 17% rise in Q3 profit Wednesday (November 12). It was fueled by continued strength in demand for AI servers that it also expects to drive growth next year.The Taiwanese firm is the the world's largest contract electronics maker and supplies U.S. majors like Apple and Nvidia.It said third-quarter net profit hit $1.89 billion. Looking ahead, Foxconn feels bullish and said it should see year-on-year revenue growth in Q4. It expects AI server revenue to increase quarter-on-quarter. And for its full year revenue, it forecast significant year-on-year growth - in line with its earlier projections.The firm also teased an announcement next week with ChatGPT-maker OpenAI, though it didn't provide details.Foxconn's shares have surged 36% so far this year.Its shares closed up 1.8% on Wednesday ahead of the earnings release.",
+      "published_at": "2025-11-12T19:57:30+00:00",
+      "created_at": "2025-11-13T03:10:02.062376+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "191b4ae9-44f4-4d7d-9f10-c7bd6d385dcd",
+      "source": "Finnhub",
+      "title": "The Global MicroLED Displays Market Report 2026: Industry Enters Commercial Era in 2025 - ENNOSTAR, HC SemiTek, Sanan Optoelectronics, and AU Optronics Lead High-Volume Production",
+      "url": "https://finnhub.io/api/news?id=e0d81dae113c9d4dab58eebf5433f7140925ae2a34b9241dc4b4171a6540fef3",
+      "content": "In 2025, the global microLED display market is at a pivotal stage as it shifts from extensive R&D to initial commercialization, overcoming setbacks like Apple's 2024 microLED smartwatch project cancellation. This market, containing around 120 companies globally, is primarily concentrated in Taiwan, China, South Korea, and the US/Europe. With significant production capacity ramp-ups in Taiwan and China, the first commercial microLED products, including the Garmin fēnix 8 Pro, are emerging. Despit",
+      "published_at": "2025-11-12T19:55:00+00:00",
+      "created_at": "2025-11-13T03:10:02.230024+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "48ac80ac-4f15-4410-9e64-588411f8dfad",
+      "source": "Finnhub",
+      "title": "How buying the dip & selling the rip is fueling investor gains",
+      "url": "https://finnhub.io/api/news?id=738997381394a14560151d48bdec123a0739e03365fda67c173eebb586b884af",
+      "content": "Charles Schwab clients were net buyers of equities in October despite many believing the market is overvalued. Charles Schwab head trading and derivatives strategist Joe Mazzola joins Market Domination Overtime to discuss the current market dynamics. To watch more expert insights and analysis on the latest market action, check out more Market Domination Overtime.",
+      "published_at": "2025-11-12T19:30:05+00:00",
+      "created_at": "2025-11-13T03:10:02.400809+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "fc95064d-b7ab-4729-b66e-6f5ef3a8801c",
+      "source": "Finnhub",
+      "title": "Foxconn Profit Tops Estimates Amid Robust AI Server Business",
+      "url": "https://finnhub.io/api/news?id=405f0237f70f8f78f0b42cd838cadc267a4ce73efd08de3dfab31dc044aba7a0",
+      "content": "Foxconn Technology Group expects a strong year ahead as AI computing demand continues its explosive growth trajectory, and said it will collaborate with OpenAI.",
+      "published_at": "2025-11-12T19:06:00+00:00",
+      "created_at": "2025-11-13T03:10:02.558727+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "23623726-68a0-438c-bad7-2cc2bf069b9b",
+      "source": "Finnhub",
+      "title": "Apple: Consumer Staples-Like Nature And Sticky Ecosystem Make It A Buy",
+      "url": "https://finnhub.io/api/news?id=e8ef32a0e9a65bc0c867cb96343f79b8ecab1cb3db8b1bc67192aacc42c055ae",
+      "content": "Apple's sticky ecosystem, shareholder-friendly buybacks, and global diversification support its status as a technology consumer staple. Learn more about AAPL stock here.",
+      "published_at": "2025-11-12T18:45:23+00:00",
+      "created_at": "2025-11-13T03:10:02.724761+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2243457907/image_2243457907.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ddcb6857-7515-4d68-968c-0ec3d82118d9",
+      "source": "Finnhub",
+      "title": "Wall Street and FTSE rise as US government could reopen as soon as today",
+      "url": "https://finnhub.io/api/news?id=6a1a72372b9c944118c7faca661729118d1d05382f65b6b69a12e49f78c8b40b",
+      "content": "The yield on UK gilts rose as investors raised concerns about the possibility that the prime minister and chancellor could be ousted after the budget.",
+      "published_at": "2025-11-12T17:02:03+00:00",
+      "created_at": "2025-11-13T03:10:02.88931+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "c3cd8da2-0e3a-46fa-b131-22579eb621c4",
+      "source": "Finnhub",
+      "title": "Nvidia supplier Foxconn bullish on AI demand, teases OpenAI announcement",
+      "url": "https://finnhub.io/api/news?id=1dacc920bca4c99517df7a22f3ff87ec6d8c01396603b756adcb60963f1dec86",
+      "content": "TAIPEI (Reuters) -Taiwan's Foxconn, the world's largest contract electronics maker, offered a bullish outlook on AI-related demand on Wednesday saying it would be a ​big driver of 2026 growth, and teased an announcement next week with OpenAI.  Nvidia's biggest server maker and Apple'‌s top iPhone assembler has been riding a data centre boom, as cloud computing firms such as Amazon, Microsoft and Alphabet's Google spend billions of dollars ‌to expand their AI infrastructure and research capacity.  Foxconn Chairman Young Liu told an earnings call that the importance of AI would massively increase next year, though the company would also keep a wary eye on geopolitical and currency issues.",
+      "published_at": "2025-11-12T14:26:52+00:00",
+      "created_at": "2025-11-13T03:10:03.860757+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ca8b161e-acc7-4376-a02b-3e822835c0fb",
+      "source": "Finnhub",
+      "title": "Nvidia supplier Foxconn third-quarter profit beats expectations, rising 17% on AI demand",
+      "url": "https://finnhub.io/api/news?id=6faeb6cdd786e8a2e66d362ebf2d1a11f9071cfe3c9df6fdfb732fd10748b16e",
+      "content": "Foxconn, the world's largest contract electronics maker, reported Wednesday that its third-quarter profit jumped 17% from a year earlier.",
+      "published_at": "2025-11-12T09:36:55+00:00",
+      "created_at": "2025-11-13T03:10:04.030213+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/107399818-1712838478275-gettyimages-1730512224-AFP_33YF4RK.jpeg?v=1762905734&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a8121576-0b0b-493e-a143-44a0718bc2ab",
+      "source": "Finnhub",
+      "title": "These Mega Tech Giants Generate Robust Cash",
+      "url": "https://finnhub.io/api/news?id=b5e199fc9c1a08518b56a57497c4cc0b14b3cabf2cdf5ff2ce87e53d4f5eefea",
+      "content": "Companies with strong cash-generating abilities are great targets, as they have plenty of cash to fuel growth, pay out dividends, and easily wipe out debt",
+      "published_at": "2025-11-12T09:19:00+00:00",
+      "created_at": "2025-11-13T03:10:04.234212+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "5ffb5b7e-1700-40b2-bf64-595bd060427f",
+      "source": "Finnhub",
+      "title": "Google Gemini AI Integration Could Be a Game Changer for Apple (AAPL)",
+      "url": "https://finnhub.io/api/news?id=e9b44a8d934090b32af052a1994d5cd2aa698467851200ed096664f2b622f699",
+      "content": "Apple recently reported strong fourth quarter and full-year earnings, highlighted by revenue of US$102.47 billion and net income of US$27.47 billion for the quarter ended September 27, 2025, along with the announcement of a US$0.26 per share cash dividend and the completion of significant share buybacks under existing repurchase programs. In addition to robust financial results, Apple unveiled plans to integrate Google Gemini AI into Siri and expand satellite capabilities, underscoring a...",
+      "published_at": "2025-11-12T09:11:23+00:00",
+      "created_at": "2025-11-13T03:10:04.410252+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "f1bff91b-d315-49b9-be0a-6bd80c73ec6a",
+      "source": "Finnhub",
+      "title": "The Big Short's Big Bet",
+      "url": "https://finnhub.io/api/news?id=3fc365a4573d10e48ba33eac54e3e1614e628407968c2817f436e51abd3a55ab",
+      "content": "Read about Michael Burryâs bold bet against an AI-fueled stock market bubble.",
+      "published_at": "2025-11-13T02:05:44+00:00",
+      "created_at": "2025-11-13T03:10:04.580955+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1759442465/image_1759442465.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "741e81c6-d737-4173-a60b-6edad4b2ddab",
+      "source": "Finnhub",
+      "title": "ADL and JLens Recommend AGAINST BDS-Aligned Shareholder Proposal at Microsoft Annual Meeting",
+      "url": "https://finnhub.io/api/news?id=c51a6ef49407a0841d82cbb692d65316e522062053495c02673b9aa66bc7d637",
+      "content": "NEW YORK, November 12, 2025--JLens, a Registered Investment Advisor, and ADL (the Anti-Defamation League), today called upon shareholders of Microsoft Corporation (NASDAQ: MSFT) to vote AGAINST Proposal 9, a shareholder resolution that they believe represents a politically motivated, BDS-aligned campaign designed to stigmatize lawful business with Israel and expose Microsoft to significant financial, legal, and reputational risks rather than promote genuine human rights oversight.",
+      "published_at": "2025-11-13T01:08:00+00:00",
+      "created_at": "2025-11-13T03:10:04.755338+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "48fad0cd-6d2b-4228-ae29-968d48a30e3d",
+      "source": "Finnhub",
+      "title": "OpenAI won't buy Intel's AI chips — even after Trump took a stake",
+      "url": "https://finnhub.io/api/news?id=4fd69ea7755bde38ddc58e2e347f4367766124e1a9fad73f11b9648d78e5182a",
+      "content": "Intel's absence from OpenAI's vendor list reflects more than just technical shortcomings. It's a Silicon Valley soap opera",
+      "published_at": "2025-11-13T00:27:17+00:00",
+      "created_at": "2025-11-13T03:10:04.919286+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4a6c67d4-a54a-48d6-a203-58d9c4150595",
+      "source": "Finnhub",
+      "title": "Anthropic announces $50B investment in new US data centers to meet AI demand",
+      "url": "https://finnhub.io/api/news?id=73bfd8e8d4ba38946ba6c394814416063b4c876a8c9176314b2464addabe2f9f",
+      "content": "Artificial intelligence company Anthropic announced a $50 billion investment in computing infrastructure on Wednesday that will include new data centers in Texas and New York.  Anthropic, maker of the chatbot Claude, said it is working with London-based Fluidstack to build the new computing facilities to power its AI systems.  A report last month from TD Cowen said that the leading cloud computing providers leased a “staggering” amount of U.S. data center capacity in the third fiscal quarter of this year, amounting to more than 7.4 gigawatts of energy, more than all of last year combined.",
+      "published_at": "2025-11-13T00:21:52+00:00",
+      "created_at": "2025-11-13T03:10:05.108576+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    }
+  ]
+}

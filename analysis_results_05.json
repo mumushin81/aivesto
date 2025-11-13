@@ -1,0 +1,266 @@
+{
+  "agent_id": 5,
+  "total_news": 20,
+  "results": [
+    {
+      "news_id": "e43cf8cf-31a8-407c-b015-bc57f9b61530",
+      "relevance_score": 65,
+      "affected_symbols": ["TSLA"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Opinion piece suggesting Tesla's growth story is over, but lacks specific data or competitor names. Speculative content with limited actionable insights.",
+      "key_points": [
+        "Bearish sentiment on Tesla's long-term prospects",
+        "Suggests better alternatives exist but doesn't name them",
+        "Opinion-based without concrete financial data"
+      ]
+    },
+    {
+      "news_id": "a90d61e3-9b85-433b-8721-7b84cab5a762",
+      "relevance_score": 72,
+      "affected_symbols": ["TSLA"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Specific negative news about Cybertruck issues. Product problems can impact sales and brand perception, relevant for Tesla investors.",
+      "key_points": [
+        "Bad news for Cybertruck in November",
+        "Potential impact on Tesla's pickup truck segment",
+        "Product quality concerns may affect investor sentiment"
+      ]
+    },
+    {
+      "news_id": "601d53d1-bf92-4261-b087-3a85e2501e07",
+      "relevance_score": 75,
+      "affected_symbols": ["TSLA", "GM"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Comparative analysis suggesting GM is better valued than Tesla. Mentions Musk's compensation package and valuation concerns - important for investors comparing EV stocks.",
+      "key_points": [
+        "Tesla trading at steep premium vs fundamentals",
+        "GM presented as better value alternative",
+        "Musk's pay package linked to ambitious growth targets"
+      ]
+    },
+    {
+      "news_id": "25229146-7467-4851-a8b2-3285c87af49e",
+      "relevance_score": 25,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Personal finance advice about retirement planning. Not relevant to stock trading or market analysis. Incorrectly tagged with TSLA symbol.",
+      "key_points": [
+        "Retirement planning advice from Suze Orman",
+        "Not stock market related",
+        "Misclassified as TSLA news"
+      ]
+    },
+    {
+      "news_id": "9703d7d5-76dc-4fca-b3d1-573e9d2e83bb",
+      "relevance_score": 40,
+      "affected_symbols": ["TSLA"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Biographical anecdote about Elon Musk's early life. No material impact on Tesla business operations or financials. Low investor value.",
+      "key_points": [
+        "Personal story about Musk arriving in Montreal at 17",
+        "Response to criticism of CEO pay package",
+        "No business or financial implications"
+      ]
+    },
+    {
+      "news_id": "5ac3ab44-e985-4a83-87a7-6dd248c727c5",
+      "relevance_score": 55,
+      "affected_symbols": ["GETY"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Standard contract announcement for Getty Images covering Olympic Games. Minor business development with limited financial impact.",
+      "key_points": [
+        "Getty Images to cover Milano Cortina 2026 Olympics",
+        "Routine business operation",
+        "Limited near-term revenue impact"
+      ]
+    },
+    {
+      "news_id": "dcd22bf4-adc8-4546-8e7b-9628983351a2",
+      "relevance_score": 50,
+      "affected_symbols": ["SZIHF"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Marketing partnership between BYD and FC Internazionale Milano. Limited-edition vehicle announcement with minimal financial significance.",
+      "key_points": [
+        "BYD delivers SEALION 7 INTER EDITION to football club",
+        "Marketing and brand partnership",
+        "Low financial materiality"
+      ]
+    },
+    {
+      "news_id": "2885a8b2-5565-48d4-823c-c5dd79983ea3",
+      "relevance_score": 85,
+      "affected_symbols": ["T", "SE", "FND", "OUT", "PGNY"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "Multiple analyst upgrades from major investment bank. Deutsche Bank upgraded Sea Ltd from Hold to Buy, AT&T also upgraded. High relevance for active traders.",
+      "key_points": [
+        "Deutsche Bank upgraded Sea Ltd (SE) from Hold to Buy",
+        "AT&T analyst turned bullish",
+        "Multiple upgrades signal positive sentiment shift"
+      ]
+    },
+    {
+      "news_id": "bd90bb0c-d12c-4431-bc20-653326c3a950",
+      "relevance_score": 82,
+      "affected_symbols": ["EFSH"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "1847 Holdings reports exceptional 256% revenue growth and achieves profitability. Strong earnings beat with substantial growth metrics.",
+      "key_points": [
+        "256% revenue growth to $13.6 million",
+        "Company achieved profitability in Q3 2025",
+        "Gross profit increased 180% to $6.7 million"
+      ]
+    },
+    {
+      "news_id": "93a2be61-ce34-40f0-9b09-96f7246aedf6",
+      "relevance_score": 70,
+      "affected_symbols": ["IMMX", "JAZZ", "CMRX"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Immix Biopharma appoints experienced CCO to drive drug launch. References Chimerix acquisition by Jazz for $935M, establishing credibility. Key personnel appointment ahead of product launch.",
+      "key_points": [
+        "New CCO hired to drive NXC-201 launch",
+        "Executive has rare disease therapeutic experience",
+        "Reference to successful $935M acquisition provides context"
+      ]
+    },
+    {
+      "news_id": "44347f1e-97e4-41a8-9e79-84f03e39b9f1",
+      "relevance_score": 68,
+      "affected_symbols": ["NTWK"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "NETSOL reports modest 2.8% revenue growth with stronger 9.4% cloud/SaaS growth. Moderate results show transition to higher-margin cloud business.",
+      "key_points": [
+        "Q1 fiscal 2026 revenue up 2.8% YoY",
+        "Cloud and SaaS revenue increased 9.4%",
+        "Positive cloud transition trajectory"
+      ]
+    },
+    {
+      "news_id": "8b5afc49-4c6f-4a98-a2bd-6635cb41c15e",
+      "relevance_score": 88,
+      "affected_symbols": ["GFS"],
+      "price_impact": "up",
+      "importance": "high",
+      "reasoning": "GlobalFoundries beats earnings estimates despite 3% revenue decline. Stock soaring on auto and data center strength. Strong market reaction to earnings beat.",
+      "key_points": [
+        "Q3 revenue of $1.688B topped analyst estimates of $1.676B",
+        "Stock gained significantly on earnings",
+        "Strength in automotive and data center segments"
+      ]
+    },
+    {
+      "news_id": "ee558204-e279-48b2-b5a2-2deb915b61ac",
+      "relevance_score": 30,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Regulatory Form 8.3 filing for Man Group PLC regarding Dowlais Group. Administrative filing with no actionable investment information.",
+      "key_points": [
+        "Standard regulatory disclosure",
+        "No material business news",
+        "Low investor relevance"
+      ]
+    },
+    {
+      "news_id": "e6dcd0cb-7798-44e8-9e33-fc917afcb79f",
+      "relevance_score": 78,
+      "affected_symbols": ["LLY", "CVS", "NVO"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Eli Lilly dropping CVS Health's drug benefit plan for employees ahead of 2026 switch. Significant business relationship change affecting CVS revenue stream.",
+      "key_points": [
+        "Eli Lilly ending relationship with CVS drug benefit program",
+        "Takes effect before 2026 transition",
+        "Potential revenue loss for CVS Health"
+      ]
+    },
+    {
+      "news_id": "cf1bfd60-f862-4c76-9ca3-03eca156d011",
+      "relevance_score": 30,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Another Form 8.3 regulatory filing by Man Group PLC. Administrative document with no investment value.",
+      "key_points": [
+        "Standard regulatory filing",
+        "No actionable information",
+        "Low relevance for traders"
+      ]
+    },
+    {
+      "news_id": "ddd0465f-5345-456c-a479-27a7953e86b0",
+      "relevance_score": 73,
+      "affected_symbols": ["ETST"],
+      "price_impact": "up",
+      "importance": "medium",
+      "reasoning": "Earth Science Tech reports strong Q2 fiscal 2025 results. Company is focused on acquiring and scaling businesses - positive earnings momentum.",
+      "key_points": [
+        "Strong Q2 fiscal 2025 results reported",
+        "Strategic holding company with acquisition focus",
+        "Positive operational performance"
+      ]
+    },
+    {
+      "news_id": "3e7f1d57-1a70-4a94-b59d-818b0c45a63d",
+      "relevance_score": 60,
+      "affected_symbols": ["EZES"],
+      "price_impact": "up",
+      "importance": "low",
+      "reasoning": "Easy Environmental Solutions announces second EasyFEN deployment in Africa. LOI (non-binding) has limited near-term impact but shows business expansion.",
+      "key_points": [
+        "Non-binding LOI for West Africa deployment",
+        "Second EasyFEN agreement shows momentum",
+        "Early stage, limited immediate financial impact"
+      ]
+    },
+    {
+      "news_id": "8bdff066-7cab-4560-a76b-95a7d2298bff",
+      "relevance_score": 30,
+      "affected_symbols": [],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Third Man Group PLC Form 8.3 filing. Routine regulatory disclosure with no investment significance.",
+      "key_points": [
+        "Administrative regulatory form",
+        "No material news",
+        "Not actionable for investors"
+      ]
+    },
+    {
+      "news_id": "68526f83-e259-436a-acd0-190ed78dc8c3",
+      "relevance_score": 92,
+      "affected_symbols": ["NVDA"],
+      "price_impact": "neutral",
+      "importance": "high",
+      "reasoning": "Timely analysis ahead of Nvidia earnings on Nov 19. AI stock conversation has changed since last report. Critical for investors positioning before major earnings event.",
+      "key_points": [
+        "Nvidia earnings scheduled for November 19",
+        "Important timing for investment decisions",
+        "AI sector sentiment shift noted since last earnings"
+      ]
+    },
+    {
+      "news_id": "c81dee34-a099-4b4d-a0ea-782f2a4182a9",
+      "relevance_score": 35,
+      "affected_symbols": ["GOOG", "META"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Asian World Film Festival announcement. Entertainment/cultural event with no relevance to Google or Meta stock performance. Misclassified symbols.",
+      "key_points": [
+        "Film festival announcement",
+        "No connection to GOOG or META business operations",
+        "Incorrectly tagged with tech stock symbols"
+      ]
+    }
+  ]
+}

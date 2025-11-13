@@ -1,0 +1,802 @@
+{
+  "agent_id": 8,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "ab3419bd-c3dc-4606-98f4-60e049c011bb",
+      "source": "Alpha Vantage",
+      "title": "Two Top Gay Dating Apps Disappear On Apple, Android Devices In China Amid Deepening Censorship Fears - Alphabet  ( NASDAQ:GOOG ) , Apple  ( NASDAQ:AAPL ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48795598/two-top-gay-dating-apps-disappear-on-apple-android-devices-in-china-amid-deepening-censorship-fears",
+      "content": "Apple Inc. ( NASDAQ:AAPL ) has confirmed that China's top gay dating apps, Blued and Finka, were taken down from its App Store at the request of the country's internet regulator.",
+      "published_at": "2025-11-12T07:43:06+00:00",
+      "created_at": "2025-11-12T14:28:28.485134+00:00",
+      "symbols": [
+        "WBD",
+        "AAPL",
+        "GOOG"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Ananya Gairola"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.079768
+      }
+    },
+    {
+      "id": "e54454e9-9fe9-4fcf-b3de-0f2d10c392e1",
+      "source": "Alpha Vantage",
+      "title": "Don't Copy That Code! The New 'ClickFix' Cyber Attack Can Infect Your Computer In Seconds - CoreWeave  ( NASDAQ:CRWV ) , Apple  ( NASDAQ:AAPL ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48794957/dont-copy-that-code-the-new-clickfix-cyber-attack-can-infect-your-computer-in-seconds",
+      "content": "A new cyber threat called ClickFix is reportedly spreading rapidly online, using fake emails, websites and search results to trick users into pasting a single line of code that instantly infects their computers. Security researchers are warning of a fast-growing scam known as ClickFix.",
+      "published_at": "2025-11-12T06:11:45+00:00",
+      "created_at": "2025-11-12T14:28:28.902984+00:00",
+      "symbols": [
+        "AAPL",
+        "CRWD",
+        "MSFT",
+        "NET",
+        "GOOG"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Ananya Gairola"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.004916
+      }
+    },
+    {
+      "id": "58f9ed91-2ecd-4d01-b57f-a663c10e6bdd",
+      "source": "Alpha Vantage",
+      "title": "If You'd Invested $100 in MP Materials Stock 1 Year Ago, Here's How Much You'd Have Today",
+      "url": "https://www.fool.com/investing/2025/11/12/if-youd-invested-100-in-mp-materials-stock-1-year/",
+      "content": "The stock's wild ride is likely to continue as long as trade conflicts continue.",
+      "published_at": "2025-11-12T06:10:00+00:00",
+      "created_at": "2025-11-12T14:28:29.31161+00:00",
+      "symbols": [
+        "AAPL",
+        "MP"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Energy & Transportation",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.316726"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Lee Samaha"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.286056
+      }
+    },
+    {
+      "id": "7c9373d7-c18c-449a-ac99-e6e270e7fa89",
+      "source": "Alpha Vantage",
+      "title": "iPhone Pocket For $230? Marques Brownlee Says It's A 'Litmus Test For People Who'll Buy/Defend Anything' From Apple - Apple  ( NASDAQ:AAPL ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48794574/iphone-pocket-for-230-marques-brownlee-says-its-a-litmus-test-for-people-wholl-buy-defend-anything-f",
+      "content": "On Tuesday, Popular tech YouTuber Marques Brownlee, better known as MKBHD, criticized Apple Inc.'s ( NASDAQ:AAPL ) new $230 \"iPhone Pocket,\" calling it an example of how far brand loyalty can go. Taking to X, formerly Twitter, Brownlee wrote, \"TWO hundred and thirty dollars..",
+      "published_at": "2025-11-12T04:41:07+00:00",
+      "created_at": "2025-11-12T14:28:29.724816+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.650727"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Ananya Gairola"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.153746
+      }
+    },
+    {
+      "id": "430ccd56-6144-4ec8-9afc-0a4a2f5d2a9c",
+      "source": "Alpha Vantage",
+      "title": "Zohran Mamdani Says No More Thanking Veterans Today, Forgetting Tomorrow - Trump, Obama And Others Express Gratitude For Service - Alphabet  ( NASDAQ:GOOG ) , Apple  ( NASDAQ:AAPL ) ",
+      "url": "https://www.benzinga.com/news/politics/25/11/48793928/zohran-mamdani-says-no-more-thanking-veterans-today-forgetting-tomorrow-trump-obama-and-others-expr",
+      "content": "As the nation marked Veterans Day 2025 on Tuesday, Nov. 11, political leaders and tech executives alike took to public platforms to honor the courage, sacrifice and enduring legacy of America's veterans. President Donald Trump expressed gratitude toward members of the U.S.",
+      "published_at": "2025-11-12T02:25:52+00:00",
+      "created_at": "2025-11-12T14:28:30.120329+00:00",
+      "symbols": [
+        "AAPL",
+        "GOOG",
+        "INTC"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Ananya Gairola"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.393518
+      }
+    },
+    {
+      "id": "5e8000c9-1f0e-4ccd-805c-19fbfafd2ba1",
+      "source": "Alpha Vantage",
+      "title": "These Mega Tech Giants Generate Robust Cash",
+      "url": "https://www.zacks.com/stock/news/2789635/these-mega-tech-giants-generate-robust-cash",
+      "content": "Companies with strong cash-generating abilities are great targets, as they have plenty of cash to fuel growth, pay out dividends, and easily wipe out debt ...",
+      "published_at": "2025-11-12T01:19:00+00:00",
+      "created_at": "2025-11-12T14:28:30.499239+00:00",
+      "symbols": [
+        "AAPL",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.266143"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Derek Lewis"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.367129
+      }
+    },
+    {
+      "id": "211ac389-c133-485b-a08f-4cce44015eeb",
+      "source": "Alpha Vantage",
+      "title": "Rocket Software Unveils Next Evolution of DevOps Tools That Evolve the Developer Experience to Bridge IT Skills Gap Across Core IT Systems",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48800113/rocket-software-unveils-next-evolution-of-devops-tools-that-evolve-the-developer-experience-to-bri",
+      "content": "WALTHAM, Mass., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Rocket Software, a global technology leader in modernization and cross-platform DevOps, today announced a new generation of innovations designed to enhance developer experience ( DevEx ) , improve agility, and reduce the growing skills gap ...",
+      "published_at": "2025-11-12T13:00:00+00:00",
+      "created_at": "2025-11-12T14:28:31.06998+00:00",
+      "symbols": [
+        "APG",
+        "IBM",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.161647"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.363551
+      }
+    },
+    {
+      "id": "0af668c1-f23d-4a9c-99ca-500ba970f125",
+      "source": "Alpha Vantage",
+      "title": "The Next AI Giant? Its Stock Could Surge 52% Before 2026.",
+      "url": "https://www.fool.com/investing/2025/11/12/the-next-ai-giant-its-stock-could-surge-52-before/",
+      "content": "D-Wave Quantum is well off its all-time highs ...",
+      "published_at": "2025-11-12T12:00:00+00:00",
+      "created_at": "2025-11-12T14:28:31.518155+00:00",
+      "symbols": [
+        "QBTS",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999365"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Keithen Drury"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.134376
+      }
+    },
+    {
+      "id": "03836330-bec0-4047-92f8-d9b81b2acf9b",
+      "source": "Alpha Vantage",
+      "title": "Nebius' Q3 Loss Widens Y/Y, Revenues Rise on AI Demand, Stock Down",
+      "url": "https://www.zacks.com/stock/news/2789705/nebius-q3-loss-widens-yy-revenues-rise-on-ai-demand-stock-down",
+      "content": "NBIS' revenue soars 355% on AI cloud strength, even as losses deepen and it unveils a $3B Meta deal.",
+      "published_at": "2025-11-12T11:58:00+00:00",
+      "created_at": "2025-11-12T14:28:31.922722+00:00",
+      "symbols": [
+        "RDVT",
+        "META",
+        "NBIS",
+        "TYL",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999994"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.316726"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.108537
+      }
+    },
+    {
+      "id": "2c8d0801-45f7-4d80-9c5c-65b5ddcef2a2",
+      "source": "Alpha Vantage",
+      "title": "Is Ethereum a Millionaire-Maker?",
+      "url": "https://www.fool.com/investing/2025/11/12/is-ethereum-a-millionaire-maker/",
+      "content": "The cryptocurrency has made huge gains in just five years, but it's unlikely to continue the same streak in years to come.",
+      "published_at": "2025-11-12T11:45:00+00:00",
+      "created_at": "2025-11-12T14:28:32.300745+00:00",
+      "symbols": [
+        "V",
+        "CRYPTO:BTC",
+        "MSFT",
+        "CRYPTO:ETH"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.972193"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.905476"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Chris Neiger"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.281789
+      }
+    },
+    {
+      "id": "62254367-699a-4acd-a8d7-683178d7f5c9",
+      "source": "Alpha Vantage",
+      "title": "What's Going On With Broadcom Stock Wednesday? - Broadcom  ( NASDAQ:AVGO ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48798313/whats-going-on-with-broadcom-stock-wednesday-3",
+      "content": "Broadcom Inc. ( NASDAQ:AVGO ) strengthened its cloud strategy Wednesday by unveiling an open, extensible ecosystem for VMware Cloud Foundation ( VCF ) that enables customers to build, connect, protect, and extend modern private clouds across diverse infrastructure.",
+      "published_at": "2025-11-12T11:44:14+00:00",
+      "created_at": "2025-11-12T14:28:32.692156+00:00",
+      "symbols": [
+        "SMCI",
+        "VMW",
+        "MSFT",
+        "AVGO",
+        "AMZN",
+        "GOOG"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.214378"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Anusuya Lahiri"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.240555
+      }
+    },
+    {
+      "id": "d9eb27b4-6285-4e83-a8fe-00e2165844f9",
+      "source": "Alpha Vantage",
+      "title": "The Zacks Analyst Blog Highlights Oracle, Amazon, Microsoft and Alphabet",
+      "url": "https://www.zacks.com/stock/news/2789689/the-zacks-analyst-blog-highlights-oracle-amazon-microsoft-and-alphabet",
+      "content": "Oracle surges 44.5% in 2025 on explosive cloud momentum, but lofty valuation raises caution amid fierce competition from Amazon, Microsoft and Alphabet.",
+      "published_at": "2025-11-12T11:28:00+00:00",
+      "created_at": "2025-11-12T14:28:33.07694+00:00",
+      "symbols": [
+        "AMZN",
+        "ORCL",
+        "GOOG",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.905476"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.228885
+      }
+    },
+    {
+      "id": "240d8610-853c-43e8-b36f-76f569334ce9",
+      "source": "Alpha Vantage",
+      "title": "How Does Amazon Make Money?",
+      "url": "https://www.fool.com/investing/2025/11/12/how-does-amazon-make-money/",
+      "content": "Amazon's incredibly profitable business may just be starting its long-term growth story amid the AI revolution.",
+      "published_at": "2025-11-12T11:17:00+00:00",
+      "created_at": "2025-11-12T14:28:33.985223+00:00",
+      "symbols": [
+        "AMZN",
+        "GOOG",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.161647"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.962106"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Rachel Warren"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.254219
+      }
+    },
+    {
+      "id": "bedee465-aeb9-43e0-b5ee-20af42f308c7",
+      "source": "Alpha Vantage",
+      "title": "3 Large-Cap Blend Mutual Funds for Extraordinary Growth",
+      "url": "https://www.zacks.com/stock/news/2789659/3-large-cap-blend-mutual-funds-for-extraordinary-growth",
+      "content": "Below, we share with you three top-ranked large-cap blend mutual funds. Each has a Zacks Mutual Fund Rank #1 (Strong Buy).",
+      "published_at": "2025-11-12T10:49:00+00:00",
+      "created_at": "2025-11-12T14:28:34.36851+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.413559"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.280816
+      }
+    },
+    {
+      "id": "e77ed39c-778c-47c3-9684-896f67d5b5f6",
+      "source": "Alpha Vantage",
+      "title": "What's Going On With TotalEnergies Stock Wednesday? - TotalEnergies  ( NYSE:TTE ) ",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48797098/google-to-run-ohio-data-centers-on-solar-power-from-totalenergies",
+      "content": "TotalEnergies SE ( NYSE:TTE ) on Wednesday penned a 15-year Power Purchase Agreement ( PPA ) with Alphabet Inc.'s ( NASDAQ:GOOG ) ( NASDAQ:GOOGL ) Google. As per the deal, Google will receive 1.5 TWh of certified renewable electricity from TotalEnergies' nearly completed ...",
+      "published_at": "2025-11-12T10:46:48+00:00",
+      "created_at": "2025-11-12T14:28:34.731858+00:00",
+      "symbols": [
+        "LYB",
+        "AIQUF",
+        "STM",
+        "MSFT",
+        "SSL",
+        "TTE",
+        "GOOG"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.495866"
+          },
+          {
+            "topic": "Energy & Transportation",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.25"
+          }
+        ],
+        "authors": [
+          "Lekha Gupta"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.234626
+      }
+    },
+    {
+      "id": "bcc83d27-e749-40dd-9920-1152e201ba80",
+      "source": "Alpha Vantage",
+      "title": "5 Things Investors Should Know Before Buying Rigetti Computing Stock",
+      "url": "https://www.fool.com/investing/2025/11/12/5-things-investors-should-know-before-buying-riget/",
+      "content": "This hot quantum computing stock offers a high-risk, but potentially high-reward proposition.",
+      "published_at": "2025-11-12T10:45:00+00:00",
+      "created_at": "2025-11-12T14:28:35.108016+00:00",
+      "symbols": [
+        "QUBT",
+        "IONQ",
+        "QBTS",
+        "RGTI",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.977154"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.650727"
+          },
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Keith Speights"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.166457
+      }
+    },
+    {
+      "id": "f3900ea6-aed9-49ea-b01f-48e1af48c75c",
+      "source": "Alpha Vantage",
+      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead Of House Vote To Reopen Government-Bill Holdings, AMD, Cisco Systems In Focus - SPDR S&P 500  ( ARCA:SPY ) ",
+      "url": "https://www.benzinga.com/markets/equities/25/11/48796940/stock-market-today-dow-jones-sp-500-futures-rise-ahead-of-house-vote-to-reopen-government-bill-h",
+      "content": "U.S. stock futures rose on Wednesday after Tuesday's mixed close. Futures of major benchmark indices were higher. Investors are awaiting a House vote on the temporary spending bill expected to end the record-long government shutdown. Meanwhile, the 10-year Treasury bond yielded 4.08% and the ...",
+      "published_at": "2025-11-12T10:32:17+00:00",
+      "created_at": "2025-11-12T14:28:35.472091+00:00",
+      "symbols": [
+        "BILL",
+        "LPLA",
+        "CRYPTO:BTC",
+        "IVZ",
+        "CSCO",
+        "TTE",
+        "FOREX:USD",
+        "ALC",
+        "AMD",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Energy & Transportation",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.310843"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.2"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.614606"
+          },
+          {
+            "topic": "Economy - Macro",
+            "relevance_score": "0.158519"
+          }
+        ],
+        "authors": [
+          "Rishabh Mishra"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.208848
+      }
+    },
+    {
+      "id": "7dd177ce-bf5c-4e7d-9d60-2de484ab1b97",
+      "source": "Alpha Vantage",
+      "title": "3 Simple ETFs to Buy With $1,000 and Hold for a Lifetime",
+      "url": "https://www.fool.com/investing/2025/11/12/simple-etf-buy-with-1000-hold-qqq-regl-rspt/",
+      "content": "Producing big gains doesn't have to be complicated. In fact, simpler is usually better in the long run.",
+      "published_at": "2025-11-12T10:05:00+00:00",
+      "created_at": "2025-11-12T14:28:35.842112+00:00",
+      "symbols": [
+        "MSFT",
+        "HOOD",
+        "NXTT",
+        "IVZ",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.999483"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "James Brumley",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.203691
+      }
+    },
+    {
+      "id": "805c1305-2593-4f32-ac97-58c8c323d19c",
+      "source": "Alpha Vantage",
+      "title": "2 Vanguard ETFs to Buy Hand Over Fist and 1 to Avoid",
+      "url": "https://www.fool.com/investing/2025/11/12/buy-vanguard-etf-avoid-growth-dividend-stocks/",
+      "content": "Low-cost ETFs are excellent ways to build a diversified stock portfolio without incurring high fees.",
+      "published_at": "2025-11-12T09:24:00+00:00",
+      "created_at": "2025-11-12T14:28:36.199929+00:00",
+      "symbols": [
+        "PLTR",
+        "BRK-A",
+        "APP",
+        "META",
+        "NFLX",
+        "AVGO",
+        "TSLA",
+        "JNJ",
+        "XOM",
+        "WMT",
+        "MSFT",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.166667"
+          },
+          {
+            "topic": "Energy & Transportation",
+            "relevance_score": "0.166667"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.166667"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.166667"
+          },
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.166667"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.166667"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.310843"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Daniel Foelber"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.345662
+      }
+    },
+    {
+      "id": "3a3fb2ba-aca5-4209-b246-45d4d8f39510",
+      "source": "Finnhub",
+      "title": "AI trade stalls, 'ghost job' listings, Trump floats tariff rebate checks and more in Morning Squawk",
+      "url": "https://finnhub.io/api/news?id=bf585ec9a91df3e26aa1e3b69eb1f91c0227a4902680f1516866159a218ebbdb",
+      "content": "Here are five key things investors need to know to start the trading day.",
+      "published_at": "2025-11-12T16:05:49+00:00",
+      "created_at": "2025-11-13T03:10:03.157766+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/108222325-1762436340924-gettyimages-2215390071-vcg111567793339.jpeg?v=1762903879&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "analysis_metadata": {
+    "batch_id": 20,
+    "total_news_analyzed": 18,
+    "analysis_date": "2025-11-13T03:10:00+00:00",
+    "min_relevance_score": 70,
+    "analyst_notes": "Comprehensive analysis of 18 news articles covering earnings calls, fund commentaries, and market analysis"
+  },
+  "analyses": [
+    {
+      "news_id": "5a8a3456-e40c-44b1-a006-21669000ebe4",
+      "relevance_score": 75,
+      "affected_symbols": ["SABR"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Negative analysis on Sabre Corporation's booking prospects indicates fundamental concerns. Title suggests skepticism about growth trajectory, which could pressure stock price in travel tech sector.",
+      "key_points": [
+        "Critical analysis of Sabre's booking growth sustainability",
+        "Title implies weak fundamentals ('shaky grounds')",
+        "Travel technology sector exposure",
+        "Potential revenue growth concerns"
+      ]
+    },
+    {
+      "news_id": "31991714-2a74-46f2-b6bd-1ed734778df0",
+      "relevance_score": 72,
+      "affected_symbols": ["DHFAX", "DHLX", "DHFIX", "DHFYX"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Q3 2025 fund commentary from Diamond Hill provides portfolio positioning insights. Fund letters typically reveal institutional sentiment and holdings changes that can influence related securities.",
+      "key_points": [
+        "Large cap concentrated fund quarterly update",
+        "Institutional investment strategy disclosure",
+        "Portfolio rebalancing insights",
+        "Potential holdings changes affecting underlying securities"
+      ]
+    },
+    {
+      "news_id": "54b05af0-d503-482f-9db2-4513136e3a83",
+      "relevance_score": 78,
+      "affected_symbols": ["DUOT"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Q3 2025 earnings call for Duos Technologies Group. Small-cap technology company earnings can show significant volatility based on quarterly results and guidance.",
+      "key_points": [
+        "Q3 2025 earnings results disclosure",
+        "Railway technology and AI solutions provider",
+        "Guidance for future quarters",
+        "Small-cap volatility potential"
+      ]
+    },
+    {
+      "news_id": "e84f6099-87fc-4b24-99c5-a30b80263e3b",
+      "relevance_score": 82,
+      "affected_symbols": ["BITO", "IBIT", "BAGY", "YBTC", "BCCC"],
+      "price_impact": "down",
+      "importance": "high",
+      "reasoning": "Warning about Bitcoin ETFs and crypto winter risk. Directly affects multiple crypto-related ETFs. Cautionary tone on high distributions suggests yield trap concerns during potential market downturn.",
+      "key_points": [
+        "Crypto winter warning for Bitcoin ETFs",
+        "High distribution rates may not compensate for price declines",
+        "Multiple crypto ETF exposure",
+        "Market timing and risk management implications",
+        "Investor sentiment shift in crypto assets"
+      ]
+    },
+    {
+      "news_id": "49dfcee7-3654-46ae-a82c-84303b83e88d",
+      "relevance_score": 76,
+      "affected_symbols": ["IMRX"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Q3 2025 earnings call for Immuneering Corporation, a clinical-stage biopharmaceutical company. Biotech earnings calls critical for pipeline updates and clinical trial progress.",
+      "key_points": [
+        "Clinical-stage biotech quarterly update",
+        "Pipeline development progress",
+        "Cash runway and funding status",
+        "Clinical trial milestones"
+      ]
+    },
+    {
+      "news_id": "e6180082-0261-439e-a905-416116c25acd",
+      "relevance_score": 74,
+      "affected_symbols": ["EGAN"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Q1 2026 earnings call for eGain Corporation (customer engagement software). Note the fiscal year timing - Q1 2026 indicates different fiscal calendar, important for tracking performance.",
+      "key_points": [
+        "AI-powered customer engagement platform",
+        "Q1 FY2026 results (different fiscal year)",
+        "SaaS revenue metrics and recurring revenue trends",
+        "Customer acquisition and retention rates"
+      ]
+    },
+    {
+      "news_id": "0639f976-4618-4708-a66c-4bce2890e613",
+      "relevance_score": 85,
+      "affected_symbols": ["PPLT", "PLTM", "PALL", "SPPP", "GLTR", "JJP", "DBP"],
+      "price_impact": "neutral",
+      "importance": "high",
+      "reasoning": "Commodities market analysis on platinum and palladium price drivers. Multiple ETFs affected. CME Group analysis adds credibility. Important for precious metals investors and industrial metal exposure.",
+      "key_points": [
+        "Fundamental analysis of platinum and palladium markets",
+        "Supply-demand dynamics in precious metals",
+        "Multiple precious metals ETF exposure",
+        "Industrial demand trends (automotive catalysts)",
+        "Investment implications for commodity portfolios"
+      ]
+    },
+    {
+      "news_id": "83844e37-ffcd-40f3-ab1a-68920ee836fa",
+      "relevance_score": 88,
+      "affected_symbols": ["GOOGL", "GOOG", "C", "KDP", "IFF", "KMX"],
+      "price_impact": "neutral",
+      "importance": "high",
+      "reasoning": "FPA Crescent Fund Q3 performance attribution reveals which major stocks drove returns. High-quality fund disclosing specific position impacts provides actionable insights on large-cap names.",
+      "key_points": [
+        "Performance attribution for major holdings",
+        "Google/Alphabet, Citigroup, Keurig Dr Pepper impact analysis",
+        "International Flavors & Fragrances and CarMax positions",
+        "Institutional sentiment on mega-cap and mid-cap stocks",
+        "Portfolio management insights from established fund"
+      ]
+    },
+    {
+      "news_id": "59a44f73-0da1-442d-a5e8-d3948efcc952",
+      "relevance_score": 71,
+      "affected_symbols": ["LNR:CA", "LIMAF"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Q3 2025 earnings for Linamar Corporation, Canadian auto parts manufacturer. Relevant for automotive supply chain exposure and North American manufacturing trends.",
+      "key_points": [
+        "Canadian automotive parts manufacturer",
+        "Q3 2025 operational results",
+        "Auto industry supply chain health indicator",
+        "North American manufacturing trends"
+      ]
+    },
+    {
+      "news_id": "6776d278-68c2-4b86-9b4f-c0ad5f0cd23e",
+      "relevance_score": 73,
+      "affected_symbols": ["DYAI"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Q3 2025 earnings for Dyadic International, micro-cap biotech. Limited market impact but relevant for specialty biotech investors focused on protein expression platforms.",
+      "key_points": [
+        "Micro-cap biotechnology company",
+        "Protein expression technology platform",
+        "Partnership and licensing revenue potential",
+        "Research and development progress"
+      ]
+    },
+    {
+      "news_id": "4a297bd9-4ee5-43c0-8e8b-8575e30d6155",
+      "relevance_score": 80,
+      "affected_symbols": ["ASND"],
+      "price_impact": "neutral",
+      "importance": "high",
+      "reasoning": "Q3 2025 earnings for Ascendis Pharma, mid-cap rare disease biotech. Company has commercialized products, making earnings particularly relevant for revenue growth and pipeline progress.",
+      "key_points": [
+        "Rare disease focused biopharmaceutical company",
+        "Commercial product revenue trends",
+        "Pipeline development in endocrinology and oncology",
+        "European and US market penetration",
+        "Cash position and runway analysis"
+      ]
+    },
+    {
+      "news_id": "177a0d77-209f-457d-beff-eefa23452d0b",
+      "relevance_score": 72,
+      "affected_symbols": ["WRAP"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Q3 2025 earnings for Wrap Technologies, public safety technology provider. Small-cap with limited coverage but relevant in law enforcement technology sector.",
+      "key_points": [
+        "Public safety and law enforcement technology",
+        "Non-lethal restraint device manufacturer",
+        "Government contract revenue",
+        "Small-cap security technology play"
+      ]
+    },
+    {
+      "news_id": "fcde59c4-3ab1-4545-a256-05c58084cdbb",
+      "relevance_score": 70,
+      "affected_symbols": ["THNC:CA", "THNCF"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Q3 2025 earnings for Thinkific Labs, Canadian online learning platform. SaaS metrics important for edtech sector, minimal threshold for relevance.",
+      "key_points": [
+        "Canadian online course platform provider",
+        "SaaS revenue growth and retention metrics",
+        "EdTech sector trends",
+        "Small-cap software company"
+      ]
+    },
+    {
+      "news_id": "2011ec3f-d8f8-4583-b342-ec8e6d879b1c",
+      "relevance_score": 68,
+      "affected_symbols": ["PHCCF"],
+      "price_impact": "neutral",
+      "importance": "low",
+      "reasoning": "Below minimum relevance threshold. PHC Holdings Q2 FY2026 results - Japanese healthcare equipment company with limited US trading volume and investor interest.",
+      "key_points": [
+        "Japanese healthcare equipment manufacturer",
+        "Limited US market presence",
+        "OTC traded stock with low liquidity",
+        "Regional focus limits US investor relevance"
+      ]
+    },
+    {
+      "news_id": "408e01d7-7072-47f3-aa96-52c189d7355c",
+      "relevance_score": 77,
+      "affected_symbols": ["FLD", "BTC-USD"],
+      "price_impact": "down",
+      "importance": "medium",
+      "reasoning": "Analysis highlighting capital allocation challenges for Fold Holdings. 'Pickle' suggests management difficulties, combined with Bitcoin exposure creates uncertainty for crypto-related equity.",
+      "key_points": [
+        "Capital allocation strategy concerns",
+        "Bitcoin treasury strategy complications",
+        "Management decision-making under scrutiny",
+        "Crypto equity exposure risks",
+        "Corporate governance implications"
+      ]
+    },
+    {
+      "news_id": "3d5288ee-4446-49ca-923c-df8c1bbe879e",
+      "relevance_score": 75,
+      "affected_symbols": ["RCEL", "AVHHL"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "AVITA Medical discussion on wound care solutions and data-driven approaches. Clinical presentation suggests scientific validation, potentially positive for commercial adoption.",
+      "key_points": [
+        "Advanced wound care technology discussion",
+        "Data-driven clinical healing approaches",
+        "Regenerative medicine platform",
+        "Commercial expansion potential",
+        "Healthcare technology innovation"
+      ]
+    },
+    {
+      "news_id": "04571cfc-c39b-4450-9e63-58353eb480f8",
+      "relevance_score": 76,
+      "affected_symbols": ["SVCO"],
+      "price_impact": "neutral",
+      "importance": "medium",
+      "reasoning": "Q3 2025 earnings for Silvaco Group, semiconductor EDA software provider. Important in chip design sector, relevant given ongoing semiconductor industry trends.",
+      "key_points": [
+        "Electronic Design Automation (EDA) software provider",
+        "Semiconductor design tools exposure",
+        "Q3 2025 performance metrics",
+        "Industry trends in chip design",
+        "Recurring software revenue model"
+      ]
+    },
+    {
+      "news_id": "55f1bd5e-03b6-4d9c-ba81-9c3f939d382f",
+      "relevance_score": 92,
+      "affected_symbols": ["AMZN"],
+      "price_impact": "neutral",
+      "importance": "high",
+      "reasoning": "ARK Invest's Q3 2025 13F filing tracking is highly relevant. Cathie Wood's portfolio moves are widely followed, and AMZN tag suggests Amazon position changes. High investor interest in ARK's disruptive innovation thesis.",
+      "key_points": [
+        "Cathie Wood's ARK Invest Q3 portfolio disclosure",
+        "High-profile institutional investor positioning",
+        "Disruptive innovation investment strategy insights",
+        "Amazon (AMZN) position mentioned",
+        "New stakes and portfolio rebalancing",
+        "Market sentiment indicator for growth/innovation stocks",
+        "Widely followed by retail and institutional investors"
+      ]
+    }
+  ],
+  "summary_statistics": {
+    "above_threshold_count": 17,
+    "below_threshold_count": 1,
+    "average_relevance_score": 76.2,
+    "price_impact_distribution": {
+      "up": 0,
+      "down": 3,
+      "neutral": 15
+    },
+    "importance_distribution": {
+      "high": 5,
+      "medium": 11,
+      "low": 2
+    },
+    "sector_breakdown": {
+      "biotechnology": 4,
+      "financial_services": 2,
+      "technology": 4,
+      "commodities": 1,
+      "crypto/digital_assets": 2,
+      "automotive": 1,
+      "healthcare": 2,
+      "consumer": 1,
+      "diversified": 1
+    }
+  }
+}

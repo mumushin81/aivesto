@@ -1,0 +1,637 @@
+{
+  "agent_id": 19,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "04dbca04-168b-49c1-8633-7bdb1ed791bd",
+      "source": "Alpha Vantage",
+      "title": "Arm Stock Delivered a Smashing Quarter. It Wasn't Enough.",
+      "url": "https://www.fool.com/investing/2025/11/12/arm-delivered-a-smashing-quarter-it-wasnt-enough/",
+      "content": "Arm showed off accelerating growth in its recent report, but the stock still fell.",
+      "published_at": "2025-11-12T14:53:00+00:00",
+      "created_at": "2025-11-13T03:10:39.26736+00:00",
+      "symbols": [
+        "NVDA",
+        "META",
+        "MSFT",
+        "PLTR",
+        "ARM",
+        "SFTBF"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.161647"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999955"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Jeremy Bowman",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.278596
+      }
+    },
+    {
+      "id": "3d000978-e122-4919-9257-3625c4bd3f31",
+      "source": "Alpha Vantage",
+      "title": "Is Quantum Computing Stock IonQ Headed to $60? History Offers a Clear Warning About What Could Happen Next",
+      "url": "https://www.fool.com/investing/2025/11/12/is-quantum-computing-stock-ionq-headed-to-60/",
+      "content": "IonQ stock has experienced a rapid ascent during the past year.",
+      "published_at": "2025-11-12T14:15:00+00:00",
+      "created_at": "2025-11-13T03:10:39.424551+00:00",
+      "symbols": [
+        "EBAY",
+        "MSFT",
+        "CSCO",
+        "IONQ",
+        "GOOG"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.990999"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.77141"
+          },
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "https://www.facebook.com/themotleyfool/",
+          "Adam Spatacco"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.212909
+      }
+    },
+    {
+      "id": "fc3c322f-d61f-44a4-998e-3200088dd021",
+      "source": "Alpha Vantage",
+      "title": "StockX Rolls Out Latest Big Facts Report, Revealing Top Resale Trends in 2025",
+      "url": "https://www.benzinga.com/pressreleases/25/11/n48802971/stockx-rolls-out-latest-big-facts-report-revealing-top-resale-trends-in-2025",
+      "content": "Highlights include surprising silhouette performance, the rise of ugly-cute collectibles, and a resurgence in trading cards DETROIT, Nov. 12, 2025 /PRNewswire/ -- Today StockX released its latest quarterly report-Big Facts: 2025 Trends-highlighting the brands, products, and search trends that ...",
+      "published_at": "2025-11-12T14:15:00+00:00",
+      "created_at": "2025-11-13T03:10:39.583932+00:00",
+      "symbols": [
+        "PMRTY",
+        "ASCCF",
+        "ALX",
+        "MSFT",
+        "NKE",
+        "SNEJF"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.316726"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "PRNewswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.225112
+      }
+    },
+    {
+      "id": "7ad905c0-96b4-453a-a5bf-778506e4a7e4",
+      "source": "Alpha Vantage",
+      "title": "Nokod Security Unveils Adaptive Agent Security for Real-Time Protection Across the Agent Development Lifecycle",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48802380/nokod-security-unveils-adaptive-agent-security-for-real-time-protection-across-the-agent-developme",
+      "content": "NEW YORK and TEL AVIV, Israel, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Nokod Security, the leading security platform for AI-assisted Citizen Application Development Platforms ( CADP ) , today announced the launch of Adaptive Agent Security, a comprehensive solution that delivers real-time ...",
+      "published_at": "2025-11-12T14:02:00+00:00",
+      "created_at": "2025-11-13T03:10:39.743365+00:00",
+      "symbols": [
+        "NOW",
+        "MSFT",
+        "PATH",
+        "IT"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.195005
+      }
+    },
+    {
+      "id": "518699ec-add8-4cdc-9688-479f80dd2d46",
+      "source": "Alpha Vantage",
+      "title": "Will AWS' Growing Capital Spending Boost or Burden Amazon Stock?",
+      "url": "https://www.zacks.com/stock/news/2789801/will-aws-growing-capital-spending-boost-or-burden-amazon-stock",
+      "content": "AMZN's more than $75 billion capital spending plan for AWS infrastructure positions the cloud leader to capitalize on surging AI demand despite near-term margin pressure.",
+      "published_at": "2025-11-12T13:28:00+00:00",
+      "created_at": "2025-11-13T03:10:39.910953+00:00",
+      "symbols": [
+        "GOOG",
+        "MSFT",
+        "AMZN"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.316726"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.818451"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Vasundhara Sawalka"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.278012
+      }
+    },
+    {
+      "id": "24533da5-86cb-4df7-98c7-4e59cbcb7eee",
+      "source": "Alpha Vantage",
+      "title": "Should You Hold or Fold HPE Stock After a 27.7% Rise in 6 Months?",
+      "url": "https://www.zacks.com/stock/news/2789791/should-you-hold-or-fold-hpe-stock-after-a-277-rise-in-6-months",
+      "content": "Hewlett Packard Enterprise's margin pressures, rising costs, and tough competition cloud its outlook despite recent stock gains ...",
+      "published_at": "2025-11-12T13:23:00+00:00",
+      "created_at": "2025-11-13T03:10:40.063641+00:00",
+      "symbols": [
+        "HPE",
+        "MSFT",
+        "HPQ",
+        "AMZN",
+        "DELL",
+        "SMCI",
+        "JNPR"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.310843"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Subham Roy"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.127994
+      }
+    },
+    {
+      "id": "5e40c3b4-21d9-41ff-995d-29127e03595b",
+      "source": "Alpha Vantage",
+      "title": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
+      "url": "https://www.zacks.com/stock/news/2789776/microsofts-ai-datacenter-expansion-a-game-changer-for-the-stock",
+      "content": "MSFT's $34.9 billion fiscal Q1 capex surge funds global AI datacenter expansion, but capacity constraints persist through fiscal 2026 amid intensifying competition.",
+      "published_at": "2025-11-12T13:05:00+00:00",
+      "created_at": "2025-11-13T03:10:40.315248+00:00",
+      "symbols": [
+        "GOOG",
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.413559"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "0.333333"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.495866"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.333333"
+          }
+        ],
+        "authors": [
+          "Vasundhara Sawalka"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.260515
+      }
+    },
+    {
+      "id": "34db855f-0b97-4c3d-9220-1506a350b786",
+      "source": "Alpha Vantage",
+      "title": "Another bubble is forming around the AI debate. And this one is unlikely to pop anytime soon.",
+      "url": "https://www.businessinsider.com/bi-today-newsletter-ai-bubble-burry-karp-dot-com-i2025-11",
+      "content": "This story is available exclusively to Business Insider subscribers. Become an Insider and start reading now. Has talk of an AI bubble become … a bubble? The AI debate has been the biggest discussion topic in the business world this year.",
+      "published_at": "2025-11-12T13:03:06+00:00",
+      "created_at": "2025-11-13T03:10:40.483578+00:00",
+      "symbols": [
+        "WEWOW",
+        "MSFT"
+      ],
+      "metadata": {
+        "source": "Business Insider",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.360215"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.360215"
+          }
+        ],
+        "authors": [
+          "Dan DeFrancesco"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.045766
+      }
+    },
+    {
+      "id": "8982f1f3-6835-4060-971f-636e2a43bac6",
+      "source": "Alpha Vantage",
+      "title": "Interact's Enterprise Employee Experience Platform Adds Agentic AI to Drive Employee Listening at Scale",
+      "url": "https://markets.businessinsider.com/news/stocks/interact-s-enterprise-employee-experience-platform-adds-agentic-ai-to-drive-employee-listening-at-scale-1035547820",
+      "content": "MANCHESTER, United Kingdom and NEW YORK, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Interact, the provider of the Employee Experience ( EX ) Platform that powers the world's best workplaces, today announced its Autumn 2025 launch featuring agentic AI capabilities, an intranet integration with Microsoft ...",
+      "published_at": "2025-11-12T13:00:00+00:00",
+      "created_at": "2025-11-13T03:10:40.737337+00:00",
+      "symbols": [
+        "MSFT",
+        "MANU",
+        "NOW"
+      ],
+      "metadata": {
+        "source": "Business Insider",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "markets.businessinsider.com"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.262228
+      }
+    },
+    {
+      "id": "702610c5-7fd3-42b8-ac97-c7e4ccf8033f",
+      "source": "Yahoo Finance",
+      "title": "October Lives Up to its Rep",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_45292_PortfolioIdeas_1762985454000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "content": "Oops, something went wrong Argus • Nov 12, 2025 Sector(s) Technology, Healthcare, Consumer Cyclical Summary The Portfolio Selector features the Argus Focus List, a group of 30 \"best idea\" stocks generated and regularly updated by Argus' analysts and investment policy committee. It also includes the director of research’s monthly investment strategy column, stock recommendations and sector picks, economic forecasts, and an asset allocation model. This month, the Focus List additions are Wayfair Inc (W); ASML Holding NV (ASML); Tapestry Inc (TPR); G Exclusive reports, detailed company profiles, and best-in-class trade insights to take your portfolio to the next level Analyst Report: Under Armour, Inc.",
+      "published_at": "2025-11-12T22:10:54+00:00",
+      "created_at": "2025-11-13T03:10:53.774325+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [],
+        "author": "",
+        "summary": "",
+        "category": "general"
+      }
+    },
+    {
+      "id": "d19f29a2-5e0e-43d2-a174-86938fc6275e",
+      "source": "Seeking Alpha",
+      "title": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q3 2025 Update",
+      "url": "https://seekingalpha.com/article/4842884-tracking-cathie-woods-ark-invest-13f-portfolio-q3-2025-update?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T03:02:40+00:00",
+      "created_at": "2025-11-13T03:10:54.281699+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "TSLA",
+          "AMD",
+          "CRCL",
+          "BEAM",
+          "AMZN",
+          "META",
+          "ILMN",
+          "EXAS",
+          "VCYT",
+          "COIN",
+          "ROKU",
+          "PLTR",
+          "RBLX",
+          "HOOD",
+          "SHOP",
+          "CRSP",
+          "TEM",
+          "NTLA",
+          "DKNG",
+          "NTRA",
+          "PLTR:CA",
+          "META:CA",
+          "HOOD:CA",
+          "SHOP:CA",
+          "COIN:CA",
+          "AMZN:CA",
+          "TSLA:CA",
+          "AMD:CA",
+          "ZAMD:CA",
+          "ZMET:CA",
+          "ZPLT:CA",
+          "ZTSL:CA",
+          "ARKK",
+          "ARKQ",
+          "ARKW",
+          "ARKG",
+          "ARKF",
+          "ARKX",
+          "ARKB",
+          "John Vincent"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "e22a2153-b4e5-428f-8e8d-2a7ffc886e01",
+      "source": "Seeking Alpha",
+      "title": "Petrobras: Record Production And Improving Oil Macro Tailwinds (Rating Upgrade)",
+      "url": "https://seekingalpha.com/article/4842878-petrobras-stock-record-production-improving-oil-macro-tailwinds-rating-upgrade?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:58:55+00:00",
+      "created_at": "2025-11-13T03:10:54.441389+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "PBR",
+          "PBR.A",
+          "IWA Research"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "c11ef354-e827-4fd2-a1cd-f5cdca9bcf67",
+      "source": "Seeking Alpha",
+      "title": "Computershare Limited (CMSQY) Shareholder/Analyst Call Transcript",
+      "url": "https://seekingalpha.com/article/4842849-computershare-limited-cmsqy-shareholder-analyst-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:51:34+00:00",
+      "created_at": "2025-11-13T03:10:54.595723+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "CMSQY",
+          "CMSQF",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "722aaa95-2adf-46d5-9e3d-e6d83ecfe3b3",
+      "source": "Seeking Alpha",
+      "title": "CI&T Inc. (CINT) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842903-ci-and-t-inc-cint-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:51:33+00:00",
+      "created_at": "2025-11-13T03:10:54.763251+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "CINT",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "3d66739d-1198-4690-9be1-b1c4e617d707",
+      "source": "Seeking Alpha",
+      "title": "Victory Munder Mid-Cap Core Growth Fund Q3 2025 Commentary",
+      "url": "https://seekingalpha.com/article/4842901-victory-munder-mid-cap-core-growth-fund-q3-2025-commentary?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:50:00+00:00",
+      "created_at": "2025-11-13T03:10:54.924605+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "MGOKX",
+          "Mutual Fund Commentaries"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "7fd69a15-13d9-4940-8c81-afa364087daf",
+      "source": "Seeking Alpha",
+      "title": "STCE: A High-Beta Crypto Bet With Technical Support And Seasonal Tailwinds",
+      "url": "https://seekingalpha.com/article/4842864-stce-a-high-beta-crypto-bet-with-technical-support-and-seasonal-tailwinds?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:44:00+00:00",
+      "created_at": "2025-11-13T03:10:55.089036+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "BTC-USD",
+          "STCE",
+          "Mike Zaccardi, CFA, CMT"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "9c0fcf9f-c365-4c21-8ec5-87b0f8285f59",
+      "source": "Seeking Alpha",
+      "title": "Glass House Brands Inc. (GLASF) Q3 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842900-glass-house-brands-inc-glasf-q3-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:41:33+00:00",
+      "created_at": "2025-11-13T03:10:55.253323+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "GLASF",
+          "GHBWF",
+          "GLAS.A.U:CA",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "d4e440f2-0556-4eaa-a8fc-77d4de558f8f",
+      "source": "Seeking Alpha",
+      "title": "Digi International Inc. (DGII) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4842899-digi-international-inc-dgii-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:41:32+00:00",
+      "created_at": "2025-11-13T03:10:55.416396+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "DGII",
+          "SA Transcripts"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "7c867e7c-9612-455e-ac5f-8652cf2db269",
+      "source": "Seeking Alpha",
+      "title": "Diamond Hill Large Cap Concentrated Portfolio: Q3 New Positions And Compelling Opportunities",
+      "url": "https://seekingalpha.com/article/4842897-diamond-hill-large-cap-concentrated-portfolio-q3-new-positions-and-compelling-opportunities?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:40:00+00:00",
+      "created_at": "2025-11-13T03:10:55.576069+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "MLM",
+          "SYY",
+          "GM",
+          "LH",
+          "COP",
+          "LNG",
+          "TXN",
+          "CL",
+          "AIG",
+          "SBAC",
+          "CRM",
+          "DIS",
+          "ZTS",
+          "PETS",
+          "PFE",
+          "LULU",
+          "SSNC",
+          "DIS:CA",
+          "LULU:CA",
+          "CRM:CA",
+          "PFE:CA",
+          "TXN:CA",
+          "ZCRM:CA",
+          "ZLUL:CA",
+          "Diamond Hill Capital Management",
+          "Fund Letter Stock Ideas"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    },
+    {
+      "id": "8c399886-aeef-4869-a7f9-988481dc1df8",
+      "source": "Seeking Alpha",
+      "title": "Microvast: Q3 Shows What Happens When Potential Meets Execution",
+      "url": "https://seekingalpha.com/article/4842870-microvast-q3-shows-what-happens-when-potential-meets-execution?source=feed_all_articles",
+      "content": "",
+      "published_at": "2025-11-13T02:34:59+00:00",
+      "created_at": "2025-11-13T03:10:55.757326+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [
+          "MVST",
+          "CTATF",
+          "CYATY",
+          "Kenio Fontes"
+        ],
+        "author": "",
+        "summary": "",
+        "category": "analysis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "agent_id": 12,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "721d9ea1-832e-4bec-8d42-c2695a08947e",
+      "source": "Finnhub",
+      "title": "The Zacks Analyst Blog Highlights Oracle, Amazon, Microsoft and Alphabet",
+      "url": "https://finnhub.io/api/news?id=6e1d2b7475b78c3e598b37a1de024dfacd1da61d14afb1692b4979a7111fe3f8",
+      "content": "Oracle surges 44.5% in 2025 on explosive cloud momentum, but lofty valuation raises caution amid fierce competition from Amazon, Microsoft and Alphabet.",
+      "published_at": "2025-11-12T19:28:00+00:00",
+      "created_at": "2025-11-13T03:10:08.890302+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "067efbb2-d055-4d6a-b94f-67fb8093cb27",
+      "source": "Finnhub",
+      "title": "Update: Market Chatter: Microsoft to Invest $10 Billion in AI Data Center in Portugal",
+      "url": "https://finnhub.io/api/news?id=095c009ab9a79f853a15a0039ad25a46cdc9553287333cc090f09848d68bcc60",
+      "content": "(Updates to include more details from Microsoft in the fourth and fifth paragraphs) Microsoft (MS",
+      "published_at": "2025-11-12T18:49:27+00:00",
+      "created_at": "2025-11-13T03:10:09.047418+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "7313e149-fd74-4bee-a473-84fd2d610ce7",
+      "source": "Finnhub",
+      "title": "Microsoft commits $10bn to AI data centre park in Portugal",
+      "url": "https://finnhub.io/api/news?id=11e06d0c67c652c1d154a31f0fc0245d2163422568496452923e194e14faa84f",
+      "content": "The company is partnering with domestic developer Start Campus and UK-based start-up Nscale on the facility.",
+      "published_at": "2025-11-12T18:47:04+00:00",
+      "created_at": "2025-11-13T03:10:09.203697+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "0e33e2c3-07eb-44d4-a7aa-8a87903ea0b3",
+      "source": "Finnhub",
+      "title": "Microsoft: Don't Let This Dip Go To Waste",
+      "url": "https://finnhub.io/api/news?id=a2061bce4861929a8d4a66b358a2eedc0703b1e05ec17438b336306629db665f",
+      "content": "Microsoft Corporation posts strong Q1 driven by Azure growth. Click for why Cloud demand, AI momentum, and attractive valuation make MSFT stock a compelling Buy.",
+      "published_at": "2025-11-12T18:07:26+00:00",
+      "created_at": "2025-11-13T03:10:09.3565+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1421030803/image_1421030803.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "e10bf70d-9f91-4cb3-ba1b-38df033f423d",
+      "source": "Finnhub",
+      "title": "Anthropic to spend $50 billion on U.S. AI infrastructure, starting with Texas, New York data centers",
+      "url": "https://finnhub.io/api/news?id=cdaaf590dcd215341fd860095f9323d43694321fa58f9c2c8d23ae5216a29266",
+      "content": "Anthropic rival OpenAI has secured more than $1.4 trillion worth of deals with Nvidia, Broadcom, Oracle and the major cloud providers.",
+      "published_at": "2025-11-12T18:00:12+00:00",
+      "created_at": "2025-11-13T03:10:09.511325+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/108089857-1737474976532-LcLfzNSg.jpg?v=1737475063&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a847efa8-289d-4d7b-b9d3-1a3edbb839eb",
+      "source": "Finnhub",
+      "title": "Figma bets on India to expand beyond design",
+      "url": "https://finnhub.io/api/news?id=4aebc4e0961b46a8451ce95b663eec8825901d61a7158188b79ade47ff13571b",
+      "content": "Figma has opened a new office in Bengaluru as part of a push to deepen its India ties and appeal to more developers.",
+      "published_at": "2025-11-12T18:00:00+00:00",
+      "created_at": "2025-11-13T03:10:09.700758+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "9070f320-317f-48e8-899e-0477d2ddd02c",
+      "source": "Finnhub",
+      "title": "Sony: Solid Q2 Results, But It's Not The Time To Buy",
+      "url": "https://finnhub.io/api/news?id=3f1fd88841c9b2c2020f7c362d972e37cff4838d74ba2f61e81ae8ed9fe3c30b",
+      "content": "Discover Sony's Q2 earnings, growth drivers, and risks. Analyze valuation and learn why waiting may be wise.",
+      "published_at": "2025-11-12T17:55:02+00:00",
+      "created_at": "2025-11-13T03:10:09.869945+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1287266474/image_1287266474.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4b9c0ec9-9d1b-44cd-867f-2294464fe47c",
+      "source": "Finnhub",
+      "title": "FPA Crescent Fund: 5 Stocks That Impacted Q3 2025 Performance",
+      "url": "https://finnhub.io/api/news?id=f57e20f193bfadafa372935556bcd49a8252ea9c0bcab21c172091d5cd109683",
+      "content": "FPA Crescent Fund reviews Q3 impact from Alphabet, Citigroup, IFF, CarMax, and JDE Peetâs. See what drove gains, setbacks, and long-term conviction.",
+      "published_at": "2025-11-13T05:05:00+00:00",
+      "created_at": "2025-11-13T03:10:10.027754+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/153238020/image_153238020.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "cc3c0ad4-6e05-4c03-bc53-9f537306e161",
+      "source": "Finnhub",
+      "title": "Waymo Expands To Highways, Snowy Cities, Adds New CFO. Is Google Stock A Buy?",
+      "url": "https://finnhub.io/api/news?id=9c05f1b6378bf717f9dd48cd734881c564d3b18c687265db0f4b62889d8d88fe",
+      "content": "Waymo will expand its self-driving taxi service to highways in three U.S. cities — Los Angeles, Phoenix and San Francisco.",
+      "published_at": "2025-11-13T00:55:56+00:00",
+      "created_at": "2025-11-13T03:10:10.260765+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "6c4ab5bc-a154-43cd-8053-8245cc8c0840",
+      "source": "Finnhub",
+      "title": "'Michael Burry Scared Me,' Says 25-Year-Old Who Bought Nvidia Dip For $101—'SOLD IT ALL!!' Over AI Bubble Fears, Now Sitting On Cash Awaiting Crash",
+      "url": "https://finnhub.io/api/news?id=3e1f30806176d5da807d4836646d52878d907b9b2944bc86c611fe9a5cdecefc",
+      "content": "He bought Nvidia at $101, rode the AI wave to solid gains, and then dumped everything. In a post on the Stocks subreddit, a 25-year-old investor said he sold his entire portfolio—including top performers like Nvidia (NASDAQ:NVDA), Broadcom (NASDAQ:AVGO), and Alphabet (NASDAQ:GOOG, GOOGL)) —because he's convinced the market is sitting on a ticking time bomb. \"I have SOLD IT ALL because I fear that it might crash because of all the uncertainty and overvaluation,\" he wrote. Despite gaining around 1",
+      "published_at": "2025-11-12T23:46:06+00:00",
+      "created_at": "2025-11-13T03:10:10.926204+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4fe892e5-6b42-4650-adc8-31855bd458a9",
+      "source": "Finnhub",
+      "title": "Bitcoin Miner Misses Views But Bounces Off Important Chart Level",
+      "url": "https://finnhub.io/api/news?id=2e626c89504b67cee9419884ab8ca258b7c771d8649af113eec6d378d67ae4b9",
+      "content": "TeraWulf rebounded Wednesday morning after the bitcoin mining and data center firm missed third-quarter expectations late Tuesday.  Revenue jumped 87% to $50.6 million on higher average bitcoin prices, expanded mining capacity and other factors.  The company posted a loss of $1.13 a share, which was affected by a loss for the change in fair value of Google warrants and derivative liabilities.",
+      "published_at": "2025-11-12T23:42:31+00:00",
+      "created_at": "2025-11-13T03:10:11.083023+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "ffb9d659-0bb5-4f49-8ac6-277d6ede5285",
+      "source": "Finnhub",
+      "title": "Anthropic to invest $50bn in new US data centres",
+      "url": "https://finnhub.io/api/news?id=c2453615a73beefa36988fa8dc557b5c03f3d68dea45946656f9adb0adf01eef",
+      "content": "Anthropic plans to invest $50bn in building artificial intelligence infrastructure in the US over the coming years, as the start-up races to...",
+      "published_at": "2025-11-12T23:00:04+00:00",
+      "created_at": "2025-11-13T03:10:11.417353+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "78384e26-75d7-4cb8-b9da-717995dd249a",
+      "source": "Finnhub",
+      "title": "Runloop.ai Brings AI Infrastructure to Enterprise Cloud; Google Wallet Co-Founder Joins Team",
+      "url": "https://finnhub.io/api/news?id=1f5163c31737d877180d922cb824622c6b6bebc84924566218c79c4cdad38a5b",
+      "content": "Runloop.ai today announced the general availability of Deploy to VPC. This deployment model allows enterprises to run Runloop's high-performance AI infrastructure entirely within their own Amazon Web Services (AWS) environment. Designed for the emerging generation of AI agents and multi-turn developer workflows, Deploy to VPC delivers complete data sovereignty, sub-second startup performance, and native integration with enterprise identity, compliance, and networking controls.",
+      "published_at": "2025-11-12T22:40:00+00:00",
+      "created_at": "2025-11-13T03:10:11.661066+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "d829b1ef-2e66-4ba5-9e50-bccc90f3451c",
+      "source": "Finnhub",
+      "title": "Onward Robotics Appoints Brendon Bielat as Chief Product Officer",
+      "url": "https://finnhub.io/api/news?id=0944e33405f86f4d8bee3f03e7e0d4a1ba86da2f2f7c3bd7ec34c342a77d7d6d",
+      "content": "Onward Robotics, the next-generation leader in intelligent fulfillment automation, today announced that Brendon Bielat has joined the company as Chief Product Officer. A recognized leader in warehouse automation and robotics, Bielat leads product roadmap and execution for Onward Robotics' Meet Me® fulfillment strategy, which combines Lumabot® autonomous mobile robots and proprietary Pyxis technology to enable seamless order fulfillment flow for warehousing, distribution, and e-commerce operation",
+      "published_at": "2025-11-12T22:00:00+00:00",
+      "created_at": "2025-11-13T03:10:11.922922+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "78c3e982-3ed6-427a-b093-70868ee827dc",
+      "source": "Finnhub",
+      "title": "Treaty Oak Clean Energy and Google Enter into a Long-Term Power Purchase Agreement of 100 MW of Solar Energy in Grant County, Arkansas",
+      "url": "https://finnhub.io/api/news?id=ba215cae009b13785cc0756da4325e2409169c4d1c77905626d106d59b3139b0",
+      "content": "AUSTIN, Texas, November 12, 2025--Treaty Oak Clean Energy today announced its 15-year power purchase agreement with Google for 100 MW from the 1,033-acre Redfield Solar Project.",
+      "published_at": "2025-11-12T22:00:00+00:00",
+      "created_at": "2025-11-13T03:10:12.079202+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "3142b321-3975-4867-8cd3-6e3d31c809dd",
+      "source": "Finnhub",
+      "title": "Meta Keeps Throwing Money At AI - Ad Monetization Remains Robust (Upgrade)",
+      "url": "https://finnhub.io/api/news?id=de9e941c04476649bcbf6311f6d72a6f99ab7d5cb62408ff3896e81342f30993",
+      "content": "Discover why Meta Platforms, Inc.'s latest earnings, AI investments, and oversold stock position make it a Strong Buy. Click for this META update.",
+      "published_at": "2025-11-12T21:41:11+00:00",
+      "created_at": "2025-11-13T03:10:12.325581+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2204965899/image_2204965899.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "b31df4da-b021-4247-bc09-8eed4b8c1515",
+      "source": "Finnhub",
+      "title": "Gaxos to Participate in Upcoming WAWTech Conference on December 16th and 17th in Warsaw, Poland",
+      "url": "https://finnhub.io/api/news?id=9bb901a4e63de242c21045616bdcfab9a5ce268b9ac4405e093a0f243cc47ac2",
+      "content": "Roseland, NJ, Nov. 12, 2025 (GLOBE NEWSWIRE) -- Gaxos.ai Inc. (\"Gaxos\" or the \"Company\"), a company developing artificial intelligence applications across various high-growth sectors, today announced its participation in the upcoming WAWTech Conference, taking place on December 16-17, 2025 in Warsaw, Poland. “We’re thrilled to take part in this year’s WAWTech Conference ,” said Vadim Mats, CEO of Gaxos. “This event offers a tremendous opportunity to engage with technology leaders and innovators",
+      "published_at": "2025-11-12T21:00:00+00:00",
+      "created_at": "2025-11-13T03:10:12.656738+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "00c97df1-0c17-4f02-bed9-cda85251b7d3",
+      "source": "Finnhub",
+      "title": "TotalEnergies to Power Google Data Centers in Ohio",
+      "url": "https://finnhub.io/api/news?id=b8c0558cb8eeb6bfa44295b997782c695dc4fdb88af658241610ebd654255c32",
+      "content": "TotalEnergies has signed a 15-year Power Purchase Agreement to supply Google's data centers in Ohio with renewable electricity from a local solar farm, supporting Google's carbon-free energy strategy and TotalEnergies' integrated power business goals.",
+      "published_at": "2025-11-12T21:00:00+00:00",
+      "created_at": "2025-11-13T03:10:12.817022+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "b3111848-2a95-43c2-9836-e88e434b9775",
+      "source": "Finnhub",
+      "title": "Can The Trade Desk Dominate the Open Internet With its AI Advantage?",
+      "url": "https://finnhub.io/api/news?id=117fa42b44d1305dd12c660c9f531dc82405a9a483f136febe2eb0637918748c",
+      "content": "TTD's AI-powered platform is redefining advertising on the open Internet, driving transparency, efficiency and long-term growth.",
+      "published_at": "2025-11-12T20:42:00+00:00",
+      "created_at": "2025-11-13T03:10:13.052535+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2d38975b-18dc-4065-a98e-a8997920fbcc",
+      "source": "Finnhub",
+      "title": "S&P 500 May Break 7,000 Barrier Before Year-End, Wells Fargo Predicts",
+      "url": "https://finnhub.io/api/news?id=4f9fe405821345bf785c2c50ac64ba39ebb7972a50d1b1477587c1877eae33a5",
+      "content": "Wells Fargo Predicts Risk-On Rally as S&P 500 Eyes Record Close",
+      "published_at": "2025-11-12T20:00:49+00:00",
+      "created_at": "2025-11-13T03:10:13.218748+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    }
+  ]
+}

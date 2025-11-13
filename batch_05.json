@@ -1,0 +1,571 @@
+{
+  "agent_id": 5,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "e43cf8cf-31a8-407c-b015-bc57f9b61530",
+      "source": "Finnhub",
+      "title": "Prediction: 3 Stocks That'll Be Worth More Than Tesla 5 Years From Now",
+      "url": "https://finnhub.io/api/news?id=fbd55c941e0638c73233241b0214008454918e973775e568bee7dccc2fd077fc",
+      "content": "The iconic EV company had its day in the sun, but it's time for new growth stories to take center stage.",
+      "published_at": "2025-11-11T19:05:00+00:00",
+      "created_at": "2025-11-12T14:28:00.245631+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a90d61e3-9b85-433b-8721-7b84cab5a762",
+      "source": "Finnhub",
+      "title": "Tesla has more bad news for Cybertruck lovers",
+      "url": "https://finnhub.io/api/news?id=e761d4ab6d46c7a43b0aa0d48e6d123b2c833e48f9bc85779a8cb11f0afa9576",
+      "content": "November has been a bad month for electric pickup truck enthusiasts. Pickup trucks are a uniquely American concept that has become a staple on U.S. roads. During previous presidential administrations, electrifying former internal combustion engine pickups into EVs became a costly priority for the ...",
+      "published_at": "2025-11-11T14:07:00+00:00",
+      "created_at": "2025-11-12T14:28:01.044933+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "601d53d1-bf92-4261-b087-3a85e2501e07",
+      "source": "Finnhub",
+      "title": "Tesla Or Bust? GM Stock A Better Ride",
+      "url": "https://finnhub.io/api/news?id=1f4c7d4dca864eacad5c691e3aa12670b0ea094ffe5f108088e5cb425d17a56f",
+      "content": "Elon Muskâs trillion-dollar pay package is linked to massive growth targets, but Tesla is trading at a steep premium. Click here to learn why GM is a better buy than Tesla.",
+      "published_at": "2025-11-11T13:00:00+00:00",
+      "created_at": "2025-11-12T14:28:01.407033+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2232925096/image_2232925096.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "25229146-7467-4851-a8b2-3285c87af49e",
+      "source": "Finnhub",
+      "title": "$135K Mortgage and $400K Roth - Would You Take Money From Your Roth To Be Mortgage-Free? Here's What Suze Orman Says To Do",
+      "url": "https://finnhub.io/api/news?id=c6fc4ab2e7736780a3006a6b8127f589486c62622454d78cec5c242fbabefb78",
+      "content": "Many Americans approaching retirement face a common question: should you tap into your retirement savings to pay off your mortgage? On her \"Women & Money\" podcast, personal finance expert Suze Orman addressed this dilemma from a listener in his early 60s, providing insight that could help others in similar situations. The Question from a Listener Jody, just shy of 64, has about $400,000 in a Roth IRA and an emergency fund. His home, which he calls his \"forever home,\" is worth just under $1 milli",
+      "published_at": "2025-11-11T10:01:09+00:00",
+      "created_at": "2025-11-12T14:28:01.779737+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "9703d7d5-76dc-4fca-b3d1-573e9d2e83bb",
+      "source": "Finnhub",
+      "title": "Amid Trillion-Dollar Package Criticism, Elon Musk Reveals He Came To Montreal With 'One Bag' Of Books, $2.5K At 17",
+      "url": "https://finnhub.io/api/news?id=6cdc8f0d71692de3718aa6d6596c8434ce85dfe66a21745d2013d780dc6b7e20",
+      "content": "Tesla Inc. (NASDAQ:TSLA) CEO Elon Musk reveals how he spent his early years in Canada with limited funds amid criticism for the CEO's trillion-dollar pay package. Arrived In Montreal With $2500 Responding to criticism of his pay package and his fortune, Musk described his experiences as a 17-year-old arriving in Canada in a post on X on Sunday. \"When I arrived in Montreal at age 17, I only had three things,\" Musk said. \"$2500, one bag of clothes and one bag of books.\" When I arrived in Montreal",
+      "published_at": "2025-11-11T09:31:05+00:00",
+      "created_at": "2025-11-12T14:28:02.181202+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "5ac3ab44-e985-4a83-87a7-6dd248c727c5",
+      "source": "Alpha Vantage",
+      "title": "Getty Images to Capture Breathtaking Visuals From Across the Milano Cortina 2026 Olympic Winter Games",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186306/0/en/Getty-Images-to-Capture-Breathtaking-Visuals-From-Across-the-Milano-Cortina-2026-Olympic-Winter-Games.html",
+      "content": "A Media Snippet accompanying this announcement is available by clicking on this link.",
+      "published_at": "2025-11-12T13:55:00+00:00",
+      "created_at": "2025-11-12T14:28:06.729801+00:00",
+      "symbols": [
+        "GETY"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Inc. (PR)",
+          "Getty Images (US)"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.266013
+      }
+    },
+    {
+      "id": "dcd22bf4-adc8-4546-8e7b-9628983351a2",
+      "source": "Alpha Vantage",
+      "title": "BYD delivers the new SEALION 7 INTER EDITION to FC Internazionale Milano",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801831/byd-delivers-the-new-sealion-7-inter-edition-to-fc-internazionale-milano",
+      "content": "Limited-edition series features exclusive design and customisation 'Nerazzurri' colours feature in exterior and interior revisions Dedicated Inter graphics on infotainment system",
+      "published_at": "2025-11-12T13:49:09+00:00",
+      "created_at": "2025-11-12T14:28:07.088082+00:00",
+      "symbols": [
+        "SZIHF"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.538269"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.410655
+      }
+    },
+    {
+      "id": "2885a8b2-5565-48d4-823c-c5dd79983ea3",
+      "source": "Alpha Vantage",
+      "title": "This AT&T Analyst Turns Bullish; Here Are Top 5 Upgrades For Wednesday - Floor & Decor Hldgs  ( NYSE:FND ) , Outfront Media  ( NYSE:OUT ) ",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/25/11/48801720/this-at-here-are-top-5-upgrades-for-wednesday",
+      "content": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page. Deutsche Bank analyst Peter Milliken upgraded Sea Ltd ( NYSE:SE ) from Hold to Buy and raised ...",
+      "published_at": "2025-11-12T13:45:47+00:00",
+      "created_at": "2025-11-12T14:28:07.462189+00:00",
+      "symbols": [
+        "OUT",
+        "PGNY",
+        "FND",
+        "T",
+        "SE"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.365926"
+          },
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.25"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.25"
+          }
+        ],
+        "authors": [
+          "Avi Kapoor"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.242633
+      }
+    },
+    {
+      "id": "bd90bb0c-d12c-4431-bc20-653326c3a950",
+      "source": "Alpha Vantage",
+      "title": "1847 Holdings Reports 256% Revenue Growth to $13.6 Million and Achieves Profitability in Q3 2025",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186230/0/en/1847-Holdings-Reports-256-Revenue-Growth-to-13-6-Million-and-Achieves-Profitability-in-Q3-2025.html",
+      "content": "Gross Profit Increases 180% to $6.7 Million ...",
+      "published_at": "2025-11-12T13:05:00+00:00",
+      "created_at": "2025-11-12T14:28:23.662988+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.997902"
+          },
+          {
+            "topic": "IPO",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.161647"
+          }
+        ],
+        "authors": [
+          "1847 Holdings LLC"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.322072
+      }
+    },
+    {
+      "id": "93a2be61-ce34-40f0-9b09-96f7246aedf6",
+      "source": "Alpha Vantage",
+      "title": "Immix Biopharma Appoints Chief Commercial Officer to Drive NXC-201 Launch",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186298/0/en/Immix-Biopharma-Appoints-Chief-Commercial-Officer-to-Drive-NXC-201-Launch.html",
+      "content": "- Former Chimerix ( CMRX, acquired by Jazz for $935 million ) Senior Commercial Leader Michael Grabow led Go-To-Market Strategy and Launch for rare disease therapeutic ...",
+      "published_at": "2025-11-12T13:45:00+00:00",
+      "created_at": "2025-11-12T14:28:07.837161+00:00",
+      "symbols": [
+        "SPPI",
+        "ASRT",
+        "JAZZ",
+        "CMRX",
+        "IMMX"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Mergers & Acquisitions",
+            "relevance_score": "0.214378"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Inc.",
+          "Immix Biopharma"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.0
+      }
+    },
+    {
+      "id": "44347f1e-97e4-41a8-9e79-84f03e39b9f1",
+      "source": "Alpha Vantage",
+      "title": "NETSOL Technologies Reports First Quarter Fiscal 2026 Results; Revenue Up 2.8% Year-Over-Year",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186297/15855/en/NETSOL-Technologies-Reports-First-Quarter-Fiscal-2026-Results-Revenue-Up-2-8-Year-Over-Year.html",
+      "content": "NETSOL reports first quarter fiscal 2026 results. revenue up 2.8% year-over-year. Cloud and SaaS revenue increased 9.4%.",
+      "published_at": "2025-11-12T13:45:00+00:00",
+      "created_at": "2025-11-12T14:28:08.197398+00:00",
+      "symbols": [
+        "NTWK"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999956"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.684621"
+          }
+        ],
+        "authors": [
+          "NETSOL Technologies Inc."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.264919
+      }
+    },
+    {
+      "id": "8b5afc49-4c6f-4a98-a2bd-6635cb41c15e",
+      "source": "Alpha Vantage",
+      "title": "Why Is GlobalFoundries Stock Soaring Wednesday? - GLOBALFOUNDRIES  ( NASDAQ:GFS ) ",
+      "url": "https://www.benzinga.com/markets/earnings/25/11/48801681/globalfoundries-gains-from-auto-and-data-center-strength",
+      "content": "GlobalFoundries ( NASDAQ:GFS ) stock gained after it reported fiscal third-quarter 2025 results on Wednesday. The company's quarterly revenue declined 3% year-on-year ( Y/Y ) to $1.688 billion, topping the analyst consensus estimate of $1.676 billion.",
+      "published_at": "2025-11-12T13:44:45+00:00",
+      "created_at": "2025-11-12T14:28:08.552342+00:00",
+      "symbols": [
+        "GFS"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.99793"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.214378"
+          }
+        ],
+        "authors": [
+          "Anusuya Lahiri"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.033226
+      }
+    },
+    {
+      "id": "ee558204-e279-48b2-b5a2-2deb915b61ac",
+      "source": "Alpha Vantage",
+      "title": "Man Group PLC : Form 8.3 - Dowlais Group plc",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186294/0/en/Man-Group-PLC-Form-8-3-Dowlais-Group-plc.html",
+      "content": "FORM ...",
+      "published_at": "2025-11-12T13:43:00+00:00",
+      "created_at": "2025-11-12T14:28:08.931145+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.495866"
+          }
+        ],
+        "authors": [
+          "Man Group PLC"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.23066
+      }
+    },
+    {
+      "id": "e6dcd0cb-7798-44e8-9e33-fc917afcb79f",
+      "source": "Alpha Vantage",
+      "title": "Eli Lilly Drops CVS Health's Drug Benefit Plan For Employees Ahead Of 2026 Switch - CVS Health  ( NYSE:CVS ) , Eli Lilly  ( NYSE:LLY ) ",
+      "url": "https://www.benzinga.com/news/health-care/25/11/48801648/eli-lilly-drops-cvs-healths-drug-benefit-plan-for-employees-ahead-of-2026-switch",
+      "content": "Eli Lilly & Co. ( NYSE:LLY ) is reportedly dropping CVS Health Inc.'s ( NYSE:CVS ) drug benefit plan for its employees.",
+      "published_at": "2025-11-12T13:42:59+00:00",
+      "created_at": "2025-11-12T14:28:09.299097+00:00",
+      "symbols": [
+        "CVS",
+        "NVO",
+        "LLY"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Retail & Wholesale",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          }
+        ],
+        "authors": [
+          "Vandana Singh"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.198905
+      }
+    },
+    {
+      "id": "cf1bfd60-f862-4c76-9ca3-03eca156d011",
+      "source": "Alpha Vantage",
+      "title": "Man Group PLC : Form 8.3 - American Axle & Manufacturing Holdings, Inc",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186293/0/en/Man-Group-PLC-Form-8-3-American-Axle-Manufacturing-Holdings-Inc.html",
+      "content": "FORM ...",
+      "published_at": "2025-11-12T13:41:00+00:00",
+      "created_at": "2025-11-12T14:28:09.672535+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.495866"
+          }
+        ],
+        "authors": [
+          "Man Group PLC"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.23066
+      }
+    },
+    {
+      "id": "ddd0465f-5345-456c-a479-27a7953e86b0",
+      "source": "Alpha Vantage",
+      "title": "Earth Science Tech, Inc. Reports Strong Q2 Fiscal 2025 Results",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186291/0/en/Earth-Science-Tech-Inc-Reports-Strong-Q2-Fiscal-2025-Results.html",
+      "content": "MIAMI, FL, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Earth Science Tech, Inc. ( OTC: ETST ) ( \"ETST\" or the \"Company\" ) , a strategic holding company focused on acquiring and scaling high-potential operating businesses, today announced its financial and operational results for the Second Fiscal ...",
+      "published_at": "2025-11-12T13:40:00+00:00",
+      "created_at": "2025-11-12T14:28:10.046952+00:00",
+      "symbols": [
+        "ETST"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.650727"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.614606"
+          }
+        ],
+        "authors": [
+          "Inc.",
+          "Earth Science Tech"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.324416
+      }
+    },
+    {
+      "id": "3e7f1d57-1a70-4a94-b59d-818b0c45a63d",
+      "source": "Alpha Vantage",
+      "title": "Easy Environmental Solutions, Inc. Announces Second EasyFEN Deployment Agreement as Rollout Accelerates Across Africa - Easy Environmental Solns  ( OTC:EZES ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48801601/easy-environmental-solutions-inc-announces-second-easyfen-deployment-agreement-as-rollout-accelera",
+      "content": "MANKATO, Minn., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Easy Environmental Solutions, Inc. ( OTC:EZES ) today announced that it has entered into a non-binding Letter of Intent ( LOI ) with a major agribusiness partner in West Africa for the planned deployment of an EasyFEN™ Modular Liquid Microbial ...",
+      "published_at": "2025-11-12T13:40:00+00:00",
+      "created_at": "2025-11-12T14:28:10.420121+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.495866"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.159887
+      }
+    },
+    {
+      "id": "8bdff066-7cab-4560-a76b-95a7d2298bff",
+      "source": "Alpha Vantage",
+      "title": "Man Group PLC : Form 8.3 - Spectris PLC",
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186290/0/en/Man-Group-PLC-Form-8-3-Spectris-PLC.html",
+      "content": "FORM ...",
+      "published_at": "2025-11-12T13:39:00+00:00",
+      "created_at": "2025-11-12T14:28:10.789666+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Economy - Monetary",
+            "relevance_score": "0.158519"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.495866"
+          }
+        ],
+        "authors": [
+          "Man Group PLC"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.23066
+      }
+    },
+    {
+      "id": "68526f83-e259-436a-acd0-190ed78dc8c3",
+      "source": "Alpha Vantage",
+      "title": "Should You Buy Nvidia Stock Before Nov. 19?",
+      "url": "https://www.fool.com/investing/2025/11/12/should-you-buy-nvidia-stock-before-nov-19/",
+      "content": "It's an important day for Nvidia shareholders, but the conversation around AI stocks has changed since the company's last earnings report.",
+      "published_at": "2025-11-12T13:05:00+00:00",
+      "created_at": "2025-11-12T14:28:24.2466+00:00",
+      "symbols": [
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.986413"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.161647"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Lyle Daly",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.235653
+      }
+    },
+    {
+      "id": "c81dee34-a099-4b4d-a0ea-782f2a4182a9",
+      "source": "Alpha Vantage",
+      "title": "Asian World Film Festival Announces Focus on Taiwan Program Includes Oscar Submissions and Oscar®-Qualifying Short; Screens Nov. 13-17 at the Culver Theater in Culver City",
+      "url": "https://www.benzinga.com/pressreleases/25/11/n48801587/asian-world-film-festival-announces-focus-on-taiwan-program-includes-oscar-submissions-and-oscar-q",
+      "content": "LOS ANGELES, Nov. 12, 2025 /PRNewswire/ -- The 11th annual Asian World Film Festival ( AWFF ) will present Focus on Taiwan, a special program highlighting Taiwanese cinema-its culture, creativity and unique traditions. Focus on Taiwan will screen Nov. 13-17 at the Culver Theater in Culver City.",
+      "published_at": "2025-11-12T13:38:00+00:00",
+      "created_at": "2025-11-12T14:28:11.157409+00:00",
+      "symbols": [
+        "GOOG",
+        "META"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "PRNewswire"
+        ],
+        "sentiment_label": "Bullish",
+        "sentiment_score": 0.468842
+      }
+    }
+  ]
+}

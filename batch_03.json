@@ -1,0 +1,347 @@
+{
+  "agent_id": 3,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "e0cffe81-3460-4730-be4e-ed8f26310f3c",
+      "source": "Finnhub",
+      "title": "Google to invest $6.4 billion in cloud infrastructure in Germany",
+      "url": "https://finnhub.io/api/news?id=b2152b50d487331236f4325e44ed306aa4ef9f16daf9e21f4af1b1773ad7be61",
+      "content": "BERLIN (Reuters) -Alphabet's Google will invest 5.5 billion euros ($6.​41 billion) in Germany in the coming years in a push to ‌expand its infrastructure and data centre capacity in Europe's largest economy, company and government officials said ‌on Tuesday.  The plan includes a new data centre in Dietzenbach, close to Frankfurt, as well as the expansion of the U.S. company's site in the city of Hanau, also in the central German state of Hesse, Google and state officials ⁠said at a news conference ‌in Berlin.  Marianne Janik, vice president for Google Cloud Northern Europe, told Reuters that the investment, to be made in the ‍2026-2029 period, would involve 100 people working in Dietzenbach and Hanau, respectively.",
+      "published_at": "2025-11-11T18:15:18+00:00",
+      "created_at": "2025-11-12T14:27:41.769332+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "0a323387-9dea-4849-92ad-d68d98bd2586",
+      "source": "Finnhub",
+      "title": "Trending tickers: CoreWeave, TSMC, SoftBank, Sony and Vodafone",
+      "url": "https://finnhub.io/api/news?id=bbadf5d5d87edd0e55ef5069cabcdde47ac6d24963e7c6a7a8fc36f4f11b7e7b",
+      "content": "The latest investor updates on stocks that are trending on Tuesday",
+      "published_at": "2025-11-11T17:28:34+00:00",
+      "created_at": "2025-11-12T14:27:42.494303+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "526f0f24-aada-4359-bfb8-6f0a2efedcd4",
+      "source": "Finnhub",
+      "title": "Alphabet: Quietly Dominating AI, One Layer At A Time",
+      "url": "https://finnhub.io/api/news?id=3abf20831e166a618b87776907f476607cc63e145ac54372829201df33ac2f9b",
+      "content": "Alphabet (GOOGL) delivered record Q3 2025 results, with $102B in revenue and $35B in operating income, driven by AI integration across its ecosystem.",
+      "published_at": "2025-11-11T16:35:41+00:00",
+      "created_at": "2025-11-12T14:27:43.113876+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2228661068/image_2228661068.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "28d7ef27-dbac-47f3-9e26-885e90ba7064",
+      "source": "Finnhub",
+      "title": "Private funding in Southeast Asia digital economy lags global level, report says",
+      "url": "https://finnhub.io/api/news?id=3af9f27dbd988bae955eb5f68b57479377f13bf48f5328cde945416ffd890a23",
+      "content": "SINGAPORE (Reuters) -Private funding for Southeast Asia's internet economy grew 15% from a year earlier to $7.7 billion in the 12 months ​to June 2025, lagging the global growth rate of 25% for private equity and venture capital ‌investments, an industry report said on Tuesday.  The annual report, by Alphabet's Google, Singapore state investor Temasek Holdings and global business consultants ‌Bain & Company, also found that the funding was about 70% below 2021's record high of $27 billion.  \"Investments are presently concentrated in late-stage rounds, with the funding share for seed to Series B deals declining from about 30% to about 20% in the last twelve months compared to the prior period,\" ⁠they said.",
+      "published_at": "2025-11-11T11:32:15+00:00",
+      "created_at": "2025-11-12T14:27:43.719137+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "b350b0d4-89e4-4c44-baf7-9fa710f0efeb",
+      "source": "Finnhub",
+      "title": "Ginkgo Bioworks: Not There Yet",
+      "url": "https://finnhub.io/api/news?id=2162d15922563528421425c3059e9303457ba8a0784a372d4fd3251c936761d2",
+      "content": "Get the latest insights on Ginkgo Bioworks (DNA) stock: missed Q3 targets, revenue slowdown, rising losses, and investor dilution.",
+      "published_at": "2025-11-11T10:15:33+00:00",
+      "created_at": "2025-11-12T14:27:44.262545+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2237985245/image_2237985245.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "b49d6a6c-51b8-4942-aaf9-1488ce6b2444",
+      "source": "Finnhub",
+      "title": "Amazon: Amazon Q3 Beat The Street, But AWS Is The Weak Link",
+      "url": "https://finnhub.io/api/news?id=11e4a5984e78c19300ef24e890e960ac33456818b0d5f66622e0418173b992ae",
+      "content": "Amazon's Q3 earnings beat forecasts, but AWS growth lags rivals. Click here to know why analysts remain bullish and when to consider buying AMZN stock.",
+      "published_at": "2025-11-12T16:20:00+00:00",
+      "created_at": "2025-11-12T14:27:44.797735+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1317474419/image_1317474419.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "b9a41716-dee5-495e-88e8-cbe852792f7e",
+      "source": "Finnhub",
+      "title": "Dillard's: Downgrading To Sell After A Strong Run",
+      "url": "https://finnhub.io/api/news?id=8d2ddbafe3807b419ad46a8c8c9c50ed0bae81463a3ad38205468949134da7d1",
+      "content": "Dillard's stock surged 718% since 2013 but now faces challenges and overvaluation. Read the analysis and see why DDS is downgraded to a Sell.",
+      "published_at": "2025-11-12T11:03:32+00:00",
+      "created_at": "2025-11-12T14:27:45.157671+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1190446858/image_1190446858.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "80788a39-62a2-4e73-af2e-60fe98476951",
+      "source": "Finnhub",
+      "title": "MercadoLibre: I'm Finally Turning Bullish (Rating Upgrade)",
+      "url": "https://finnhub.io/api/news?id=7f244c09d95bb2c645ddfd1406877f46ba47faa7cb4bb1c6d59f0c8617894077",
+      "content": "",
+      "published_at": "2025-11-12T01:02:55+00:00",
+      "created_at": "2025-11-12T14:27:45.70155+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "206e655f-761e-4962-8ea7-41d868f23e05",
+      "source": "Finnhub",
+      "title": "Plug Power: Sell On Rapidly Declining Backlog And No Visible Path To Profitability",
+      "url": "https://finnhub.io/api/news?id=cfdaf28b9edaae8b5384815a4064c14b4e44fa9fab88da02e30f222b3fb6132d",
+      "content": "Plug Power Inc.'s Q3 shows better margins but ongoing losses and falling sales. Click for why profitability is not in sightâ and why a PLUG Sell rating is advised.",
+      "published_at": "2025-11-12T00:41:01+00:00",
+      "created_at": "2025-11-12T14:27:46.063918+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1405420577/image_1405420577.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "733a47ff-5f54-4478-9315-dc16a22f5950",
+      "source": "Finnhub",
+      "title": "Amazon Just Ditched Its Stake in IonQ Stock. Should You Bail on the Quantum Computing Leader Too?",
+      "url": "https://finnhub.io/api/news?id=ac9ab59d70f3f62ffb1c2070e63d107b63594a89ace2214e034784106d2636d8",
+      "content": "According to its latest 13F filing, Amazon no longer has a position in IONQ.",
+      "published_at": "2025-11-12T00:19:35+00:00",
+      "created_at": "2025-11-12T14:27:46.421832+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a834f39d-6e8b-4131-994c-50d9eae9d540",
+      "source": "Finnhub",
+      "title": "Plug Power Stock Trades Wildly on AI News. Its Business Model Is Changing.",
+      "url": "https://finnhub.io/api/news?id=9ed54a02c6ca6c6fbe16d085ffbb841631942911cfeb43a6ceb9203ac0d15ede",
+      "content": "Shares of hydrogen technology provider  Plug Power  were all over the place early Tuesday after the company announced a lot the previous evening—including an unusual plan to generate more liquidity by selling electricity rights to operators of artificial-intelligence data centers.  The move came after Plug Power reported third-quarter sales of $177.1 million.  After the quarter, Plug raised an additional $370 million.",
+      "published_at": "2025-11-12T00:19:00+00:00",
+      "created_at": "2025-11-12T14:27:46.772807+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "8c478c64-383a-4d9f-9631-1f9923255dd3",
+      "source": "Finnhub",
+      "title": "TTD Stock Post Q3 Earnings: Should Investors Hold or Fold?",
+      "url": "https://finnhub.io/api/news?id=4236388d3d94d045c4e666b0c9d4212577a7c274914806ea58caf032506bcdc6",
+      "content": "TTD's shares have plunged after the third quarter despite upbeat results, as rising costs, fierce ad-tech competition and macro headwinds cloud its outlook.",
+      "published_at": "2025-11-11T23:15:00+00:00",
+      "created_at": "2025-11-12T14:27:47.670683+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "e68d81e6-9465-4e94-99a7-f27ba8935f69",
+      "source": "Finnhub",
+      "title": "5 Stocks to Buy Despite a Subdued Holiday Shopping Forecast This Year",
+      "url": "https://finnhub.io/api/news?id=330ba029c6d4caa30cda491c032e3368aa26d21ec12f5e1761f787a83bf4dca8",
+      "content": "Muted holiday sales growth is expected, but retailers like AMZN, WMT, TPR, DG and EXPE still shine as smart seasonal picks.",
+      "published_at": "2025-11-11T21:10:00+00:00",
+      "created_at": "2025-11-12T14:27:48.026511+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "f1ec396c-bbbd-4961-b015-459e74e6547f",
+      "source": "Finnhub",
+      "title": "PodcastOne (NASDAQ: PODC) Reports Record 1H & Q2 Fiscal 2026 Financial Results and Raises Full-Year Guidance, Cash $2.7 Million up $2.2 Million Year-over-Year",
+      "url": "https://finnhub.io/api/news?id=f6e4da4e80bfebb261ca902596fbacb27f477ec56e6eaa48a558485cee3ad94a",
+      "content": "LOS ANGELES, Nov. 11, 2025 (GLOBE NEWSWIRE) -- PodcastOne (Nasdaq: PODC), a leading publisher and podcast sales network, today announced record financial results for the second quarter (“Q2 Fiscal 2026”) and first half (“1H Fiscal 2026”) of its fiscal year ending March 31, 2026. Financial Highlights: Q2 Fiscal 2026 Revenue: $15.2 Million, up 22% year-over-yearAdjusted EBITDA*: $1.1 Million, up 369% year-over-year 1H Fiscal 2026 Revenue: $30.2 Million, up 19% year-over-yearAdjusted EBITDA*: $1.7",
+      "published_at": "2025-11-11T21:00:00+00:00",
+      "created_at": "2025-11-12T14:27:48.390376+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "82869357-6416-4d51-8658-b2290cf00750",
+      "source": "Finnhub",
+      "title": "$1 Trillion Holiday Season Sales Haul: ETFs to Gain Momentum",
+      "url": "https://finnhub.io/api/news?id=f12c38dfa7d3adb53d25fb61b5e9eff9a018d68dd359e6e12b9745d871c11395",
+      "content": "With U.S. holiday sales set to surpass $1 trillion, ETFs like RTH, EBIZ, and VDC could shine as retail spending surges.",
+      "published_at": "2025-11-11T20:25:00+00:00",
+      "created_at": "2025-11-12T14:27:48.927146+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "aecf1d30-7a0d-49ad-a641-9fc32a93efe2",
+      "source": "Finnhub",
+      "title": "Redcare Pharmacy appoints Hendrik Krampe as CFO",
+      "url": "https://finnhub.io/api/news?id=cfb0983b98af12d975c9858ed8ffd0ead5c156c6e26d4655535651d5f2031698",
+      "content": "Krampe will take over from Jasper Eenhorst, who will exit and pursue new career opportunities.",
+      "published_at": "2025-11-11T19:13:18+00:00",
+      "created_at": "2025-11-12T14:27:49.467384+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a30238b7-fe0d-471a-9f27-25285c8363db",
+      "source": "Finnhub",
+      "title": "MercadoLibre: A Solid Buying Opportunity That You Shouldn't Miss",
+      "url": "https://finnhub.io/api/news?id=3d558a678dd8f920fc3ed69085c465e611f3d70471d3cfa17d4d918b372ae10f",
+      "content": "MercadoLibre, Inc. is rated a Buy with attractive valuation, market leadership and profitability. Learn more about MELI stock here.",
+      "published_at": "2025-11-11T18:30:00+00:00",
+      "created_at": "2025-11-12T14:27:49.847063+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2224503405/image_2224503405.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "23b7898d-8889-485e-9101-2bf00c9a6778",
+      "source": "Finnhub",
+      "title": "Meta's,Tesla's, Alphabet's and Amazon are part of Zacks Earnings Preview",
+      "url": "https://finnhub.io/api/news?id=09a6a7d3a53830a047207c95dd5d5423e70b1168f6d4b34145ebd75a49547dd5",
+      "content": "Meta's,Tesla's, Alphabet's and Amazon have been highlighted in this Earnings Preview article.",
+      "published_at": "2025-11-11T15:45:00+00:00",
+      "created_at": "2025-11-12T14:27:50.955629+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "39875004-f585-4aa0-9d45-9a2e33b6d344",
+      "source": "Finnhub",
+      "title": "Is Amazon a Smart Opportunity After Strong Growth and New AI Initiatives in 2025?",
+      "url": "https://finnhub.io/api/news?id=70abf6f27752388b376d8aa02cdbf359c4628bb8bd1f3ad41c475cd3182e0573",
+      "content": "Wondering if Amazon.com is a buy, a hold, or possibly overvalued? You're not alone. Investors everywhere are curious whether the company's current price tag really stacks up against its future prospects. Amazon.com shares have climbed 14.8% over the last month and are up 18.9% over the past year, but have paused recently with a -0.4% move in the last week. What is driving these moves? Recent headlines around the company's expanding AI initiatives and ongoing investments in cloud...",
+      "published_at": "2025-11-11T13:13:05+00:00",
+      "created_at": "2025-11-12T14:27:51.512118+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "c9e6323c-9450-4cc9-af89-e69b46379f09",
+      "source": "Finnhub",
+      "title": "The Beachbody Co Inc (BODI) Q3 2025 Earnings Call Highlights: A Milestone in Profitability Amid ...",
+      "url": "https://finnhub.io/api/news?id=f933095b8a5934aef5b2b15371856ed877437afe2eec2f7faebe2486f068e66f",
+      "content": "The Beachbody Co Inc (BODI) reports its first net income since going public, despite significant revenue declines as it transitions away from multi-level marketing.",
+      "published_at": "2025-11-11T13:05:46+00:00",
+      "created_at": "2025-11-12T14:27:51.872546+00:00",
+      "symbols": [
+        "AMZN"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    }
+  ]
+}

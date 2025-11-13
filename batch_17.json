@@ -1,0 +1,628 @@
+{
+  "agent_id": 17,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "c79bcdce-6666-468e-b2b6-da4157af18f8",
+      "source": "Alpha Vantage",
+      "title": "Rubicon Organics Announces Appointment of Glen Ibbott as CFO - Aurora Cannabis  ( NASDAQ:ACB ) , Rubicon Organics  ( OTC:ROMJF ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48823504/rubicon-organics-announces-appointment-of-glen-ibbott-as-cfo",
+      "content": "VANCOUVER, British Columbia, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Rubicon Organics Inc. ( TSXV:ROMJ ) ( OTCQX:ROMJF ) ( \"Rubicon Organics\", \"Rubicon\", or the \"Company\" ) , a licensed producer focused on cultivating and selling organic certified and premium cannabis products, today announced the ...",
+      "published_at": "2025-11-13T01:00:00+00:00",
+      "created_at": "2025-11-13T03:10:32.667522+00:00",
+      "symbols": [
+        "ACB",
+        "PRBZF"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.360215"
+          },
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.244898
+      }
+    },
+    {
+      "id": "f290b07b-df72-4929-8b54-61817f2dacbf",
+      "source": "Alpha Vantage",
+      "title": "Off The Hook YS Inc. Announces Pricing of its Initial Public Offering",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186949/0/en/Off-The-Hook-YS-Inc-Announces-Pricing-of-its-Initial-Public-Offering.html",
+      "content": "North Carolina, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Off The Hook YS Inc. ( \"Off The Hook\" and the \"Company\" ) ( NYSE American: OTH ) , a premier yacht and boat wholesaler specializing in the buying and selling of yachts and boats, today announced the pricing of its initial public offering of ...",
+      "published_at": "2025-11-13T00:59:00+00:00",
+      "created_at": "2025-11-13T03:10:32.831333+00:00",
+      "symbols": [
+        "STT"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "IPO",
+            "relevance_score": "0.769861"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.938793"
+          }
+        ],
+        "authors": [
+          "Off The Hook YS Inc."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.174394
+      }
+    },
+    {
+      "id": "b5535809-5abd-414b-8cf2-7ec10c63c80a",
+      "source": "Alpha Vantage",
+      "title": "Caring Brands Announces Pricing of $4,000,000 Million Uplisting to Nasdaq",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186947/0/en/Caring-Brands-Announces-Pricing-of-4-000-000-Million-Uplisting-to-Nasdaq.html",
+      "content": "FORT PIERCE, Fla., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Caring Brands, Inc. ( \"Caring Brands\" or the \"Company\" ) , a wellness consumer products company offering several over-the-counter ( OTC ) and cosmetic consumer products, today announced the pricing of its underwritten U.S. public offering of ...",
+      "published_at": "2025-11-13T00:58:00+00:00",
+      "created_at": "2025-11-13T03:10:32.99245+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "IPO",
+            "relevance_score": "0.682689"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.818451"
+          }
+        ],
+        "authors": [
+          "Inc",
+          "Caring Brands"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.196506
+      }
+    },
+    {
+      "id": "ce5777cc-8cf4-4f01-8063-195c00b7bf1d",
+      "source": "Alpha Vantage",
+      "title": "Asia markets mostly rise as Dow tops 48,000 for first time; traders eye U.S. government reopening",
+      "url": "https://www.cnbc.com/2025/11/13/asia-pacific-markets-thursday-nikkei-225-hang-seng-index-kospi-nifty-50.html",
+      "content": "Overnight, the Dow Jones Industrial Average recorded its first close above 48,000 Wednesday stateside.",
+      "published_at": "2025-11-13T00:57:04+00:00",
+      "created_at": "2025-11-13T03:10:33.164033+00:00",
+      "symbols": [
+        "SFTBF",
+        "NVDA"
+      ],
+      "metadata": {
+        "source": "CNBC",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [],
+        "sentiment_label": "Neutral",
+        "sentiment_score": -0.025854
+      }
+    },
+    {
+      "id": "04d83894-196a-4d0c-a8c0-e88e7d141136",
+      "source": "Alpha Vantage",
+      "title": "Afya  ( AFYA )  Q3 Earnings Beat Estimates",
+      "url": "https://www.zacks.com/stock/news/2790283/afya-afya-q3-earnings-beat-estimates",
+      "content": "Afya (AFYA) delivered earnings and revenue surprises of +18.75% and -0.16%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+      "published_at": "2025-11-13T00:50:02+00:00",
+      "created_at": "2025-11-13T03:10:33.322252+00:00",
+      "symbols": [
+        "AFYA"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999997"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.127899
+      }
+    },
+    {
+      "id": "ca03c126-5313-4d89-8f6f-5a238e2d77e8",
+      "source": "Alpha Vantage",
+      "title": "Bioceres Crop  ( BIOX )  Reports Q1 Loss, Lags Revenue Estimates",
+      "url": "https://www.zacks.com/stock/news/2790284/bioceres-crop-biox-reports-q1-loss-lags-revenue-estimates",
+      "content": "Bioceres Crop (BIOX) delivered earnings and revenue surprises of -200.00% and -18.37%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+      "published_at": "2025-11-13T00:50:02+00:00",
+      "created_at": "2025-11-13T03:10:33.486063+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999892"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.12395
+      }
+    },
+    {
+      "id": "7d6ef1a7-00f7-4a77-b788-8bd3b191121e",
+      "source": "Yahoo Finance",
+      "title": "Analyst Report: United Rentals, Inc.",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3685_AnalystReport_1762949046000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "content": "Oops, something went wrong Argus • Nov 12, 2025 Symbols Sector(s) Industrials Rating Earnings Estimate Current Price",
+      "published_at": "2025-11-12T12:04:06+00:00",
+      "created_at": "2025-11-13T03:10:53.948482+00:00",
+      "symbols": [],
+      "metadata": {
+        "tags": [],
+        "author": "",
+        "summary": "",
+        "category": "general"
+      }
+    },
+    {
+      "id": "e064e9cf-31e0-4f0f-8916-3a0248e30d88",
+      "source": "Alpha Vantage",
+      "title": "FutureCrest Acquisition Corp. Announces the Separate Trading of its Class A Ordinary Shares and Warrants, Commencing November 17, 2025",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186946/0/en/FutureCrest-Acquisition-Corp-Announces-the-Separate-Trading-of-its-Class-A-Ordinary-Shares-and-Warrants-Commencing-November-17-2025.html",
+      "content": "New York, NY, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- FutureCrest Acquisition Corp. ( NYSE: FCRS.U ) ( the \"Company\" ) today announced that commencing November 17, 2025, holders of the units sold in its initial public offering ( the \"Units\" ) may elect to separately trade the Class A ordinary shares ...",
+      "published_at": "2025-11-13T00:35:00+00:00",
+      "created_at": "2025-11-13T03:10:33.642311+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "IPO",
+            "relevance_score": "0.310843"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.538269"
+          }
+        ],
+        "authors": [
+          "FutureCrest Acquisition Corp."
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.096248
+      }
+    },
+    {
+      "id": "081fb36f-abfd-4ab8-a166-30e5dd82a671",
+      "source": "Alpha Vantage",
+      "title": "China's car industry preps for next-level self-driving: Hesai",
+      "url": "https://www.scmp.com/business/china-business/article/3332536/chinas-car-industry-gears-next-level-self-driving-tech-sensor-maker-hesai",
+      "content": "Preparations are well under way in China's auto industry for the next generation of autonomous-driving features, even before Beijing clears the regulatory road ahead, according to the chief financial officer of the world's largest maker of automotive lidar sensors.",
+      "published_at": "2025-11-13T00:30:09+00:00",
+      "created_at": "2025-11-13T03:10:33.822077+00:00",
+      "symbols": [
+        "LI",
+        "HSAI"
+      ],
+      "metadata": {
+        "source": "South China Morning Post",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.495866"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Daniel Ren"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.260311
+      }
+    },
+    {
+      "id": "e37e4e9d-6750-4e88-b616-ca996ab58dd5",
+      "source": "Alpha Vantage",
+      "title": "SKYX Platforms Corp.  ( SKYX )  Reports Q3 Loss, Tops Revenue Estimates",
+      "url": "https://www.zacks.com/stock/news/2790281/skyx-platforms-corp-skyx-reports-q3-loss-tops-revenue-estimates",
+      "content": "SKYX PLATFORMS (SKYX) delivered earnings and revenue surprises of +12.50% and +2.98%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+      "published_at": "2025-11-13T00:30:01+00:00",
+      "created_at": "2025-11-13T03:10:33.972125+00:00",
+      "symbols": [
+        "SKIL",
+        "SKYX"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999892"
+          },
+          {
+            "topic": "Real Estate & Construction",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.126054
+      }
+    },
+    {
+      "id": "ab6be092-6753-4788-b468-380907662792",
+      "source": "Alpha Vantage",
+      "title": "Pan American Silver  ( PAAS )  Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+      "url": "https://www.zacks.com/stock/news/2790282/pan-american-silver-paas-q3-earnings-how-key-metrics-compare-to-wall-street-estimates",
+      "content": "Although the revenue and EPS for Pan American Silver (PAAS) give a sense of how its business performed in the quarter ended September 2025, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
+      "published_at": "2025-11-13T00:30:01+00:00",
+      "created_at": "2025-11-13T03:10:34.128018+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.360215"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.211849
+      }
+    },
+    {
+      "id": "7601f4c7-e881-4755-aff4-7b55b8f17658",
+      "source": "Alpha Vantage",
+      "title": "Biofuel Market Size to Reach $225.9 Billion by 2028 at 6.2% CAGR - Report by MarketsandMarkets™",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48823197/biofuel-market-size-to-reach-225-9-billion-by-2028-at-6-2-cagr-report-by-marketsandmarkets",
+      "content": "Delray Beach, FL, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- The Biofuel Market size is projected to grow from USD 167.4 billion in 2023 to USD 225.9 billion by 2028, at a CAGR of 6.2% during forecast period.",
+      "published_at": "2025-11-13T00:30:00+00:00",
+      "created_at": "2025-11-13T03:10:34.282913+00:00",
+      "symbols": [
+        "ADM"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.538269"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.108179"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "1.0"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.177529
+      }
+    },
+    {
+      "id": "0d45f02e-e9bb-4883-9781-ffe4d1dff034",
+      "source": "Alpha Vantage",
+      "title": "The Best Bank Stock to Hold in Uncertain Times",
+      "url": "https://www.fool.com/investing/2025/11/12/the-best-bank-stock-to-hold-in-uncertain-times/",
+      "content": "Sometimes the biggest is the best.",
+      "published_at": "2025-11-13T00:27:23+00:00",
+      "created_at": "2025-11-13T03:10:34.448803+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "Motley Fool",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.161647"
+          }
+        ],
+        "authors": [
+          "Jennifer Saibil",
+          "https://www.facebook.com/themotleyfool/"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.21376
+      }
+    },
+    {
+      "id": "10850bc3-292f-40db-81fc-1a5f736a70f3",
+      "source": "Alpha Vantage",
+      "title": "Elme Communities Completes Sale of 19 Multifamily Communities for $1.6 Billion - Elme  ( NYSE:ELME ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48823166/elme-communities-completes-sale-of-19-multifamily-communities-for-1-6-billion",
+      "content": "BETHESDA, Md., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Elme Communities ( \"Elme\" or the \"Company\" ) ( NYSE:ELME ) today completed its previously announced sale of 19 multifamily communities ( \"the portfolio sale\" ) to an affiliate of Cortland Partners, LLC ( \"Cortland\" ) for $1.6 billion in cash, ...",
+      "published_at": "2025-11-13T00:21:32+00:00",
+      "created_at": "2025-11-13T03:10:34.607535+00:00",
+      "symbols": [
+        "ELME",
+        "GS"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Finance",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.998356"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.102379
+      }
+    },
+    {
+      "id": "771a87af-d943-4c1c-a6a4-5205f8305734",
+      "source": "Alpha Vantage",
+      "title": "Elme Communities Completes Sale of 19 Multifamily Communities for $1.6 Billion",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186943/0/en/Elme-Communities-Completes-Sale-of-19-Multifamily-Communities-for-1-6-Billion.html",
+      "content": "BETHESDA, Md., Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Elme Communities ( \"Elme\" or the \"Company\" ) ( NYSE: ELME ) today completed its previously announced sale of 19 multifamily communities ( \"the portfolio sale\" ) to an affiliate of Cortland Partners, LLC ( \"Cortland\" ) for $1.6 billion in cash, ...",
+      "published_at": "2025-11-13T00:21:00+00:00",
+      "created_at": "2025-11-13T03:10:34.765054+00:00",
+      "symbols": [
+        "ELME",
+        "GS"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Finance",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.996023"
+          }
+        ],
+        "authors": [
+          "Elme Communities"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.111814
+      }
+    },
+    {
+      "id": "61703dd1-bc4a-4abe-82ce-9761ce41df10",
+      "source": "Alpha Vantage",
+      "title": "UPDATED: SHARPLINK DEMONSTRATES STRONG GROWTH MOMENTUM IN THIRD QUARTER 2025 AS IT ADVANCES EXECUTION OF ETH TREASURY STRATEGY",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186942/0/en/UPDATED-SHARPLINK-DEMONSTRATES-STRONG-GROWTH-MOMENTUM-IN-THIRD-QUARTER-2025-AS-IT-ADVANCES-EXECUTION-OF-ETH-TREASURY-STRATEGY.html",
+      "content": "Management to Host Conference Call on Thursday, November 13, 2025 at 8:30 AM ET ...",
+      "published_at": "2025-11-13T00:15:00+00:00",
+      "created_at": "2025-11-13T03:10:34.939253+00:00",
+      "symbols": [
+        "CRYPTO:ETH",
+        "SBET"
+      ],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.998333"
+          },
+          {
+            "topic": "Manufacturing",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.904684"
+          },
+          {
+            "topic": "Blockchain",
+            "relevance_score": "0.928139"
+          }
+        ],
+        "authors": [
+          "SharpLink Gaming",
+          "Inc."
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.259855
+      }
+    },
+    {
+      "id": "4eac6500-1309-4009-9600-c40cb61c728d",
+      "source": "Alpha Vantage",
+      "title": "ROSEN, RECOGNIZED INVESTOR COUNSEL, Encourages Baxter International Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - BAX - Baxter Intl  ( NYSE:BAX ) ",
+      "url": "https://www.benzinga.com/pressreleases/25/11/g48823152/rosen-recognized-investor-counsel-encourages-baxter-international-inc-investors-to-secure-counsel-",
+      "content": "NEW YORK, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Baxter International Inc. ( NYSE:BAX ) between February 23, 2022 and July 30, 2025, both dates inclusive ( the \"Class Period\" ) , of the important ...",
+      "published_at": "2025-11-13T00:12:00+00:00",
+      "created_at": "2025-11-13T03:10:35.096741+00:00",
+      "symbols": [
+        "BAX",
+        "META"
+      ],
+      "metadata": {
+        "source": "Benzinga",
+        "topics": [
+          {
+            "topic": "Life Sciences",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.891286"
+          }
+        ],
+        "authors": [
+          "Globe Newswire"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.033851
+      }
+    },
+    {
+      "id": "63a27bff-3737-426e-b569-342025e64956",
+      "source": "Alpha Vantage",
+      "title": "Alussa Energy Acquisition Corp. II Announces Pricing of $250,000,000 Initial Public Offering",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3186941/0/en/Alussa-Energy-Acquisition-Corp-II-Announces-Pricing-of-250-000-000-Initial-Public-Offering.html",
+      "content": "NEW YORK, NEW YORK, Nov. 12, 2025 ( GLOBE NEWSWIRE ) -- Alussa Energy Acquisition Corp. II ( the \"Company\" ) announced today that it priced its initial public offering of 25,000,000 units at $10.00 per unit. The Company's units will be listed on the New York Stock Exchange ( \"NYSE\" ) and will ...",
+      "published_at": "2025-11-13T00:11:00+00:00",
+      "created_at": "2025-11-13T03:10:35.251819+00:00",
+      "symbols": [],
+      "metadata": {
+        "source": "GlobeNewswire",
+        "topics": [
+          {
+            "topic": "IPO",
+            "relevance_score": "0.451494"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.77141"
+          }
+        ],
+        "authors": [
+          "Alussa Energy Acquisition Corp. II"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.139776
+      }
+    },
+    {
+      "id": "87dddd65-5d60-4aa4-b8d0-7890f72770ac",
+      "source": "Alpha Vantage",
+      "title": "Tetra Tech  ( TTEK )  Beats Q4 Earnings and Revenue Estimates",
+      "url": "https://www.zacks.com/stock/news/2790279/tetra-tech-ttek-beats-q4-earnings-and-revenue-estimates",
+      "content": "Tetra (TTEK) delivered earnings and revenue surprises of +12.50% and +9.12%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+      "published_at": "2025-11-13T00:10:02+00:00",
+      "created_at": "2025-11-13T03:10:35.406862+00:00",
+      "symbols": [
+        "DCI",
+        "TTEK"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999997"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "1.0"
+          },
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Somewhat-Bullish",
+        "sentiment_score": 0.157281
+      }
+    },
+    {
+      "id": "accdc48d-cc28-4348-9f45-859b2fb0f788",
+      "source": "Alpha Vantage",
+      "title": "Duos Technologies Group, Inc.  ( DUOT )  Reports Q3 Loss, Lags Revenue Estimates",
+      "url": "https://www.zacks.com/stock/news/2790280/duos-technologies-group-inc-duot-reports-q3-loss-lags-revenue-estimates",
+      "content": "Duos Technologies Group, Inc. (DUOT) delivered earnings and revenue surprises of +50.00% and -5.80%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+      "published_at": "2025-11-13T00:10:01+00:00",
+      "created_at": "2025-11-13T03:10:35.578212+00:00",
+      "symbols": [
+        "BTBT",
+        "DUOT"
+      ],
+      "metadata": {
+        "source": "Zacks Commentary",
+        "topics": [
+          {
+            "topic": "Financial Markets",
+            "relevance_score": "0.266143"
+          },
+          {
+            "topic": "Earnings",
+            "relevance_score": "0.999759"
+          },
+          {
+            "topic": "Technology",
+            "relevance_score": "0.5"
+          },
+          {
+            "topic": "Finance",
+            "relevance_score": "0.5"
+          }
+        ],
+        "authors": [
+          "Zacks Equity Research"
+        ],
+        "sentiment_label": "Neutral",
+        "sentiment_score": 0.112552
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "agent_id": 11,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "b9c2cd35-8357-4675-a610-477c084f1447",
+      "source": "Finnhub",
+      "title": "MSFT: Microsoft Unveils Multi-Billion Dollar AI Data Center in Portugal",
+      "url": "https://finnhub.io/api/news?id=3eb6e09d32b9cddddf2a1e1ecb93a39abe10d2eb62fa5633f20627670147997b",
+      "content": "Microsoft (MSFT) Bets Big on European AI with $10B Sines Investment",
+      "published_at": "2025-11-13T00:20:56+00:00",
+      "created_at": "2025-11-13T03:10:05.273709+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "e9eddde3-bea8-4cdc-96a7-7ee30d7faf92",
+      "source": "Finnhub",
+      "title": "Inside Microsoft’s New AI ‘Super Factory’",
+      "url": "https://finnhub.io/api/news?id=16de5bbdefe9b8c42552dc761e2e29f6416068a17779825a4eac92d69ac22c41",
+      "content": "The tech giant is building out huge data centers among the most advanced in the world as it rushes to meet demand for AI computing power.",
+      "published_at": "2025-11-13T00:07:00+00:00",
+      "created_at": "2025-11-13T03:10:05.436292+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "3e6e38c9-340d-4e60-bb23-95a5130e1884",
+      "source": "Finnhub",
+      "title": "Microsoft Expands Danish Quantum Facility With Second Global Lab",
+      "url": "https://finnhub.io/api/news?id=600fc84149eba65d43df1ad0d141b8fa0523d7725da2699f6a6eb73fe4f24a7f",
+      "content": "New Lyngby site becomes company's largest quantum research hub worldwide.",
+      "published_at": "2025-11-12T23:18:42+00:00",
+      "created_at": "2025-11-13T03:10:05.596733+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "d594ce48-3573-4757-9abe-d211bb7d46ce",
+      "source": "Finnhub",
+      "title": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
+      "url": "https://finnhub.io/api/news?id=bf9d47b6c64acf9517f7f28cfffc466f842f6cb46ea39a1d4dfa89fc2384fce2",
+      "content": "MSFT's $34.9 billion fiscal Q1 capex surge funds global AI datacenter expansion, but capacity constraints persist through fiscal 2026 amid intensifying competition.",
+      "published_at": "2025-11-12T21:05:00+00:00",
+      "created_at": "2025-11-13T03:10:07.726423+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "978f807c-3d51-492f-9aa4-283d73858fe4",
+      "source": "Finnhub",
+      "title": "Anthropic Will Spend $50 Billion to Build US Data Centers",
+      "url": "https://finnhub.io/api/news?id=ee15f3518c34056cd72e55246f8835ac4ab580bed2653fe6cdaf1c3d8ae3b5b7",
+      "content": "Anthropic PBC will spend $50 billion to build custom data centers in the US. They'll start coming online in 2026 according to the company. OpenAI, Meta Platforms Inc., Google, Microsoft Corp., Nvidia Corp. and other leading tech companies plan to collectively spend hundreds of billions of dollars on data centers to support AI. Bloomberg's Ed Ludlow reports.",
+      "published_at": "2025-11-12T23:17:05+00:00",
+      "created_at": "2025-11-13T03:10:05.752827+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "9bf81957-c5f3-4da0-938e-5e63b43a70e6",
+      "source": "Finnhub",
+      "title": "Arm Stock Delivered a Smashing Quarter. It Wasn't Enough.",
+      "url": "https://finnhub.io/api/news?id=4ea4650cae551241b7226db944aa9cb823d927d48c1d5f932319f204ea6f7b93",
+      "content": "Arm showed off accelerating growth in its recent report, but the stock still fell.",
+      "published_at": "2025-11-12T22:53:00+00:00",
+      "created_at": "2025-11-13T03:10:05.990856+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "cdb3ef65-1d4a-4be1-8a38-c50f198ed36e",
+      "source": "Finnhub",
+      "title": "Investors Now See Some Corporate Bonds as Safer Bets Than Government Debt",
+      "url": "https://finnhub.io/api/news?id=29d1473792cde98b6acc9d6893d8e0dc4713db63f9baa0495b2c2215dcad07d4",
+      "content": "In corporate boardrooms since the pandemic era, executives have dealt with the rise in interest rates by keeping budgets lean and reducing overall indebtedness.  Meanwhile, governments in rich countries continue to spend, with the average debt-to-output ratio across the Group of Seven industrialized nations set to keep rising until the end of this decade at least.  The result: Investors demand lower yields for bonds issued by Microsoft Corp., Airbus SE, L’Oreal SA, and Siemens AG than they do for their countries of origin.",
+      "published_at": "2025-11-12T22:21:57+00:00",
+      "created_at": "2025-11-13T03:10:06.156275+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "abba553b-6e30-4cbc-b385-1a26a3d5873c",
+      "source": "Finnhub",
+      "title": "Microsoft announces more than $10bn in AI investment in Portugal",
+      "url": "https://finnhub.io/api/news?id=cd59a64c7e138fd5d8d1a685523c2154e6afb20ffc4fbb769446e11156dd1b15",
+      "content": "The investment will see Microsoft, in collaboration with Nscale, Nvidia and Portugal’s Start Campus, install 12,600 next-generation NVIDIA GPUs in Sines.",
+      "published_at": "2025-11-12T22:20:29+00:00",
+      "created_at": "2025-11-13T03:10:06.318066+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "cb63af27-f983-4b2e-b664-fd52bc7f2ebc",
+      "source": "Finnhub",
+      "title": "eMazzanti Technologies Offers Complimentary Azure Master Classes for Business Leaders",
+      "url": "https://finnhub.io/api/news?id=03fa5ccb3d49eeeb1fc02f444107c5fc5e3060a6b8a3a3a8875bd6ba7b78f262",
+      "content": "eMazzanti Technologies, a leading Managed Services Provider and Microsoft Solution Partner with more than 20 years of customer success, is pleased to announce a series of complimentary 60-minute Azure Master Classes for business leaders evaluating cloud adoption or seeking to optimize their existing Microsoft Azure environments.",
+      "published_at": "2025-11-12T22:05:00+00:00",
+      "created_at": "2025-11-13T03:10:06.490148+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "058ce146-277b-4921-be3a-370ba27c295a",
+      "source": "Finnhub",
+      "title": "Marc Brown, Former Microsoft CVP, Joins Syncro Board of Directors Amid Strategic ITSM Initiatives and Accelerated Growth",
+      "url": "https://finnhub.io/api/news?id=c569abae22944e5f6ca7dd6c99b7e00048d246342c33e567e02afeab3bef7bc8",
+      "content": "TAMPA, Fla., November 12, 2025--Marc Brown, former Microsoft CVP, joins the Syncro Board of Directors amid strategic ITSM initiatives and accelerated growth.",
+      "published_at": "2025-11-12T22:03:00+00:00",
+      "created_at": "2025-11-13T03:10:06.65638+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2515f577-ea4e-4be1-8db5-c1c0a7dc1b97",
+      "source": "Finnhub",
+      "title": "Nokod Security Unveils Adaptive Agent Security for Real-Time Protection Across the Agent Development Lifecycle",
+      "url": "https://finnhub.io/api/news?id=db090e157533a6b72c52728857fa5000e0695f36369c605d0ceeb2a7d6381b83",
+      "content": "New solution delivers end-to-end runtime visibility, risk detection and security controls for AI agents built by no-coders and citizen developersNEW YORK and TEL AVIV, Israel, Nov. 12, 2025 (GLOBE NEWSWIRE) -- Nokod Security, the leading security platform for AI-assisted Citizen Application Development Platforms (CADP), today announced the launch of Adaptive Agent Security, a comprehensive solution that delivers real-time visibility, governance, and protection from threats across the Agent Devel",
+      "published_at": "2025-11-12T22:02:00+00:00",
+      "created_at": "2025-11-13T03:10:06.821392+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "6aa45958-db8f-468b-9303-deb46b79eb21",
+      "source": "Finnhub",
+      "title": "InfoSum introduces Beacons, the next generation of AI-ready technology for cross-cloud data collaboration",
+      "url": "https://finnhub.io/api/news?id=917b86e8007f785574f1fb26d8083c4bf2af310ab357769bcec9ed2c32f44652",
+      "content": "LONDON & NEW YORK, November 12, 2025--Reimagined infrastructure will deploy directly into customer environments across Amazon Web Services (AWS), Google Cloud, and Microsoft Azure",
+      "published_at": "2025-11-12T22:00:00+00:00",
+      "created_at": "2025-11-13T03:10:06.995221+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2e576b6c-f386-4e34-bb0e-8a7ec4bb47ec",
+      "source": "Finnhub",
+      "title": "Preservica Integrates Active Digital Preservation with Microsoft 365 Archive",
+      "url": "https://finnhub.io/api/news?id=b0e0878b745ac90be510cfa9c272ee1fea89e044738520e3e05fb8fe6db006cd",
+      "content": "BOSTON, MA AND OXFORD, UK / ACCESS Newswire / November 12, 2025 / Preservicais expanding its ongoing collaboration with Microsoft with a new integration to bring embeddedActive Digital Preservation™toMicrosoft 365 Archive . The latestPreserve365®integration ...",
+      "published_at": "2025-11-12T22:00:00+00:00",
+      "created_at": "2025-11-13T03:10:07.155405+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "590a6326-779a-4dc9-b7e0-d35a214bcf1e",
+      "source": "Finnhub",
+      "title": "Corsica Technologies Accelerates National Growth and Enterprise Innovation Through Acquisition of AccountabilIT",
+      "url": "https://finnhub.io/api/news?id=c8e80ccdd0aafbcf2d27ccc38a4a420d005af995be01008c1db2860590287c39",
+      "content": "GREENVILLE, S.C., November 12, 2025--Corsica Technologies, a leading national managed service provider (MSP) and industry pioneer in AI-enabled automation, announced today the acquisition of AccountabilIT (AIT), a highly regarded MSP recognized for its robust cybersecurity offerings, deep Microsoft expertise, and trusted client relationships throughout the western region of the United States. This strategic move positions Corsica Technologies to deliver AI-enabled managed IT, cybersecurity and M",
+      "published_at": "2025-11-12T22:00:00+00:00",
+      "created_at": "2025-11-13T03:10:07.320101+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "817c50f6-9613-443d-87ad-53ab3ef7e53c",
+      "source": "Finnhub",
+      "title": "Will AWS' Growing Capital Spending Boost or Burden Amazon Stock?",
+      "url": "https://finnhub.io/api/news?id=95c56392aa5482d538377eae215acdb69e6980d21ef540b792058ad8b53bb38f",
+      "content": "AMZN's more than $75 billion capital spending plan for AWS infrastructure positions the cloud leader to capitalize on surging AI demand despite near-term margin pressure.",
+      "published_at": "2025-11-12T21:28:00+00:00",
+      "created_at": "2025-11-13T03:10:07.567291+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "6472480f-29d5-4dc3-941f-c16c82cfb179",
+      "source": "Finnhub",
+      "title": "VEIR Successfully Demonstrates 3-Megawatt Superconducting Power Delivery for AI Data Centers, Eliminating Critical Growth Bottleneck",
+      "url": "https://finnhub.io/api/news?id=7841d9b36fd0d47b9ae4c5d17ec98661685789c61df24ecd574ba1cc6d4df29d",
+      "content": "WOBURN, Mass., November 12, 2025--Superconducting tech startup VEIR demonstrates first-generation power delivery solution for critical AI data center energy bottleneck.",
+      "published_at": "2025-11-12T21:00:00+00:00",
+      "created_at": "2025-11-13T03:10:07.972536+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "9ce55e8d-398a-4da6-a822-2cc69109f0cb",
+      "source": "Finnhub",
+      "title": "XiFin Achieves HITRUST i1 Certification for Key Cloud-Hosted Systems, Further Strengthening Its Commitment to Cybersecurity and Data Protection",
+      "url": "https://finnhub.io/api/news?id=35bcb97897df88df447c58610ce1efee4712a0a6bfa43a190a743e1bea89f91f",
+      "content": "SAN DIEGO, November 12, 2025--XiFin, Inc., a leader in revenue cycle management (RCM), including billing solutions enhanced with embedded artificial intelligence (AI), today announced that it has earned HITRUST i1 Certification for multiple platforms residing at Microsoft Azure, reinforcing its longstanding commitment to safeguarding sensitive healthcare and financial data through rigorous information security standards.",
+      "published_at": "2025-11-12T20:59:00+00:00",
+      "created_at": "2025-11-13T03:10:08.151577+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2f20368b-ac2f-485f-9509-068f206765a3",
+      "source": "Finnhub",
+      "title": "Groww raises nearly $750M in IPO as India’s retail investing boom continues",
+      "url": "https://finnhub.io/api/news?id=67e6e760bfe99a52c5ddca13bf4074f4854ce434cb6bf5f40e83b0dbedc7536c",
+      "content": "The company's shares opened 12% above their issue price, at ₹112, and closed at ₹128.85, lending it a market cap of ₹795 billion (approximately $9 billion).",
+      "published_at": "2025-11-12T20:40:06+00:00",
+      "created_at": "2025-11-13T03:10:08.320131+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4ae4de8b-7e2e-474c-a66c-5d4b439315c4",
+      "source": "Finnhub",
+      "title": "I'm Pressing Pause On IonQ (Downgrade) And Loading Up On QTUM Instead",
+      "url": "https://finnhub.io/api/news?id=5c524a3fc2b3550c87a2b1099664152781dd9ac624c1ddca2f3e880c71d625e0",
+      "content": "Discover investment insights on IonQâs quantum computing growth and the QTUM ETF.",
+      "published_at": "2025-11-12T20:32:55+00:00",
+      "created_at": "2025-11-13T03:10:08.482348+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2219372965/image_2219372965.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "375cb00d-8a4c-4a72-9de7-2428a734e0f2",
+      "source": "Finnhub",
+      "title": "The $400 Billion AI Boom That Just Supercharged This Apple Supplier's Stock",
+      "url": "https://finnhub.io/api/news?id=dae1b06a7e3c9a5fe10cd89e6ea79d4854522d22a3256f8ccb01a0f0779bd159",
+      "content": "Hon Hai's Nvidia-powered server surge is rewriting the playbook--just as tech giants double down on AI spending.",
+      "published_at": "2025-11-12T19:50:43+00:00",
+      "created_at": "2025-11-13T03:10:08.644046+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    }
+  ]
+}

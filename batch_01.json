@@ -1,0 +1,347 @@
+{
+  "agent_id": 1,
+  "total_agents": 20,
+  "news_count": 20,
+  "news": [
+    {
+      "id": "db1f6a53-f77f-4e37-979a-baa378f6497f",
+      "source": "Finnhub",
+      "title": "November Technology Portfolio Launches With Insights From Apple, PepsiCo, Vodafone, and Johnson Controls",
+      "url": "https://finnhub.io/api/news?id=3f667adbec55f630d956b2098168c673a3baa80291023c07a38559aa85f03b5c",
+      "content": "The November editions of BizClik’s Technology portfolio are now live, featuring fresh insights from AI Magazine, Technology Magazine, Telco Magazine and Data Centre Magazine. This month’s issues spotlight global leaders, breakthrough technologies and the strategies shaping the future of AI, data and digital infrastructure. London - 11 November 2025 - BizClik, a global B2B media and events company, has released the latest magazine editions of its Technology portfolio, featuring: Technology Magazi",
+      "published_at": "2025-11-12T00:00:00+00:00",
+      "created_at": "2025-11-12T14:27:11.98722+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "53fa8619-85c6-4e90-bb33-13e2ec1a5b8c",
+      "source": "Finnhub",
+      "title": "Strifor Launches Rewards Program Recognizing Top IB Performers",
+      "url": "https://finnhub.io/api/news?id=1ee8416f22d5f487e0490e71c48837f27a1bd8b6206492a523114a5f2907f186",
+      "content": "Strifor Launches Rewards Program Recognizing Top IB Performers Strifor Launches Rewards Program Recognizing Top IB Performers The licensed broker introduces a premium prize initiative to reward introducing brokers for outstanding results and strengthen long-term collaboration. PORT LOUIS, Mauritius, Nov. 11, 2025 (GLOBE NEWSWIRE) -- Strifor has announced the launch of a new rewards program for its Introducing Broker (IB) partners. The initiative is designed to thank the most active partners for",
+      "published_at": "2025-11-11T21:00:00+00:00",
+      "created_at": "2025-11-12T14:27:13.563195+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "1512273e-77b5-4c0a-a072-fde377da83ff",
+      "source": "Finnhub",
+      "title": "UK unemployment hits four-year high ahead of autumn budget",
+      "url": "https://finnhub.io/api/news?id=9ac049f0d330e8b816c7a41a3b6c51c9170a454585a3e2e209e573d23fa56c8d",
+      "content": "The rate of UK unemployment was estimated to be at 5% in July to September, up from 4.8% in the previous three month period.",
+      "published_at": "2025-11-11T15:36:18+00:00",
+      "created_at": "2025-11-12T14:27:16.906583+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "c9d495d9-9a6d-427e-9677-d66fbe8cba00",
+      "source": "Finnhub",
+      "title": "Xinhua Silk Road: Conference exploring future paths of asset management held in E. China urban district",
+      "url": "https://finnhub.io/api/news?id=d4ee85aee967ca208254522eccbdbbe423edd440c3bf2ba8afa1e85b82236595",
+      "content": "The Global Asset Management Forum 2025 Shanghai Suhewan Conference was recently held in Jing'an District, Shanghai, focusing on exploring the future development paths of the asset management industry.",
+      "published_at": "2025-11-11T14:45:00+00:00",
+      "created_at": "2025-11-12T14:27:17.651195+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "40dafd31-7eaf-460a-aaa3-2b4c528a3e5a",
+      "source": "Finnhub",
+      "title": "How to plan for a 30-year retirement (and why you may have to)",
+      "url": "https://finnhub.io/api/news?id=9072b010f25a58bf79d163c2364cda4714b59dcdacf10cbab339bb94154506c9",
+      "content": "With more of us living longer, we risk leaving ourselves short in retirement – it pays to start planning as early as possible.",
+      "published_at": "2025-11-11T14:00:26+00:00",
+      "created_at": "2025-11-12T14:27:18.054913+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4ae7d613-7247-4ce6-8bd3-0e4a27067c00",
+      "source": "Finnhub",
+      "title": "15 ways to save money when you're single",
+      "url": "https://finnhub.io/api/news?id=68fcdbd38d69b032e9b2747ff3db5ba613f61c5e809bc4a1dacf121b9ef4d6d5",
+      "content": "Life is more expensive when you live on your own because you have to pay all the bills and face the 'single tax' of paying extra for things you can’t share.",
+      "published_at": "2025-11-11T14:00:11+00:00",
+      "created_at": "2025-11-12T14:27:18.423334+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "d61e3dc6-6220-4015-9f3a-0537ffca6df4",
+      "source": "Finnhub",
+      "title": "UK retail sales subdued in October as shoppers hold off for Black Friday deals",
+      "url": "https://finnhub.io/api/news?id=7c03ea1174c1f3c79c5721d3b074374773654895b44e674c1ce639819bdd0b5d",
+      "content": "UK retail sales saw their weakest growth since May last month, as consumers appeared to hold off on spending for Black Friday deals.",
+      "published_at": "2025-11-11T14:00:02+00:00",
+      "created_at": "2025-11-12T14:27:18.79822+00:00",
+      "symbols": [
+        "AAPL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "5f2686dc-3819-4f59-abbc-052f1192e0cd",
+      "source": "Finnhub",
+      "title": "Anthropic to spend $50 billion on US data center buildout",
+      "url": "https://finnhub.io/api/news?id=c968ba989c05c7556accbc454990d8b5174d00ccc985d583c621c02b8986bb51",
+      "content": "Anthropic plans to spend $50 billion building data centers in New York and Texas.",
+      "published_at": "2025-11-12T23:56:05+00:00",
+      "created_at": "2025-11-13T03:10:10.706865+00:00",
+      "symbols": [
+        "GOOGL"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "e84d3528-d36b-4651-9d8a-8e40350c382c",
+      "source": "Finnhub",
+      "title": "Spin.AI Expands SSPM Platform Coverage to 25+ Leading Business Applications",
+      "url": "https://finnhub.io/api/news?id=70a8e65fe38df3d61a939d99ab87b27f5b7e4eabea65ac2aacbcb2ab89a70339",
+      "content": "Palo Alto, California--(Newsfile Corp. - November 11, 2025) - Spin Technology, Inc. (Spin.AI), a leading SaaS security company, announces a significant expansion of its SpinSPM platform, now providing comprehensive security posture management across 25+ mission-critical business applications. The expansion addresses the growing challenge organizations face in maintaining consistent security standards across increasingly complex SaaS environments.Image 1To view an enhanced version of this...",
+      "published_at": "2025-11-12T01:20:00+00:00",
+      "created_at": "2025-11-12T14:27:21.166524+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "b078c395-db1a-4507-8f5e-2ebb122f4eff",
+      "source": "Finnhub",
+      "title": "Could Buying Tesla Today Set You Up for Life?",
+      "url": "https://finnhub.io/api/news?id=a23923ae469a0cf804bc8cd9d98d38f950b5b700412143de26bd745e481f2ac2",
+      "content": "Tesla is less risky than you might think.",
+      "published_at": "2025-11-12T09:12:00+00:00",
+      "created_at": "2025-11-13T03:10:24.786806+00:00",
+      "symbols": [
+        "TSLA"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "84723ed9-7b7a-454d-a784-f6b01b9b5874",
+      "source": "Finnhub",
+      "title": "Steve Cohen's AI Fund Just Scored 30% Gains--While Wall Street's Tech Darlings Start to Cool",
+      "url": "https://finnhub.io/api/news?id=4e3ca4119fe53c44f8691d108b25a05ca3d362af985912ecb74550ace6a7d6b3",
+      "content": "Point72's $3B Turion Fund is quietly crushing 2025, betting on both winners and losers of the AI hardware boom.",
+      "published_at": "2025-11-11T23:32:50+00:00",
+      "created_at": "2025-11-12T14:27:25.331688+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "aab402b1-51da-46c9-a05e-079be16ca945",
+      "source": "Finnhub",
+      "title": "What Is One of the Best Tech Stocks to Own for the Next 5 Years?",
+      "url": "https://finnhub.io/api/news?id=6ff563a312945bcfb815287766c37b454459874d0a256c75489d0b235e668773",
+      "content": "This well-known computing brand can help you profit off of the next industrial revolution.",
+      "published_at": "2025-11-11T23:06:33+00:00",
+      "created_at": "2025-11-12T14:27:26.055224+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "a34be073-8d23-4ded-bb09-3c032f60d2a5",
+      "source": "Finnhub",
+      "title": "Exclusive: AI won’t become a bubble as long as everyone stays ‘thoughtful and disciplined,’ Microsoft’s Brad Smith says",
+      "url": "https://finnhub.io/api/news?id=665d6897d302010bff502a7e181b8dd6dad02cfbfe9dbe419c2cff7df639c886",
+      "content": "Other than that, \"we feel good about the investments we've made,\" Smith said.",
+      "published_at": "2025-11-11T20:33:21+00:00",
+      "created_at": "2025-11-12T14:27:28.984313+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+        "source": "Yahoo",
+        "category": "company"
+      }
+    },
+    {
+      "id": "4b5e4549-3a40-426d-9780-91e1f402bb48",
+      "source": "Finnhub",
+      "title": "Rigetti Computing: Rating Downgrade Driven By Overheated Valuation",
+      "url": "https://finnhub.io/api/news?id=2a25237e6fd8dba5eae260ce507bad9ed5fba9a6076f4bd06ee3cb5408e0b74b",
+      "content": "Rigetti Computing, Inc. is downgraded to Sell as the risk profile is high given current financials and valuation levels. Read more on RGTI stock here.",
+      "published_at": "2025-11-11T20:07:54+00:00",
+      "created_at": "2025-11-12T14:27:29.707342+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1908921115/image_1908921115.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "d3e84ca1-815b-4b42-b139-42def26eeab9",
+      "source": "Finnhub",
+      "title": "Nebius Q3 2025 Earnings Confirm 3 Fundamental Strengths Against CoreWeave",
+      "url": "https://finnhub.io/api/news?id=cec616d26ebd1f7b7a6c6683fcb23dcfbd8c1b347dc49f03f68da43a43bceef8",
+      "content": "Nebius Group N.V.'s strong Q3 earnings, major tech partnerships, and disciplined strategy drive growth and margins in the neocloud sector. Click for my NBIS update.",
+      "published_at": "2025-11-11T18:15:07+00:00",
+      "created_at": "2025-11-12T14:27:30.078794+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2230807736/image_2230807736.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "98961d2f-a08c-47b3-a1ff-cfa68a26cb1c",
+      "source": "Finnhub",
+      "title": "Marvell: Amazon & Microsoft Tailwinds Ahead - Custom AI Monetization Grows",
+      "url": "https://finnhub.io/api/news?id=59105dbf160d4c052773f2c775a795c6f192f0c273a67d24ccb0491e31575064",
+      "content": "MRVL has benefited from the ongoing AI boom, as AMZN reveals that more than half of a key AWS cloud service .",
+      "published_at": "2025-11-11T17:30:00+00:00",
+      "created_at": "2025-11-12T14:27:30.607273+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2161301983/image_2161301983.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "2755c6d6-7f8e-4a2d-88bb-bc2b126181c4",
+      "source": "Finnhub",
+      "title": "Microsoft: Why You'll Regret Selling Now (It's Not What You Think)",
+      "url": "https://finnhub.io/api/news?id=5bd593c6b5ca5bc0ec8539fd7a3c3ee6acac42ca0d81bde3660e461bd3fab757",
+      "content": "Microsoft Corporation's strong Q1 FY'26 results and robust AI growth offer a compelling 'Strong Buy' case. Click for my updated look at MSFT post earnings.",
+      "published_at": "2025-11-11T17:22:24+00:00",
+      "created_at": "2025-11-12T14:27:30.986128+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1729779122/image_1729779122.jpg?io=getty-c-w1536",
+        "source": "SeekingAlpha",
+        "category": "company"
+      }
+    },
+    {
+      "id": "6dda4ede-2378-4fe2-92db-5eb734487ad9",
+      "source": "Finnhub",
+      "title": "Paramount cuts costs, SoftBank sells its Nvidia stake, Warren Buffett's new tradition and more in Morning Squawk",
+      "url": "https://finnhub.io/api/news?id=0e0a03767725370954d015e6cc211aaebb6e334838db7144777412b411581336",
+      "content": "Here are five key things investors need to know to start the trading day.",
+      "published_at": "2025-11-11T16:01:56+00:00",
+      "created_at": "2025-11-12T14:27:31.339057+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/108223737-17627966742025-11-10t174234z_65768964_rc2rthab6b5f_rtrmadp_0_usa-stocks.jpeg?v=1762796879&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "902608f1-1a30-4d16-97f3-9d8c276211c8",
+      "source": "Finnhub",
+      "title": "AI spending is not all equal. Wall Street rewards hyperscalers, punishes DoorDash and Duolingo",
+      "url": "https://finnhub.io/api/news?id=6479539d136adfec0a5385fc0ddf6d49876ae37a761ae2b4c3a89824debf48a6",
+      "content": "While hyperscalers are getting rewarded for their big spending plans, smaller companies are getting punished by investors.",
+      "published_at": "2025-11-11T15:30:01+00:00",
+      "created_at": "2025-11-12T14:27:31.704674+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/108223810-1762801763228-Untitled-3.jpg?v=1762801921&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    },
+    {
+      "id": "80e081da-4cf8-4b6f-a646-5fd6875028e9",
+      "source": "Finnhub",
+      "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+      "url": "https://finnhub.io/api/news?id=ed2486197c427e6857e6b09f303928eedcdfcf3e45cfe8998b4763c56958af3f",
+      "content": "Investors piled back into artificial intelligence names on Monday stateside. \"AI-related stocks should drive equity markets,\" an analyst said.",
+      "published_at": "2025-11-11T10:30:01+00:00",
+      "created_at": "2025-11-12T14:27:32.063309+00:00",
+      "symbols": [
+        "MSFT"
+      ],
+      "metadata": {
+        "image": "https://image.cnbcfm.com/api/v1/image/108223734-17627966742025-11-10t174339z_1007769021_rc2pthaj8llu_rtrmadp_0_usa-stocks.jpeg?v=1762796879&w=1920&h=1080",
+        "source": "CNBC",
+        "category": "company"
+      }
+    }
+  ]
+}
