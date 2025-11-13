@@ -1,0 +1,153 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║             🎯 QUICK REFERENCE: THREE-TIER ARTICLE GENERATION              ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+┌─ TIER 1: PRIMARY (HIGH-IMPACT) ─────────────────────────────────────────────┐
+│                                                                              │
+│ Criteria:      High-importance news ≥ 3                                     │
+│ Symbols:       13 symbols                                                   │
+│ Frequency:     Weekly (2-3 articles/week)                                   │
+│ Auto-generate: YES                                                          │
+│                                                                              │
+│ Symbols: MSFT, NVDA, AAPL, GOOGL, AMZN, TSLA, META,                       │
+│          GOOG, NBIS, BRK.B, AMD, WMT, SPY                                  │
+│                                                                              │
+│ Command:       python main.py --mode generate --tier tier_1                │
+│                                                                              │
+│ Expected:      ~52 articles/month (13 × 4 weeks)                           │
+│ Time:          5 min auto + 130 min manual (~2.5 hours per run)            │
+│ Cost:          $0/month                                                     │
+│                                                                              │
+└────────────────────────────────────────────────────────────────────────────┘
+
+┌─ TIER 2: SECONDARY (DEEP ANALYSIS) ────────────────────────────────────────┐
+│                                                                              │
+│ Criteria:      News ≥ 3 AND Score ≥ 75%                                    │
+│ Symbols:       18 total (13 Tier 1 + 5 additional)                         │
+│ Frequency:     Semi-weekly (4-5 articles/week)                             │
+│ Auto-generate: YES                                                          │
+│                                                                              │
+│ Additional:    AVGO, TSM, CORW, INTC, RGTI                                 │
+│                                                                              │
+│ Command:       python main.py --mode generate --tier tier_2                │
+│                                                                              │
+│ Expected:      ~72 articles/month (18 × 4 weeks)                           │
+│ Time:          5 min auto + 180 min manual (~3 hours per run)              │
+│ Cost:          $0/month                                                     │
+│ Launch:        1-2 months after Tier 1 stabilization                       │
+│                                                                              │
+└────────────────────────────────────────────────────────────────────────────┘
+
+┌─ TIER 3: TREND (MONTHLY REPORT) ───────────────────────────────────────────┐
+│                                                                              │
+│ Criteria:      Top 15 symbols (dynamic, changes monthly)                    │
+│ Symbols:       15 symbols (trending)                                        │
+│ Frequency:     Monthly (1 comprehensive report)                             │
+│ Auto-generate: NO (manual review)                                           │
+│                                                                              │
+│ Selection:     Dynamic based on news volume and relevance                   │
+│                                                                              │
+│ Command:       python main.py --mode generate --tier tier_3                │
+│                                                                              │
+│ Expected:      ~15 articles/month (1 comprehensive report)                  │
+│ Time:          5 min auto + 150 min manual (~2.5 hours)                    │
+│ Cost:          $0/month                                                     │
+│ Launch:        3 months after Tier 1 stabilization                         │
+│                                                                              │
+└────────────────────────────────────────────────────────────────────────────┘
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                         📋 DAILY CHECKLIST                                 ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+MORNING (10:00 AM)
+  ☐ python main.py --mode collect          (5 min - collect news)
+  ☐ python main.py --mode analyze          (5 min - analyze collected news)
+  ☐ python main.py --mode generate --tier tier_1  (1 min - generate prompts)
+
+AFTERNOON (1:00 PM - 3:00 PM)
+  ☐ Claude Code: Write articles            (1.5 hours for 13 symbols)
+  ☐ Save files to articles/ directory      (Claude Code task)
+
+EVENING (4:00 PM)
+  ☐ python scripts/publish_articles.py articles/*  (1 min - save to DB)
+
+TOTAL TIME: ~2.5 hours/day (mostly automated + manual writing)
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                      📊 PERFORMANCE OVERVIEW                               ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+CONTENT VOLUME
+├─ Tier 1: 52 articles/month
+├─ Tier 2: 72 articles/month (with Tier 1)
+├─ Tier 3: 15 articles/month (plus Tiers 1-2)
+└─ Combined: 139 articles/month (at full scale)
+
+TIME INVESTMENT
+├─ Auto: 15-20 min/day
+├─ Manual: 2-3 hours/day
+└─ Total: ~20-25 hours/month
+
+COST BREAKDOWN
+├─ Claude API: $0/month (Claude Code Pro)
+├─ Supabase: $0/month (free tier)
+├─ News APIs: $0/month (free)
+└─ Total: $0/month
+
+QUALITY METRICS
+├─ Relevance Score: 70-90 (filtered)
+├─ News Items/Article: 5 (structured)
+├─ Article Length: 1,500-2,000 words
+└─ Publication Rate: Daily
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   🚀 COMMAND REFERENCE                                     ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+GENERATION
+  python main.py --mode generate --tier tier_1    ← Most common (13 symbols)
+  python main.py --mode generate --tier tier_2    ← Expanded (18 symbols)
+  python main.py --mode generate --tier tier_3    ← Trend report (15 symbols)
+
+COLLECTION & ANALYSIS
+  python main.py --mode collect                   ← Collect from news sources
+  python main.py --mode analyze                   ← Analyze with Claude Code
+  python main.py --mode once                      ← Run all jobs once
+
+UTILITIES
+  python scripts/get_trending.py                  ← Show top symbols
+  python scripts/publish_articles.py articles/*   ← Save to database
+  python scripts/save_analysis.py <json_file>     ← Save analysis results
+
+MONITORING
+  git log --oneline -10                           ← Recent commits
+  ls -lh prompts/                                 ← Generated prompts
+  ls -lh articles/                                ← Written articles
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                        📍 IMPORTANT NOTES                                  ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+1. All commands use --tier parameter (default: tier_1)
+
+2. Prompts are saved to prompts/article_*.md with timestamps
+
+3. Write articles in articles/ directory and use format:
+   articles/article_SYMBOL_YYYYMMDD_HHMM.md
+
+4. Each prompt contains 5 news items with full context
+
+5. For Claude Code: Copy entire prompt file content into the chat
+
+6. Cost remains $0 when using Claude Code (vs. ~$100/month with API)
+
+7. Quality improves with consistent Tier 1 operation before adding Tier 2
+
+8. Monthly review recommended to adjust criteria if needed
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Version: 1.0 (2025-11-13)
+Status: ✅ Production Ready
+Documentation: See TIER_ARTICLE_GENERATION.md for complete guide
