@@ -12,6 +12,7 @@ from analyzers import AnalysisPipeline
 from writers import ArticleGenerator
 from dashboard import SignalAPI
 from alerts import EmailAlertService
+from alerts.telegram_alerts import TelegramAlertService
 from blogger import ArticleQueueManager
 from config.settings import (
     NEWS_COLLECTION_INTERVAL,
@@ -35,12 +36,16 @@ class JobScheduler:
         # 신호 대시보드 초기화 (프롬프트 기반 분석)
         self.signal_api = SignalAPI()
         self.email_service = EmailAlertService()
+        self.telegram_service = TelegramAlertService()
         self.queue_manager = ArticleQueueManager()
 
         # 알림 수신자 (환경 변수에서 로드)
         self.alert_recipients = os.getenv("ALERT_RECIPIENTS", "").split(",") if os.getenv("ALERT_RECIPIENTS") else []
+        self.telegram_chat_ids = os.getenv("TELEGRAM_CHAT_IDS", "").split(",") if os.getenv("TELEGRAM_CHAT_IDS") else []
 
         logger.info("Job scheduler initialized (Claude Code + Local Analysis Mode)")
+        if self.telegram_chat_ids:
+            logger.info(f"✅ Telegram alerts enabled for {len(self.telegram_chat_ids)} chat(s)")
 
     def collect_news_job(self):
         """뉴스 수집 작업"""
@@ -112,22 +117,42 @@ class JobScheduler:
             logger.error(f"Check prompts job error: {e}")
 
     def send_daily_digest_job(self):
-        """일일 요약 이메일 발송"""
+        """일일 요약 이메일 & 텔레그램 발송"""
         logger.info("=== Starting daily digest job ===")
 
-        if not self.alert_recipients:
-            logger.warning("No alert recipients configured - skipping email digest")
-            return
+        email_sent = False
+        telegram_sent = False
 
-        try:
-            success = self.email_service.send_daily_digest(self.alert_recipients, hours=24)
-            if success:
-                logger.info("=== Daily digest sent successfully ===")
-            else:
-                logger.warning("Failed to send daily digest")
+        # 이메일 발송
+        if self.alert_recipients:
+            try:
+                email_sent = self.email_service.send_daily_digest(self.alert_recipients, hours=24)
+                if email_sent:
+                    logger.info("✅ Daily digest email sent successfully")
+                else:
+                    logger.warning("⚠️ Failed to send daily digest email")
+            except Exception as e:
+                logger.error(f"Email digest job error: {e}")
+        else:
+            logger.debug("No email recipients configured")
 
-        except Exception as e:
-            logger.error(f"Daily digest job error: {e}")
+        # 텔레그램 발송
+        if self.telegram_chat_ids:
+            try:
+                telegram_sent = self.telegram_service.send_daily_digest(self.telegram_chat_ids, hours=24)
+                if telegram_sent:
+                    logger.info("✅ Daily digest Telegram sent successfully")
+                else:
+                    logger.warning("⚠️ Failed to send daily digest Telegram")
+            except Exception as e:
+                logger.error(f"Telegram digest job error: {e}")
+        else:
+            logger.debug("No Telegram chat IDs configured")
+
+        if email_sent or telegram_sent:
+            logger.info("=== Daily digest job completed ===")
+        else:
+            logger.warning("=== No digest sent (no recipients configured) ===")
 
     def send_blog_recommendations_job(self):
         """블로거 글쓰기 추천 업데이트"""

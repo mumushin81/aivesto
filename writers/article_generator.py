@@ -7,6 +7,7 @@ from pathlib import Path
 sys.path.append('..')
 from database.supabase_client import SupabaseClient
 from database.models import PublishedArticle
+from writers.article_formatter import ArticleFormatter
 
 class ArticleGenerator:
     """Claude Code를 사용한 블로그 글 생성 (프롬프트 방식)"""
@@ -15,7 +16,9 @@ class ArticleGenerator:
         self.db = db_client
         self.prompts_dir = Path("prompts")
         self.prompts_dir.mkdir(exist_ok=True)
+        self.formatter = ArticleFormatter()
         logger.info("Article generator initialized with Claude Code mode")
+        logger.info("✅ Article quality validation enabled")
 
     def generate_article(self, symbol: str, max_news: int = 5) -> Optional[str]:
         """특정 종목에 대한 블로그 글 작성 프롬프트 생성"""
@@ -51,13 +54,36 @@ class ArticleGenerator:
         return None
 
     def load_article_from_file(self, article_file: str, news_items: List[Dict]) -> Optional[str]:
-        """Claude Code에서 작성한 글을 데이터베이스에 저장"""
+        """Claude Code에서 작성한 글을 데이터베이스에 저장 (품질 검증 포함)"""
         try:
             with open(article_file, 'r', encoding='utf-8') as f:
                 content = f.read()
 
+            # 종목 코드 추출 (파일명에서)
+            symbol = self._extract_symbol_from_filename(article_file)
+
+            # 📊 품질 검증 및 자동 수정
+            validation_result = self.formatter.validate_and_fix(content, symbol)
+
+            logger.info(f"📋 Quality validation for {article_file}:")
+            logger.info(f"   Original score: {validation_result['original_score']}/100")
+            logger.info(f"   Fixed score: {validation_result['fixed_score']}/100")
+
+            if validation_result['issues']:
+                logger.warning(f"   Issues found: {len(validation_result['issues'])}")
+                for issue in validation_result['issues']:
+                    logger.warning(f"   - {issue}")
+
+            if validation_result['fixes_applied']:
+                logger.info(f"   Fixes applied: {len(validation_result['fixes_applied'])}")
+                for fix in validation_result['fixes_applied']:
+                    logger.info(f"   - {fix}")
+
+            # 수정된 콘텐츠 사용
+            fixed_content = validation_result['fixed_content']
+
             # 제목과 본문 분리
-            article_data = self._parse_article_response(content)
+            article_data = self._parse_article_response(fixed_content)
 
             if not article_data:
                 return None
@@ -74,7 +100,7 @@ class ArticleGenerator:
             article_id = self.db.insert_published_article(published_article)
 
             if article_id:
-                logger.info(f"✅ Article saved: {article_data['title']}")
+                logger.info(f"✅ Article saved: {article_data['title']} (Quality: {validation_result['fixed_score']}/100)")
                 return article_id
 
         except Exception as e:
@@ -236,14 +262,48 @@ Q&A 형식으로 5-7개 질문에 답변:
 - 면책: "투자 조언이 아닙니다" 반드시 포함
 
 ================================================================================
-📋 최종 형식
+📋 최종 형식 (⚠️ 필수)
 ================================================================================
 
+반드시 아래 형식을 정확히 따르세요. 자동 검증 시스템에서 확인합니다.
+
+```
 TITLE:
 [클릭 유도적인 제목 60자 이내]
 
 CONTENT:
-[전체 본문 - 위의 필수 구성 1-11 포함, 마크다운 형식]
+[전체 본문 - 아래 모든 요구사항 충족]
+```
+
+================================================================================
+✅ 품질 요구사항 (자동 검증)
+================================================================================
+
+이 글은 다음 기준으로 자동 검증됩니다. 모두 충족해야 합니다:
+
+1️⃣ **파일 형식** (필수)
+   ✓ TITLE: / CONTENT: 구조 사용
+   ✓ 전체 마크다운 형식
+   ✓ 제목은 TITLE: 바로 뒤에 한 줄
+
+2️⃣ **필수 섹션** (반드시 포함)
+   ✓ "### 무슨 일이 일어났나" - 뉴스 사건 설명
+   ✓ "### 왜 주가에 영향을 주는가" - 시장 영향 분석
+   ✓ 위 두 섹션은 본문 중간에 위치해야 함
+
+3️⃣ **한국어 비율** (최소 70%)
+   ✓ 전체 본문의 70% 이상은 한국어여야 함
+   ✓ 영문 약자는 한국어 설명 병행
+   ✓ 예) "AI(인공지능)", "P/E(주가수익비율)"
+
+4️⃣ **내부 링크** (2-5개)
+   ✓ 마크다운 링크 형식: [텍스트](./articles/파일명.md)
+   ✓ 관련 기사를 본문 또는 마지막에 링크
+   ✓ 최소 2개, 최대 5개
+
+5️⃣ **내용 길이** (최소 500자)
+   ✓ 본문의 실제 한글 문자가 500자 이상
+   ✓ 마크다운 기호나 링크는 제외
 
 ================================================================================
 ⚠️ 금지 사항
@@ -256,13 +316,20 @@ CONTENT:
 - 너무 긴 단락 (200자 초과)
 - 단조로운 문장 (표, 리스트, 강조로 시각화)
 - 정치, 종교, 윤리 논쟁 (투자 글에만 집중)
+- TITLE: / CONTENT: 형식 누락
 
 ================================================================================
 
 지금 시작하세요. 글을 작성한 후 위의 형식 (TITLE: / CONTENT:)로 결과를 제시해주세요.
 
-참고: 이 글은 구글, Claude, ChatGPT, Gemini 등 모든 검색 엔진에서 최상위에
-노출되도록 설계되었습니다. 각 부분의 역할을 이해하고 신중하게 작성해주세요.
+📝 **중요**: 자동 검증 시스템이 다음을 확인합니다:
+   • 파일 형식 (TITLE: / CONTENT:)
+   • 필수 섹션 포함 (무슨 일이/왜 주가에)
+   • 한국어 비율 70% 이상
+   • 내부 링크 2-5개
+   • 내용 길이 500자 이상
+
+모든 요구사항을 충족하지 않으면 점수 감점과 자동 수정이 적용됩니다.
 """
 
     def _parse_article_response(self, response_text: str) -> Optional[Dict]:
@@ -391,3 +458,12 @@ CONTENT:
         # 간단히 제목에서 추출
         tags = ['Stock News', 'US Market', 'Investment']
         return tags
+
+    def _extract_symbol_from_filename(self, filename: str) -> Optional[str]:
+        """파일명에서 종목 코드 추출"""
+        import re
+        # article_AAPL_description_20251112.md -> AAPL
+        match = re.search(r'article_([A-Z]+)_', filename)
+        if match:
+            return match.group(1)
+        return None
