@@ -4,36 +4,21 @@ from loguru import logger
 import sys
 from datetime import datetime
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import os
 
 sys.path.append('..')
-from config.settings import MIN_RELEVANCE_SCORE, ANTHROPIC_API_KEY
+from config.settings import MIN_RELEVANCE_SCORE
 from database.models import AnalyzedNews, PriceImpact, Importance
 
-try:
-    from anthropic import Anthropic
-    CLAUDE_AVAILABLE = True
-except ImportError:
-    CLAUDE_AVAILABLE = False
-    logger.warning("Anthropic API not available - falling back to prompt generation mode")
-
 class RelevanceAnalyzer:
-    """자동 뉴스 분석 및 투자 시그널 분류 시스템"""
+    """뉴스 관련성 분석 (프롬프트 기반 - Claude Code 사용)"""
 
     def __init__(self):
-        self.prompts_dir = Path("prompts")
-        self.prompts_dir.mkdir(exist_ok=True)
+        self.prompts_dir = Path("prompts/analysis")
+        self.results_dir = Path("prompts/results")
+        self.prompts_dir.mkdir(parents=True, exist_ok=True)
+        self.results_dir.mkdir(parents=True, exist_ok=True)
 
-        # Claude API 초기화
-        if CLAUDE_AVAILABLE and ANTHROPIC_API_KEY:
-            self.client = Anthropic(api_key=ANTHROPIC_API_KEY)
-            self.auto_analyze = True
-            logger.info("Relevance analyzer initialized with Claude API (automatic mode)")
-        else:
-            self.client = None
-            self.auto_analyze = False
-            logger.info("Relevance analyzer initialized with prompt generation mode (manual analysis)")
+        logger.info("Relevance analyzer initialized (Prompt-based mode - Claude Code)")
 
     def analyze_news(self, news_data: Dict) -> Dict:
         """뉴스 분석 프롬프트 생성 (수동 분석용)"""
@@ -171,94 +156,23 @@ class RelevanceAnalyzer:
 
         return None
 
-    def batch_analyze(self, news_list: List[Dict], batch_size: int = 10, max_workers: int = 5) -> List[Dict]:
-        """여러 뉴스 자동 분석 (Claude API 활용)"""
-        if not self.auto_analyze:
-            logger.info(f"📝 Generating analysis prompts for {len(news_list)} news items (manual mode)...")
-            for news in news_list:
-                self.analyze_news(news)
-            logger.info(f"✅ All prompts generated in prompts/ directory")
-            return []
+    def batch_analyze(self, news_list: List[Dict], batch_size: int = 5) -> List[Dict]:
+        """📝 뉴스 분석 프롬프트 일괄 생성 (Claude Code가 분석)"""
+        logger.info(f"📝 Generating analysis prompts for {len(news_list)} news items...")
 
-        logger.info(f"🤖 Starting automated analysis for {len(news_list)} news items...")
-        results = []
+        prompt_files = []
+        for i, news in enumerate(news_list, 1):
+            try:
+                prompt_file = self.analyze_news(news)
+                if prompt_file:
+                    prompt_files.append(prompt_file)
+                logger.info(f"   [{i}/{len(news_list)}] {news.get('title', 'Unknown')[:50]}")
+            except Exception as e:
+                logger.error(f"Error generating prompt: {e}")
 
-        try:
-            # 병렬 처리를 위한 ThreadPoolExecutor
-            with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                future_to_news = {
-                    executor.submit(self._analyze_single_news_auto, news): news
-                    for news in news_list
-                }
+        logger.info(f"✅ Generated {len(prompt_files)} analysis prompts")
+        logger.info(f"📂 Location: {self.prompts_dir}/")
+        logger.info(f"\n💡 Next step: 각 프롬프트를 Claude Code에 입력하세요")
+        logger.info(f"   명령어: cat prompts/analysis/*.md | wc -l")
 
-                completed = 0
-                for future in as_completed(future_to_news):
-                    try:
-                        result = future.result()
-                        if result:
-                            results.append(result)
-                            completed += 1
-                    except Exception as e:
-                        logger.error(f"Error analyzing news: {e}")
-
-                logger.info(f"✅ Automated analysis completed: {completed}/{len(news_list)} items analyzed")
-
-        except Exception as e:
-            logger.error(f"Batch analysis error: {e}")
-
-        return results
-
-    def _analyze_single_news_auto(self, news_data: Dict) -> Dict:
-        """개별 뉴스 자동 분석"""
-        try:
-            title = news_data.get('title', '')
-            content = news_data.get('content', '')
-            existing_symbols = news_data.get('symbols', [])
-            news_id = news_data.get('id', 'unknown')
-
-            prompt = self._build_analysis_prompt(title, content, existing_symbols)
-
-            # Claude API로 분석
-            message = self.client.messages.create(
-                model="claude-3-5-sonnet-20241022",
-                max_tokens=500,
-                messages=[
-                    {"role": "user", "content": prompt}
-                ]
-            )
-
-            response_text = message.content[0].text
-
-            # 분석 결과 파싱
-            result = self._parse_response(response_text)
-            if result:
-                result['news_id'] = news_id
-                # 신호 레벨 계산
-                result['signal_level'] = self._calculate_signal_level(result)
-                return result
-
-            return None
-
-        except Exception as e:
-            logger.error(f"Error analyzing news {news_data.get('id')}: {e}")
-            return None
-
-    def _calculate_signal_level(self, analysis_result: Dict) -> int:
-        """투자 시그널 레벨 계산 (1-4)
-        Level 1: 매우 중요 (90+점) - 즉시 실행
-        Level 2: 높음 (80-89점) - 고려 필요
-        Level 3: 중간 (70-79점) - 모니터링
-        Level 4: 낮음 (70점 미만) - 참고용
-        """
-        score = analysis_result.get('relevance_score', 0)
-        importance = analysis_result.get('importance', 'low')
-
-        # 중요도와 점수 조합으로 레벨 결정
-        if score >= 90 or (score >= 85 and importance == 'high'):
-            return 1
-        elif score >= 80 or (score >= 75 and importance == 'high'):
-            return 2
-        elif score >= 70:
-            return 3
-        else:
-            return 4
+        return []  # 프롬프트 기반이므로 즉시 결과 없음

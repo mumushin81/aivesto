@@ -32,7 +32,7 @@ class JobScheduler:
         self.analyzer = AnalysisPipeline(self.db)
         self.writer = ArticleGenerator(self.db)
 
-        # 새로운 시스템 초기화
+        # 신호 대시보드 초기화 (프롬프트 기반 분석)
         self.signal_api = SignalAPI()
         self.email_service = EmailAlertService()
         self.queue_manager = ArticleQueueManager()
@@ -40,7 +40,7 @@ class JobScheduler:
         # 알림 수신자 (환경 변수에서 로드)
         self.alert_recipients = os.getenv("ALERT_RECIPIENTS", "").split(",") if os.getenv("ALERT_RECIPIENTS") else []
 
-        logger.info("Job scheduler initialized with signal API, email alerts, and article queue")
+        logger.info("Job scheduler initialized (Claude Code + Local Analysis Mode)")
 
     def collect_news_job(self):
         """뉴스 수집 작업"""
@@ -87,26 +87,29 @@ class JobScheduler:
         except Exception as e:
             logger.error(f"Cleanup job error: {e}")
 
-    def send_urgent_alerts_job(self):
-        """긴급 시그널 알림 발송 (Level 1)"""
-        logger.info("=== Starting urgent alerts job ===")
-
-        if not self.alert_recipients:
-            logger.warning("No alert recipients configured - skipping email alerts")
-            return
+    def check_analysis_prompts_job(self):
+        """📝 분석 프롬프트 생성 완료 확인"""
+        logger.info("=== Checking analysis prompts ===")
 
         try:
-            urgent_signals = self.signal_api.get_urgent_signals(hours=1, limit=5)
+            from pathlib import Path
+            prompts_dir = Path("prompts/analysis")
+            results_dir = Path("prompts/results")
 
-            if urgent_signals:
-                for signal in urgent_signals:
-                    self.email_service.send_urgent_alert(signal, self.alert_recipients)
-                logger.info(f"=== Sent {len(urgent_signals)} urgent alerts ===")
-            else:
-                logger.info("No urgent signals found")
+            if prompts_dir.exists():
+                prompts = list(prompts_dir.glob("*.md"))
+                results = list(results_dir.glob("*.json")) if results_dir.exists() else []
+
+                pending = len(prompts) - len(results)
+
+                if pending > 0:
+                    logger.info(f"📝 Pending analysis: {pending} prompts waiting for Claude Code")
+                    logger.info(f"   Generated: {len(prompts)} | Processed: {len(results)}")
+                else:
+                    logger.info(f"✅ All prompts processed ({len(results)} completed)")
 
         except Exception as e:
-            logger.error(f"Urgent alerts job error: {e}")
+            logger.error(f"Check prompts job error: {e}")
 
     def send_daily_digest_job(self):
         """일일 요약 이메일 발송"""
@@ -150,8 +153,8 @@ class JobScheduler:
         # 뉴스 분석: 30분마다
         schedule.every(ANALYSIS_INTERVAL // 60).minutes.do(self.analyze_news_job)
 
-        # 긴급 알림: 15분마다 (Level 1 신호 실시간 추적)
-        schedule.every(15).minutes.do(self.send_urgent_alerts_job)
+        # 분석 프롬프트 확인: 1시간마다 (Claude Code 처리 상황 확인)
+        schedule.every(60).minutes.do(self.check_analysis_prompts_job)
 
         # 블로그 추천: 1시간마다
         schedule.every(ARTICLE_GENERATION_INTERVAL // 60).minutes.do(self.send_blog_recommendations_job)
@@ -165,14 +168,20 @@ class JobScheduler:
         # 데이터 정리: 매일 새벽 3시
         schedule.every().day.at("03:00").do(self.cleanup_job)
 
-        logger.info("Schedule configured:")
+        logger.info("Schedule configured (Claude Code + Local Mode):")
         logger.info(f"  - News collection: every {NEWS_COLLECTION_INTERVAL // 60} minutes")
-        logger.info(f"  - News analysis: every {ANALYSIS_INTERVAL // 60} minutes")
-        logger.info(f"  - Urgent alerts: every 15 minutes")
+        logger.info(f"  - News analysis (prompt generation): every {ANALYSIS_INTERVAL // 60} minutes")
+        logger.info(f"  - Check prompts status: every 60 minutes")
         logger.info(f"  - Blog recommendations: every {ARTICLE_GENERATION_INTERVAL // 60} minutes")
-        logger.info(f"  - Article generation: every {ARTICLE_GENERATION_INTERVAL // 60} minutes")
+        logger.info(f"  - Article generation (prompt): every {ARTICLE_GENERATION_INTERVAL // 60} minutes")
         logger.info(f"  - Daily digest: daily at 09:00")
         logger.info(f"  - Cleanup: daily at 03:00")
+        logger.info("")
+        logger.info("💡 Workflow:")
+        logger.info("   1. System generates prompts (automatic)")
+        logger.info("   2. Claude Code analyzes & writes (manual)")
+        logger.info("   3. Results saved to database (manual)")
+        logger.info("   4. Dashboard updates (automatic)")
 
     def run_once(self):
         """모든 작업을 한 번 실행 (테스트용)"""
@@ -182,6 +191,12 @@ class JobScheduler:
         time.sleep(5)
 
         self.analyze_news_job()
+        time.sleep(5)
+
+        self.check_analysis_prompts_job()
+        time.sleep(5)
+
+        self.send_blog_recommendations_job()
         time.sleep(5)
 
         self.generate_articles_job()

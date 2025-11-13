@@ -19,9 +19,8 @@ pytz==2024.1
 # Logging
 loguru==0.7.2
 
-# AI & LLM
-anthropic==0.25.0
-
 # Web Framework (Dashboard)
 flask==3.0.0
 flask-cors==4.0.0
+
+# Note: anthropic NOT required (Claude Code used locally for analysis & writing)
