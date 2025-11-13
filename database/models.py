@@ -46,6 +46,7 @@ class AnalyzedNews:
     price_impact: PriceImpact
     importance: Importance
     analysis: Dict
+    signal_level: int = 4  # 1: Urgent(90+), 2: High(80-89), 3: Medium(70-79), 4: Low(<70)
     id: Optional[str] = None
     created_at: Optional[datetime] = None
 
@@ -56,7 +57,8 @@ class AnalyzedNews:
             "affected_symbols": self.affected_symbols,
             "price_impact": self.price_impact.value,
             "importance": self.importance.value,
-            "analysis": self.analysis
+            "analysis": self.analysis,
+            "signal_level": self.signal_level
         }
 
 @dataclass

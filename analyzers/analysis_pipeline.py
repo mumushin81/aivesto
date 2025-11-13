@@ -35,19 +35,23 @@ class AnalysisPipeline:
             for result in analysis_results:
                 analyzed_news = AnalyzedNews(
                     raw_news_id=result['news_id'],
-                    relevance_score=result['analysis']['relevance_score'],
-                    affected_symbols=result['analysis']['affected_symbols'],
-                    price_impact=result['analysis']['price_impact'],
-                    importance=result['analysis']['importance'],
+                    relevance_score=result['relevance_score'],
+                    affected_symbols=result['affected_symbols'],
+                    price_impact=result['price_impact'],
+                    importance=result['importance'],
+                    signal_level=result.get('signal_level', 4),  # 신호 레벨 포함
                     analysis={
-                        'reasoning': result['analysis']['reasoning'],
-                        'key_points': result['analysis']['key_points']
+                        'reasoning': result.get('reasoning', ''),
+                        'key_points': result.get('key_points', [])
                     }
                 )
 
                 news_id = self.db.insert_analyzed_news(analyzed_news)
                 if news_id:
                     saved_count += 1
+                    # 신호 레벨에 따라 로깅
+                    signal_name = {1: "🔴 URGENT", 2: "🟠 HIGH", 3: "🟡 MEDIUM", 4: "🟢 LOW"}
+                    logger.info(f"{signal_name.get(result.get('signal_level', 4), '?')} | {result['relevance_score']} points | {', '.join(result['affected_symbols'])}")
 
             logger.info(f"Analysis pipeline completed: {saved_count} news items analyzed and saved")
             return saved_count

@@ -183,3 +183,166 @@ class SupabaseClient:
         except Exception as e:
             logger.error(f"Failed to get recent articles: {e}")
             return []
+
+    # ==================== Investment Signal Dashboard Operations ====================
+
+    def get_signals_by_level(self, level: int, hours: int = 24, limit: int = 50) -> List[Dict]:
+        """신호 레벨별 조회"""
+        try:
+            cutoff_time = (datetime.now() - timedelta(hours=hours)).isoformat()
+
+            result = self.client.table("analyzed_news")\
+                .select("*, news_raw(*)")\
+                .eq("signal_level", level)\
+                .gte("created_at", cutoff_time)\
+                .order("relevance_score", desc=True)\
+                .limit(limit)\
+                .execute()
+
+            logger.info(f"Found {len(result.data)} signals at level {level}")
+            return result.data
+        except Exception as e:
+            logger.error(f"Failed to get signals by level: {e}")
+            return []
+
+    def get_signals_by_symbol(self, symbol: str, hours: int = 24, limit: int = 20) -> List[Dict]:
+        """종목별 신호 조회"""
+        try:
+            cutoff_time = (datetime.now() - timedelta(hours=hours)).isoformat()
+
+            result = self.client.table("analyzed_news")\
+                .select("*, news_raw(*)")\
+                .contains("affected_symbols", [symbol])\
+                .gte("created_at", cutoff_time)\
+                .order("signal_level", desc=True)\
+                .order("relevance_score", desc=True)\
+                .limit(limit)\
+                .execute()
+
+            logger.info(f"Found {len(result.data)} signals for {symbol}")
+            return result.data
+        except Exception as e:
+            logger.error(f"Failed to get signals for symbol: {e}")
+            return []
+
+    def get_trending_symbols(self, hours: int = 24, limit: int = 15) -> List[Dict]:
+        """트렌딩 종목 (가장 많은 시그널) 조회"""
+        try:
+            cutoff_time = (datetime.now() - timedelta(hours=hours)).isoformat()
+
+            # 최근 분석된 뉴스 가져오기
+            result = self.client.table("analyzed_news")\
+                .select("affected_symbols, relevance_score, signal_level, created_at")\
+                .gte("created_at", cutoff_time)\
+                .order("signal_level", desc=True)\
+                .order("relevance_score", desc=True)\
+                .execute()
+
+            # 종목별로 집계
+            symbol_stats = {}
+            for news in result.data:
+                for symbol in news.get("affected_symbols", []):
+                    if symbol not in symbol_stats:
+                        symbol_stats[symbol] = {
+                            "symbol": symbol,
+                            "count": 0,
+                            "avg_score": 0,
+                            "urgency_count": 0
+                        }
+                    symbol_stats[symbol]["count"] += 1
+                    symbol_stats[symbol]["avg_score"] += news.get("relevance_score", 0)
+                    if news.get("signal_level") == 1:
+                        symbol_stats[symbol]["urgency_count"] += 1
+
+            # 점수 평균 계산
+            for symbol in symbol_stats:
+                if symbol_stats[symbol]["count"] > 0:
+                    symbol_stats[symbol]["avg_score"] /= symbol_stats[symbol]["count"]
+
+            # 신호 개수 기준으로 정렬
+            trending = sorted(
+                symbol_stats.values(),
+                key=lambda x: (x["urgency_count"], x["count"], x["avg_score"]),
+                reverse=True
+            )[:limit]
+
+            logger.info(f"Found {len(trending)} trending symbols")
+            return trending
+
+        except Exception as e:
+            logger.error(f"Failed to get trending symbols: {e}")
+            return []
+
+    def get_price_impact_summary(self, hours: int = 24) -> Dict:
+        """가격 영향도 요약"""
+        try:
+            cutoff_time = (datetime.now() - timedelta(hours=hours)).isoformat()
+
+            result = self.client.table("analyzed_news")\
+                .select("price_impact")\
+                .gte("created_at", cutoff_time)\
+                .execute()
+
+            summary = {"up": 0, "down": 0, "neutral": 0}
+            for news in result.data:
+                impact = news.get("price_impact", "neutral")
+                if impact in summary:
+                    summary[impact] += 1
+
+            logger.info(f"Price impact summary: {summary}")
+            return summary
+
+        except Exception as e:
+            logger.error(f"Failed to get price impact summary: {e}")
+            return {"up": 0, "down": 0, "neutral": 0}
+
+    def get_important_symbols_today(self) -> List[Dict]:
+        """오늘 주목할 종목 (Level 1-2 신호 있는 종목)"""
+        try:
+            cutoff_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0).isoformat()
+
+            result = self.client.table("analyzed_news")\
+                .select("affected_symbols, signal_level, relevance_score")\
+                .gte("created_at", cutoff_time)\
+                .or_("signal_level.eq.1,signal_level.eq.2")\
+                .execute()
+
+            # 종목별 신호 집계
+            symbols = {}
+            for news in result.data:
+                for symbol in news.get("affected_symbols", []):
+                    if symbol not in symbols:
+                        symbols[symbol] = {
+                            "symbol": symbol,
+                            "signals": 0,
+                            "max_score": 0,
+                            "urgent_count": 0
+                        }
+                    symbols[symbol]["signals"] += 1
+                    symbols[symbol]["max_score"] = max(symbols[symbol]["max_score"], news.get("relevance_score", 0))
+                    if news.get("signal_level") == 1:
+                        symbols[symbol]["urgent_count"] += 1
+
+            # 긴급 신호 > 신호 개수 기준 정렬
+            important = sorted(
+                symbols.values(),
+                key=lambda x: (x["urgent_count"], x["signals"], x["max_score"]),
+                reverse=True
+            )[:10]
+
+            logger.info(f"Found {len(important)} important symbols for today")
+            return important
+
+        except Exception as e:
+            logger.error(f"Failed to get important symbols: {e}")
+            return []
+
+    def mark_signal_as_processed(self, signal_id: str) -> bool:
+        """시그널 처리 표시 (향후 추가 필드)"""
+        try:
+            # 향후 구현: 'processed_at' 필드 추가 시 사용
+            logger.info(f"Marked signal {signal_id} as processed")
+            return True
+        except Exception as e:
+            logger.error(f"Failed to mark signal as processed: {e}")
+            return False
