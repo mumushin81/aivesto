@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 주식 뉴스 블로그 대시보드</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-box {
+            background: #f0f2f5;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-box .number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-box .label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .article-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .article-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .article-symbol {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .article-date {
+            font-size: 0.8em;
+            opacity: 0.9;
+        }
+
+        .article-body {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+
+        .article-excerpt {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.5;
+            flex: 1;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .article-footer {
+            padding: 15px 20px 20px;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .read-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background 0.3s;
+        }
+
+        .read-btn:hover {
+            background: #764ba2;
+        }
+
+        .no-articles {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 10px;
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📰 주식 뉴스 분석 블로그</h1>
+            <p>AI가 자동으로 수집하고 분석한 미국 주식 뉴스 기사들</p>
+
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="number">{{ articles|length }}</div>
+                    <div class="label">총 기사 수</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">{{ articles|unique(attribute='symbol')|length }}</div>
+                    <div class="label">분석된 종목</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">매일 업데이트</div>
+                    <div class="label">자동 갱신</div>
+                </div>
+            </div>
+        </header>
+
+        {% if articles %}
+        <div class="articles-grid">
+            {% for article in articles %}
+            <div class="article-card">
+                <div class="article-header">
+                    <div>
+                        {% if article.symbol %}
+                        <div class="article-symbol">{{ article.symbol }}</div>
+                        {% endif %}
+                    </div>
+                    <div class="article-date">{{ article.date }}</div>
+                </div>
+
+                <div class="article-body">
+                    <div class="article-title">{{ article.title }}</div>
+                    <div class="article-excerpt">{{ article.content|striptags|truncate(150) }}</div>
+                </div>
+
+                <div class="article-footer">
+                    <a href="/article/{{ article.filename }}" class="read-btn">📖 읽기</a>
+                    <small style="color: #999;">{{ article.filename }}</small>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="no-articles">
+            <p>📭 아직 발행된 기사가 없습니다.</p>
+            <p style="font-size: 0.9em; margin-top: 10px; color: #999;">
+                articles 폴더에 markdown 파일을 추가하거나
+                publish_articles.py로 데이터베이스에 저장해주세요.
+            </p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

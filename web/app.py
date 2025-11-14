@@ -19,31 +19,37 @@ def parse_article(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # 첫 번째 줄에서 제목 추출
     lines = content.split('\n')
-    title = lines[0].replace('#', '').strip() if lines else 'Untitled'
 
-    # 날짜 추출 (두 번째 줄에서)
-    date = None
-    if len(lines) > 1:
-        date_line = lines[1].strip()
-        if date_line.startswith('**') and '년' in date_line:
-            date = date_line.replace('**', '').strip()
+    # H1 제목 추출 (# 로 시작하는 첫 번째 줄)
+    title = 'Untitled'
+    for line in lines:
+        if line.startswith('# '):
+            title = line.replace('#', '').strip()
+            break
 
     # HTML 변환
-    html_content = markdown.markdown(content, extensions=['tables', 'fenced_code'])
+    html_content = markdown.markdown(content, extensions=['tables', 'fenced_code', 'attr_list'])
 
-    # 파일명에서 종목 코드 추출
+    # 파일명에서 종목 코드와 날짜 추출
     filename = os.path.basename(file_path)
     symbol = None
+    date = '2025-11-13'
+
+    # 파일명 형식: article_SYMBOL_description_YYYYMMDD.md
     if '_' in filename:
         parts = filename.split('_')
         if len(parts) > 1:
-            symbol = parts[1]
+            symbol = parts[1]  # 2번째 부분이 SYMBOL
+        # 파일명 끝에서 날짜 추출 (20251113 형식)
+        filename_no_ext = filename.replace('.md', '')
+        if len(filename_no_ext) >= 8 and filename_no_ext[-8:].isdigit():
+            date_str = filename_no_ext[-8:]
+            date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
 
     return {
         'title': title,
-        'date': date or '2025-11-12',
+        'date': date,
         'content': html_content,
         'filename': filename,
         'symbol': symbol,
