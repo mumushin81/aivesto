@@ -18,7 +18,7 @@ CONTENT:
 
 무엇이 이렇게 매력적일까요? Copilot은 단순한 챗봇이 아닙니다. Word에서 문서를 자동으로 작성하고, Excel에서 데이터를 분석하며, PowerPoint에서 프레젠테이션을 디자인합니다.
 
-![Microsoft 365 Copilot이 업무 생산성을 혁신하고 있습니다](../public/images/MSFT_copilot_office_1.jpg)
+![Microsoft 365 Copilot이 업무 생산성을 혁신하고 있습니다](../images/MSFT_copilot_office_1.jpg)
 *Microsoft 365 Copilot이 업무 생산성을 혁신하고 있습니다*
  Outlook은 이메일 답변 초안을 만들고, Teams는 회의록을 자동 생성합니다. 사무직 근로자의 생산성을 70% 향상시킨다는 Microsoft 연구 결과가 있습니다.
 
@@ -26,7 +26,7 @@ CONTENT:
 
 수익 모델을 계산해보면 놀랍습니다. 전체 1억 4천만 사용자 중 45%가 전환할 것으로 예상됩니다. 대기업은 60%, 중소기업은 40%, 개인은 25%입니다. 이렇게 되면 월 매출이 $1.58B, 연간으로는 $19B입니다.
 
-![AI 통합으로 Office 365 구독료가 상승하며 수익성이 개선됩니다](../public/images/MSFT_revenue_growth_2.jpg)
+![AI 통합으로 Office 365 구독료가 상승하며 수익성이 개선됩니다](../images/MSFT_revenue_growth_2.jpg)
 *AI 통합으로 Office 365 구독료가 상승하며 수익성이 개선됩니다*
  게다가 Copilot 마진율은 85%로 기존 Office(70%)보다 훨씬 높습니다.
 

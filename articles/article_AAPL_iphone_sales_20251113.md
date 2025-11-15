@@ -14,7 +14,7 @@ CONTENT:
 
 2025년 11월 13일 발표된 Apple Q4 실적은 시장 기대를 뛰어넘었습니다. iPhone 매출 $520억. 예상은 $490억이었습니다. 하지만 숫자보다 중요한 것은 그 뒤에 숨은 이야기입니다. 평균판매가가 $780에서 $850으로 9% 상승했다는 것입니다.
 
-![iPhone Pro 모델의 프리미엄 기능이 평균 판매가 상승을 이끌고 있습니다](../public/images/AAPL_iphone_premium_1.jpg)
+![iPhone Pro 모델의 프리미엄 기능이 평균 판매가 상승을 이끌고 있습니다](../images/AAPL_iphone_premium_1.jpg)
 *iPhone Pro 모델의 프리미엄 기능이 평균 판매가 상승을 이끌고 있습니다*
  이것은 프리미엄 모델(Pro/Pro Max) 비중이 55%에서 62%로 증가했다는 의미입니다.
 
@@ -24,7 +24,7 @@ CONTENT:
 
 엔터프라이즈 시장도 커지고 있습니다. 많은 기업들이 Samsung Galaxy 대신 iPhone을 선택합니다. 보안 기능이 강화되고, MDM(모바일 기기 관리)가 개선되었기 때문입니다.
 
-![기업 시장에서 iPhone 채택이 증가하며 안정적인 매출을 제공합니다](../public/images/AAPL_enterprise_2.jpg)
+![기업 시장에서 iPhone 채택이 증가하며 안정적인 매출을 제공합니다](../images/AAPL_enterprise_2.jpg)
 *기업 시장에서 iPhone 채택이 증가하며 안정적인 매출을 제공합니다*
  기업 고객은 가격에 덜 민감하고, 대량 구매로 안정적인 매출을 제공합니다.
 

@@ -16,13 +16,13 @@ CONTENT:
 
 성능 격차가 압도적입니다. 전세대 Hopper 칩 대비 AI 훈련 속도가 10배 빨라졌고, 전력 소비는 40% 줄었습니다.
 
-![NVIDIA Blackwell GPU가 AI 성능을 5배 향상시켰습니다](../public/images/NVDA_blackwell_chip_1.jpg)
+![NVIDIA Blackwell GPU가 AI 성능을 5배 향상시켰습니다](../images/NVDA_blackwell_chip_1.jpg)
 *NVIDIA Blackwell GPU가 AI 성능을 5배 향상시켰습니다*
  Morgan Stanley의 Joseph Moore는 "경쟁사가 이 수준을 따라잡으려면 최소 2-3년이 걸린다"고 분석했습니다. Yahoo Finance 데이터에 따르면 AMD의 MI300X는 Blackwell의 20% 수준 성능을 보였고, Intel의 Gaudi 3는 12% 수준입니다.
 
 고객사들은 이미 줄을 섰습니다. 발표 당일 AWS, Microsoft Azure, Google Cloud 3사가 총 $40억 규모의 선주문을 체결했습니다.
 
-![클라우드 3사가 Blackwell GPU를 대량 구매하고 있습니다](../public/images/NVDA_datacenter_demand_2.jpg)
+![클라우드 3사가 Blackwell GPU를 대량 구매하고 있습니다](../images/NVDA_datacenter_demand_2.jpg)
 *클라우드 3사가 Blackwell GPU를 대량 구매하고 있습니다*
  Meta와 Tesla도 각각 $5억어치를 주문했습니다. The Information 보도입니다. 가격은 개당 $70,000으로 Hopper($40,000) 대비 75% 높습니다. 그런데도 대기 수량이 수만 개에 달합니다. 데이터센터 운영 비용이 30% 절감되기 때문입니다.
 

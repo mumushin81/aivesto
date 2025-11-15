@@ -16,7 +16,7 @@ CONTENT:
 
 핵심은 비용 구조의 혁명입니다. 기존 택시의 km당 운행 비용이 $0.50인데, Robotaxi는 $0.20입니다. 60% 수준이죠.
 
-![Tesla가 2026년 상반기 로보택시 서비스를 시작합니다](../public/images/TSLA_robotaxi_autonomous_1.jpg)
+![Tesla가 2026년 상반기 로보택시 서비스를 시작합니다](../images/TSLA_robotaxi_autonomous_1.jpg)
 *Tesla가 2026년 상반기 로보택시 서비스를 시작합니다*
  어떻게 가능할까요? 가장 큰 비용인 운전자 임금($0.30/km)이 사라지기 때문입니다. Yahoo Finance 데이터에 따르면 전기 에너지 비용은 유류비의 절반 수준입니다. 마진율은 60-70%로, 자동차 판매(25-30%)의 두 배가 넘습니다.
 
@@ -38,7 +38,7 @@ Wall Street은 이미 반응했습니다. Morgan Stanley는 목표가를 $310으
 
 Waymo는 이미 4개 도시에서 운영 중입니다. 하지만 그들의 차량은 외주 생산(Jaguar)이고, 데이터 수집도 제한적입니다.
 
-![Tesla의 충전 인프라가 로보택시 경쟁 우위를 만듭니다](../public/images/TSLA_charging_network_2.jpg)
+![Tesla의 충전 인프라가 로보택시 경쟁 우위를 만듭니다](../images/TSLA_charging_network_2.jpg)
 *Tesla의 충전 인프라가 로보택시 경쟁 우위를 만듭니다*
  Tesla는 연 200만 대 이상의 차량 생산 능력과 매일 500만 km의 데이터 수집 능력을 보유하고 있습니다. 이것이 승부처입니다.
 

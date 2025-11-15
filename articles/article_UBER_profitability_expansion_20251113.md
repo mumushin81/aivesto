@@ -14,13 +14,13 @@ CONTENT:
 
 2025년 11월 13일은 Uber 역사에서 기억될 날입니다. 10년간 지속된 "언젠가는 이윤을 낼 것"이라는 약속이 드디어 현실이 되었습니다. $5억의 순이익.
 
-![Uber가 처음으로 연간 흑자를 달성했습니다](../public/images/UBER_rideshare_profit_1.jpg)
+![Uber가 처음으로 연간 흑자를 달성했습니다](../images/UBER_rideshare_profit_1.jpg)
 *Uber가 처음으로 연간 흑자를 달성했습니다*
  분기 매출 $400억에서 나온 이 숫자는 작아 보일 수 있지만, 방향이 바뀌었다는 것이 핵심입니다. Uber는 이제 손실 기업이 아닙니다.
 
 "$400억 매출에 $5억 이익이면 마진율 1.25%밖에 안 되는 거 아냐?"라고 생각할 수 있습니다. 맞습니다. 하지만 중요한 것은 운영 마진입니다. Uber의 현재 운영 마진은 22%입니다.
 
-![Uber Eats가 전체 매출의 42%를 차지하며 성장을 견인합니다](../public/images/UBER_eats_delivery_2.jpg)
+![Uber Eats가 전체 매출의 42%를 차지하며 성장을 견인합니다](../images/UBER_eats_delivery_2.jpg)
 *Uber Eats가 전체 매출의 42%를 차지하며 성장을 견인합니다*
  Yahoo Finance 데이터에 따르면 라이드셰어가 35%, Uber Eats가 15%, Uber Freight가 25%의 마진을 기록하고 있습니다. 이것은 비즈니스 모델이 작동한다는 증거입니다.
 

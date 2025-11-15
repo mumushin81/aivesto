@@ -16,11 +16,11 @@ CONTENT:
 
 Photoshop에서 배경을 제거하고, 색상을 조정하고, 새로운 요소를 추가하는 작업. 전문 디자이너들이 매일 수시간 소비하는 반복 작업입니다. 이제 그것이 몇 초 안에 끝납니다.
 
-![Adobe Firefly AI가 전문 디자이너의 작업 흐름을 혁신하고 있습니다](../public/images/ADBE_designer_ai_1.jpg)
+![Adobe Firefly AI가 전문 디자이너의 작업 흐름을 혁신하고 있습니다](../images/ADBE_designer_ai_1.jpg)
 *Adobe Firefly AI가 전문 디자이너의 작업 흐름을 혁신하고 있습니다*
  "생성 채우기" 기능에 "파란 하늘 배경"이라고 말하면, AI가 자동으로 생성합니다.
 
-![생성형 AI 기능이 모든 Adobe 창작 도구에 통합되었습니다](../public/images/ADBE_creative_tools_2.jpg)
+![생성형 AI 기능이 모든 Adobe 창작 도구에 통합되었습니다](../images/ADBE_creative_tools_2.jpg)
 *생성형 AI 기능이 모든 Adobe 창작 도구에 통합되었습니다*
  "자동 컬러 교정"은 전문 사진작가 수준의 보정을 한 번의 클릭으로 해줍니다.
 

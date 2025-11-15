@@ -16,13 +16,13 @@ CONTENT:
 
 Meta가 가진 가장 큰 자산은 5억 명의 비즈니스 사용자입니다. Facebook 페이지, Instagram 비즈니스 계정을 운영하는 기업들입니다. 이들은 이미 Meta 플랫폼에서 비즈니스를 하고 있습니다. 전환 장벽이 낮다는 뜻입니다.
 
-![Meta Business AI가 5억 비즈니스 사용자를 대상으로 출시되었습니다](../public/images/META_business_ai_1.jpg)
+![Meta Business AI가 5억 비즈니스 사용자를 대상으로 출시되었습니다](../images/META_business_ai_1.jpg)
 *Meta Business AI가 5억 비즈니스 사용자를 대상으로 출시되었습니다*
  이미 사용 중인 플랫폼에서 추가 기능을 구독하는 것이니까요.
 
 Meta Business AI는 무엇을 할까요? Instagram/Facebook 메시지에 자동으로 응답합니다. "이 제품 사이즈 있나요?"라는 질문에 AI가 재고를 확인하고 답변합니다. 광고 캠페인을 자동으로 최적화합니다. 시간대, 타겟층, 예산을 AI가 조정합니다.
 
-![AI가 자동으로 고객 메시지에 응답하고 판매를 최적화합니다](../public/images/META_automation_2.jpg)
+![AI가 자동으로 고객 메시지에 응답하고 판매를 최적화합니다](../images/META_automation_2.jpg)
 *AI가 자동으로 고객 메시지에 응답하고 판매를 최적화합니다*
  판매 데이터를 분석해 "이번 달 베스트셀러는?"같은 질문에 즉시 답변합니다.
 

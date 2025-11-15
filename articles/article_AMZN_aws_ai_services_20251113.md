@@ -18,13 +18,13 @@ CONTENT:
 
 더 흥미로운 것은 AI 서비스의 마진율입니다. 일반 클라우드 서비스(EC2, S3)는 30-35% 마진이지만, AI 서비스는 50-60% 마진입니다.
 
-![AWS AI 서비스가 클라우드 인프라 마진율을 크게 개선하고 있습니다](../public/images/AMZN_aws_datacenter_1.jpg)
+![AWS AI 서비스가 클라우드 인프라 마진율을 크게 개선하고 있습니다](../images/AMZN_aws_datacenter_1.jpg)
 *AWS AI 서비스가 클라우드 인프라 마진율을 크게 개선하고 있습니다*
  SageMaker와 Bedrock 같은 서비스는 소프트웨어 특성상 마진율이 훨씬 높습니다. 인프라 비용은 고정적이지만, 고객이 늘어도 추가 비용이 거의 없기 때문입니다.
 
 AWS의 전략은 멀티 모델입니다. Microsoft Azure는 OpenAI 독점으로 GPT-4만 제공하고, Google Cloud는 Gemini 중심입니다. 하지만 AWS는 Anthropic Claude, Meta Llama, Stability AI, Cohere 등 다양한 모델을 제공합니다. 고객이 모델을 선택할 수 있습니다.
 
-![멀티 모델 전략으로 다양한 AI 모델을 제공하는 AWS](../public/images/AMZN_ai_multimodel_2.jpg)
+![멀티 모델 전략으로 다양한 AI 모델을 제공하는 AWS](../images/AMZN_ai_multimodel_2.jpg)
 *멀티 모델 전략으로 다양한 AI 모델을 제공하는 AWS*
  이것이 경쟁 우위입니다.
 
