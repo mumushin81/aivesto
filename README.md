@@ -98,7 +98,30 @@ SUPABASE_KEY=your_anon_key
 FINNHUB_API_KEY=your_key
 ```
 
-### 4. E2E 파이프라인 실행
+### 4. MCP 서버 설정 (Claude Code 전용)
+
+Supabase MCP 서버를 설정하면 AI가 데이터베이스와 직접 상호작용할 수 있습니다.
+
+```bash
+# .claude/mcp.json 파일이 자동 생성되어 있습니다
+# Claude Code 재시작 시 Supabase 로그인 프롬프트가 표시됩니다
+```
+
+**MCP 설정 파일 위치**: `.claude/mcp.json`
+
+**주요 기능**:
+- 📊 데이터베이스 쿼리 (읽기 전용)
+- 📖 Supabase 문서 접근
+- 🔒 OAuth 2.1 인증
+
+**보안 설정**:
+- ✅ 읽기 전용 모드 활성화
+- ✅ 개발/테스트용으로만 사용
+- ⚠️ 프로덕션 데이터 연결 금지
+
+상세 설정: [`.claude/README.md`](.claude/README.md)
+
+### 5. E2E 파이프라인 실행
 
 ```bash
 # 전체 파이프라인 (수집 → 분석 → 증폭 감지)
