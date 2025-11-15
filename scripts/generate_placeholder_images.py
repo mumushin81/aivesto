@@ -144,16 +144,28 @@ IMAGE_CONFIGS = {
 
 
 def create_gradient_image(width, height, color1, color2):
-    """Create a vertical gradient image"""
-    base = Image.new('RGB', (width, height), color1)
-    top = Image.new('RGB', (width, height), color2)
-    mask = Image.new('L', (width, height))
-    mask_data = []
+    """Create a diagonal gradient image from top-left to bottom-right"""
+    img = Image.new('RGB', (width, height))
+    pixels = img.load()
+
+    # Calculate max distance for normalization
+    max_distance = ((width ** 2) + (height ** 2)) ** 0.5
+
     for y in range(height):
-        mask_data.extend([int(255 * (y / height))] * width)
-    mask.putdata(mask_data)
-    base.paste(top, (0, 0), mask)
-    return base
+        for x in range(width):
+            # Calculate distance from top-left corner
+            distance = ((x ** 2) + (y ** 2)) ** 0.5
+            # Normalize to 0-1 range
+            ratio = distance / max_distance
+
+            # Interpolate between color1 and color2
+            r = int(color1[0] * (1 - ratio) + color2[0] * ratio)
+            g = int(color1[1] * (1 - ratio) + color2[1] * ratio)
+            b = int(color1[2] * (1 - ratio) + color2[2] * ratio)
+
+            pixels[x, y] = (r, g, b)
+
+    return img
 
 
 def add_overlay_pattern(img):
@@ -198,23 +210,22 @@ def generate_all_images(output_dir):
     for filename, config in IMAGE_CONFIGS.items():
         try:
             print(f"\n📸 Creating: {filename}")
-            print(f"   Colors: {config['gradient']}")
+            print(f"   Gradient: {config['gradient'][0]} → {config['gradient'][1]}")
 
-            # Create gradient background
+            # Create diagonal gradient background
             img = create_gradient_image(1200, 800, config['gradient'][0], config['gradient'][1])
 
-            # Add subtle overlay pattern (no text)
-            img = add_overlay_pattern(img)
-
-            # Save image
+            # Save image (no overlay, pure gradient)
             filepath = output_dir / filename
-            img.save(filepath, 'JPEG', quality=92)
+            img.save(filepath, 'JPEG', quality=95, optimize=True)
 
             print(f"   ✓ Saved: {filepath}")
             success += 1
 
         except Exception as e:
             print(f"   ✗ Failed: {e}")
+            import traceback
+            traceback.print_exc()
 
     print("\n" + "=" * 60)
     print("Summary")
