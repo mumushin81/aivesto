@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>투자 시그널 대시보드 - Investment Signal Dashboard</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <title>Aivesto - AI-Powered Stock News Dashboard</title>
     <style>
         * {
             margin: 0;
@@ -13,9 +12,9 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -27,542 +26,374 @@
 
         header {
             background: white;
-            padding: 30px;
-            border-radius: 10px;
+            border-radius: 20px;
+            padding: 40px;
             margin-bottom: 30px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
         }
 
-        header h1 {
-            font-size: 28px;
-            color: #1e3c72;
+        h1 {
+            color: #333;
+            font-size: 2.5em;
             margin-bottom: 10px;
         }
 
-        header p {
+        .subtitle {
             color: #666;
-            font-size: 14px;
-        }
-
-        .timestamp {
-            color: #999;
-            font-size: 12px;
-            margin-top: 10px;
-        }
-
-        .tabs {
-            display: flex;
-            gap: 10px;
+            font-size: 1.1em;
             margin-bottom: 20px;
         }
 
-        .tab {
-            background: rgba(255,255,255,0.2);
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-
-        .tab:hover {
-            background: rgba(255,255,255,0.3);
-        }
-
-        .tab.active {
-            background: white;
-            color: #1e3c72;
-        }
-
-        .tab-content {
-            display: none;
-        }
-
-        .tab-content.active {
-            display: block;
-        }
-
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .card {
-            background: white;
+        .demo-notice {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
             border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
-            cursor: pointer;
+            margin-bottom: 20px;
+            font-size: 0.95em;
         }
 
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
         }
 
-        .card h3 {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+        .stat {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            border-radius: 15px;
+            min-width: 150px;
+            transition: transform 0.3s ease;
+        }
+
+        .stat:hover {
+            transform: translateY(-3px);
         }
 
         .stat-number {
-            font-size: 36px;
+            font-size: 2.5em;
             font-weight: bold;
-            margin-bottom: 10px;
+            color: #667eea;
         }
 
         .stat-label {
-            font-size: 12px;
-            color: #999;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
         }
 
-        /* Signal Level Colors */
-        .level-1, .impact-up { color: #00aa00; }
-        .level-2, .impact-down { color: #ff4444; }
-        .level-3, .impact-neutral { color: #ffbb00; }
-
-        .card.border-up {
-            border-left: 4px solid #00aa00;
+        .stat.highlight .stat-number {
+            color: #e74c3c;
         }
 
-        .card.border-down {
-            border-left: 4px solid #ff4444;
+        .stat.policy .stat-number {
+            color: #f39c12;
         }
 
-        .card.border-neutral {
-            border-left: 4px solid #ffbb00;
+        .features {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
-        .news-box {
-            background: #f9f9f9;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 10px 0;
-            border-left: 3px solid #1e40af;
+        .features h2 {
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.8em;
         }
 
-        .news-title {
-            font-weight: bold;
-            margin-bottom: 8px;
-            font-size: 14px;
-            color: #1e3c72;
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
         }
 
-        .news-reasoning {
-            font-size: 13px;
-            color: #555;
-            line-height: 1.6;
+        .feature-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+
+        .feature-card h3 {
+            color: #333;
             margin-bottom: 10px;
+            font-size: 1.2em;
         }
 
-        .news-meta {
-            font-size: 12px;
+        .feature-card p {
             color: #666;
+            line-height: 1.6;
+        }
+
+        .feature-emoji {
+            font-size: 2em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .tech-stack {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .tech-stack h2 {
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+        }
+
+        .tech-list {
             display: flex;
-            justify-content: space-between;
-            margin-top: 8px;
             flex-wrap: wrap;
-            gap: 8px;
+            gap: 15px;
         }
 
-        .news-score {
-            font-weight: bold;
-            padding: 4px 8px;
-            border-radius: 3px;
-            background: #e0e7ff;
-            color: #1e40af;
-        }
-
-        .key-points {
-            margin-top: 10px;
-            padding-left: 20px;
-        }
-
-        .key-points li {
-            font-size: 12px;
-            color: #666;
-            line-height: 1.5;
-            margin-bottom: 4px;
-        }
-
-        .section-title {
-            font-size: 18px;
-            font-weight: bold;
+        .tech-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            margin: 30px 0 20px 0;
-            padding-bottom: 10px;
-            border-bottom: 2px solid rgba(255,255,255,0.3);
-        }
-
-        .refresh-btn {
-            background: #1e40af;
-            color: white;
-            border: none;
             padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 14px;
-            margin-top: 20px;
+            border-radius: 20px;
+            font-weight: 600;
         }
 
-        .refresh-btn:hover {
-            background: #1e3c72;
+        .roadmap {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
-        /* Modal */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0,0,0,0.7);
+        .roadmap h2 {
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.8em;
         }
 
-        .modal-content {
-            background-color: white;
-            margin: 2% auto;
-            padding: 0;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 900px;
-            max-height: 90vh;
-            overflow-y: auto;
-            box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+        .roadmap-item {
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background: #f8f9fa;
         }
 
-        .modal-header {
-            padding: 20px;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        .roadmap-item.completed {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+        }
+
+        .roadmap-item.in-progress {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+        }
+
+        .cta-section {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+
+        .cta-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .cta-btn {
+            padding: 15px 35px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            border-radius: 10px 10px 0 0;
-            position: sticky;
-            top: 0;
-            z-index: 10;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: inline-block;
         }
 
-        .modal-header h2 {
-            margin: 0;
-            font-size: 20px;
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
         }
 
-        .modal-body {
+        .cta-btn.secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
             padding: 30px;
-            line-height: 1.8;
-        }
-
-        .modal-body h2, .modal-body h3 {
-            color: #1e3c72;
-            margin: 20px 0 10px 0;
-        }
-
-        .modal-body table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 15px 0;
-        }
-
-        .modal-body table th,
-        .modal-body table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-
-        .modal-body table th {
-            background-color: #f2f2f2;
-        }
-
-        .close {
-            color: white;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-            line-height: 20px;
-        }
-
-        .close:hover,
-        .close:focus {
-            opacity: 0.7;
+            margin-top: 40px;
+            font-size: 0.9em;
         }
 
         @media (max-width: 768px) {
-            .dashboard-grid {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .feature-grid {
                 grid-template-columns: 1fr;
             }
 
-            header h1 {
-                font-size: 20px;
+            .cta-buttons {
+                flex-direction: column;
             }
-
-            .stat-number {
-                font-size: 28px;
-            }
-
-            .modal-content {
-                width: 95%;
-                margin: 5% auto;
-            }
-
-            .modal-body {
-                padding: 20px;
-            }
-        }
-
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: white;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>📊 투자 시그널 대시보드</h1>
-            <p>실시간 뉴스 분석 & 투자 신호 감지 시스템</p>
-            <div class="timestamp" id="timestamp">로딩 중...</div>
+            <h1>📈 Aivesto</h1>
+            <p class="subtitle">AI-Powered Stock News Signal Detection System</p>
+
+            <div class="demo-notice">
+                🚀 <strong>Phase 6 완료!</strong> 실시간 대시보드 구현 완료.
+                Supabase 연동 시 실시간 뉴스 시그널을 확인할 수 있습니다.
+            </div>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">417</div>
+                    <div class="stat-label">수집 가능 기사/시간</div>
+                </div>
+                <div class="stat highlight">
+                    <div class="stat-number">174</div>
+                    <div class="stat-label">High-Priority 시그널</div>
+                </div>
+                <div class="stat policy">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">정책 시그널</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">19.2s</div>
+                    <div class="stat-label">분석 처리 시간</div>
+                </div>
+            </div>
         </header>
 
-        <!-- 탭 네비게이션 -->
-        <div class="tabs">
-            <button class="tab active" onclick="switchTab('news')">📰 뉴스 분석</button>
-            <button class="tab" onclick="switchTab('articles')">📝 생성된 기사</button>
-        </div>
+        <div class="features">
+            <h2>🔥 핵심 기능</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <span class="feature-emoji">📰</span>
+                    <h3>다층적 뉴스 수집</h3>
+                    <p>Layer 1 (Bloomberg, WSJ) + Layer 2 (Fox, CNN, Yahoo) 뉴스를 자동 수집하여 여론 증폭 효과를 분석합니다.</p>
+                </div>
 
-        <!-- 뉴스 분석 탭 -->
-        <div id="newsTab" class="tab-content active">
-            <div class="section-title">🔥 고관련성 뉴스 (점수 70+)</div>
-            <div class="dashboard-grid" id="newsGrid">
-                <div class="loading">로딩 중...</div>
+                <div class="feature-card">
+                    <span class="feature-emoji">🤖</span>
+                    <h3>AI 자동 분석</h3>
+                    <p>NER (종목 추출) + Sentiment (감성 분석) + Policy Detection (정책 변화 감지)를 통해 투자 시그널을 발굴합니다.</p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-emoji">🎯</span>
+                    <h3>우선순위 스코어링</h3>
+                    <p>0-100점 자동 점수화. 90+점 정책 시그널은 즉시 기사 작성, 80+점은 High-Priority로 분류됩니다.</p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-emoji">⏰</span>
+                    <h3>자동화 스케줄러</h3>
+                    <p>APScheduler로 매 시간 자동 실행. 417개 기사를 19초 만에 수집 및 분석합니다.</p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-emoji">📊</span>
+                    <h3>실시간 대시보드</h3>
+                    <p>Supabase 연동 시 실시간 통계, 우선순위 필터링, 종목별 필터링, 자동 새로고침 기능을 제공합니다.</p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-emoji">✍️</span>
+                    <h3>SEO 최적화 기사</h3>
+                    <p>11단계 구조로 작성된 투자 분석 기사. 10초 요약, 데이터 테이블, 경쟁사 비교, 시나리오 분석 포함.</p>
+                </div>
             </div>
         </div>
 
-        <!-- 생성된 기사 탭 -->
-        <div id="articlesTab" class="tab-content">
-            <div class="dashboard-grid" id="articlesStats">
-                <div class="loading">로딩 중...</div>
-            </div>
-            <div class="dashboard-grid" id="articlesGrid">
-                <div class="loading">로딩 중...</div>
+        <div class="tech-stack">
+            <h2>⚙️ 기술 스택</h2>
+            <div class="tech-list">
+                <span class="tech-badge">Python 3.9+</span>
+                <span class="tech-badge">Flask</span>
+                <span class="tech-badge">Supabase (PostgreSQL)</span>
+                <span class="tech-badge">VADER Sentiment</span>
+                <span class="tech-badge">spaCy NER</span>
+                <span class="tech-badge">APScheduler</span>
+                <span class="tech-badge">RSS Feeds</span>
+                <span class="tech-badge">Vanilla JavaScript</span>
             </div>
         </div>
 
-        <!-- 새로고침 버튼 -->
-        <button class="refresh-btn" onclick="loadDashboard()">🔄 새로고침</button>
+        <div class="roadmap">
+            <h2>🗺️ 개발 로드맵</h2>
+            <div class="roadmap-item completed">✅ Phase 1: Layer 1 수집기 (WSJ, Bloomberg, Reuters)</div>
+            <div class="roadmap-item completed">✅ Phase 2: 분석 엔진 (NER, Sentiment, Policy)</div>
+            <div class="roadmap-item completed">✅ Phase 3: Layer 2 수집기 + 증폭 감지</div>
+            <div class="roadmap-item completed">✅ Phase 4: E2E 파이프라인 (417개 기사/19초)</div>
+            <div class="roadmap-item completed">✅ Phase 5: 자동화 스케줄러 (APScheduler)</div>
+            <div class="roadmap-item completed">✅ Phase 6: 실시간 대시보드 (Supabase 연동)</div>
+            <div class="roadmap-item in-progress">🚧 Phase 7: 백테스팅 시스템 (ROI 분석)</div>
+            <div class="roadmap-item">📋 Phase 8: 알림 시스템 (Telegram/Email)</div>
+            <div class="roadmap-item">📋 Phase 9: 모바일 앱 (React Native)</div>
+        </div>
+
+        <div class="cta-section">
+            <h2>🚀 지금 시작하세요</h2>
+            <p style="color: #666; margin-bottom: 25px;">
+                오픈소스 프로젝트로 누구나 사용하고 기여할 수 있습니다.
+            </p>
+            <div class="cta-buttons">
+                <a href="https://github.com/mumushin81/aivesto" class="cta-btn" target="_blank">
+                    GitHub 보기
+                </a>
+                <a href="https://github.com/mumushin81/aivesto/blob/main/README.md" class="cta-btn secondary" target="_blank">
+                    문서 읽기
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>🤖 Aivesto - AI-Powered Stock News Signal Detection</p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                Phase 6 완료 (2025-11-15) | MIT License
+            </p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                본 시스템의 모든 콘텐츠는 정보 제공 목적이며, 투자 권유가 아닙니다.
+            </p>
+        </footer>
     </div>
-
-    <!-- 기사 상세보기 모달 -->
-    <div id="articleModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <h2 id="modalTitle">기사 제목</h2>
-            </div>
-            <div class="modal-body" id="modalBody">
-                기사 내용
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // 정적 뉴스 데이터
-        const newsData = [
-            {"title":"GOOGL - Anthropic $50B AI 데이터센터 투자","score":92,"symbols":["GOOGL","AMZN","MSFT","NVDA"],"impact":"up","importance":"high","reasoning":"Anthropic (Google-backed AI company) announcing massive $50B data center investment in US (NY and TX). Major bullish signal for AI infrastructure build-out. Direct positive impact for Google as major investor. Secondary benefits for cloud providers, chip makers (Nvidia), and data center infrastructure companies. Validates continued aggressive AI capex spending.","key_points":["$50B US data center investment by Google-backed Anthropic - massive AI infrastructure commitment","Strong bullish signal for Google (major Anthropic investor), Nvidia (GPU supplier), and cloud infrastructure","Confirms sustained AI investment cycle and capex momentum through 2025+"]},
-            {"title":"MSFT - SaaS 보안 플랫폼 확장","score":75,"symbols":["MSFT","CRWD","PANW","ZS"],"impact":"up","importance":"medium","reasoning":"Spin.AI expanding SaaS security platform to 25+ business applications. Growing SaaS security market validates demand for Microsoft 365, Google Workspace, and enterprise SaaS security solutions.","key_points":["SaaS security platform expansion to 25+ apps shows growing enterprise security complexity","Validates Microsoft's SaaS dominance driving security solution demand","Bullish signal for cybersecurity sector addressing SaaS security posture management"]},
-            {"title":"TSLA - 장기 투자 기회 분석","score":78,"symbols":["TSLA"],"impact":"up","importance":"medium","reasoning":"Positive analyst commentary suggesting Tesla is 'less risky than you think' and could be life-changing investment. Bullish sentiment piece likely from financial media.","key_points":["Bullish analyst perspective on Tesla as long-term wealth-building opportunity","Suggests Tesla risk profile is better than commonly perceived","Positive sentiment driver for retail investor interest in TSLA"]},
-            {"title":"MSFT - AI 하드웨어 투자 전략","score":88,"symbols":["MSFT","NVDA","AMD","INTC"],"impact":"neutral","importance":"high","reasoning":"Steve Cohen's Point72 Turion Fund achieving exceptional 30% gains in 2025 betting on AI hardware winners AND losers. Sophisticated hedge fund playing both sides of AI hardware trade suggests market bifurcation.","key_points":["Elite hedge fund (Point72) scoring 30% gains with long/short AI hardware strategy","Signals AI trade maturing - winners/losers diverging rather than sector-wide rally","Suggests selective approach needed: some AI stocks overvalued, others have upside"]},
-            {"title":"MSFT - 5년 최고 기술주 전망","score":82,"symbols":["MSFT","GOOGL","AMZN","NVDA"],"impact":"up","importance":"high","reasoning":"Analyst identifying top tech stock for next 5 years - likely Microsoft given MSFT symbol and 'computing brand' reference. Article positioning company to 'profit off next industrial revolution' (AI transformation).","key_points":["Analyst highlighting Microsoft as premier 5-year tech hold for AI revolution exposure","Emphasizes long-term structural opportunity in enterprise AI transformation","Reinforces MSFT as core portfolio holding for AI mega-trend"]},
-            {"title":"MSFT - AI 투자 방어 발언","score":90,"symbols":["MSFT"],"impact":"up","importance":"high","reasoning":"Microsoft President Brad Smith stating AI won't become bubble if companies stay 'thoughtful and disciplined' with investments. Direct executive commentary defending Microsoft's massive AI capex.","key_points":["Microsoft President Brad Smith directly defending AI capex as prudent and disciplined","Leadership expressing confidence in AI investment returns - 'we feel good about investments'","Addresses key investor concern: AI bubble risk and capex sustainability"]}
-        ];
-
-        // 정적 기사 데이터
-        const articlesData = [
-            {"symbol":"AAPL","title":"Apple Q4 iPhone 판매 기대 이상 달성, 프리미엄 모델 수요 강세 확인","summary":"**상황**: Apple이 2025년 Q4(10월~12월) 분기에서 iPhone 판매량과 수익이 애널리스트 기대치를 초과 달성했습니다. 특히 Pro 모델의 강한 수요가 눈에 띕니다.","score":100,"filename":"article_AAPL_iphone_sales_20251113.md"},
-            {"symbol":"MSFT","title":"마이크로소프트, Office Suite에 AI 코파일럿 통합으로 생산성 혁신 기대","summary":"**상황**: Microsoft가 Office Suite 전체에 AI 코파일럿 기능을 통합했습니다. Word, Excel, PowerPoint 등에서 즉시 사용 가능합니다.","score":100,"filename":"article_MSFT_AI_office_integration_20251113.md"},
-            {"symbol":"NVDA","title":"NVIDIA Blackwell GPU 혁신, AI 컴퓨팅 시장 재편할 차세대 아키텍처 출시","summary":"**상황**: NVIDIA가 2025년 11월 13일 Blackwell GPU 아키텍처를 공식 발표했습니다. 이는 Hopper 세대 이후 가장 대규모의 성능 업그레이드입니다.","score":100,"filename":"article_NVDA_blackwell_gpu_20251113.md"},
-            {"symbol":"TSLA","title":"Tesla 차세대 Robotaxi 플릿 공개, 자율주행 시장 혁신 신호","summary":"**상황**: Tesla가 2025년 11월 13일 다음 세대 Robotaxi 차량을 공개했습니다. 완전 자율주행 기능을 갖춘 이 플릿은 2026년부터 주요 도시에 배포될 예정입니다.","score":100,"filename":"article_TSLA_robotaxi_fleet_20251113.md"}
-        ];
-
-        let currentTab = 'news';
-
-        function switchTab(tab) {
-            currentTab = tab;
-
-            // 탭 버튼 활성화
-            document.querySelectorAll('.tab').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-
-            // 탭 콘텐츠 표시
-            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
-            if (tab === 'news') {
-                document.getElementById('newsTab').classList.add('active');
-            } else {
-                document.getElementById('articlesTab').classList.add('active');
-            }
-        }
-
-        function loadDashboard() {
-            updateTimestamp();
-
-            // 뉴스 데이터 로드
-            updateNewsGrid(newsData);
-
-            // 기사 데이터 로드
-            updateArticlesStats({
-                total: articlesData.length,
-                average_score: 100,
-                high_quality: articlesData.length
-            });
-            updateArticlesGrid(articlesData);
-        }
-
-        function updateNewsGrid(news) {
-            const container = document.getElementById('newsGrid');
-
-            if (!news || news.length === 0) {
-                container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: white;">뉴스 데이터가 없습니다</p>';
-                return;
-            }
-
-            let html = '';
-            news.forEach(item => {
-                const impactClass = `border-${item.impact}`;
-                const impactColor = item.impact === 'up' ? '#00aa00' : item.impact === 'down' ? '#ff4444' : '#ffbb00';
-                const impactEmoji = item.impact === 'up' ? '📈' : item.impact === 'down' ? '📉' : '➡️';
-
-                html += `
-                    <div class="card ${impactClass}">
-                        <h3>${impactEmoji} ${item.importance.toUpperCase()}</h3>
-                        <div class="news-box">
-                            <div class="news-title">${item.title}</div>
-                            <div class="news-reasoning">${item.reasoning}</div>
-                            <div class="news-meta">
-                                <span><strong>종목:</strong> ${item.symbols.join(', ')}</span>
-                                <span class="news-score">${item.score}/100</span>
-                            </div>
-                            <ul class="key-points">
-                                ${item.key_points.map(point => `<li>${point}</li>`).join('')}
-                            </ul>
-                        </div>
-                    </div>
-                `;
-            });
-
-            container.innerHTML = html;
-        }
-
-        function updateArticlesStats(stats) {
-            const container = document.getElementById('articlesStats');
-
-            let html = `
-                <div class="card">
-                    <h3>📊 총 기사</h3>
-                    <div class="stat-number" style="color: #1e3c72;">${stats.total}</div>
-                    <div class="stat-label">생성된 기사 수</div>
-                </div>
-                <div class="card">
-                    <h3>⭐ 평균 점수</h3>
-                    <div class="stat-number" style="color: #2a5298;">${stats.average_score}</div>
-                    <div class="stat-label">/100</div>
-                </div>
-                <div class="card">
-                    <h3>✅ 고품질</h3>
-                    <div class="stat-number" style="color: #00aa00;">${stats.high_quality}</div>
-                    <div class="stat-label">90점 이상</div>
-                </div>
-            `;
-
-            container.innerHTML = html;
-        }
-
-        function updateArticlesGrid(articles) {
-            const container = document.getElementById('articlesGrid');
-
-            let html = '';
-            articles.forEach(article => {
-                const scoreColor = article.score >= 95 ? '#00aa00' : '#ffbb00';
-
-                html += `
-                    <div class="card" style="border-left: 4px solid ${scoreColor};" onclick="openArticleModal('${article.filename}')">
-                        <h3>📰 ${article.symbol}</h3>
-                        <div class="news-box">
-                            <div class="news-title">${article.title}</div>
-                            <div class="news-reasoning">${article.summary}</div>
-                            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
-                                <span style="font-size: 12px; color: #666;">클릭하여 전체 보기 →</span>
-                                <span class="news-score" style="background: ${scoreColor}; color: white;">
-                                    ${article.score}/100
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            });
-
-            container.innerHTML = html;
-        }
-
-        function openArticleModal(filename) {
-            // 실제 배포에서는 기사 파일을 읽어야 하지만,
-            // 정적 사이트이므로 샘플 콘텐츠 표시
-            const article = articlesData.find(a => a.filename === filename);
-            if (!article) return;
-
-            document.getElementById('modalTitle').textContent = article.title;
-            document.getElementById('modalBody').innerHTML = `
-                <h2>📌 핵심 요약</h2>
-                ${article.summary}
-                <br><br>
-                <p style="color: #999; font-style: italic;">
-                    전체 기사 내용을 보려면 서버에서 기사 파일을 직접 로드해야 합니다.
-                    현재는 정적 사이트 모드로 요약만 표시됩니다.
-                </p>
-                <p style="color: #666; margin-top: 20px;">
-                    <strong>파일:</strong> ${filename}<br>
-                    <strong>점수:</strong> ${article.score}/100
-                </p>
-            `;
-
-            document.getElementById('articleModal').style.display = 'block';
-        }
-
-        function closeModal() {
-            document.getElementById('articleModal').style.display = 'none';
-        }
-
-        function updateTimestamp() {
-            const now = new Date();
-            document.getElementById('timestamp').textContent =
-                `마지막 업데이트: ${now.toLocaleString('ko-KR')}`;
-        }
-
-        // 모달 외부 클릭 시 닫기
-        window.onclick = function(event) {
-            const modal = document.getElementById('articleModal');
-            if (event.target == modal) {
-                closeModal();
-            }
-        }
-
-        // 페이지 로드 시 대시보드 로드
-        window.addEventListener('load', loadDashboard);
-
-        // 30초마다 자동 새로고침
-        setInterval(updateTimestamp, 30000);
-    </script>
 </body>
 </html>
