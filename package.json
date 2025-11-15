@@ -1,0 +1,24 @@
+{
+  "name": "aivesto",
+  "version": "1.0.0",
+  "description": "미국 주식 뉴스에서 투자 시그널을 자동으로 발굴하고 SEO 최적화 기사를 작성하는 시스템",
+  "main": "test-deployment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumushin81/aivesto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mumushin81/aivesto/issues"
+  },
+  "homepage": "https://github.com/mumushin81/aivesto#readme",
+  "dependencies": {
+    "playwright": "^1.56.1"
+  }
+}
