@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aivesto - AI-Powered Stock News Dashboard</title>
+    <title>Aivesto - AI 기반 주식 뉴스 분석 블로그</title>
+    <meta name="description" content="AI가 자동으로 수집하고 분석한 주식 뉴스 시그널 블로그">
     <style>
         * {
             margin: 0;
@@ -20,7 +21,7 @@
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
@@ -45,202 +46,148 @@
             margin-bottom: 20px;
         }
 
-        .demo-notice {
-            background: #fff3cd;
-            color: #856404;
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            font-size: 0.95em;
-        }
-
-        .stats {
+        .header-stats {
             display: flex;
             justify-content: center;
             gap: 30px;
-            margin-top: 20px;
+            margin-top: 25px;
             flex-wrap: wrap;
         }
 
-        .stat {
+        .header-stat {
             background: #f8f9fa;
-            padding: 20px 30px;
-            border-radius: 15px;
-            min-width: 150px;
-            transition: transform 0.3s ease;
+            padding: 15px 25px;
+            border-radius: 12px;
+            min-width: 120px;
         }
 
-        .stat:hover {
-            transform: translateY(-3px);
-        }
-
-        .stat-number {
-            font-size: 2.5em;
+        .header-stat-number {
+            font-size: 2em;
             font-weight: bold;
             color: #667eea;
         }
 
-        .stat-label {
+        .header-stat-label {
             color: #666;
-            font-size: 0.9em;
+            font-size: 0.85em;
             margin-top: 5px;
         }
 
-        .stat.highlight .stat-number {
-            color: #e74c3c;
-        }
-
-        .stat.policy .stat-number {
-            color: #f39c12;
-        }
-
-        .features {
+        .filter-section {
             background: white;
             border-radius: 15px;
-            padding: 40px;
+            padding: 25px;
             margin-bottom: 30px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
-        .features h2 {
-            color: #333;
-            margin-bottom: 25px;
-            font-size: 1.8em;
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
         }
 
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-        }
-
-        .feature-card {
+        .filter-btn {
+            padding: 10px 20px;
             background: #f8f9fa;
-            padding: 25px;
-            border-radius: 12px;
-            border-left: 4px solid #667eea;
+            border: 2px solid #ddd;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            color: #333;
         }
 
-        .feature-card h3 {
+        .filter-btn:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+
+        .filter-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .article-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .article-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .symbol-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+
+        .article-date {
+            color: #999;
+            font-size: 0.85em;
+        }
+
+        .article-title {
             color: #333;
-            margin-bottom: 10px;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .read-more {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: white;
             font-size: 1.2em;
         }
 
-        .feature-card p {
-            color: #666;
-            line-height: 1.6;
-        }
-
-        .feature-emoji {
-            font-size: 2em;
-            margin-bottom: 10px;
-            display: block;
-        }
-
-        .tech-stack {
-            background: white;
-            border-radius: 15px;
-            padding: 40px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-
-        .tech-stack h2 {
-            color: #333;
-            margin-bottom: 25px;
-            font-size: 1.8em;
-        }
-
-        .tech-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .tech-badge {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 20px;
-            font-weight: 600;
-        }
-
-        .roadmap {
-            background: white;
-            border-radius: 15px;
-            padding: 40px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-
-        .roadmap h2 {
-            color: #333;
-            margin-bottom: 25px;
-            font-size: 1.8em;
-        }
-
-        .roadmap-item {
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            background: #f8f9fa;
-        }
-
-        .roadmap-item.completed {
-            background: #d4edda;
-            border-left: 4px solid #28a745;
-        }
-
-        .roadmap-item.in-progress {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-        }
-
-        .cta-section {
-            background: white;
-            border-radius: 15px;
-            padding: 40px;
+        .no-articles {
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            margin-bottom: 30px;
-        }
-
-        .cta-section h2 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 2em;
-        }
-
-        .cta-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-top: 25px;
-        }
-
-        .cta-btn {
-            padding: 15px 35px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 600;
-            font-size: 1.1em;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            display: inline-block;
-        }
-
-        .cta-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-        }
-
-        .cta-btn.secondary {
+            padding: 60px 20px;
             background: white;
-            color: #667eea;
-            border: 2px solid #667eea;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .no-articles-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .no-articles-text {
+            color: #666;
+            font-size: 1.2em;
         }
 
         footer {
@@ -252,21 +199,17 @@
         }
 
         @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+
             h1 {
                 font-size: 1.8em;
             }
 
-            .stats {
+            .header-stats {
                 flex-direction: column;
                 gap: 15px;
-            }
-
-            .feature-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .cta-buttons {
-                flex-direction: column;
             }
         }
     </style>
@@ -274,129 +217,177 @@
 <body>
     <div class="container">
         <header>
-            <h1>📈 Aivesto</h1>
-            <p class="subtitle">AI-Powered Stock News Signal Detection System</p>
-
-            <div class="demo-notice">
-                🚀 <strong>Phase 6 완료!</strong> 실시간 대시보드 구현 완료.
-                Supabase 연동 시 실시간 뉴스 시그널을 확인할 수 있습니다.
-            </div>
-
-            <div class="stats">
-                <div class="stat">
-                    <div class="stat-number">417</div>
-                    <div class="stat-label">수집 가능 기사/시간</div>
+            <h1>📝 Aivesto</h1>
+            <p class="subtitle">AI 기반 주식 뉴스 분석 블로그</p>
+            <p style="color: #999; font-size: 0.9em; margin-top: 10px;">
+                실시간으로 수집된 뉴스를 AI가 자동 분석하여 투자 시그널을 발굴합니다
+            </p>
+            <div class="header-stats">
+                <div class="header-stat">
+                    <div class="header-stat-number" id="total-articles">11</div>
+                    <div class="header-stat-label">전체 기사</div>
                 </div>
-                <div class="stat highlight">
-                    <div class="stat-number">174</div>
-                    <div class="stat-label">High-Priority 시그널</div>
+                <div class="header-stat">
+                    <div class="header-stat-number" id="total-symbols">10</div>
+                    <div class="header-stat-label">종목 수</div>
                 </div>
-                <div class="stat policy">
-                    <div class="stat-number">4</div>
-                    <div class="stat-label">정책 시그널</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">19.2s</div>
-                    <div class="stat-label">분석 처리 시간</div>
+                <div class="header-stat">
+                    <div class="header-stat-number">자동</div>
+                    <div class="header-stat-label">AI 작성</div>
                 </div>
             </div>
         </header>
 
-        <div class="features">
-            <h2>🔥 핵심 기능</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <span class="feature-emoji">📰</span>
-                    <h3>다층적 뉴스 수집</h3>
-                    <p>Layer 1 (Bloomberg, WSJ) + Layer 2 (Fox, CNN, Yahoo) 뉴스를 자동 수집하여 여론 증폭 효과를 분석합니다.</p>
-                </div>
-
-                <div class="feature-card">
-                    <span class="feature-emoji">🤖</span>
-                    <h3>AI 자동 분석</h3>
-                    <p>NER (종목 추출) + Sentiment (감성 분석) + Policy Detection (정책 변화 감지)를 통해 투자 시그널을 발굴합니다.</p>
-                </div>
-
-                <div class="feature-card">
-                    <span class="feature-emoji">🎯</span>
-                    <h3>우선순위 스코어링</h3>
-                    <p>0-100점 자동 점수화. 90+점 정책 시그널은 즉시 기사 작성, 80+점은 High-Priority로 분류됩니다.</p>
-                </div>
-
-                <div class="feature-card">
-                    <span class="feature-emoji">⏰</span>
-                    <h3>자동화 스케줄러</h3>
-                    <p>APScheduler로 매 시간 자동 실행. 417개 기사를 19초 만에 수집 및 분석합니다.</p>
-                </div>
-
-                <div class="feature-card">
-                    <span class="feature-emoji">📊</span>
-                    <h3>실시간 대시보드</h3>
-                    <p>Supabase 연동 시 실시간 통계, 우선순위 필터링, 종목별 필터링, 자동 새로고침 기능을 제공합니다.</p>
-                </div>
-
-                <div class="feature-card">
-                    <span class="feature-emoji">✍️</span>
-                    <h3>SEO 최적화 기사</h3>
-                    <p>11단계 구조로 작성된 투자 분석 기사. 10초 요약, 데이터 테이블, 경쟁사 비교, 시나리오 분석 포함.</p>
-                </div>
+        <div class="filter-section">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-symbol="ALL">전체</button>
+                <button class="filter-btn" data-symbol="NVDA">NVDA</button>
+                <button class="filter-btn" data-symbol="AAPL">AAPL</button>
+                <button class="filter-btn" data-symbol="MSFT">MSFT</button>
+                <button class="filter-btn" data-symbol="GOOGL">GOOGL</button>
+                <button class="filter-btn" data-symbol="AMZN">AMZN</button>
+                <button class="filter-btn" data-symbol="META">META</button>
+                <button class="filter-btn" data-symbol="TSLA">TSLA</button>
+                <button class="filter-btn" data-symbol="NFLX">NFLX</button>
+                <button class="filter-btn" data-symbol="ADBE">ADBE</button>
+                <button class="filter-btn" data-symbol="UBER">UBER</button>
             </div>
         </div>
 
-        <div class="tech-stack">
-            <h2>⚙️ 기술 스택</h2>
-            <div class="tech-list">
-                <span class="tech-badge">Python 3.9+</span>
-                <span class="tech-badge">Flask</span>
-                <span class="tech-badge">Supabase (PostgreSQL)</span>
-                <span class="tech-badge">VADER Sentiment</span>
-                <span class="tech-badge">spaCy NER</span>
-                <span class="tech-badge">APScheduler</span>
-                <span class="tech-badge">RSS Feeds</span>
-                <span class="tech-badge">Vanilla JavaScript</span>
-            </div>
-        </div>
-
-        <div class="roadmap">
-            <h2>🗺️ 개발 로드맵</h2>
-            <div class="roadmap-item completed">✅ Phase 1: Layer 1 수집기 (WSJ, Bloomberg, Reuters)</div>
-            <div class="roadmap-item completed">✅ Phase 2: 분석 엔진 (NER, Sentiment, Policy)</div>
-            <div class="roadmap-item completed">✅ Phase 3: Layer 2 수집기 + 증폭 감지</div>
-            <div class="roadmap-item completed">✅ Phase 4: E2E 파이프라인 (417개 기사/19초)</div>
-            <div class="roadmap-item completed">✅ Phase 5: 자동화 스케줄러 (APScheduler)</div>
-            <div class="roadmap-item completed">✅ Phase 6: 실시간 대시보드 (Supabase 연동)</div>
-            <div class="roadmap-item in-progress">🚧 Phase 7: 백테스팅 시스템 (ROI 분석)</div>
-            <div class="roadmap-item">📋 Phase 8: 알림 시스템 (Telegram/Email)</div>
-            <div class="roadmap-item">📋 Phase 9: 모바일 앱 (React Native)</div>
-        </div>
-
-        <div class="cta-section">
-            <h2>🚀 지금 시작하세요</h2>
-            <p style="color: #666; margin-bottom: 25px;">
-                오픈소스 프로젝트로 누구나 사용하고 기여할 수 있습니다.
-            </p>
-            <div class="cta-buttons">
-                <a href="/blog.html" class="cta-btn">
-                    블로그 보기
-                </a>
-                <a href="https://github.com/mumushin81/aivesto" class="cta-btn" target="_blank">
-                    GitHub 보기
-                </a>
-                <a href="https://github.com/mumushin81/aivesto/blob/main/README.md" class="cta-btn secondary" target="_blank">
-                    문서 읽기
-                </a>
-            </div>
+        <div class="articles-grid" id="articles-container">
+            <div class="loading">🔄 기사를 불러오는 중...</div>
         </div>
 
         <footer>
-            <p>🤖 Aivesto - AI-Powered Stock News Signal Detection</p>
+            <p>🤖 Aivesto - AI-Powered Stock News Analysis</p>
             <p style="margin-top: 10px; opacity: 0.8;">
-                Phase 6 완료 (2025-11-15) | MIT License
+                본 블로그의 모든 콘텐츠는 정보 제공 목적이며, 투자 권유가 아닙니다.
             </p>
-            <p style="margin-top: 10px; opacity: 0.8;">
-                본 시스템의 모든 콘텐츠는 정보 제공 목적이며, 투자 권유가 아닙니다.
+            <p style="margin-top: 10px; opacity: 0.6; font-size: 0.85em;">
+                마지막 업데이트: 2025-11-15 | MIT License
             </p>
         </footer>
     </div>
+
+    <script>
+        const articles = [
+            {
+                symbol: 'UBER',
+                date: '2025-11-13',
+                title: 'Uber, 드디어 흑자를 달성한다: 성장과 수익성의 동시 실현',
+                url: '/articles/article_UBER_profitability_expansion_20251113.html'
+            },
+            {
+                symbol: 'TSLA',
+                date: '2025-11-13',
+                title: 'Tesla Robotaxi 플릿 출시, 운전대 없는 자율주행 택시가 가져올 혁명 - 주가 전망 분석',
+                url: '/articles/article_TSLA_robotaxi_fleet_20251113.html'
+            },
+            {
+                symbol: 'NVDA',
+                date: '2025-11-15',
+                title: 'Foxconn, AI 서버 수요 급증으로 실적 기대치 상회 - NVIDIA 공급망 강세 지속 전망',
+                url: '/articles/article_NVDA_foxconn_ai_server_20251115.html'
+            },
+            {
+                symbol: 'NVDA',
+                date: '2025-11-13',
+                title: 'NVIDIA Blackwell GPU 출시 - AI 칩 시장 독점 구조 2027년까지 연장 전망',
+                url: '/articles/article_NVDA_blackwell_gpu_20251113.html'
+            },
+            {
+                symbol: 'NFLX',
+                date: '2025-11-13',
+                title: 'Netflix, 광고 사업으로 수익성의 새로운 경지에 도달하다',
+                url: '/articles/article_NFLX_subscriber_growth_20251113.html'
+            },
+            {
+                symbol: 'MSFT',
+                date: '2025-11-13',
+                title: 'Microsoft Copilot 전사 통합 시그널 - Office 365 구독 매출 급증, 목표가 $450 상향',
+                url: '/articles/article_MSFT_AI_office_integration_20251113.html'
+            },
+            {
+                symbol: 'META',
+                date: '2025-11-13',
+                title: 'Meta Business AI 출시, B2B 시장 진출로 비즈니스 모델 다각화 - 주가 전망 분석',
+                url: '/articles/article_META_enterprise_ai_20251113.html'
+            },
+            {
+                symbol: 'GOOGL',
+                date: '2025-11-13',
+                title: 'Google AI 오버뷰 출시, 검색 패러다임 전환으로 광고 수익 방어 - 주가 전망 분석',
+                url: '/articles/article_GOOGL_search_ai_20251113.html'
+            },
+            {
+                symbol: 'AMZN',
+                date: '2025-11-13',
+                title: 'AWS AI 서비스 확대, 클라우드 마진율 개선으로 Amazon 수익성 향상 - 주가 전망 분석',
+                url: '/articles/article_AMZN_aws_ai_services_20251113.html'
+            },
+            {
+                symbol: 'ADBE',
+                date: '2025-11-13',
+                title: 'Adobe, 모든 창작 도구에 AI를 탑재하다: 디자인 산업의 미래가 온다',
+                url: '/articles/article_ADBE_creative_ai_20251113.html'
+            },
+            {
+                symbol: 'AAPL',
+                date: '2025-11-13',
+                title: 'Apple Q4 iPhone 판매, 프리미엄 전략의 성공을 증명하다 - 주가 전망 분석',
+                url: '/articles/article_AAPL_iphone_sales_20251113.html'
+            }
+        ];
+
+        let currentFilter = 'ALL';
+
+        function renderArticles(filterSymbol = 'ALL') {
+            const container = document.getElementById('articles-container');
+            const filtered = filterSymbol === 'ALL'
+                ? articles
+                : articles.filter(a => a.symbol === filterSymbol);
+
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="no-articles">
+                        <div class="no-articles-icon">📭</div>
+                        <div class="no-articles-text">${filterSymbol} 종목의 기사가 아직 없습니다.</div>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = filtered.map(article => `
+                <div class="article-card" onclick="location.href='${article.url}'">
+                    <div class="article-header">
+                        <span class="symbol-tag">${article.symbol}</span>
+                        <div class="article-date">📅 ${article.date}</div>
+                    </div>
+                    <h2 class="article-title">${article.title}</h2>
+                    <div class="read-more">자세히 보기 →</div>
+                </div>
+            `).join('');
+
+            // 통계 업데이트
+            document.getElementById('total-articles').textContent = filtered.length;
+        }
+
+        // 필터 버튼 이벤트
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // 활성화 상태 변경
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                // 필터 적용
+                const symbol = btn.dataset.symbol;
+                currentFilter = symbol;
+                renderArticles(symbol);
+            });
+        });
+
+        // 초기 렌더링
+        renderArticles();
+    </script>
 </body>
 </html>

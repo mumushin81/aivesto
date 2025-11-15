@@ -230,7 +230,7 @@ def create_article_html(article, output_path):
 <body>
     <div class="container">
         <div class="header">
-            <a href="/blog.html" class="back-link">← 블로그 목록으로</a>
+            <a href="/" class="back-link">← 홈으로</a>
             {f'<div class="symbol-badge">{article["symbol"]}</div>' if article['symbol'] else ''}
             <h1>{article['title']}</h1>
             <div class="meta">📅 {article['date']}</div>
