@@ -156,48 +156,31 @@ def create_gradient_image(width, height, color1, color2):
     return base
 
 
-def add_text_to_image(img, title, subtitle):
-    """Add centered text to image"""
-    draw = ImageDraw.Draw(img)
+def add_overlay_pattern(img):
+    """Add subtle overlay pattern to image (no text)"""
     width, height = img.size
 
-    # Try to use a nice font, fall back to default if not available
-    try:
-        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 80)
-        subtitle_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 50)
-    except:
-        # Fallback to default font
-        title_font = ImageFont.load_default()
-        subtitle_font = ImageFont.load_default()
+    # Create a subtle radial gradient overlay for visual interest
+    overlay = Image.new('RGBA', (width, height), (255, 255, 255, 0))
+    draw = ImageDraw.Draw(overlay)
 
-    # Calculate text positions for centering
-    # Title
-    title_bbox = draw.textbbox((0, 0), title, font=title_font)
-    title_width = title_bbox[2] - title_bbox[0]
-    title_height = title_bbox[3] - title_bbox[1]
-    title_x = (width - title_width) // 2
-    title_y = (height - title_height) // 2 - 60
+    # Add subtle circular pattern in center for depth
+    center_x, center_y = width // 2, height // 2
+    max_radius = min(width, height) // 2
 
-    # Subtitle
-    subtitle_bbox = draw.textbbox((0, 0), subtitle, font=subtitle_font)
-    subtitle_width = subtitle_bbox[2] - subtitle_bbox[0]
-    subtitle_height = subtitle_bbox[3] - subtitle_bbox[1]
-    subtitle_x = (width - subtitle_width) // 2
-    subtitle_y = title_y + title_height + 30
+    for i in range(5):
+        radius = max_radius - (i * 100)
+        alpha = 5 + (i * 2)  # Very subtle
+        draw.ellipse(
+            [center_x - radius, center_y - radius, center_x + radius, center_y + radius],
+            fill=None,
+            outline=(255, 255, 255, alpha),
+            width=2
+        )
 
-    # Draw text with shadow for better visibility
-    shadow_offset = 3
-    # Title shadow
-    draw.text((title_x + shadow_offset, title_y + shadow_offset), title, font=title_font, fill=(0, 0, 0, 128))
-    # Title
-    draw.text((title_x, title_y), title, font=title_font, fill=(255, 255, 255))
-
-    # Subtitle shadow
-    draw.text((subtitle_x + shadow_offset, subtitle_y + shadow_offset), subtitle, font=subtitle_font, fill=(0, 0, 0, 128))
-    # Subtitle
-    draw.text((subtitle_x, subtitle_y), subtitle, font=subtitle_font, fill=(240, 240, 240))
-
-    return img
+    # Blend overlay with original image
+    img = Image.alpha_composite(img.convert('RGBA'), overlay)
+    return img.convert('RGB')
 
 
 def generate_all_images(output_dir):
@@ -215,18 +198,17 @@ def generate_all_images(output_dir):
     for filename, config in IMAGE_CONFIGS.items():
         try:
             print(f"\n📸 Creating: {filename}")
-            print(f"   Title: {config['title']}")
-            print(f"   Subtitle: {config['subtitle']}")
+            print(f"   Colors: {config['gradient']}")
 
             # Create gradient background
             img = create_gradient_image(1200, 800, config['gradient'][0], config['gradient'][1])
 
-            # Add text overlay
-            img = add_text_to_image(img, config['title'], config['subtitle'])
+            # Add subtle overlay pattern (no text)
+            img = add_overlay_pattern(img)
 
             # Save image
             filepath = output_dir / filename
-            img.save(filepath, 'JPEG', quality=90)
+            img.save(filepath, 'JPEG', quality=92)
 
             print(f"   ✓ Saved: {filepath}")
             success += 1
