@@ -199,6 +199,50 @@ def api_trending():
         return jsonify({"error": str(e), "trending": []}), 500
 
 
+@app.route('/api/published-articles')
+def api_published_articles():
+    """발행된 블로그 기사 목록 API (로컬 파일 기반)"""
+    try:
+        limit = request.args.get('limit', 50, type=int)
+        symbol = request.args.get('symbol', None, type=str)
+
+        # 모든 마크다운 파일 찾기
+        article_files = glob.glob(os.path.join(ARTICLES_DIR, 'article_*.md'))
+
+        articles = []
+        for file_path in sorted(article_files, reverse=True):
+            try:
+                article = parse_article(file_path)
+
+                # 심볼 필터링
+                if symbol and article['symbol'] != symbol:
+                    continue
+
+                # JSON 직렬화 가능한 형태로 변환
+                articles.append({
+                    'title': article['title'],
+                    'date': article['date'],
+                    'symbol': article['symbol'],
+                    'filename': article['filename'],
+                    'url': f"/article/{article['filename']}"
+                })
+
+                if len(articles) >= limit:
+                    break
+
+            except Exception as e:
+                print(f"Error parsing {file_path}: {e}")
+
+        return jsonify({
+            "articles": articles,
+            "count": len(articles),
+            "source": "local_files"
+        })
+
+    except Exception as e:
+        return jsonify({"error": str(e), "articles": []}), 500
+
+
 if __name__ == '__main__':
     print(f"""
     ====================================

@@ -394,6 +394,14 @@
             <div class="loading">🔄 데이터 로딩 중...</div>
         </div>
 
+        <!-- 발행된 블로그 기사 섹션 -->
+        <div class="filters-container" style="margin-top: 40px;">
+            <h2 style="margin-bottom: 20px; color: #333;">📝 발행된 블로그 기사</h2>
+            <div id="published-articles-container">
+                <div class="loading">🔄 기사 로딩 중...</div>
+            </div>
+        </div>
+
         <footer>
             <p>🤖 Aivesto - AI-Powered Stock News Signal Detection</p>
             <p class="refresh-info">5분마다 자동 새로고침</p>
@@ -411,11 +419,13 @@
         document.addEventListener('DOMContentLoaded', () => {
             loadStats();
             loadArticles();
+            loadPublishedArticles();
 
             // 5분마다 자동 새로고침
             setInterval(() => {
                 loadStats();
                 loadArticles();
+                loadPublishedArticles();
             }, 5 * 60 * 1000);
 
             // 필터 이벤트
@@ -555,6 +565,78 @@
                     </span>
                     <span class="priority-score ${priorityClass}">${article.priority_score}점</span>
                 </div>
+
+                <div style="font-size: 0.8em; color: #999; margin-top: 10px;">
+                    📅 ${publishedDate}
+                </div>
+            `;
+
+            return card;
+        }
+
+        // 발행된 블로그 기사 로드
+        async function loadPublishedArticles() {
+            const container = document.getElementById('published-articles-container');
+            container.innerHTML = '<div class="loading">🔄 기사 로딩 중...</div>';
+
+            try {
+                const res = await fetch('/api/published-articles?limit=10');
+                const data = await res.json();
+
+                if (data.error) {
+                    container.innerHTML = `<div class="error">⚠️ ${data.error}</div>`;
+                    return;
+                }
+
+                if (data.articles.length === 0) {
+                    container.innerHTML = '<div class="loading">📭 발행된 기사가 없습니다.</div>';
+                    return;
+                }
+
+                renderPublishedArticles(data.articles);
+            } catch (error) {
+                console.error('Failed to load published articles:', error);
+                container.innerHTML = `<div class="error">⚠️ 기사 로딩 실패: ${error.message}</div>`;
+            }
+        }
+
+        // 발행된 기사 렌더링
+        function renderPublishedArticles(articles) {
+            const container = document.getElementById('published-articles-container');
+            const grid = document.createElement('div');
+            grid.className = 'news-grid';
+
+            articles.forEach(article => {
+                const card = createPublishedArticleCard(article);
+                grid.appendChild(card);
+            });
+
+            container.innerHTML = '';
+            container.appendChild(grid);
+        }
+
+        // 발행된 기사 카드 생성
+        function createPublishedArticleCard(article) {
+            const card = document.createElement('div');
+            card.className = 'news-card';
+            card.onclick = () => window.location.href = article.url;
+
+            const symbolBadge = article.symbol ?
+                `<span class="symbol-tag">${article.symbol}</span>` : '';
+
+            const publishedDate = article.date || '날짜 정보 없음';
+
+            card.innerHTML = `
+                <div class="news-header">
+                    <div class="news-badges">
+                        <span class="badge" style="background: #27ae60; color: white;">📝 블로그 기사</span>
+                    </div>
+                    <div class="news-source">Published</div>
+                </div>
+
+                ${symbolBadge ? `<div class="news-symbols">${symbolBadge}</div>` : ''}
+
+                <div class="news-title">${article.title}</div>
 
                 <div style="font-size: 0.8em; color: #999; margin-top: 10px;">
                     📅 ${publishedDate}
