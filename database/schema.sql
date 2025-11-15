@@ -107,6 +107,79 @@ CREATE POLICY "Enable all for service role" ON news_raw FOR ALL USING (true);
 CREATE POLICY "Enable all for service role" ON analyzed_news FOR ALL USING (true);
 CREATE POLICY "Enable all for service role" ON published_articles FOR ALL USING (true);
 
+-- 6. 다층적 수집: articles 테이블 (Layer 1/2/3)
+CREATE TABLE IF NOT EXISTS articles (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  source_layer INTEGER CHECK (source_layer IN (1, 2, 3)),
+  source_name TEXT NOT NULL,
+  title TEXT NOT NULL,
+  content TEXT,
+  url TEXT UNIQUE NOT NULL,
+  published_at TIMESTAMPTZ NOT NULL,
+  symbols TEXT[],
+  categories TEXT[],
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 인덱스
+CREATE INDEX IF NOT EXISTS idx_articles_layer ON articles(source_layer);
+CREATE INDEX IF NOT EXISTS idx_articles_created ON articles(created_at);
+CREATE INDEX IF NOT EXISTS idx_articles_symbols ON articles USING GIN(symbols);
+CREATE INDEX IF NOT EXISTS idx_articles_url ON articles(url);
+
+-- 7. 신호 테이블 (signals)
+CREATE TABLE IF NOT EXISTS signals (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  article_id UUID REFERENCES articles(id) ON DELETE CASCADE,
+  ticker TEXT NOT NULL,
+  signal_type TEXT CHECK (signal_type IN ('High-Priority', 'Amplification', 'Policy', 'Normal')),
+  priority_score INTEGER CHECK (priority_score BETWEEN 0 AND 100),
+  source_layer INTEGER,
+  source_name TEXT,
+
+  -- 감성 분석
+  sentiment TEXT CHECK (sentiment IN ('positive', 'negative', 'neutral')),
+  sentiment_score DECIMAL(3, 2),
+
+  -- 정책 영향
+  policy_impact JSONB,
+
+  -- 증폭 정보
+  amplification JSONB,
+
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 인덱스
+CREATE INDEX IF NOT EXISTS idx_signals_ticker ON signals(ticker);
+CREATE INDEX IF NOT EXISTS idx_signals_priority ON signals(priority_score);
+CREATE INDEX IF NOT EXISTS idx_signals_type ON signals(signal_type);
+CREATE INDEX IF NOT EXISTS idx_signals_created ON signals(created_at);
+
+-- 8. 증폭 추적 Materialized View
+CREATE MATERIALIZED VIEW IF NOT EXISTS amplification_tracker AS
+SELECT
+  UNNEST(symbols) as ticker,
+  source_layer,
+  DATE_TRUNC('hour', published_at) as hour_bucket,
+  COUNT(DISTINCT source_name) as unique_sources,
+  ARRAY_AGG(DISTINCT source_name) as sources
+FROM articles
+WHERE published_at > NOW() - INTERVAL '48 hours'
+  AND symbols IS NOT NULL
+GROUP BY ticker, source_layer, hour_bucket;
+
+-- 인덱스
+CREATE INDEX IF NOT EXISTS idx_amplification_ticker ON amplification_tracker(ticker);
+
+-- Refresh 함수
+CREATE OR REPLACE FUNCTION refresh_amplification_tracker()
+RETURNS void AS $$
+BEGIN
+  REFRESH MATERIALIZED VIEW amplification_tracker;
+END;
+$$ LANGUAGE plpgsql;
+
 -- 완료 메시지
 DO $$
 BEGIN
@@ -115,4 +188,6 @@ BEGIN
   RAISE NOTICE '1. Enable pg_cron extension for automated cleanup';
   RAISE NOTICE '2. Configure your .env file with Supabase credentials';
   RAISE NOTICE '3. Run the Python collectors to start gathering news';
+  RAISE NOTICE '4. NEW: 3-layer collection system (articles + signals tables)';
+  RAISE NOTICE '5. NEW: Amplification tracking for momentum detection';
 END $$;

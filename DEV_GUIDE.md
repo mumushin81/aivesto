@@ -43,7 +43,11 @@
 - **Frontend**: HTML/CSS/JavaScript (템플릿 기반)
 - **Database**: Supabase (PostgreSQL)
 - **AI Analysis**: Claude Code (로컬, 무료)
-- **News APIs**: Finnhub, Alpha Vantage
+- **News Collection**: 3계층 전략
+  - Layer 1: Bloomberg, Reuters, WSJ (RSS)
+  - Layer 2: Fox News, CNN, Yahoo Finance (RSS)
+  - Layer 3: Reddit, 지역 뉴스 (선택)
+- **Sentiment Analysis**: FinBERT (ONNX), VADER, spaCy
 - **Deployment**: Vercel (정적 사이트)
 - **Alerts**: Telegram Bot
 
