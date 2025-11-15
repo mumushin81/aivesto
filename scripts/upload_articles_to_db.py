@@ -94,7 +94,7 @@ def upload_articles(db_client, articles_dir):
             }
 
             # 중복 확인 (제목으로)
-            existing = db_client.supabase.table('published_articles') \
+            existing = db_client.client.table('published_articles') \
                 .select('id') \
                 .eq('title', article['title']) \
                 .execute()
@@ -105,7 +105,7 @@ def upload_articles(db_client, articles_dir):
                 continue
 
             # 삽입
-            result = db_client.supabase.table('published_articles').insert(data).execute()
+            result = db_client.client.table('published_articles').insert(data).execute()
 
             if result.data:
                 print(f"✅ UPLOADED: {article['filename']}")
