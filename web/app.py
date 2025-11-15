@@ -19,17 +19,28 @@ def parse_article(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    lines = content.split('\n')
-
-    # H1 제목 추출 (# 로 시작하는 첫 번째 줄)
+    # TITLE: 과 CONTENT: 레이블 제거 및 파싱
     title = 'Untitled'
-    for line in lines:
-        if line.startswith('# '):
-            title = line.replace('#', '').strip()
-            break
+    article_content = content
+
+    if 'TITLE:' in content and 'CONTENT:' in content:
+        # TITLE: 과 CONTENT: 사이의 텍스트가 제목
+        title_start = content.find('TITLE:') + len('TITLE:')
+        content_start = content.find('CONTENT:')
+        title = content[title_start:content_start].strip()
+
+        # CONTENT: 이후의 모든 내용이 본문
+        article_content = content[content_start + len('CONTENT:'):].strip()
+    else:
+        # 기존 방식: H1 제목 추출
+        lines = content.split('\n')
+        for line in lines:
+            if line.startswith('# '):
+                title = line.replace('#', '').strip()
+                break
 
     # HTML 변환
-    html_content = markdown.markdown(content, extensions=['tables', 'fenced_code', 'attr_list'])
+    html_content = markdown.markdown(article_content, extensions=['tables', 'fenced_code', 'attr_list'])
 
     # 파일명에서 종목 코드와 날짜 추출
     filename = os.path.basename(file_path)

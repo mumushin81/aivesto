@@ -64,7 +64,7 @@ class RelevanceAnalyzer:
         return filename
 
     def _build_analysis_prompt(self, title: str, content: str, existing_symbols: List[str]) -> str:
-        """Claude에게 보낼 프롬프트 구성"""
+        """Claude에게 보낼 프롬프트 구성 (정책 변화 중점)"""
         return f"""당신은 미국 주식 시장 전문 애널리스트입니다. 다음 뉴스를 분석하여 주식 투자자에게 얼마나 유용한지 평가해주세요.
 
 뉴스 제목: {title}
@@ -80,15 +80,16 @@ class RelevanceAnalyzer:
    - 0-30: 무관한 뉴스 (일반 뉴스, 정치, 스포츠 등)
    - 31-60: 간접 관련 (경제 일반, 업계 트렌드)
    - 61-80: 직접 관련 (특정 기업/섹터 뉴스)
-   - 81-100: 매우 중요 (실적, M&A, 규제 변화, 중대 사건)
+   - 81-89: 중요 (실적, M&A, 신제품 출시)
+   - 90-100: ⭐ 매우 중요 (정부 정책 변화, 규제 신설/폐지, FDA 승인, FTC 조사)
 
 2. affected_symbols: 영향을 받는 주식 심볼 리스트 (최대 5개)
    - 기존 심볼 검증 및 추가 심볼 발견
    - 직접 언급된 기업만 포함
 
 3. price_impact: 주가 영향 예측
-   - "up": 긍정적 영향 (매출 증가, 신제품, 호실적)
-   - "down": 부정적 영향 (손실, 소송, 규제)
+   - "up": 긍정적 영향 (매출 증가, 신제품, 규제 완화)
+   - "down": 부정적 영향 (손실, 소송, 규제 강화)
    - "neutral": 중립 또는 혼재
 
 4. importance: 중요도
@@ -104,6 +105,19 @@ class RelevanceAnalyzer:
 6. key_points: 핵심 포인트 (3-5개 bullet points)
    - 투자자가 알아야 할 핵심 정보
 
+7. policy_impact: 정부 정책/규제 변화 (매우 중요!)
+   - has_policy_change: 정책 변화 있는지 (true/false)
+   - change_type: "new_policy" (신규), "policy_removed" (폐지), "policy_changed" (변경), "none"
+   - policy_description: 어떤 정책이 생겼거나 없어졌는지
+   - affected_sectors: 영향받는 섹터 (예: ["Technology", "Energy"])
+   - policy_catalyst: 왜 이 정책이 주가에 영향을 주는가
+
+⚠️ 정책 변화는 자동으로 90점 이상!
+- 신규 정책 도입 (IRA, CHIPS Act, AI 규제법, 관세) → 95-100점
+- 기존 정책 폐지 (규제 완화, 금수 해제) → 95-100점
+- 정책 변경 (금리, 법인세율, 보조금) → 90-95점
+- FDA 승인/거부, FTC 반독점 조사, SEC 규제 → 90-95점
+
 응답 형식 (JSON만 반환):
 {{
   "relevance_score": 85,
@@ -111,7 +125,14 @@ class RelevanceAnalyzer:
   "price_impact": "up",
   "importance": "high",
   "reasoning": "...",
-  "key_points": ["...", "...", "..."]
+  "key_points": ["...", "...", "..."],
+  "policy_impact": {{
+    "has_policy_change": true,
+    "change_type": "new_policy",
+    "policy_description": "AI 칩 대중국 수출 금지",
+    "affected_sectors": ["Technology", "Semiconductors"],
+    "policy_catalyst": "반도체 기업 매출 20% 감소 예상"
+  }}
 }}"""
 
     def _parse_response(self, response_text: str) -> Dict:
