@@ -195,6 +195,29 @@ def create_article_html(article, output_path):
             font-family: monospace;
         }}
 
+        .content img {{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 30px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }}
+
+        .content p img {{
+            margin: 20px 0;
+        }}
+
+        .content em {{
+            display: block;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: -15px;
+            margin-bottom: 20px;
+            font-style: normal;
+        }}
+
         .content blockquote {{
             border-left: 4px solid #667eea;
             padding-left: 20px;
