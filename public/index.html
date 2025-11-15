@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aivesto - AI 기반 주식 뉴스 분석 블로그</title>
-    <meta name="description" content="AI가 자동으로 수집하고 분석한 주식 뉴스 시그널 블로그">
+    <title>Aivesto</title>
+    <meta name="description" content="AI 기반 주식 뉴스 분석">
     <style>
         * {
             margin: 0;
@@ -25,96 +25,10 @@
             margin: 0 auto;
         }
 
-        header {
-            background: white;
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 30px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            text-align: center;
-        }
-
-        h1 {
-            color: #333;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            color: #666;
-            font-size: 1.1em;
-            margin-bottom: 20px;
-        }
-
-        .header-stats {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 25px;
-            flex-wrap: wrap;
-        }
-
-        .header-stat {
-            background: #f8f9fa;
-            padding: 15px 25px;
-            border-radius: 12px;
-            min-width: 120px;
-        }
-
-        .header-stat-number {
-            font-size: 2em;
-            font-weight: bold;
-            color: #667eea;
-        }
-
-        .header-stat-label {
-            color: #666;
-            font-size: 0.85em;
-            margin-top: 5px;
-        }
-
-        .filter-section {
-            background: white;
-            border-radius: 15px;
-            padding: 25px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-
-        .filter-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-        }
-
-        .filter-btn {
-            padding: 10px 20px;
-            background: #f8f9fa;
-            border: 2px solid #ddd;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 600;
-            color: #333;
-        }
-
-        .filter-btn:hover {
-            background: #e9ecef;
-            transform: translateY(-2px);
-        }
-
-        .filter-btn.active {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border-color: #667eea;
-        }
-
         .articles-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 25px;
-            margin-bottom: 30px;
         }
 
         .article-card {
@@ -165,108 +79,16 @@
             font-size: 0.9em;
         }
 
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: white;
-            font-size: 1.2em;
-        }
-
-        .no-articles {
-            text-align: center;
-            padding: 60px 20px;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-
-        .no-articles-icon {
-            font-size: 4em;
-            margin-bottom: 20px;
-        }
-
-        .no-articles-text {
-            color: #666;
-            font-size: 1.2em;
-        }
-
-        footer {
-            text-align: center;
-            color: white;
-            padding: 30px;
-            margin-top: 40px;
-            font-size: 0.9em;
-        }
-
         @media (max-width: 768px) {
             .articles-grid {
                 grid-template-columns: 1fr;
-            }
-
-            h1 {
-                font-size: 1.8em;
-            }
-
-            .header-stats {
-                flex-direction: column;
-                gap: 15px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>📝 Aivesto</h1>
-            <p class="subtitle">AI 기반 주식 뉴스 분석 블로그</p>
-            <p style="color: #999; font-size: 0.9em; margin-top: 10px;">
-                실시간으로 수집된 뉴스를 AI가 자동 분석하여 투자 시그널을 발굴합니다
-            </p>
-            <div class="header-stats">
-                <div class="header-stat">
-                    <div class="header-stat-number" id="total-articles">11</div>
-                    <div class="header-stat-label">전체 기사</div>
-                </div>
-                <div class="header-stat">
-                    <div class="header-stat-number" id="total-symbols">10</div>
-                    <div class="header-stat-label">종목 수</div>
-                </div>
-                <div class="header-stat">
-                    <div class="header-stat-number">자동</div>
-                    <div class="header-stat-label">AI 작성</div>
-                </div>
-            </div>
-        </header>
-
-        <div class="filter-section">
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-symbol="ALL">전체</button>
-                <button class="filter-btn" data-symbol="NVDA">NVDA</button>
-                <button class="filter-btn" data-symbol="AAPL">AAPL</button>
-                <button class="filter-btn" data-symbol="MSFT">MSFT</button>
-                <button class="filter-btn" data-symbol="GOOGL">GOOGL</button>
-                <button class="filter-btn" data-symbol="AMZN">AMZN</button>
-                <button class="filter-btn" data-symbol="META">META</button>
-                <button class="filter-btn" data-symbol="TSLA">TSLA</button>
-                <button class="filter-btn" data-symbol="NFLX">NFLX</button>
-                <button class="filter-btn" data-symbol="ADBE">ADBE</button>
-                <button class="filter-btn" data-symbol="UBER">UBER</button>
-            </div>
-        </div>
-
-        <div class="articles-grid" id="articles-container">
-            <div class="loading">🔄 기사를 불러오는 중...</div>
-        </div>
-
-        <footer>
-            <p>🤖 Aivesto - AI-Powered Stock News Analysis</p>
-            <p style="margin-top: 10px; opacity: 0.8;">
-                본 블로그의 모든 콘텐츠는 정보 제공 목적이며, 투자 권유가 아닙니다.
-            </p>
-            <p style="margin-top: 10px; opacity: 0.6; font-size: 0.85em;">
-                마지막 업데이트: 2025-11-15 | MIT License
-            </p>
-        </footer>
+        <div class="articles-grid" id="articles-container"></div>
     </div>
 
     <script>
@@ -339,25 +161,10 @@
             }
         ];
 
-        let currentFilter = 'ALL';
-
-        function renderArticles(filterSymbol = 'ALL') {
+        function renderArticles() {
             const container = document.getElementById('articles-container');
-            const filtered = filterSymbol === 'ALL'
-                ? articles
-                : articles.filter(a => a.symbol === filterSymbol);
 
-            if (filtered.length === 0) {
-                container.innerHTML = `
-                    <div class="no-articles">
-                        <div class="no-articles-icon">📭</div>
-                        <div class="no-articles-text">${filterSymbol} 종목의 기사가 아직 없습니다.</div>
-                    </div>
-                `;
-                return;
-            }
-
-            container.innerHTML = filtered.map(article => `
+            container.innerHTML = articles.map(article => `
                 <div class="article-card" onclick="location.href='${article.url}'">
                     <div class="article-header">
                         <span class="symbol-tag">${article.symbol}</span>
@@ -367,26 +174,8 @@
                     <div class="read-more">자세히 보기 →</div>
                 </div>
             `).join('');
-
-            // 통계 업데이트
-            document.getElementById('total-articles').textContent = filtered.length;
         }
 
-        // 필터 버튼 이벤트
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                // 활성화 상태 변경
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-
-                // 필터 적용
-                const symbol = btn.dataset.symbol;
-                currentFilter = symbol;
-                renderArticles(symbol);
-            });
-        });
-
-        // 초기 렌더링
         renderArticles();
     </script>
 </body>
