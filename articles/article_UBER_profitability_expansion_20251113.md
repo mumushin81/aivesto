@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"Uber achieves first quarterly profit of $500M post-IPO, signaling transition from growth-at-all-costs to sustainable profitability"
+"Uber, IPO 이후 첫 분기 순이익 5억 달러 달성으로 무조건적 성장에서 지속 가능한 수익성으로 전환 신호"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2025-11-13/uber-posts-first-profit-q3-earnings](https://www.bloomberg.com/news/articles/2025-11-13/uber-posts-first-profit-q3-earnings))
 **날짜**: 2025-11-13

@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"Foxconn reports record AI server revenue, up 200% year-over-year, signaling sustained demand for NVIDIA GPUs"
+"Foxconn이 AI 서버 매출 기록 경신, 전년 대비 200% 증가로 NVIDIA GPU에 대한 지속적인 수요 신호"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/technology/2025-11-13/foxconn-beats-estimates-ai-server-demand](https://www.bloomberg.com/news/technology/2025-11-13/foxconn-beats-estimates-ai-server-demand))
 **날짜**: 2025-11-13

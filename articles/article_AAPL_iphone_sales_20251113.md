@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"Apple Q4 iPhone revenue hits $52B, beating estimates by 6%, average selling price up 9% to $850 driven by Pro model mix"
+"Apple 4분기 iPhone 매출 520억 달러로 예상 6% 상회, Pro 모델 비중 증가로 평균 판매가 9% 상승해 850달러 달성"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2025-11-13/apple-q4-earnings-iphone-sales](https://www.bloomberg.com/news/articles/2025-11-13/apple-q4-earnings-iphone-sales))
 **날짜**: 2025-11-13

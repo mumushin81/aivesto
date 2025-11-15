@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"AWS AI services hit $2.5B monthly revenue, growing 30% quarterly, driving AWS margin from 32% to 38%"
+"AWS AI 서비스 월 매출 25억 달러 돌파, 분기 30% 성장하며 AWS 마진율을 32%에서 38%로 개선"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2025-11-13/aws-ai-services-expansion-margin-improvement](https://www.bloomberg.com/news/articles/2025-11-13/aws-ai-services-expansion-margin-improvement))
 **날짜**: 2025-11-13

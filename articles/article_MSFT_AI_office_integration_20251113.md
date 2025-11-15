@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"Microsoft integrates Copilot across Office 365, 65% of Fortune 500 commit to adoption, $30/month premium unlocks $19B annual revenue potential"
+"Microsoft, Office 365 전체에 Copilot 통합, Fortune 500 기업의 65%가 도입 확약, 월 30달러 프리미엄으로 연간 190억 달러 매출 잠재력 확보"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2024-11-13/microsoft-copilot-office-365-integration](https://www.bloomberg.com/news/articles/2024-11-13/microsoft-copilot-office-365-integration))
 **날짜**: 2024-11-13

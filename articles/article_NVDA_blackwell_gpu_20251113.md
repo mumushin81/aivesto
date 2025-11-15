@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"NVIDIA unveils Blackwell GPU with 10x performance boost, AWS and Microsoft Azure commit $4B in immediate orders"
+"NVIDIA, 성능 10배 향상된 Blackwell GPU 공개, AWS와 Microsoft Azure가 즉시 40억 달러 규모 선주문"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2024-11-13/nvidia-blackwell-gpu-launch](https://www.bloomberg.com/news/articles/2024-11-13/nvidia-blackwell-gpu-launch))
 **날짜**: 2024-11-13

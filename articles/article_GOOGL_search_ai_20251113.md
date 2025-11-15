@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"Google deploys AI Overview to 120 countries, 30% increase in page engagement, ad CPM up 15-20% despite reduced clicks"
+"Google, AI 오버뷰를 120개국에 배포, 페이지 체류 시간 30% 증가, 클릭 감소에도 광고 CPM 15-20% 상승"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2025-11-13/google-ai-overview-global-launch](https://www.bloomberg.com/news/articles/2025-11-13/google-ai-overview-global-launch))
 **날짜**: 2025-11-13

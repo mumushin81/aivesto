@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"Meta launches Business AI for 500M business users, $30-100/month subscription model marks first major B2B enterprise play"
+"Meta, 5억 비즈니스 사용자 대상 Business AI 출시, 월 30-100달러 구독 모델로 첫 본격 B2B 기업 진출"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2025-11-13/meta-business-ai-launch-b2b](https://www.bloomberg.com/news/articles/2025-11-13/meta-business-ai-launch-b2b))
 **날짜**: 2025-11-13

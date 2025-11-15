@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"Adobe integrates generative AI Firefly across all creative tools, 3M creators already using it, subscription ARPU expected to rise from $55 to $65"
+"Adobe, 모든 창작 도구에 생성형 AI Firefly 통합, 이미 300만 크리에이터 사용 중, 구독 ARPU가 55달러에서 65달러로 상승 전망"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2025-11-13/adobe-firefly-ai-integration-creative-cloud](https://www.bloomberg.com/news/articles/2025-11-13/adobe-firefly-ai-integration-creative-cloud))
 **날짜**: 2025-11-13

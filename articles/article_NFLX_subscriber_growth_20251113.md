@@ -5,7 +5,7 @@ CONTENT:
 
 ## 시그널
 
-"Netflix adds 16M subscribers in Q4, ad-tier now 40% of total, ARPU up 11.6% YoY, advertising revenue surpasses $1B per quarter"
+"Netflix, 4분기 1,600만 구독자 추가, 광고 플랜이 전체의 40% 차지, ARPU 전년 대비 11.6% 증가, 광고 매출 분기당 10억 달러 돌파"
 
 **출처**: Bloomberg([https://www.bloomberg.com/news/articles/2025-11-13/netflix-q4-earnings-subscriber-growth](https://www.bloomberg.com/news/articles/2025-11-13/netflix-q4-earnings-subscriber-growth))
 **날짜**: 2025-11-13
