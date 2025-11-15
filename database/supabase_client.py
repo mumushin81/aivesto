@@ -346,3 +346,107 @@ class SupabaseClient:
         except Exception as e:
             logger.error(f"Failed to mark signal as processed: {e}")
             return False
+
+    # ==================== Phase 6: Dashboard Real-time Data ====================
+
+    def get_dashboard_stats(self) -> Dict:
+        """대시보드 실시간 통계"""
+        try:
+            # 전체 기사 수
+            total_result = self.client.table("analyzed_news")\
+                .select("id", count="exact")\
+                .execute()
+            total_articles = total_result.count if hasattr(total_result, 'count') else len(total_result.data)
+
+            # High-priority (80+점) 기사 수
+            high_priority_result = self.client.table("analyzed_news")\
+                .select("id", count="exact")\
+                .gte("relevance_score", 80)\
+                .execute()
+            high_priority_count = high_priority_result.count if hasattr(high_priority_result, 'count') else len(high_priority_result.data)
+
+            # Policy signals (has_policy_change = true) 기사 수
+            policy_result = self.client.table("analyzed_news")\
+                .select("id", count="exact")\
+                .eq("has_policy_change", True)\
+                .execute()
+            policy_signals = policy_result.count if hasattr(policy_result, 'count') else len(policy_result.data)
+
+            # 최근 1시간 수집 기사
+            one_hour_ago = (datetime.now() - timedelta(hours=1)).isoformat()
+            last_hour_result = self.client.table("analyzed_news")\
+                .select("id", count="exact")\
+                .gte("created_at", one_hour_ago)\
+                .execute()
+            last_1h_count = last_hour_result.count if hasattr(last_hour_result, 'count') else len(last_hour_result.data)
+
+            stats = {
+                "total_articles": total_articles,
+                "high_priority_count": high_priority_count,
+                "policy_signals": policy_signals,
+                "last_1h_count": last_1h_count,
+                "last_updated": datetime.now().isoformat()
+            }
+
+            logger.info(f"Dashboard stats: {stats}")
+            return stats
+
+        except Exception as e:
+            logger.error(f"Failed to get dashboard stats: {e}")
+            return {
+                "total_articles": 0,
+                "high_priority_count": 0,
+                "policy_signals": 0,
+                "last_1h_count": 0,
+                "last_updated": datetime.now().isoformat()
+            }
+
+    def get_articles_for_dashboard(self, limit: int = 50, min_priority: int = 0, symbol: Optional[str] = None) -> List[Dict]:
+        """대시보드용 기사 목록"""
+        try:
+            query = self.client.table("analyzed_news")\
+                .select("*, news_raw(*)")
+
+            # 우선순위 필터
+            if min_priority > 0:
+                query = query.gte("relevance_score", min_priority)
+
+            # 종목 필터
+            if symbol:
+                query = query.contains("affected_symbols", [symbol])
+
+            # 최근 순으로 정렬
+            result = query.order("created_at", desc=True)\
+                .limit(limit)\
+                .execute()
+
+            # 응답 데이터 정리
+            articles = []
+            for item in result.data:
+                raw_news = item.get("news_raw", {})
+                articles.append({
+                    "id": item.get("id"),
+                    "title": raw_news.get("title", "Untitled"),
+                    "url": raw_news.get("url", ""),
+                    "source": raw_news.get("source", "Unknown"),
+                    "symbols": item.get("affected_symbols", []),
+                    "priority_score": item.get("relevance_score", 0),
+                    "sentiment": item.get("sentiment", "neutral"),
+                    "sentiment_score": item.get("sentiment_score", 0.0),
+                    "has_policy_change": item.get("has_policy_change", False),
+                    "policy_type": item.get("policy_type", None),
+                    "published_at": raw_news.get("published_at", None),
+                    "collected_at": raw_news.get("created_at", None),
+                    "created_at": item.get("created_at", None)
+                })
+
+            logger.info(f"Retrieved {len(articles)} articles for dashboard")
+            return articles
+
+        except Exception as e:
+            logger.error(f"Failed to get articles for dashboard: {e}")
+            return []
+
+    def get_articles_by_symbol_dashboard(self, symbol: str, limit: int = 20) -> List[Dict]:
+        """종목별 기사 조회 (대시보드용)"""
+        return self.get_articles_for_dashboard(limit=limit, symbol=symbol)

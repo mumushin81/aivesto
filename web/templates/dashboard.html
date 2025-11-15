@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aivesto - 실시간 주식 뉴스 대시보드</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            border-radius: 15px;
+            min-width: 150px;
+            transition: transform 0.3s ease;
+        }
+
+        .stat:hover {
+            transform: translateY(-3px);
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .stat.highlight .stat-number {
+            color: #e74c3c;
+        }
+
+        .stat.policy .stat-number {
+            color: #f39c12;
+        }
+
+        /* Filters */
+        .filters-container {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .filter-section {
+            margin-bottom: 20px;
+        }
+
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .filter-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9em;
+        }
+
+        .filter-btn:hover {
+            border-color: #667eea;
+            color: #667eea;
+        }
+
+        .filter-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+
+        .symbol-btn {
+            padding: 8px 16px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .symbol-btn:hover {
+            border-color: #764ba2;
+        }
+
+        .symbol-btn.active {
+            background: #764ba2;
+            color: white;
+            border-color: #764ba2;
+        }
+
+        /* News Grid */
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+        }
+
+        .news-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .news-badges {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: bold;
+        }
+
+        .badge-critical {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .badge-high {
+            background: #f39c12;
+            color: white;
+        }
+
+        .badge-policy {
+            background: #9b59b6;
+            color: white;
+        }
+
+        .news-source {
+            font-size: 0.8em;
+            color: #999;
+            background: #f0f0f0;
+            padding: 4px 10px;
+            border-radius: 10px;
+        }
+
+        .news-symbols {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+
+        .symbol-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .news-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .priority-score {
+            background: #f8f9fa;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .priority-score.high {
+            background: #ffe5e5;
+            color: #e74c3c;
+        }
+
+        .priority-score.policy {
+            background: #f3e5ff;
+            color: #9b59b6;
+        }
+
+        .sentiment {
+            font-size: 0.9em;
+        }
+
+        .sentiment.positive {
+            color: #27ae60;
+        }
+
+        .sentiment.negative {
+            color: #e74c3c;
+        }
+
+        .sentiment.neutral {
+            color: #95a5a6;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            font-size: 1.2em;
+            color: white;
+        }
+
+        .error {
+            background: #e74c3c;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        .refresh-info {
+            font-size: 0.85em;
+            color: white;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .filter-buttons {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 Aivesto 실시간 대시보드</h1>
+            <p class="subtitle">AI 기반 주식 뉴스 시그널 분석</p>
+
+            <div class="stats" id="live-stats">
+                <div class="stat">
+                    <div class="stat-number" id="total-articles">-</div>
+                    <div class="stat-label">총 수집 기사</div>
+                </div>
+                <div class="stat highlight">
+                    <div class="stat-number" id="high-priority">-</div>
+                    <div class="stat-label">High-Priority (80+)</div>
+                </div>
+                <div class="stat policy">
+                    <div class="stat-number" id="policy-signals">-</div>
+                    <div class="stat-label">정책 시그널 (90+)</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="last-hour">-</div>
+                    <div class="stat-label">최근 1시간</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="filters-container">
+            <div class="filter-section">
+                <div class="filter-title">우선순위 필터</div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-priority="0">All</button>
+                    <button class="filter-btn" data-priority="80">High-Priority (80+)</button>
+                    <button class="filter-btn" data-priority="90">Policy Signals (90+)</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-title">종목 필터</div>
+                <div class="filter-buttons">
+                    <button class="symbol-btn active" data-symbol="">All Symbols</button>
+                    <button class="symbol-btn" data-symbol="AAPL">AAPL</button>
+                    <button class="symbol-btn" data-symbol="TSLA">TSLA</button>
+                    <button class="symbol-btn" data-symbol="NVDA">NVDA</button>
+                    <button class="symbol-btn" data-symbol="MSFT">MSFT</button>
+                    <button class="symbol-btn" data-symbol="GOOGL">GOOGL</button>
+                    <button class="symbol-btn" data-symbol="META">META</button>
+                    <button class="symbol-btn" data-symbol="AMZN">AMZN</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="news-container">
+            <div class="loading">🔄 데이터 로딩 중...</div>
+        </div>
+
+        <footer>
+            <p>🤖 Aivesto - AI-Powered Stock News Signal Detection</p>
+            <p class="refresh-info">5분마다 자동 새로고침</p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                본 대시보드의 모든 콘텐츠는 정보 제공 목적이며, 투자 권유가 아닙니다.
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        let currentPriority = 0;
+        let currentSymbol = '';
+
+        // 초기 로드
+        document.addEventListener('DOMContentLoaded', () => {
+            loadStats();
+            loadArticles();
+
+            // 5분마다 자동 새로고침
+            setInterval(() => {
+                loadStats();
+                loadArticles();
+            }, 5 * 60 * 1000);
+
+            // 필터 이벤트
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    currentPriority = parseInt(e.target.dataset.priority);
+                    loadArticles();
+                });
+            });
+
+            document.querySelectorAll('.symbol-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.symbol-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    currentSymbol = e.target.dataset.symbol;
+                    loadArticles();
+                });
+            });
+        });
+
+        // 통계 로드
+        async function loadStats() {
+            try {
+                const res = await fetch('/api/stats');
+                const stats = await res.json();
+
+                if (stats.error) {
+                    console.error('Stats error:', stats.error);
+                    return;
+                }
+
+                document.getElementById('total-articles').textContent = stats.total_articles || 0;
+                document.getElementById('high-priority').textContent = stats.high_priority_count || 0;
+                document.getElementById('policy-signals').textContent = stats.policy_signals || 0;
+                document.getElementById('last-hour').textContent = stats.last_1h_count || 0;
+            } catch (error) {
+                console.error('Failed to load stats:', error);
+            }
+        }
+
+        // 기사 로드
+        async function loadArticles() {
+            const container = document.getElementById('news-container');
+            container.innerHTML = '<div class="loading">🔄 데이터 로딩 중...</div>';
+
+            try {
+                const params = new URLSearchParams({
+                    min_priority: currentPriority,
+                    limit: 50
+                });
+                if (currentSymbol) {
+                    params.append('symbol', currentSymbol);
+                }
+
+                const res = await fetch(`/api/articles?${params}`);
+                const data = await res.json();
+
+                if (data.error) {
+                    container.innerHTML = `<div class="error">⚠️ ${data.error}</div>`;
+                    return;
+                }
+
+                if (data.articles.length === 0) {
+                    container.innerHTML = '<div class="loading">📭 해당 조건의 기사가 없습니다.</div>';
+                    return;
+                }
+
+                renderArticles(data.articles);
+            } catch (error) {
+                console.error('Failed to load articles:', error);
+                container.innerHTML = `<div class="error">⚠️ 기사 로딩 실패: ${error.message}</div>`;
+            }
+        }
+
+        // 기사 렌더링
+        function renderArticles(articles) {
+            const container = document.getElementById('news-container');
+            const grid = document.createElement('div');
+            grid.className = 'news-grid';
+
+            articles.forEach(article => {
+                const card = createNewsCard(article);
+                grid.appendChild(card);
+            });
+
+            container.innerHTML = '';
+            container.appendChild(grid);
+        }
+
+        // 뉴스 카드 생성
+        function createNewsCard(article) {
+            const card = document.createElement('div');
+            card.className = 'news-card';
+            card.onclick = () => window.open(article.url, '_blank');
+
+            const badges = [];
+            if (article.priority_score >= 90) {
+                badges.push('<span class="badge badge-critical">🔥 정책 시그널</span>');
+            } else if (article.priority_score >= 80) {
+                badges.push('<span class="badge badge-high">⚠️ High-Priority</span>');
+            }
+            if (article.has_policy_change) {
+                badges.push('<span class="badge badge-policy">📜 정책 변화</span>');
+            }
+
+            const symbols = article.symbols.map(s =>
+                `<span class="symbol-tag">${s}</span>`
+            ).join('');
+
+            const sentimentEmoji = {
+                'positive': '📈',
+                'negative': '📉',
+                'neutral': '⚖️'
+            }[article.sentiment] || '⚖️';
+
+            const priorityClass = article.priority_score >= 90 ? 'policy' :
+                                  article.priority_score >= 80 ? 'high' : '';
+
+            const publishedDate = article.published_at ?
+                new Date(article.published_at).toLocaleString('ko-KR') : '날짜 정보 없음';
+
+            card.innerHTML = `
+                <div class="news-header">
+                    <div class="news-badges">${badges.join('')}</div>
+                    <div class="news-source">${article.source}</div>
+                </div>
+
+                ${symbols ? `<div class="news-symbols">${symbols}</div>` : ''}
+
+                <div class="news-title">${article.title}</div>
+
+                <div class="news-meta">
+                    <span class="sentiment ${article.sentiment}">
+                        ${sentimentEmoji} ${article.sentiment}
+                    </span>
+                    <span class="priority-score ${priorityClass}">${article.priority_score}점</span>
+                </div>
+
+                <div style="font-size: 0.8em; color: #999; margin-top: 10px;">
+                    📅 ${publishedDate}
+                </div>
+            `;
+
+            return card;
+        }
+    </script>
+</body>
+</html>

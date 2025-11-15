@@ -3,16 +3,32 @@
 간단한 블로그 뷰어 웹 애플리케이션
 """
 import os
-from flask import Flask, render_template, send_from_directory
+import sys
+from flask import Flask, render_template, send_from_directory, jsonify, request
 import markdown
 import glob
 from datetime import datetime
+
+# 프로젝트 루트를 path에 추가
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from database.supabase_client import SupabaseClient
 
 app = Flask(__name__)
 
 # 프로젝트 루트 디렉토리
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARTICLES_DIR = os.path.join(BASE_DIR, 'articles')
+
+# Supabase 클라이언트 (선택적)
+try:
+    db_client = SupabaseClient()
+    DB_ENABLED = True
+    print("✅ Supabase connected")
+except Exception as e:
+    db_client = None
+    DB_ENABLED = False
+    print(f"⚠️  Supabase not available: {e}")
 
 def parse_article(file_path):
     """마크다운 파일을 파싱하여 메타데이터와 콘텐츠 추출"""
@@ -69,7 +85,17 @@ def parse_article(file_path):
 
 @app.route('/')
 def index():
-    """메인 페이지: 모든 기사 목록"""
+    """메인 페이지: 실시간 대시보드로 리다이렉트"""
+    if DB_ENABLED:
+        return render_template('dashboard.html')
+    else:
+        # DB 없으면 기존 블로그 보기
+        return blog_index()
+
+
+@app.route('/blog')
+def blog_index():
+    """블로그 페이지: 모든 기사 목록"""
     # 모든 마크다운 파일 찾기
     article_files = glob.glob(os.path.join(ARTICLES_DIR, 'article_*.md'))
 
@@ -83,6 +109,12 @@ def index():
             print(f"Error parsing {file_path}: {e}")
 
     return render_template('index.html', articles=articles)
+
+
+@app.route('/dashboard')
+def dashboard():
+    """대시보드 페이지"""
+    return render_template('dashboard.html')
 
 @app.route('/article/<filename>')
 def article(filename):
@@ -102,6 +134,70 @@ def article(filename):
 def static_files(filename):
     """정적 파일 제공"""
     return send_from_directory('static', filename)
+
+# ==================== Phase 6: API Endpoints ====================
+
+@app.route('/api/stats')
+def api_stats():
+    """실시간 통계 API"""
+    if not DB_ENABLED or not db_client:
+        return jsonify({
+            "error": "Database not available",
+            "total_articles": 0,
+            "high_priority_count": 0,
+            "policy_signals": 0,
+            "last_1h_count": 0
+        }), 503
+
+    try:
+        stats = db_client.get_dashboard_stats()
+        return jsonify(stats)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/articles')
+def api_articles():
+    """기사 목록 API"""
+    if not DB_ENABLED or not db_client:
+        return jsonify({"error": "Database not available", "articles": []}), 503
+
+    try:
+        min_priority = request.args.get('min_priority', 0, type=int)
+        symbol = request.args.get('symbol', None, type=str)
+        limit = request.args.get('limit', 50, type=int)
+
+        if symbol:
+            articles = db_client.get_articles_by_symbol_dashboard(symbol, limit)
+        else:
+            articles = db_client.get_articles_for_dashboard(limit, min_priority, symbol)
+
+        return jsonify({
+            "articles": articles,
+            "count": len(articles),
+            "filters": {
+                "min_priority": min_priority,
+                "symbol": symbol,
+                "limit": limit
+            }
+        })
+    except Exception as e:
+        return jsonify({"error": str(e), "articles": []}), 500
+
+
+@app.route('/api/trending')
+def api_trending():
+    """트렌딩 종목 API"""
+    if not DB_ENABLED or not db_client:
+        return jsonify({"error": "Database not available", "trending": []}), 503
+
+    try:
+        hours = request.args.get('hours', 24, type=int)
+        trending = db_client.get_trending_symbols(hours=hours)
+        return jsonify({"trending": trending})
+    except Exception as e:
+        return jsonify({"error": str(e), "trending": []}), 500
+
 
 if __name__ == '__main__':
     print(f"""
