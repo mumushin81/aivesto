@@ -1,5 +1,6 @@
 dashboard/
-articles/
+/articles/
+!public/articles/**
 alerts/
 scheduler/
 writers/
