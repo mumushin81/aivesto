@@ -264,10 +264,11 @@ python test_e2e_pipeline.py
 - [x] Phase 2: 분석 엔진 (NER, Sentiment, Policy)
 - [x] Phase 3: Layer 2 수집기 + 증폭 감지
 - [x] Phase 4: E2E 파이프라인
-- [ ] Phase 5: 스케줄러 (Cron/APScheduler)
-- [ ] Phase 6: 대시보드 실시간 연동
-- [ ] 백테스팅 시스템
-- [ ] 모바일 앱
+- [x] Phase 5: 스케줄러 (APScheduler)
+- [x] Phase 6: 대시보드 실시간 연동
+- [ ] Phase 7: 백테스팅 시스템
+- [ ] Phase 8: 알림 시스템 (Telegram/Email)
+- [ ] Phase 9: 모바일 앱
 
 ---
 
