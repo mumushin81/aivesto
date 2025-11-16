@@ -51,6 +51,13 @@ class JobScheduler:
         """뉴스 수집 작업"""
         logger.info("=== Starting news collection job ===")
 
+        # 24시간 지난 뉴스 자동 삭제
+        try:
+            logger.info("🗑️  Cleaning up old news (>24h) before collection...")
+            self.db.cleanup_old_news()
+        except Exception as e:
+            logger.error(f"Cleanup error: {e}")
+
         total_collected = 0
         for collector in self.collectors:
             try:

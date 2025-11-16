@@ -75,7 +75,13 @@ class SupabaseClient:
             return set()
 
     def cleanup_old_news(self):
-        """24시간 이상 된 원본 뉴스 삭제"""
+        """24시간 이상 된 원본 뉴스 삭제
+
+        NOTE: 이 메서드는 다음 시점에 자동 실행됩니다:
+        1. 뉴스 수집 시작 전 (pipeline/news_pipeline.py)
+        2. 스케줄러 뉴스 수집 작업 시작 전 (scheduler/jobs.py)
+        3. 매일 새벽 3시 정기 정리 작업 (scheduler/jobs.py)
+        """
         try:
             cutoff_time = (datetime.now() - timedelta(hours=24)).isoformat()
             result = self.client.table("news_raw")\

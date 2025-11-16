@@ -101,11 +101,18 @@ FINNHUB_API_KEY=your_key
 ### 4. E2E 파이프라인 실행
 
 ```bash
-# 전체 파이프라인 (수집 → 분석 → 증폭 감지)
+# 전체 파이프라인 (정리 → 수집 → 분석 → 증폭 감지)
 python test_e2e_pipeline.py
 
-# 결과: 417개 기사 자동 수집 및 분석 (19초)
+# 결과:
+# - 24시간 지난 뉴스 자동 삭제
+# - 417개 기사 자동 수집 및 분석 (19초)
 ```
+
+**자동 정리 기능**:
+- 뉴스 수집 시작 전 24시간 이상 된 뉴스 자동 삭제
+- 매일 새벽 3시 정기 정리 작업 실행
+- 데이터베이스 최적화 및 스토리지 관리
 
 ---
 
@@ -239,10 +246,12 @@ python test_e2e_pipeline.py
 
 ## 🛠️ 기술 스택
 
-- **Backend**: Python 3.9+, Flask
+- **Backend**: Python 3.12+, Flask
 - **Database**: Supabase (PostgreSQL)
 - **News Collection**: RSS (feedparser, httpx)
 - **NLP**: VADER, spaCy, FinBERT (ONNX)
+- **Image Generation**: Midjourney (Discord 봇 자동화)
+- **Storage**: Supabase Storage
 - **Deployment**: Vercel
 - **Alerts**: Telegram Bot
 
@@ -266,9 +275,13 @@ python test_e2e_pipeline.py
 - [x] Phase 4: E2E 파이프라인
 - [x] Phase 5: 스케줄러 (APScheduler)
 - [x] Phase 6: 대시보드 실시간 연동
-- [ ] Phase 7: 백테스팅 시스템
-- [ ] Phase 8: 알림 시스템 (Telegram/Email)
-- [ ] Phase 9: 모바일 앱
+- [x] 블로그 이미지 자동 생성 시스템
+  - Discord 봇을 통한 Midjourney 연동 (공식 API 없음)
+  - Supabase Storage 자동 업로드
+  - 문맥 기반 이미지 배치 (기사당 5장+)
+- [ ] 백테스팅 시스템 (시그널 정확도 검증)
+- [ ] 알림 시스템 (Telegram/Email)
+- [ ] 모바일 앱
 
 ---
 
@@ -284,5 +297,53 @@ MIT License
 
 ---
 
+## 📸 최근 개발: 블로그 이미지 자동화
+
+### 시스템 구성
+
+```
+블로그 글 분석 → AI 프롬프트 생성 → Midjourney 이미지 생성 → Supabase 저장 → 자동 배치
+```
+
+### 주요 기능
+
+1. **문맥 기반 이미지 생성**
+   - 블로그 내용 분석하여 섹션별 최적 이미지 프롬프트 자동 생성
+   - 기사당 최소 5장 이상의 이미지 생성
+
+2. **Discord 봇 자동화**
+   - Midjourney Discord 봇을 통한 이미지 생성 (공식 API 미제공)
+   - 비동기 처리로 다중 이미지 동시 생성
+
+3. **Supabase 통합**
+   - 생성된 이미지 자동 업로드
+   - 메타데이터(섹션, 키워드, 캡션) 자동 저장
+
+4. **스마트 배치**
+   - Markdown에 문맥에 맞는 위치에 이미지 자동 삽입
+   - 반응형 이미지 태그 및 캡션 생성
+
+### 사용 방법
+
+```bash
+# 단일 기사 처리
+python scripts/run_blog_image_pipeline.py articles/article_NVDA_*.md
+
+# 전체 기사 배치 처리 (11개)
+python scripts/batch_process_all_articles.py
+```
+
+### ⚠️ 중요 주의사항
+
+**Midjourney 공식 API는 존재하지 않습니다**
+- Discord 봇을 통한 자동화만 가능
+- 약관 위반 위험: 개인 서버에서만 사용, 상업적 사용 금지
+- Rate limiting 필수 (분당 2-3회 이하)
+- 테스트/학습 목적으로만 권장
+
+자세한 내용은 `docs/CONTEXTUAL_IMAGE_SYSTEM.md` 참조
+
+---
+
 **작성자**: Jinxin
-**최종 업데이트**: 2025-11-15
+**최종 업데이트**: 2025-11-16

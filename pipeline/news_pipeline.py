@@ -97,6 +97,11 @@ class NewsPipeline:
 
         start_time = datetime.now()
 
+        # 0. 24시간 지난 뉴스 삭제
+        if self.db:
+            logger.info("\n🗑️  Cleaning up old news (>24h)...")
+            self.db.cleanup_old_news()
+
         # 1. Layer 1 수집
         layer1_articles = self._collect_layer1()
         logger.info(f"✅ Layer 1 collected: {len(layer1_articles)} articles")

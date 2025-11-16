@@ -122,6 +122,10 @@ cat database/schema.sql
 ### 전체 프로세스 (현재: 수동 시그널 분석 방식)
 
 ```
+0. 24시간 지난 뉴스 자동 삭제 (자동)
+   ↓ 뉴스 수집 전 실행
+   ↓ DB 정리 및 최적화
+
 1. 뉴스 수집 (자동)
    ↓ Finnhub API - 필요시 수동 실행
    ↓ python main.py --mode collect
