@@ -272,5 +272,62 @@
             </p>
         </div>
     </div>
+
+    <script>
+        // Supabase에서 동적으로 이미지 로드
+        async function loadDynamicImages() {
+            const SUPABASE_URL = 'https://czubqsnahmtdsmnyawlk.supabase.co';
+            const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN6dWJxc25haG10ZHNtbnlhd2xrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI5NTYwNjMsImV4cCI6MjA3ODUzMjA2M30.1JF-wB2UV0bRPeGWpfJxkyILPa_V8jhhfgq2UQzgrP8';
+            const ARTICLE_ID = 'nvda_blackwell_20251113';
+
+            try {
+                // blog_images 테이블에서 이미지 가져오기
+                const response = await fetch(
+                    `${SUPABASE_URL}/rest/v1/blog_images?article_id=eq.${ARTICLE_ID}&select=*,images(*)&order=position`,
+                    {
+                        headers: {
+                            'apikey': SUPABASE_KEY,
+                            'Authorization': `Bearer ${SUPABASE_KEY}`
+                        }
+                    }
+                );
+
+                if (!response.ok) {
+                    console.error('Failed to fetch images:', response.statusText);
+                    return;
+                }
+
+                const data = await response.json();
+                console.log(`✅ Loaded ${data.length} images from Supabase`);
+
+                // 기존 정적 이미지를 Supabase 이미지로 교체
+                const contentDiv = document.querySelector('.content');
+                if (!contentDiv) return;
+
+                const imgTags = contentDiv.querySelectorAll('img');
+
+                // 각 이미지 태그를 순서대로 교체
+                data.forEach((record, index) => {
+                    if (index < imgTags.length && record.images) {
+                        const img = imgTags[index];
+                        const newSrc = record.images.image_url;
+
+                        // 이미지 URL 교체
+                        img.src = newSrc;
+                        img.alt = record.images.prompt || img.alt;
+
+                        console.log(`  [${index}] Replaced with: ${newSrc.substring(0, 60)}...`);
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error loading dynamic images:', error);
+            }
+        }
+
+        // 페이지 로드 시 실행
+        document.addEventListener('DOMContentLoaded', loadDynamicImages);
+    </script>
+
 </body>
 </html>
