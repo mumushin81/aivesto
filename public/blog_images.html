@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aivesto Blog - Images from Supabase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0B0B0B;
+            color: #F2F2F2;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            color: #16B31E;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            color: #888;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        
+        .stats {
+            background: #1A1A1A;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            border-left: 4px solid #16B31E;
+        }
+        
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .image-card {
+            background: #1A1A1A;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #2A2A2A;
+        }
+        
+        .image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(22, 179, 30, 0.2);
+            border-color: #16B31E;
+        }
+        
+        .image-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .image-info {
+            padding: 20px;
+        }
+        
+        .image-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #16B31E;
+            margin-bottom: 10px;
+        }
+        
+        .image-meta {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 5px;
+        }
+        
+        .image-type {
+            display: inline-block;
+            background: #16B31E;
+            color: #0B0B0B;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        
+        .keywords {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .keyword {
+            background: #2A2A2A;
+            color: #16B31E;
+            padding: 3px 10px;
+            border-radius: 3px;
+            font-size: 0.8rem;
+        }
+        
+        .no-images {
+            text-align: center;
+            padding: 60px 20px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Aivesto Blog Images</h1>
+        <p class="subtitle">Supabase Storage에서 가져온 이미지</p>
+        
+        <div class="stats">
+            <strong>총 이미지:</strong> 0개
+        </div>
+        
+        <div class="image-grid">
+
+            <div class="no-images">
+                <h2>이미지가 없습니다</h2>
+                <p>Supabase에 이미지를 업로드해주세요.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

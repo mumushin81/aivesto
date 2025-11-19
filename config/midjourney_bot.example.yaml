@@ -1,0 +1,21 @@
+# Discord / Midjourney bot configuration
+
+discord:
+  bot_token: "DISCORD_BOT_TOKEN"
+  midjourney_bot_id: 936929561302675456  # default Midjourney bot user ID
+  channel_id: 123456789012345678        # target Discord channel where Midjourney is allowed
+  guild_id: 123456789012345678          # optional, only if you need guild-scoped slash command registration
+  rate_limit_per_min: 10                # safety throttle to avoid spam
+
+pipeline:
+  download_dir: "./tmp/midjourney"
+  prompts_file: "scripts/ai_image_prompts.json"
+  blog_html: "public/blog.html"
+  article_id_prefix: "auto"
+
+supabase:
+  bucket: "blog-images"
+  images_table: "images"
+  blog_images_table: "blog_images"
+
+# Copy to config/midjourney_bot.yaml and replace values.

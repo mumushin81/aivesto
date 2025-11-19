@@ -15,8 +15,25 @@ from database.supabase_client import SupabaseClient
 
 def parse_article(file_path):
     """마크다운 파일 파싱"""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+    # File size validation: limit to 5MB
+    MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB in bytes
+    file_size = os.path.getsize(file_path)
+
+    if file_size > MAX_FILE_SIZE:
+        raise ValueError(f"File too large: {file_size} bytes (max {MAX_FILE_SIZE} bytes)")
+
+    # Read with proper encoding handling
+    encoding_used = 'utf-8'
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+    except UnicodeDecodeError:
+        # Fallback to latin-1 if UTF-8 fails
+        encoding_used = 'latin-1'
+        with open(file_path, 'r', encoding='latin-1') as f:
+            content = f.read()
+            print(f"⚠️  Warning: {os.path.basename(file_path)} read with latin-1 fallback encoding")
+            print(f"   This may cause display issues. Consider converting the file to UTF-8.")
 
     # TITLE: / CONTENT: 형식 파싱
     title = 'Untitled'
@@ -60,7 +77,8 @@ def parse_article(file_path):
         'content': article_content,
         'symbol': symbol,
         'published_at': date_str,
-        'filename': filename
+        'filename': filename,
+        'encoding': encoding_used
     }
 
 
@@ -89,9 +107,15 @@ def upload_articles(db_client, articles_dir):
                     'symbol': article['symbol'],
                     'filename': article['filename'],
                     'source': 'local_upload',
-                    'format': 'TITLE_CONTENT'
+                    'format': 'TITLE_CONTENT',
+                    'encoding': article['encoding']
                 }
             }
+
+            # Warn if using non-UTF-8 encoding
+            if article['encoding'] != 'utf-8':
+                print(f"⚠️  WARNING: {article['filename']} uses {article['encoding']} encoding")
+                print(f"   This file may contain mojibake. Consider converting to UTF-8.")
 
             # 중복 확인 (제목으로)
             existing = db_client.client.table('published_articles') \

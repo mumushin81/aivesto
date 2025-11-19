@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "zen": {
+      "command": "/Users/jinxin/dev/zen-mcp-server/.zen_venv/bin/python",
+      "args": [
+        "/Users/jinxin/dev/zen-mcp-server/server.py"
+      ],
+      "env": {
+        "OPENROUTER_API_KEY": "your_openrouter_key",
+        "DEFAULT_MODEL": "auto",
+        "DEFAULT_THINKING_MODE_THINKDEEP": "high",
+        "CONVERSATION_TIMEOUT_HOURS": "24",
+        "MAX_CONVERSATION_TURNS": "40",
+        "LOG_LEVEL": "DEBUG"
+      }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase"
+      ],
+      "env": {
+        "SUPABASE_URL": "https://your-project.supabase.co",
+        "SUPABASE_ANON_KEY": "your_supabase_anon_key"
+      }
+    },
+    "midjourney": {
+      "command": "uvx",
+      "args": ["midjourney-mcp"],
+      "env": {
+        "TOKEN_R": "YOUR_DISCORD_TOKEN_R_HERE",
+        "TOKEN_I": "YOUR_DISCORD_TOKEN_I_HERE",
+        "API_BASE": "midjourney.com",
+        "SUFFIX": "--v 6.1"
+      }
+    }
+  }
+}

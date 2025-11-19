@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midjourney 이미지 갤러리 - aivesto</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 40px;
+            text-align: center;
+            background: linear-gradient(135deg, #16B31E, #0EA5E9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stats {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #888;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 30px;
+        }
+
+        .image-card {
+            background: #1a1a1a;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #2a2a2a;
+        }
+
+        .image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(22, 179, 30, 0.2);
+        }
+
+        .image-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 aspect ratio */
+            background: #0a0a0a;
+            overflow: hidden;
+        }
+
+        .image-wrapper img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image-info {
+            padding: 20px;
+        }
+
+        .image-id {
+            font-family: 'Courier New', monospace;
+            color: #16B31E;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .prompt {
+            color: #ccc;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            max-height: 100px;
+            overflow-y: auto;
+        }
+
+        .metadata {
+            display: flex;
+            gap: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .metadata span {
+            background: #2a2a2a;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        .copy-btn {
+            background: #16B31E;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-top: 10px;
+            transition: background 0.2s;
+        }
+
+        .copy-btn:hover {
+            background: #14A01A;
+        }
+
+        .copy-btn:active {
+            background: #128017;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Midjourney 이미지 갤러리</h1>
+        <div class="stats">
+            총 <strong>3</strong>개 이미지
+        </div>
+
+        <div class="gallery">
+
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/66efb1363bdc_tmpdlj3ubl4.png" alt="Generated image" loading="lazy">
+                </div>
+                <div class="image-info">
+                    <div class="image-id">ID: 66efb1363bdc</div>
+                    <div class="prompt">Professional technology concept visualization, modern digital innovation, green and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1</div>
+                    <div class="metadata">
+                        <span>2912×1632</span>
+                        <span>PNG</span>
+                        <span>2025-11-16</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/66efb1363bdc_tmpdlj3ubl4.png')">
+                        URL 복사
+                    </button>
+                </div>
+            </div>
+
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/023ca13022da_tmpi9pn57vu.png" alt="Generated image" loading="lazy">
+                </div>
+                <div class="image-info">
+                    <div class="image-id">ID: 023ca13022da</div>
+                    <div class="prompt">Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1</div>
+                    <div class="metadata">
+                        <span>2912×1632</span>
+                        <span>PNG</span>
+                        <span>2025-11-16</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/023ca13022da_tmpi9pn57vu.png')">
+                        URL 복사
+                    </button>
+                </div>
+            </div>
+
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/f5abc6f2b048_tmpmana9psm.png" alt="Generated image" loading="lazy">
+                </div>
+                <div class="image-info">
+                    <div class="image-id">ID: f5abc6f2b048</div>
+                    <div class="prompt">Futuristic NVIDIA GPU chip with glowing green circuits, ultra-detailed 3D render, dramatic studio lighting, floating semiconductor design, black background with subtle green accents, professional tech photography, 8k quality --ar 16:9 --quality 2 --stylize 500</div>
+                    <div class="metadata">
+                        <span>2912×1632</span>
+                        <span>PNG</span>
+                        <span>2025-11-16</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/f5abc6f2b048_tmpmana9psm.png')">
+                        URL 복사
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function copyUrl(url) {
+            navigator.clipboard.writeText(url).then(() => {
+                alert('URL이 복사되었습니다!');
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midjourney 이미지 갤러리 (크롭 포함) - aivesto</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #16B31E, #0EA5E9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 40px;
+        }
+
+        .stats {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #888;
+        }
+
+        .image-group {
+            background: #1a1a1a;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 1px solid #2a2a2a;
+        }
+
+        .original-section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            color: #16B31E;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .badge {
+            background: #16B31E;
+            color: #000;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        .image-id {
+            font-family: 'Courier New', monospace;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .prompt {
+            color: #ccc;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #0a0a0a;
+            border-radius: 8px;
+            border-left: 3px solid #16B31E;
+        }
+
+        .original-image {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #2a2a2a;
+        }
+
+        .crops-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .crop-card {
+            background: #0a0a0a;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid #2a2a2a;
+            cursor: pointer;
+        }
+
+        .crop-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(22, 179, 30, 0.3);
+            border-color: #16B31E;
+        }
+
+        .crop-card.recommended {
+            border-color: #16B31E;
+            box-shadow: 0 0 20px rgba(22, 179, 30, 0.4);
+        }
+
+        .crop-image {
+            width: 100%;
+            display: block;
+        }
+
+        .crop-info {
+            padding: 15px;
+        }
+
+        .crop-position {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        .crop-position.recommended {
+            color: #16B31E;
+            font-weight: bold;
+        }
+
+        .crop-position.recommended::before {
+            content: "⭐ ";
+        }
+
+        .copy-btn {
+            background: #16B31E;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            width: 100%;
+            transition: background 0.2s;
+        }
+
+        .copy-btn:hover {
+            background: #14A01A;
+        }
+
+        .copy-btn.secondary {
+            background: #2a2a2a;
+        }
+
+        .copy-btn.secondary:hover {
+            background: #3a3a3a;
+        }
+
+        .metadata {
+            display: flex;
+            gap: 10px;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .metadata span {
+            background: #2a2a2a;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        .recommendation-note {
+            background: #1a2a1a;
+            border-left: 3px solid #16B31E;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .recommendation-note strong {
+            color: #16B31E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Midjourney 이미지 갤러리</h1>
+        <div class="subtitle">원본 + 4개 크롭 이미지</div>
+        <div class="stats">
+            총 <strong>3</strong>개 원본 이미지 · <strong>12</strong>개 크롭
+        </div>
+
+
+        <div class="image-group">
+            <div class="original-section">
+                <div class="section-title">
+                    <span class="badge">원본</span>
+                    <span>Original Image</span>
+                </div>
+                <div class="image-id">ID: 66efb1363bdc</div>
+                <div class="prompt">Professional technology concept visualization, modern digital innovation, green and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1</div>
+                <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/66efb1363bdc_tmpdlj3ubl4.png" alt="Original" class="original-image" loading="lazy">
+                <div class="metadata">
+                    <span>2912×1632</span>
+                    <span>PNG</span>
+                    <span>2025-11-16</span>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <span class="badge">크롭</span>
+                <span>Cropped Images (4개)</span>
+            </div>
+<div class="crops-grid">
+                <div class="crop-card recommended">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/66efb1363bdc/1.png" alt="top_left" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position recommended">
+                            좌상단 (1번)
+                            (추천)
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn "
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/66efb1363bdc/1.png', '50a1492a27c2')">
+                            블로그에 사용
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/66efb1363bdc/2.png" alt="top_right" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            우상단 (2번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/66efb1363bdc/2.png', '8852727fc3e7')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/66efb1363bdc/3.png" alt="bottom_left" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            좌하단 (3번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/66efb1363bdc/3.png', 'f5b83b1f3f22')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/66efb1363bdc/4.png" alt="bottom_right" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            우하단 (4번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/66efb1363bdc/4.png', '23e936f4ea62')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+</div>
+                <div class="recommendation-note">
+                    ⭐ <strong>추천 이미지:</strong> 좌상단 (1번) -
+                    프롬프트 내용을 가장 잘 표현하는 크롭입니다. 블로그 글에 이 이미지를 사용하세요!
+                </div>
+</div>
+        <div class="image-group">
+            <div class="original-section">
+                <div class="section-title">
+                    <span class="badge">원본</span>
+                    <span>Original Image</span>
+                </div>
+                <div class="image-id">ID: 023ca13022da</div>
+                <div class="prompt">Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1</div>
+                <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/023ca13022da_tmpi9pn57vu.png" alt="Original" class="original-image" loading="lazy">
+                <div class="metadata">
+                    <span>2912×1632</span>
+                    <span>PNG</span>
+                    <span>2025-11-16</span>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <span class="badge">크롭</span>
+                <span>Cropped Images (4개)</span>
+            </div>
+<div class="crops-grid">
+                <div class="crop-card recommended">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/023ca13022da/1.png" alt="top_left" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position recommended">
+                            좌상단 (1번)
+                            (추천)
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn "
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/023ca13022da/1.png', 'af37d68806af')">
+                            블로그에 사용
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/023ca13022da/2.png" alt="top_right" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            우상단 (2번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/023ca13022da/2.png', 'e4e12fd2cebc')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/023ca13022da/3.png" alt="bottom_left" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            좌하단 (3번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/023ca13022da/3.png', '4b67160e4ebc')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/023ca13022da/4.png" alt="bottom_right" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            우하단 (4번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/023ca13022da/4.png', '6ef215055dac')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+</div>
+                <div class="recommendation-note">
+                    ⭐ <strong>추천 이미지:</strong> 좌상단 (1번) -
+                    프롬프트 내용을 가장 잘 표현하는 크롭입니다. 블로그 글에 이 이미지를 사용하세요!
+                </div>
+</div>
+        <div class="image-group">
+            <div class="original-section">
+                <div class="section-title">
+                    <span class="badge">원본</span>
+                    <span>Original Image</span>
+                </div>
+                <div class="image-id">ID: f5abc6f2b048</div>
+                <div class="prompt">Futuristic NVIDIA GPU chip with glowing green circuits, ultra-detailed 3D render, dramatic studio lighting, floating semiconductor design, black background with subtle green accents, professional tech photography, 8k quality --ar 16:9 --quality 2 --stylize 500</div>
+                <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/originals/f5abc6f2b048_tmpmana9psm.png" alt="Original" class="original-image" loading="lazy">
+                <div class="metadata">
+                    <span>2912×1632</span>
+                    <span>PNG</span>
+                    <span>2025-11-16</span>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <span class="badge">크롭</span>
+                <span>Cropped Images (4개)</span>
+            </div>
+<div class="crops-grid">
+                <div class="crop-card recommended">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/f5abc6f2b048/1.png" alt="top_left" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position recommended">
+                            좌상단 (1번)
+                            (추천)
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn "
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/f5abc6f2b048/1.png', 'ce1acaba23d9')">
+                            블로그에 사용
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/f5abc6f2b048/2.png" alt="top_right" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            우상단 (2번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/f5abc6f2b048/2.png', 'a82b1302cf2c')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/f5abc6f2b048/3.png" alt="bottom_left" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            좌하단 (3번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/f5abc6f2b048/3.png', '99d7f9101642')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+
+                <div class="crop-card ">
+                    <img src="https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/f5abc6f2b048/4.png" alt="bottom_right" class="crop-image" loading="lazy">
+                    <div class="crop-info">
+                        <div class="crop-position ">
+                            우하단 (4번)
+                            
+                        </div>
+                        <div class="metadata">
+                            <span>1456×816</span>
+                        </div>
+                        <button class="copy-btn secondary"
+                                onclick="copyUrl('https://czubqsnahmtdsmnyawlk.supabase.co/storage/v1/object/public/midjourney-images/cropped/f5abc6f2b048/4.png', '400364799c6d')">
+                            URL 복사
+                        </button>
+                    </div>
+                </div>
+</div>
+                <div class="recommendation-note">
+                    ⭐ <strong>추천 이미지:</strong> 좌상단 (1번) -
+                    프롬프트 내용을 가장 잘 표현하는 크롭입니다. 블로그 글에 이 이미지를 사용하세요!
+                </div>
+</div>
+    </div>
+
+    <script>
+        function copyUrl(url, imageId) {
+            navigator.clipboard.writeText(url).then(() => {
+                alert('URL이 복사되었습니다!\n\nImage ID: ' + imageId + '\n\n블로그 글에 붙여넣으세요.');
+            });
+        }
+    </script>
+</body>
+</html>

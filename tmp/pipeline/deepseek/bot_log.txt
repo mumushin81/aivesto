@@ -1,0 +1,37 @@
+2025-11-16 23:32:23.046 | INFO     | __main__:run:37 - Analysis saved to tmp/pipeline/deepseek/analysis.json
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 0: TITLE:
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 1: 시그널
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 2: 무엇이 일어났나 - DeepSeek AI의 등장
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 3: 어떻게 작동하는가 - DeepSeek의 기술 혁신
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 4: 1. 효율적인 모델 아키텍처
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 5: 2. 최적화된 훈련 기법
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 6: 3. 오픈소스 전략
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 7: 왜 주가에 영향을 주는가 - 투자 로직의 붕괴
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 8: AI 인프라 과잉 투자 우려
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 9: NVIDIA GPU 수요 축소 우려
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 10: AI 서비스 가격 경쟁 심화
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 11: 경쟁사 대응 - 미국 빅테크의 반격
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 12: Microsoft의 대응
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 13: Google의 대응
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 14: Meta의 대응
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 15: 자주 묻는 질문
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 16: 전문가 의견 및 목표가
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 17: 주요 증권사 전망 (NVIDIA 기준)
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 18: 평균 목표가 변화
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 19: 단계별 전망 분석
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 20: 낙관적 시나리오 (확률 30%)
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 21: 중립적 시나리오 (확률 50%)
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 22: 비관적 시나리오 (확률 20%)
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 23: 결론 및 투자 고려사항
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 24: 투자 전략
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 25: 포트폴리오 조정 전략
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 26: 모니터링 포인트
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 27: 리스크 요인
+2025-11-16 23:32:23.046 | INFO     | scripts.contextual_prompt_generator:build_prompts:149 - ✅ Generated contextual prompt for section 28: 관련 종목 및 추천 전략
+2025-11-16 23:32:23.047 | INFO     | __main__:run:43 - Prompts saved to tmp/pipeline/deepseek/prompts.json
+2025-11-16 23:32:23.105 | DEBUG    | scripts.supabase_image_uploader:_ensure_bucket:43 - Bucket 'blog-images' already exists
+2025-11-16 23:32:26.805 | INFO     | scripts.discord_midjourney_bot:on_ready:58 - Logged in as Aivesto Midjourney Bot#7883 (ID: 1439338211221573713)
+2025-11-16 23:32:27.151 | INFO     | scripts.discord_midjourney_bot:worker:106 - Sent prompt for NVDA (msg id 1439639260981493813)
+2025-11-16 23:32:27.151 | INFO     | scripts.discord_midjourney_bot:_respect_rate_limit:121 - Rate limit: sleeping 60s before next prompt
+2025-11-16 23:33:27.731 | INFO     | scripts.discord_midjourney_bot:worker:106 - Sent prompt for NVDA (msg id 1439639515299057674)
+2025-11-16 23:33:27.732 | INFO     | scripts.discord_midjourney_bot:_respect_rate_limit:121 - Rate limit: sleeping 60s before next prompt

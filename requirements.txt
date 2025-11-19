@@ -1,5 +1,9 @@
-flask==2.3.3
-flask-cors==4.0.0
-loguru==0.7.2
-python-dotenv==1.0.0
+requests
+python-dotenv
+Pillow
+tqdm
+discord.py==2.3.2
 supabase==2.3.4
+aiohttp
+beautifulsoup4
+loguru

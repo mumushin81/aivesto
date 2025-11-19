@@ -1,0 +1,474 @@
+{
+  "0": {
+    "section_index": 0,
+    "section_title": "TITLE:",
+    "image_type": "hero",
+    "prompt": "Modern technology hero image, sleek professional design, vibrant green accents (#16B31E), dark premium background, cinematic lighting, corporate tech aesthetic --ar 16:9 --quality 2",
+    "position": 0,
+    "image_slot_after_line": 5,
+    "keywords": [
+      "title",
+      "deepseek",
+      "충격파",
+      "빅테크",
+      "대폭락",
+      "content"
+    ]
+  },
+  "1": {
+    "section_index": 1,
+    "section_title": "시그널",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 1,
+    "image_slot_after_line": 20,
+    "keywords": [
+      "deepseek",
+      "시장에",
+      "gpt",
+      "성능을",
+      "fox",
+      "business",
+      "인프라",
+      "ai가"
+    ]
+  },
+  "2": {
+    "section_index": 2,
+    "section_title": "무엇이 일어났나 - DeepSeek AI의 등장",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 2,
+    "image_slot_after_line": 45,
+    "keywords": [
+      "deepseek",
+      "gpt",
+      "200억",
+      "150억",
+      "등장으로",
+      "빅테크",
+      "주가가",
+      "폭락했습니다"
+    ]
+  },
+  "3": {
+    "section_index": 3,
+    "section_title": "어떻게 작동하는가 - DeepSeek의 기술 혁신",
+    "image_type": "closeup",
+    "prompt": "Extreme macro close-up of advanced semiconductor chip circuitry, intricate silicon pathways with glowing green traces, shallow depth of field, professional product photography, studio lighting, high detail --ar 3:2 --quality 2",
+    "position": 3,
+    "image_slot_after_line": 49,
+    "keywords": [
+      "deepseek이",
+      "혁신을",
+      "달성한",
+      "방법은",
+      "3가지",
+      "전략입니다"
+    ]
+  },
+  "4": {
+    "section_index": 4,
+    "section_title": "1. 효율적인 모델 아키텍처",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 4,
+    "image_slot_after_line": 54,
+    "keywords": [
+      "moe",
+      "mixture",
+      "experts",
+      "필요한",
+      "부분만",
+      "활성화하여",
+      "연산량",
+      "모델에서"
+    ]
+  },
+  "5": {
+    "section_index": 5,
+    "section_title": "2. 최적화된 훈련 기법",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 5,
+    "image_slot_after_line": 59,
+    "keywords": [
+      "데이터",
+      "고품질",
+      "중국어",
+      "데이터셋",
+      "프레임워크",
+      "하드웨어",
+      "h100",
+      "a100"
+    ]
+  },
+  "6": {
+    "section_index": 6,
+    "section_title": "3. 오픈소스 전략",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 6,
+    "image_slot_after_line": 68,
+    "keywords": [
+      "효율적인",
+      "아키텍처",
+      "deepseek의",
+      "커뮤니티",
+      "연구자들의",
+      "자발적",
+      "최적화",
+      "오픈소스"
+    ]
+  },
+  "7": {
+    "section_index": 7,
+    "section_title": "왜 주가에 영향을 주는가 - 투자 로직의 붕괴",
+    "image_type": "business",
+    "prompt": "Modern corporate data center with rows of server racks, green LED indicators glowing, clean professional environment, wide angle architectural photography, technology infrastructure, dramatic perspective --ar 16:9 --quality 1",
+    "position": 7,
+    "image_slot_after_line": 70,
+    "keywords": []
+  },
+  "8": {
+    "section_index": 8,
+    "section_title": "AI 인프라 과잉 투자 우려",
+    "image_type": "business",
+    "prompt": "Modern corporate data center with rows of server racks, green LED indicators glowing, clean professional environment, wide angle architectural photography, technology infrastructure, dramatic perspective --ar 16:9 --quality 1",
+    "position": 8,
+    "image_slot_after_line": 83,
+    "keywords": [
+      "인프라",
+      "데이터센터",
+      "우려가",
+      "커지고",
+      "있습니다",
+      "2024년",
+      "빅테크는",
+      "인프라에"
+    ]
+  },
+  "9": {
+    "section_index": 9,
+    "section_title": "NVIDIA GPU 수요 축소 우려",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 9,
+    "image_slot_after_line": 95,
+    "keywords": [
+      "gpu",
+      "nvidia",
+      "데이터센터",
+      "morgan",
+      "stanley",
+      "분석에",
+      "따르면",
+      "deepseek"
+    ]
+  },
+  "10": {
+    "section_index": 10,
+    "section_title": "AI 서비스 가격 경쟁 심화",
+    "image_type": "comparison",
+    "prompt": "Split-screen technology comparison visual, NVIDIA vs competitors, balanced composition, professional tech photography, dramatic lighting contrast, green brand accent highlights, executive presentation quality --ar 16:9 --quality 1",
+    "position": 10,
+    "image_slot_after_line": 108,
+    "keywords": [
+      "빅테크의",
+      "deepseek",
+      "openai",
+      "tokens",
+      "morgan의",
+      "doug",
+      "anmuth는",
+      "모델이"
+    ]
+  },
+  "11": {
+    "section_index": 11,
+    "section_title": "경쟁사 대응 - 미국 빅테크의 반격",
+    "image_type": "comparison",
+    "prompt": "Split-screen technology comparison visual, NVIDIA vs competitors, balanced composition, professional tech photography, dramatic lighting contrast, green brand accent highlights, executive presentation quality --ar 16:9 --quality 1",
+    "position": 11,
+    "image_slot_after_line": 110,
+    "keywords": []
+  },
+  "12": {
+    "section_index": 12,
+    "section_title": "Microsoft의 대응",
+    "image_type": "comparison",
+    "prompt": "Split-screen technology comparison visual, NVIDIA vs competitors, balanced composition, professional tech photography, dramatic lighting contrast, green brand accent highlights, executive presentation quality --ar 16:9 --quality 1",
+    "position": 12,
+    "image_slot_after_line": 117,
+    "keywords": [
+      "azure",
+      "openai",
+      "bloomberg",
+      "보도에",
+      "따르면",
+      "microsoft는",
+      "대응팀을",
+      "구성했습니다"
+    ]
+  },
+  "13": {
+    "section_index": 13,
+    "section_title": "Google의 대응",
+    "image_type": "comparison",
+    "prompt": "Split-screen technology comparison visual, NVIDIA vs competitors, balanced composition, professional tech photography, dramatic lighting contrast, green brand accent highlights, executive presentation quality --ar 16:9 --quality 1",
+    "position": 13,
+    "image_slot_after_line": 124,
+    "keywords": [
+      "gemini",
+      "information에",
+      "따르면",
+      "google은",
+      "모델의",
+      "효율성",
+      "개선에",
+      "nano"
+    ]
+  },
+  "14": {
+    "section_index": 14,
+    "section_title": "Meta의 대응",
+    "image_type": "comparison",
+    "prompt": "Split-screen technology comparison visual, NVIDIA vs competitors, balanced composition, professional tech photography, dramatic lighting contrast, green brand accent highlights, executive presentation quality --ar 16:9 --quality 1",
+    "position": 14,
+    "image_slot_after_line": 134,
+    "keywords": [
+      "전문가",
+      "목표가",
+      "meta는",
+      "오픈소스",
+      "전략으로",
+      "맞대응",
+      "llama",
+      "2025년"
+    ]
+  },
+  "15": {
+    "section_index": 15,
+    "section_title": "자주 묻는 질문",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 15,
+    "image_slot_after_line": 148,
+    "keywords": [
+      "gpt",
+      "여전히",
+      "deepseek은",
+      "수준인가요",
+      "중국어",
+      "벤치마크에서는",
+      "유사하나",
+      "성능은"
+    ]
+  },
+  "16": {
+    "section_index": 16,
+    "section_title": "전문가 의견 및 목표가",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 16,
+    "image_slot_after_line": 150,
+    "keywords": []
+  },
+  "17": {
+    "section_index": 17,
+    "section_title": "주요 증권사 전망 (NVIDIA 기준)",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 17,
+    "image_slot_after_line": 156,
+    "keywords": [
+      "목표가",
+      "모건스탠리",
+      "130",
+      "115",
+      "불가피하나",
+      "스토리",
+      "골드만삭스",
+      "145"
+    ]
+  },
+  "18": {
+    "section_index": 18,
+    "section_title": "평균 목표가 변화",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 18,
+    "image_slot_after_line": 166,
+    "keywords": [
+      "단계별",
+      "시나리오",
+      "nvidia",
+      "145",
+      "132",
+      "microsoft",
+      "485",
+      "465"
+    ]
+  },
+  "19": {
+    "section_index": 19,
+    "section_title": "단계별 전망 분석",
+    "image_type": "chart",
+    "prompt": "Professional business analytics dashboard, clean modern infographic with rising trend lines, minimal grid design, green (#16B31E) data visualization bars, dark background, corporate presentation style, clear typography --ar 16:9 --quality 1",
+    "position": 19,
+    "image_slot_after_line": 168,
+    "keywords": []
+  },
+  "20": {
+    "section_index": 20,
+    "section_title": "낙관적 시나리오 (확률 30%)",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 20,
+    "image_slot_after_line": 174,
+    "keywords": [
+      "deepseek",
+      "일시적",
+      "빅테크",
+      "재확인",
+      "여전히",
+      "gpu",
+      "nvidia",
+      "140"
+    ]
+  },
+  "21": {
+    "section_index": 21,
+    "section_title": "중립적 시나리오 (확률 50%)",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 21,
+    "image_slot_after_line": 180,
+    "keywords": [
+      "구조적",
+      "인프라",
+      "효율성",
+      "nvidia",
+      "120",
+      "130",
+      "박스권",
+      "6개월"
+    ]
+  },
+  "22": {
+    "section_index": 22,
+    "section_title": "비관적 시나리오 (확률 20%)",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 22,
+    "image_slot_after_line": 189,
+    "keywords": [
+      "포트폴리오",
+      "deepseek",
+      "방식이",
+      "표준화",
+      "gpu",
+      "nvidia",
+      "100",
+      "images"
+    ]
+  },
+  "23": {
+    "section_index": 23,
+    "section_title": "결론 및 투자 고려사항",
+    "image_type": "business",
+    "prompt": "Modern corporate data center with rows of server racks, green LED indicators glowing, clean professional environment, wide angle architectural photography, technology infrastructure, dramatic perspective --ar 16:9 --quality 1",
+    "position": 23,
+    "image_slot_after_line": 191,
+    "keywords": []
+  },
+  "24": {
+    "section_index": 24,
+    "section_title": "투자 전략",
+    "image_type": "business",
+    "prompt": "Modern corporate data center with rows of server racks, green LED indicators glowing, clean professional environment, wide angle architectural photography, technology infrastructure, dramatic perspective --ar 16:9 --quality 1",
+    "position": 24,
+    "image_slot_after_line": 201,
+    "keywords": [
+      "투자자",
+      "우량주",
+      "가능성",
+      "12개월",
+      "변동성",
+      "방향성",
+      "불확실"
+    ]
+  },
+  "25": {
+    "section_index": 25,
+    "section_title": "포트폴리오 조정 전략",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 25,
+    "image_slot_after_line": 208,
+    "keywords": [
+      "nvidia",
+      "포트폴리오",
+      "microsoft",
+      "google",
+      "클라우드",
+      "다각화",
+      "meta",
+      "오픈소스"
+    ]
+  },
+  "26": {
+    "section_index": 26,
+    "section_title": "모니터링 포인트",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 26,
+    "image_slot_after_line": 215,
+    "keywords": [
+      "deepseek",
+      "벤치마크",
+      "빅테크",
+      "capex",
+      "가이던스",
+      "nvidia",
+      "데이터센터",
+      "성장률"
+    ]
+  },
+  "27": {
+    "section_index": 27,
+    "section_title": "리스크 요인",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 27,
+    "image_slot_after_line": 224,
+    "keywords": [
+      "리스크",
+      "deepseek",
+      "과대평가",
+      "가능성",
+      "대중국",
+      "효율성",
+      "경쟁으로",
+      "서비스"
+    ]
+  },
+  "28": {
+    "section_index": 28,
+    "section_title": "관련 종목 및 추천 전략",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 28,
+    "image_slot_after_line": 246,
+    "keywords": [
+      "nvidia",
+      "meta",
+      "business",
+      "morgan",
+      "nvda",
+      "재매수",
+      "msft",
+      "microsoft"
+    ]
+  }
+}

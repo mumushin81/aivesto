@@ -66,7 +66,7 @@
         .article-card {
             background: white;
             border-radius: 15px;
-            padding: 25px;
+            overflow: hidden;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             cursor: pointer;
@@ -75,6 +75,18 @@
         .article-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .article-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+            margin: -25px -25px 20px -25px;
+        }
+
+        .article-content {
+            padding: 0 25px 25px 25px;
         }
 
         .article-header {
@@ -135,11 +147,34 @@
         <header>
             <a href="/" class="back-link">← 홈으로</a>
             <h1>📝 Aivesto 블로그</h1>
-            <p class="subtitle">AI 기반 주식 뉴스 분석 - 11개 기사</p>
+            <p class="subtitle">AI 기반 주식 뉴스 분석 - 13개 기사</p>
         </header>
 
         <div class="articles-grid">
-            
+
+            <!-- NEW: 2025-11-17 -->
+            <div class="article-card" onclick="location.href='article_msft_ai_copilot_expansion_20251117.html'">
+                <div class="article-content">
+                    <div class="article-header">
+                        <span class="symbol-tag">MSFT</span>
+                        <div class="article-date">📅 2025-11-17</div>
+                    </div>
+                    <h2 class="article-title">Microsoft, AI 오피스 통합으로 생산성 혁명 주도 - Copilot 월간 사용자 1억 돌파</h2>
+                    <div class="read-more">자세히 보기 →</div>
+                </div>
+            </div>
+
+            <div class="article-card" onclick="location.href='article_googl_ai_search_revolution_20251117.html'">
+                <div class="article-content">
+                    <div class="article-header">
+                        <span class="symbol-tag">GOOGL</span>
+                        <div class="article-date">📅 2025-11-17</div>
+                    </div>
+                    <h2 class="article-title">Google, AI 검색 혁신으로 광고 수익 방어 - Gemini 통합 검색 월 10억 쿼리 돌파</h2>
+                    <div class="read-more">자세히 보기 →</div>
+                </div>
+            </div>
+
             <div class="article-card" onclick="location.href='/articles/article_UBER_profitability_expansion_20251113.html'">
                 <div class="article-header">
                     <span class="symbol-tag">UBER</span>
@@ -150,12 +185,15 @@
             </div>
         
             <div class="article-card" onclick="location.href='/articles/article_TSLA_robotaxi_fleet_20251113.html'">
-                <div class="article-header">
-                    <span class="symbol-tag">TSLA</span>
-                    <div class="article-date">📅 2025-11-13</div>
+                <img src="images/tsla_robotaxi_ai.jpg" alt="Tesla Robotaxi" class="article-image">
+                <div class="article-content">
+                    <div class="article-header">
+                        <span class="symbol-tag">TSLA</span>
+                        <div class="article-date">📅 2025-11-13</div>
+                    </div>
+                    <h2 class="article-title">Tesla Robotaxi 플릿 출시, 운전대 없는 자율주행 택시가 가져올 혁명 - 주가 전망 분석</h2>
+                    <div class="read-more">자세히 보기 →</div>
                 </div>
-                <h2 class="article-title">Tesla Robotaxi 플릿 출시, 운전대 없는 자율주행 택시가 가져올 혁명 - 주가 전망 분석</h2>
-                <div class="read-more">자세히 보기 →</div>
             </div>
         
             <div class="article-card" onclick="location.href='/articles/article_NVDA_foxconn_ai_server_20251115.html'">
@@ -168,12 +206,15 @@
             </div>
         
             <div class="article-card" onclick="location.href='/articles/article_NVDA_blackwell_gpu_20251113.html'">
-                <div class="article-header">
-                    <span class="symbol-tag">NVDA</span>
-                    <div class="article-date">📅 2025-11-13</div>
+                <img src="images/nvda_blackwell_chip_ai.jpg" alt="NVIDIA Blackwell GPU" class="article-image">
+                <div class="article-content">
+                    <div class="article-header">
+                        <span class="symbol-tag">NVDA</span>
+                        <div class="article-date">📅 2025-11-13</div>
+                    </div>
+                    <h2 class="article-title">NVIDIA Blackwell GPU 출시 - AI 칩 시장 독점 구조 2027년까지 연장 전망</h2>
+                    <div class="read-more">자세히 보기 →</div>
                 </div>
-                <h2 class="article-title">NVIDIA Blackwell GPU 출시 - AI 칩 시장 독점 구조 2027년까지 연장 전망</h2>
-                <div class="read-more">자세히 보기 →</div>
             </div>
         
             <div class="article-card" onclick="location.href='/articles/article_NFLX_subscriber_growth_20251113.html'">
@@ -186,21 +227,27 @@
             </div>
         
             <div class="article-card" onclick="location.href='/articles/article_MSFT_AI_office_integration_20251113.html'">
-                <div class="article-header">
-                    <span class="symbol-tag">MSFT</span>
-                    <div class="article-date">📅 2025-11-13</div>
+                <img src="images/msft_copilot_ai.jpg" alt="Microsoft Copilot" class="article-image">
+                <div class="article-content">
+                    <div class="article-header">
+                        <span class="symbol-tag">MSFT</span>
+                        <div class="article-date">📅 2025-11-13</div>
+                    </div>
+                    <h2 class="article-title">Microsoft Copilot 전사 통합 시그널 - Office 365 구독 매출 급증, 목표가 $450 상향</h2>
+                    <div class="read-more">자세히 보기 →</div>
                 </div>
-                <h2 class="article-title">Microsoft Copilot 전사 통합 시그널 - Office 365 구독 매출 급증, 목표가 $450 상향</h2>
-                <div class="read-more">자세히 보기 →</div>
             </div>
         
             <div class="article-card" onclick="location.href='/articles/article_META_enterprise_ai_20251113.html'">
-                <div class="article-header">
-                    <span class="symbol-tag">META</span>
-                    <div class="article-date">📅 2025-11-13</div>
+                <img src="images/meta_business_ai_ai.jpg" alt="Meta Business AI" class="article-image">
+                <div class="article-content">
+                    <div class="article-header">
+                        <span class="symbol-tag">META</span>
+                        <div class="article-date">📅 2025-11-13</div>
+                    </div>
+                    <h2 class="article-title">Meta Business AI 출시, B2B 시장 진출로 비즈니스 모델 다각화 - 주가 전망 분석</h2>
+                    <div class="read-more">자세히 보기 →</div>
                 </div>
-                <h2 class="article-title">Meta Business AI 출시, B2B 시장 진출로 비즈니스 모델 다각화 - 주가 전망 분석</h2>
-                <div class="read-more">자세히 보기 →</div>
             </div>
         
             <div class="article-card" onclick="location.href='/articles/article_GOOGL_search_ai_20251113.html'">
@@ -231,12 +278,15 @@
             </div>
         
             <div class="article-card" onclick="location.href='/articles/article_AAPL_iphone_sales_20251113.html'">
-                <div class="article-header">
-                    <span class="symbol-tag">AAPL</span>
-                    <div class="article-date">📅 2025-11-13</div>
+                <img src="images/aapl_premium_iphone_ai.jpg" alt="Apple Premium iPhone" class="article-image">
+                <div class="article-content">
+                    <div class="article-header">
+                        <span class="symbol-tag">AAPL</span>
+                        <div class="article-date">📅 2025-11-13</div>
+                    </div>
+                    <h2 class="article-title">Apple Q4 iPhone 판매, 프리미엄 전략의 성공을 증명하다 - 주가 전망 분석</h2>
+                    <div class="read-more">자세히 보기 →</div>
                 </div>
-                <h2 class="article-title">Apple Q4 iPhone 판매, 프리미엄 전략의 성공을 증명하다 - 주가 전망 분석</h2>
-                <div class="read-more">자세히 보기 →</div>
             </div>
         
         </div>

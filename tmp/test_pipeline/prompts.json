@@ -1,0 +1,63 @@
+{
+  "0": {
+    "section_index": 0,
+    "section_title": "TITLE:",
+    "image_type": "hero",
+    "prompt": "Futuristic NVIDIA GPU chip with glowing green circuits, ultra-detailed 3D render, dramatic studio lighting, floating semiconductor design, black background with subtle green accents, professional tech photography, 8k quality --ar 16:9 --quality 2 --stylize 500",
+    "position": 0,
+    "image_slot_after_line": 5,
+    "keywords": [
+      "title",
+      "nvidia",
+      "blackwell",
+      "gpu",
+      "2027년까지",
+      "content"
+    ]
+  },
+  "1": {
+    "section_index": 1,
+    "section_title": "시그널",
+    "image_type": "concept",
+    "prompt": "Technical architecture diagram of advanced GPU chip design, labeled components, clean white background, professional vector illustration, green and black color scheme, isometric perspective, enterprise presentation style --ar 16:9 --quality 1",
+    "position": 1,
+    "image_slot_after_line": 62,
+    "keywords": [
+      "blackwell",
+      "nvidia",
+      "있습니다",
+      "gpu",
+      "bloomberg",
+      "2024",
+      "morgan",
+      "따르면"
+    ]
+  },
+  "2": {
+    "section_index": 2,
+    "section_title": "Supplemental Visual 3",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 2,
+    "image_slot_after_line": 63,
+    "keywords": []
+  },
+  "3": {
+    "section_index": 3,
+    "section_title": "Supplemental Visual 4",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 3,
+    "image_slot_after_line": 63,
+    "keywords": []
+  },
+  "4": {
+    "section_index": 4,
+    "section_title": "Supplemental Visual 5",
+    "image_type": "concept",
+    "prompt": "Professional technology concept visualization, modern digital innovation, green (#16B31E) and black color palette, clean high-contrast design, corporate tech aesthetic, dramatic lighting --ar 16:9 --quality 1",
+    "position": 4,
+    "image_slot_after_line": 63,
+    "keywords": []
+  }
+}
